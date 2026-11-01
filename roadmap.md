@@ -1,0 +1,2 @@
+- [x] Migrate legacy site
+- [x] Add current Shih Tzu females and males (photos) from chiens-de-france
