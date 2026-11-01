@@ -1,0 +1,8 @@
+[
+ {"capability":"code/pages","source":"FrontPage static site (511 reachable ES/EN pages)","outcome":"migrate","status":"verified","next_action":"none"},
+ {"capability":"images","source":"794 referenced photos","outcome":"migrate","status":"verified","next_action":"none"},
+ {"capability":"flash/java banners & MIDI music","source":"SWF, applets, .mid","outcome":"drop (unsupported by browsers)","status":"accepted","next_action":"none"},
+ {"capability":"schema/records/auth","source":"none (static site)","outcome":"n/a","status":"verified","next_action":"none"},
+ {"capability":"external providers","source":"motigo webstats counter","outcome":"drop (defunct)","status":"accepted","next_action":"none"},
+ {"capability":"contact","source":"mailto links","outcome":"migrate","status":"verified","next_action":"none"}
+]
