@@ -33,11 +33,11 @@ function DogCard({ dog, lang }: { dog: Dog; lang: Lang }) {
         </div>
       )}
       <div className="p-5">
-        {champion && <p className="eyebrow text-accent">{lang === "en" ? "Champion" : "Campeón"}</p>}
+        {champion && <p className="eyebrow text-accent">{lang === "en" ? "Champion" : dog.sex === "female" ? "Campeona" : "Campeón"}</p>}
         <h3 className="mt-1 font-display text-2xl font-semibold leading-tight text-primary">{name}</h3>
         {dog.born && (
           <p className="mt-1 text-sm text-muted-foreground">
-            {lang === "en" ? "Born" : "Nacido"} {dog.born}
+            {lang === "en" ? "Born" : dog.sex === "female" ? "Nacida" : "Nacido"} {dog.born}
           </p>
         )}
         {(dog.sire || dog.dam) && (
