@@ -268,8 +268,9 @@
     {
       "type": "p",
       "parts": [
-        "bOBBY: ¡¡TE ECHAMOS MUCHO DE MENOS!!"
-      ]
+        "BOBBY: ¡¡TE ECHAMOS MUCHO DE MENOS!!"
+      ],
+      "heading": false
     },
     {
       "type": "p",
