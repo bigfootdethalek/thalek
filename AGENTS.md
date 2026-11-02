@@ -10,6 +10,7 @@
 <!-- LOVABLE:END -->
 
 ## Migrated legacy site
+- Preserve Google verification tags for existing accounts; additional account tags render directly in the shared HTML head to avoid same-name metadata deduplication.
 - Missing addresses render the shared branded NotFoundPage with typed links to real public sections and keep HTTP 404 status. Why: visitors following obsolete links can recover without creating soft-404 pages.
 - Search discovery uses a router-derived sitemap plus substantive legacy JSON pages; omit obsolete menu and alternate-home slugs and omit lastmod without authoritative page timestamps. Why: search engines need current public destinations, not invented update dates.
 - Page-specific search descriptions derive from the page title and actual text, with self-referencing canonical URLs on leaf routes. Why: preserve the imported content while avoiding generic snippets across the archive.

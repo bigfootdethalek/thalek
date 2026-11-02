@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { getRouterInstance } from "@tanstack/react-start";
 import { loadPage, pageIndex } from "@/lib/content";
-import { isSearchPage, PUBLIC_ORIGIN } from "@/lib/search-metadata";
+import { isSearchPage } from "@/lib/search-metadata";
 import { isSitemapRouteIncluded, sitemapPathForLocation, sitemapStaticPaths, sitemapXML, type SitemapEntry } from "@/lib/sitemap";
 
 export const Route = createFileRoute("/sitemap.xml")({
@@ -21,7 +21,7 @@ export const Route = createFileRoute("/sitemap.xml")({
             if (path) entries.push({ path });
           }
         }
-        return new Response(sitemapXML(PUBLIC_ORIGIN, entries), {
+        return new Response(sitemapXML("https://thalek.es", entries), {
           headers: { "Content-Type": "application/xml", "Cache-Control": "public, max-age=3600" },
         });
       },
