@@ -1,6 +1,6 @@
 import {describe,it,expect} from 'vitest';
 import {exhibitionBlocks,exhibitionSchema,type Exhibition} from '@/lib/exhibitions';
-const row:Exhibition={id:'00000000-0000-4000-8000-000000000001',event_date:'2026-09-13',event_es:'Muskiz',event_en:'Muskiz',dog_name:'Oreo',results_es:'CAC, CACIB, BOS',results_en:'CAC, CACIB, BOS',judge_es:'Istvan Orcik',judge_en:'Istvan Orcik',award_es:'',award_en:'',image_url:'',source_url:'https://www.facebook.com/photo/?fbid=123',status:'draft',updated_at:'2026-11-02T16:00:00Z'};
+const row:Exhibition={id:'00000000-0000-4000-8000-000000000001',event_date:'2026-09-13',event_es:'Muskiz',event_en:'Muskiz',dog_name:'Oreo',results_es:'CAC, CACIB, BOS',results_en:'CAC, CACIB, BOS',judge_es:'Istvan Orcik',judge_en:'Istvan Orcik',award_es:'',award_en:'',image_url:'', extra_images: [],source_url:'https://www.facebook.com/photo/?fbid=123',status:'draft',updated_at:'2026-11-02T16:00:00Z'};
 describe('Exhibition review',()=>{
  it('does not show unapproved exhibitions in public news',()=>{expect(exhibitionBlocks([row],'es')).toEqual([]);});
  it('shows approved exhibitions with their actual event date',()=>{const blocks=exhibitionBlocks([{...row,status:'approved'}],'es');expect(blocks[0]).toEqual({type:'p',parts:['Muskiz. 13.09.2026']});});
