@@ -10,3 +10,5 @@
  - [x] Add new male Bobtail from Chiens de France (id 1351072) as the current bobtail
  - [x] Add a home-page note saying the site is being modernised bit by bit
  - [ ] Connect the domain www.thalek.es to the project — Yolanda will buy .es elsewhere (offered ~1€ first year); after purchase, connect it via Settings → Domains and add the DNS records Lovable shows
+- [x] Center single-dog sections
+- [x] Remove "Últimas actualizaciones" news section from the home page
