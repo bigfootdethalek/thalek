@@ -40,6 +40,8 @@ function PageView() {
   const lang = langOf(slug);
   // Camadas Actuales is shown with centered text, both languages.
   const centered = slug === "cachorroshihtzuact" || slug === "cachorroshihtzuact-en";
+  // Contact pages render all their info inside a single panel.
+  const singlePanel = slug === "contacto" || slug === "contacto-en";
   // Pages with tables (e.g. Campeones) get a wider main column so names fit on one row.
   const hasTable = page.blocks.some((b) => b.type === "table");
   return (
