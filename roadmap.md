@@ -2,5 +2,5 @@
 - [x] Add current Shih Tzu females and males (photos) from chiens-de-france
 - [x] Add retired females and photos from Chiens de France without duplicating existing dogs
 - [x] Combine missing dogs from Chiens de France's In Memory list without duplicates
-"- [x] Restructure the Bobtail" males/females pages as a tribute with card sections, ready for new dogs
-"- [x] Add new male Bobtail" from Chiens de France (id 1351072) as the current bobtail
+ - [x] Restructure the Bobtail males/females pages as a tribute with card sections, ready for new dogs
+ - [x] Add new male Bobtail from Chiens de France (id 1351072) as the current bobtail
