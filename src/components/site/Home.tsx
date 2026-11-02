@@ -7,7 +7,7 @@ const copy = {
   es: {
     eyebrow: "Afijo R.S.C.E. 8.852 · Desde 1995",
     title: "Bobtail & Shih Tzu",
-    sub: "Crianza selectiva y totalmente familiar en Burgos. Bienvenido al maravilloso mundo del Shih Tzu y el Bobtail.",
+    sub: "Crianza selectiva y totalmente familiar.\nBienvenido al maravilloso mundo del Shih Tzu y el Bobtail.",
     puppies: "Ver cachorros",
     champions: "Nuestros campeones",
     breeds: "Nuestras razas",
