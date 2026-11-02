@@ -3,7 +3,7 @@
   "title": "Revistas",
   "lang": "es",
   "blocks": [
-    { "type": "p", "parts": ["ARTICULOS EN LAS REVISTAS"] },
+    { "type": "p", "parts": ["ARTICULOS EN LAS REVISTAS"], "heading": true, "center": true },
     {
       "type": "gallery",
       "items": [

@@ -3,7 +3,7 @@
   "title": "Magazines",
   "lang": "en",
   "blocks": [
-    { "type": "p", "parts": ["ARTICLES IN MAGAZINES"] },
+    { "type": "p", "parts": ["ARTICLES IN MAGAZINES"], "heading": true, "center": true },
     {
       "type": "gallery",
       "items": [
