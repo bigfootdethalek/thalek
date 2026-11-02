@@ -44,6 +44,7 @@ export function SiteHeader({ lang, twin }: { lang: Lang; twin?: string | null })
                 ))}
               </div>
             </div>
+            )
           ))}
           <Link
             to="/$slug"
@@ -67,22 +68,34 @@ export function SiteHeader({ lang, twin }: { lang: Lang; twin?: string | null })
       </div>
       {open && (
         <div className="max-h-[75vh] overflow-y-auto border-t border-border px-5 py-4 lg:hidden">
-          {nav.map((g) => (
-            <div key={g.label.es} className="mb-4">
-              <p className="eyebrow mb-1 text-accent">{g.label[lang]}</p>
-              {g.items.map((i) => (
-                <Link
-                  key={i.slug}
-                  to="/$slug"
-                  params={{ slug: inLang(i.slug, lang) }}
-                  onClick={() => setOpen(false)}
-                  className="block py-1 text-sm"
-                >
-                  {i.label[lang]}
-                </Link>
-              ))}
-            </div>
-          ))}
+          {nav.map((g) =>
+            g.slug ? (
+              <Link
+                key={g.label.es}
+                to="/$slug"
+                params={{ slug: inLang(g.slug, lang) }}
+                onClick={() => setOpen(false)}
+                className="mb-4 block text-sm font-semibold"
+              >
+                {g.label[lang]}
+              </Link>
+            ) : (
+              <div key={g.label.es} className="mb-4">
+                <p className="eyebrow mb-1 text-accent">{g.label[lang]}</p>
+                {g.items!.map((i) => (
+                  <Link
+                    key={i.slug}
+                    to="/$slug"
+                    params={{ slug: inLang(i.slug, lang) }}
+                    onClick={() => setOpen(false)}
+                    className="block py-1 text-sm"
+                  >
+                    {i.label[lang]}
+                  </Link>
+                ))}
+              </div>
+            )
+          )}
           <Link to="/$slug" params={{ slug: inLang("contacto", lang) }} onClick={() => setOpen(false)} className="block py-1 text-sm font-semibold">
             {lang === "en" ? "Contact" : "Contacto"}
           </Link>
