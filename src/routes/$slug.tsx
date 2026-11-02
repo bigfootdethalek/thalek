@@ -13,10 +13,12 @@ export const Route = createFileRoute("/$slug")({
   loader: async ({ params }) => {
     const page = await loadPage(params.slug);
     if (!page) throw notFound();
-    if (params.slug === 'noticias26' || params.slug === 'noticias26-en') {
+    const exhibitionYear = /^noticias(25|26)(?:-en)?$/.exec(params.slug);
+    if (exhibitionYear) {
+      const year = `20${exhibitionYear[1]}`;
       const lang = langOf(params.slug);
-      const rows = (await publicExhibitions()).filter(r => r.event_date.startsWith('2026-'));
-      page.blocks = [{type:'p',parts:[lang === 'es' ? 'EXPOSICIONES 2026' : 'SHOWS 2026'],heading:true},...exhibitionBlocks(rows,lang),{type:'p',parts:[{text:lang === 'es' ? 'Archivo de noticias' : 'News archive',to:lang === 'es' ? 'noticias-archivo' : 'noticias-archivo-en'}]}];
+      const rows = (await publicExhibitions()).filter(r => r.event_date.startsWith(`${year}-`));
+      page.blocks = [{type:'p',parts:[`${lang === 'es' ? 'EXPOSICIONES' : 'SHOWS'} ${year}`],heading:true},...exhibitionBlocks(rows,lang),{type:'p',parts:[{text:lang === 'es' ? 'Archivo de noticias' : 'News archive',to:lang === 'es' ? 'noticias-archivo' : 'noticias-archivo-en'}]}];
     }
     return { page, slug: params.slug };
   },

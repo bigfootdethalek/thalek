@@ -25,6 +25,16 @@
       "type": "p",
       "parts": [
         {
+          "text": "2025",
+          "to": "noticias25-en"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
           "text": "2017",
           "to": "noticias-en"
         }

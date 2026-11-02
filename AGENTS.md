@@ -11,6 +11,7 @@
 
 ## Migrated legacy site
 - Exhibition news is read-only public data: the Cloud `exhibitions` table is SELECT-only for anon/authenticated (approved rows only) and renders through `exhibitionBlocks` on the annual pages; the reviewer UI, auth routes and write paths were removed at the owner's request — do not reintroduce review/auth screens. Why: the owner asked to delete the review access and all related data.
+- Modern annual exhibition pages use the same year-filtered public exhibition rows and shared renderer, with bilingual JSON page registrations and archive links. Why: each year must inherit the same display options without duplicating presentation logic.
 - Facebook links on show entries dedupe per album (`set=a.<id>`), the award owner text renders on its own line, and results never use the "º" ordinal (e.g. "Excelente 1"). Why: owner-requested display rules for exhibition entries.
 - Preserve Google verification tags for existing accounts; additional account tags render directly in the shared HTML head to avoid same-name metadata deduplication.
 - Missing addresses render the shared branded NotFoundPage with typed links to real public sections and keep HTTP 404 status. Why: visitors following obsolete links can recover without creating soft-404 pages.
