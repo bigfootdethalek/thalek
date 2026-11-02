@@ -33,20 +33,6 @@
     {
       "type": "p",
       "parts": [
-        "Teléfono"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        "+34 676 22 08 96"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
         "Dirección postal"
       ],
       "heading": false
@@ -77,11 +63,6 @@
       "parts": [
         "E-mail"
       ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [],
       "heading": false
     },
     {
