@@ -126,15 +126,7 @@ export function BobtailGrid({ sex, lang }: { sex: "male" | "female"; lang: Lang 
       <h2 className="font-display text-3xl font-semibold text-foreground">
         {sex === "male" ? (lang === "en" ? "Our male" : "Nuestro macho") : lang === "en" ? "Our females" : "Nuestras hembras"}
       </h2>
-      {current.length > 0 ? (
-        <DogsGrid dogs={current} lang={lang} />
-      ) : (
-        <p className="mt-3 text-muted-foreground">
-          {sex === "male"
-            ? (lang === "en" ? "A new male will join the family soon." : "Pronto se unirá un nuevo macho a la familia.")
-            : (lang === "en" ? "A new female will join the family soon." : "Pronto se unirá una nueva hembra a la familia.")}
-        </p>
-      )}
+      {current.length > 0 && <DogsGrid dogs={current} lang={lang} />}
       {homage.length > 0 && (
         <>
           <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "In memoriam" : "En homenaje"}</h2>

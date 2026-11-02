@@ -78,6 +78,7 @@ export const nav: NavGroup[] = [
     label: l("Bobtail", "Bobtail"),
     items: [
       { label: l("Macho", "Male"), slug: "bobtailm" },
+      { label: l("Hembras", "Females"), slug: "bobtailh" },
       { label: l("En el mundo", "Around the world"), slug: "bobtailw" },
       { label: l("Camada actual", "Current litter"), slug: "cachorrobobtailact" },
       { label: l("Camadas anteriores", "Previous litters"), slug: "cachorrobobtailant" },
