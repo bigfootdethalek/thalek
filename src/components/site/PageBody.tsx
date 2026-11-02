@@ -7,7 +7,7 @@ function Inline({ part }: { part: Part }) {
   if (part.href) return <a href={part.href} className="font-medium text-primary underline underline-offset-4">{part.text}</a>;
   if (part.to && hasPage(part.to))
     return (
-      <Link to="/$slug" params={{ slug: part.to }} className="font-medium text-primary underline decoration-accent underline-offset-4 hover:decoration-primary">
+      <Link to="/$slug" params={{ slug: part.to }} hash={part.dog ? `perro-${part.dog}` : undefined} className="font-medium text-primary underline decoration-accent underline-offset-4 hover:decoration-primary">
         {part.text}
       </Link>
     );
