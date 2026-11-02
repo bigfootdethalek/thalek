@@ -118,10 +118,7 @@
       ]
     },
     {
-      "type": "p",
-      "parts": [
-        "\n"
-      ]
+      "type": "divider"
     },
     {
       "type": "p",
@@ -141,7 +138,8 @@
           "type": "img",
           "src": "/__l5e/assets-v1/1474cc69-d095-4eae-87ca-9541ce3a8176/shihtzu_1348459_1.jpg",
           "to": "shih-tzuh",
-          "dog": "1348459"
+          "dog": "1348459",
+          "tall": true
         }
       ]
     },
@@ -166,6 +164,9 @@
       "parts": [
         "Nueva camada super esperada nacida en 2026."
       ]
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "p",
@@ -208,6 +209,9 @@
       "parts": [
         "Contacta para más información."
       ]
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "p",
@@ -303,18 +307,6 @@
           "type": "img",
           "src": "fotos/Criadero/Cachorro/DSC00425.JPG"
         }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "\n"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "\n"
       ]
     }
   ],
