@@ -45,7 +45,7 @@ export function SiteHeader({ lang, twin }: { lang: Lang; twin?: string | null })
               </div>
             </div>
             )
-          ))}
+          )}
           <Link
             to="/$slug"
             params={{ slug: inLang("contacto", lang) }}
