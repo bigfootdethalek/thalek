@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { inLang, legacySrc, type Lang } from "@/lib/content";
+import { SiteFooter, SiteHeader } from "./SiteHeader";
 
 const copy = {
   es: {

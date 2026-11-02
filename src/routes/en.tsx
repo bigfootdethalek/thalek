@@ -3,7 +3,6 @@ import { Home } from "@/components/site/Home";
 
 export const Route = createFileRoute("/en")({
   staticData: { sitemap: true },
-  loader: () => loadPage("inicioshi-en"),
   head: () => ({
     meta: [
       { title: "Big-Foot de Thalek — Bobtail & Shih Tzu Breeder in Spain" },

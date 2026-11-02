@@ -3,7 +3,6 @@ import { Home } from "@/components/site/Home";
 
 export const Route = createFileRoute("/")({
   staticData: { sitemap: true },
-  loader: () => loadPage("inicioshi"),
   head: () => ({
     meta: [
       { title: "Big-Foot de Thalek — Criadero de Bobtail y Shih Tzu" },
