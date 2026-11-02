@@ -165,7 +165,8 @@
         "WE ALWAYS HAVE HER PRESENT AND NEVER FORGET HER."
       ],
       "center": true,
-      "noSplit": true
+      "noSplit": true,
+      "heading": false
     },
     {
       "type": "p",
@@ -173,7 +174,8 @@
         "THALEK: YOU KNOW THAT EVERYTHING THAT WE HAVE DONE HAS BEEN FOR YOU. "
       ],
       "center": true,
-      "noSplit": true
+      "noSplit": true,
+      "heading": false
     },
     {
       "type": "p",
@@ -181,7 +183,8 @@
         "THE DAY THAT YOU LEFT I MADE A PROMISE AND WE ARE COMPLYING WITH IT:"
       ],
       "center": true,
-      "noSplit": true
+      "noSplit": true,
+      "heading": false
     },
     {
       "type": "p",
@@ -189,7 +192,8 @@
         "TO BECOME SOME LARGE BREEDERS AND LOVERS OF YOURS. "
       ],
       "center": true,
-      "noSplit": true
+      "noSplit": true,
+      "heading": false
     },
     {
       "type": "p",
@@ -197,7 +201,8 @@
         "WE ALREADY ARE UNDERWAY!"
       ],
       "center": true,
-      "noSplit": true
+      "noSplit": true,
+      "heading": false
     },
     {
       "type": "divider"
