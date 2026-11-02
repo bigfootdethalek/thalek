@@ -46,7 +46,7 @@ export function inLang(slug: string, lang: Lang) {
   return slug;
 }
 
-export type NavGroup = { label: Record<Lang, string>; items: { label: Record<Lang, string>; slug: string }[] };
+export type NavGroup = { label: Record<Lang, string>; slug?: string | undefined; items?: { label: Record<Lang, string>; slug: string }[] | undefined };
 
 const l = (es: string, en: string) => ({ es, en });
 
@@ -92,6 +92,10 @@ export const nav: NavGroup[] = [
   },
   {
     label: l("Campeones", "Champions"),
-    items: [{ label: l("Campeones", "Champions"), slug: "campeones" }],
+    slug: "campeones",
   },
-].map((g) => ({ ...g, items: g.items.filter((i) => hasPage(i.slug)) }));
+].map((g) => ({
+  ...g,
+  slug: g.slug && hasPage(g.slug) ? g.slug : undefined,
+  items: g.items?.filter((i) => hasPage(i.slug)),
+}));

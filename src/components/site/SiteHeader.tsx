@@ -16,13 +16,23 @@ export function SiteHeader({ lang, twin }: { lang: Lang; twin?: string | null })
           Big-Foot <span className="italic text-foreground">de Thalek</span>
         </Link>
         <nav className="hidden items-center gap-1 lg:flex">
-          {nav.map((g) => (
+          {nav.map((g) =>
+            g.slug ? (
+              <Link
+                key={g.label.es}
+                to="/$slug"
+                params={{ slug: inLang(g.slug, lang) }}
+                className="rounded px-3 py-2 text-sm font-medium text-foreground hover:text-primary"
+              >
+                {g.label[lang]}
+              </Link>
+            ) : (
             <div key={g.label.es} className="group relative">
               <button className="flex items-center gap-1 rounded px-3 py-2 text-sm font-medium text-foreground hover:text-primary">
                 {g.label[lang]} <ChevronDown className="h-3.5 w-3.5" />
               </button>
               <div className="invisible absolute left-0 top-full min-w-52 rounded-md border border-border bg-popover p-2 opacity-0 shadow-soft transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
-                {g.items.map((i) => (
+                {g.items!.map((i) => (
                   <Link
                     key={i.slug}
                     to="/$slug"
@@ -34,7 +44,8 @@ export function SiteHeader({ lang, twin }: { lang: Lang; twin?: string | null })
                 ))}
               </div>
             </div>
-          ))}
+            )
+          )}
           <Link
             to="/$slug"
             params={{ slug: inLang("contacto", lang) }}
@@ -57,22 +68,34 @@ export function SiteHeader({ lang, twin }: { lang: Lang; twin?: string | null })
       </div>
       {open && (
         <div className="max-h-[75vh] overflow-y-auto border-t border-border px-5 py-4 lg:hidden">
-          {nav.map((g) => (
-            <div key={g.label.es} className="mb-4">
-              <p className="eyebrow mb-1 text-accent">{g.label[lang]}</p>
-              {g.items.map((i) => (
-                <Link
-                  key={i.slug}
-                  to="/$slug"
-                  params={{ slug: inLang(i.slug, lang) }}
-                  onClick={() => setOpen(false)}
-                  className="block py-1 text-sm"
-                >
-                  {i.label[lang]}
-                </Link>
-              ))}
-            </div>
-          ))}
+          {nav.map((g) =>
+            g.slug ? (
+              <Link
+                key={g.label.es}
+                to="/$slug"
+                params={{ slug: inLang(g.slug, lang) }}
+                onClick={() => setOpen(false)}
+                className="mb-4 block text-sm font-semibold"
+              >
+                {g.label[lang]}
+              </Link>
+            ) : (
+              <div key={g.label.es} className="mb-4">
+                <p className="eyebrow mb-1 text-accent">{g.label[lang]}</p>
+                {g.items!.map((i) => (
+                  <Link
+                    key={i.slug}
+                    to="/$slug"
+                    params={{ slug: inLang(i.slug, lang) }}
+                    onClick={() => setOpen(false)}
+                    className="block py-1 text-sm"
+                  >
+                    {i.label[lang]}
+                  </Link>
+                ))}
+              </div>
+            )
+          )}
           <Link to="/$slug" params={{ slug: inLang("contacto", lang) }} onClick={() => setOpen(false)} className="block py-1 text-sm font-semibold">
             {lang === "en" ? "Contact" : "Contacto"}
           </Link>
