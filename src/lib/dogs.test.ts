@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import dogs from "@/content/cdf-dogs.json";
-import { getDogs } from "./dogs";
+import { getDogs, getBobtails } from "./dogs";
 
 describe("Combined breeder lists", () => {
   it("keeps each source dog only once across both imported lists", () => {

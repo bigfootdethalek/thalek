@@ -2,7 +2,7 @@ import { createFileRoute, notFound } from "@tanstack/react-router";
 import { langOf, loadPage, twinOf } from "@/lib/content";
 import { SiteFooter, SiteHeader } from "@/components/site/SiteHeader";
 import { PageBody } from "@/components/site/PageBody";
-import { DogGrid, dogPages } from "@/components/site/DogGrid";
+import { DogGrid, BobtailGrid, bobtailPages, dogPages } from "@/components/site/DogGrid";
 
 export const Route = createFileRoute("/$slug")({
   loader: async ({ params }) => {
