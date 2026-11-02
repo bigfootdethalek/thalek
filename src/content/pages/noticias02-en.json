@@ -1,1 +1,383 @@
-{"file":"noticias02_en.htm","title":"News 2002","blocks":[{"type":"p","parts":["SHOWS 2002"]},{"type":"p","parts":["International Dog Show of León. 29.09.02"]},{"type":"gallery","items":[{"type":"img","src":"fotos/bosca/BOSCAGRUPOLEON_small.jpg"},{"type":"img","src":"fotos/bosca/BOSCABISLEON1_small.jpg"},{"type":"img","src":"fotos/bosca/BOSCALEONBIS_small.jpg"}]},{"type":"p","parts":["BOBTAIL Wanda del Atico: Exc. #1 CAC, CACIB, Best of Breed, #1 Best in Group, #4 BIS"]},{"type":"p","parts":[" Breed Judge: Mr. Filip Johnson (Sweden)"]},{"type":"p","parts":[" Group Judge: Mr. Maurice Hermel (France)"]},{"type":"p","parts":[" BIS Judge: Mr. Tomas Jackel (Hungary)"]},{"type":"p","parts":["SHIH-TZU Amistad Sincera de la Kassyna: Exc. #1 CAC, CACIB, BOS"]},{"type":"p","parts":["Judge: Mr. Giabatta Tabó (Italy)"]},{"type":"p","parts":["International Dog Show of Medina de Pomar. 23.06.02"]},{"type":"p","parts":["BOBTAIL Vampy Girl Of Big-Foot de Thalek: Exc. #1CAC, CACIB, Best of Breed"]},{"type":"p","parts":["Judge: Mr. Manuel Loureiro Borges (Portugal)"]},{"type":"p","parts":["SHIH-TZU Amistad Sincera de la Kassyna: Exc. #1 CAC, CACIB, BOS"]},{"type":"p","parts":["Judge: Mrs. M Irene González Moreno (Spain)"]},{"type":"p","parts":["National Dog Show of Santander. 8.06.02"]},{"type":"p","parts":["BOBTAIL Vampy Girl Of Big-Foot de Thalek: Exc. #1 CAC, Best of Breed"]},{"type":"p","parts":["Judge: Mr. Palmiro Cottafavi (Luxembourg)"]},{"type":"p","parts":["SHIH-TZU Amistad Sincera de la Kassyna: Exc. #1 CAC, Best of Breed, #3 de Group"]},{"type":"p","parts":["Judge: Mr. Palmiro Cottafavi (Luxembourg)"]},{"type":"p","parts":["SPAIN CHAMPION 2002"]},{"type":"p","parts":["International Dog Show of Madrid-QC. 25 & 26.05.02"]},{"type":"p","parts":["BOBTAIL Wanda del Atico: Exc. #2 RCAC (Obligatory Point)"]},{"type":"p","parts":["Judge: Mrs. Pamela Cross Stern (United Kingdom)"]},{"type":"p","parts":["SHIH-TZU Amistad Sincera de la Kassyna: Exc. #1 CAC, CACIB, BOS (Obligatory Point)"]},{"type":"p","parts":["Qualified for Crufts 2003"]},{"type":"p","parts":["Judge: Mrs. Pamela Cross Stern (United Kingdom)"]},{"type":"p","parts":["International Dog Show of Valladolid. 7.04.02"]},{"type":"p","parts":["BOBTAIL Vampy Girl Of Big-Foot de Thalek: Exc. #3"]},{"type":"p","parts":["Judge: Mrs. Annika Ulltveit-Moe (Sweden)"]},{"type":"p","parts":["SHIH-TZU Amistad Sincera de la Kassyna: Exc. #1 CAC, CACIB, BOS"]},{"type":"p","parts":["Judge: Mrs. Heidi Kirschbichler (Austria)"]},{"type":"p","parts":["National Dog Show of Ferrol. 10.03.02"]},{"type":"p","parts":["BOBTAIL Bosca Of Big-Foot de Thalek: V.G. #1, Best of Breed, #2 Best of Group"]},{"type":"p","parts":["Judge: Mrs. Carmen Ercilla González (Spain)"]},{"type":"p","parts":["Judge Group: Mr. Trainin Prof. Zeev (Israel)"]},{"type":"p","parts":["International Dog Show of Cantabria. 27.01.02"]},{"type":"p","parts":["BOBTAIL Vampy Girl Of Big-Foot de Thalek: Exc. #1 CAC, CACIB, Best of Breed "]},{"type":"p","parts":["Specialist Judge: Mr. Pedro Delerue (Portugal)"]},{"type":"p","parts":["SHIH-TZU Amistad Sincera de la Kassyna: Exc. #1 CAC, CACIB, Best of Breed"]},{"type":"p","parts":["#2 Best of Group "]},{"type":"p","parts":["Judge: Mr. Sergio Montesinos (Spain)"]},{"type":"gallery","items":[{"type":"img","src":"fotos/miss/MISSGRUPOTORRE_small.jpg"}]},{"type":"p","parts":["International Dog Show of Oporto-QC (Portugal). 20.01.02"]},{"type":"p","parts":["BOBTAIL Thaila de Larrywood: Exc. #3 Obligatory Point"]},{"type":"p","parts":["Judge: Mrs. Margaret Everton (United Kingdom)"]},{"type":"p","parts":["Prepared and presented by Mari Luz Cadenas & Akilino Hernández (A Veiga do Frio)"]},{"type":"p","parts":["International Dog Show of Navarra. 7.10.01"]},{"type":"p","parts":["BOBTAIL Thaila de Larrywood: Exc. #1 CAC, CACIB, Best Of Breed"]},{"type":"p","parts":["Judge: Mrs. Maryt Sunde (United Kingdom)"]},{"type":"p","parts":["SHIH-TZU Amistad Sincera de la Kassyna: Exc. #3"]},{"type":"p","parts":["Judge: Mr. Carlos Fernández Renau (Spain)"]},{"type":"p","parts":["International Dog Show of León. 30.09.01"]},{"type":"gallery","items":[{"type":"img","src":"fotos/thaila/THAILALEON_small.jpg"}]},{"type":"p","parts":["BOBTAIL Thaila de Larrywood: Exc. #1 CAC, CACIB, BOS "]},{"type":"p","parts":["Specialist Judge: Mr. Laurent Pichard (Czechoslovakia)"]},{"type":"p","parts":["SHIH-TZU Amistad Sincera de la Kassyna: Exc. #2 RCAC, RCACIB"]},{"type":"p","parts":["Judge: Mr. Martín Baskaran (Spain)"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+ "file": "noticias02_en.htm",
+ "title": "News 2002",
+ "blocks": [
+  {
+   "type": "p",
+   "parts": [
+    "SHOWS 2002"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "International Dog Show of León. 29.09.02"
+   ]
+  },
+  {
+   "type": "gallery",
+   "items": [
+    {
+     "type": "img",
+     "src": "fotos/bosca/BOSCAGRUPOLEON_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/bosca/BOSCABISLEON1_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/bosca/BOSCALEONBIS_small.jpg"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "BOBTAIL Wanda del Atico: Exc. #1 CAC, CACIB, Best of Breed, #1 Best in Group, #4 BIS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " Breed Judge: Mr. Filip Johnson (Sweden)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " Group Judge: Mr. Maurice Hermel (France)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " BIS Judge: Mr. Tomas Jackel (Hungary)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "SHIH-TZU Amistad Sincera de la Kassyna: Exc. #1 CAC, CACIB, BOS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mr. Giabatta Tabó (Italy)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "International Dog Show of Medina de Pomar. 23.06.02"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "BOBTAIL Vampy Girl Of Big-Foot de Thalek: Exc. #1CAC, CACIB, Best of Breed"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mr. Manuel Loureiro Borges (Portugal)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "SHIH-TZU Amistad Sincera de la Kassyna: Exc. #1 CAC, CACIB, BOS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mrs. M Irene González Moreno (Spain)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "National Dog Show of Santander. 8.06.02"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "BOBTAIL Vampy Girl Of Big-Foot de Thalek: Exc. #1 CAC, Best of Breed"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mr. Palmiro Cottafavi (Luxembourg)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "SHIH-TZU Amistad Sincera de la Kassyna: Exc. #1 CAC, Best of Breed, #3 de Group"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mr. Palmiro Cottafavi (Luxembourg)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "SPAIN CHAMPION 2002"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "International Dog Show of Madrid-QC. 25 & 26.05.02"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "BOBTAIL Wanda del Atico: Exc. #2 RCAC (Obligatory Point)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mrs. Pamela Cross Stern (United Kingdom)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "SHIH-TZU Amistad Sincera de la Kassyna: Exc. #1 CAC, CACIB, BOS (Obligatory Point)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Qualified for Crufts 2003"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mrs. Pamela Cross Stern (United Kingdom)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "International Dog Show of Valladolid. 7.04.02"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "BOBTAIL Vampy Girl Of Big-Foot de Thalek: Exc. #3"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mrs. Annika Ulltveit-Moe (Sweden)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "SHIH-TZU Amistad Sincera de la Kassyna: Exc. #1 CAC, CACIB, BOS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mrs. Heidi Kirschbichler (Austria)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "National Dog Show of Ferrol. 10.03.02"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "BOBTAIL Bosca Of Big-Foot de Thalek: V.G. #1, Best of Breed, #2 Best of Group"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mrs. Carmen Ercilla González (Spain)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge Group: Mr. Trainin Prof. Zeev (Israel)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "International Dog Show of Cantabria. 27.01.02"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "BOBTAIL Vampy Girl Of Big-Foot de Thalek: Exc. #1 CAC, CACIB, Best of Breed "
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Specialist Judge: Mr. Pedro Delerue (Portugal)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "SHIH-TZU Amistad Sincera de la Kassyna: Exc. #1 CAC, CACIB, Best of Breed"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "#2 Best of Group "
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mr. Sergio Montesinos (Spain)"
+   ]
+  },
+  {
+   "type": "gallery",
+   "items": [
+    {
+     "type": "img",
+     "src": "fotos/miss/MISSGRUPOTORRE_small.jpg"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "International Dog Show of Oporto-QC (Portugal). 20.01.02"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "BOBTAIL Thaila de Larrywood: Exc. #3 Obligatory Point"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mrs. Margaret Everton (United Kingdom)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Prepared and presented by Mari Luz Cadenas & Akilino Hernández (A Veiga do Frio)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "International Dog Show of Navarra. 7.10.01"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "BOBTAIL Thaila de Larrywood: Exc. #1 CAC, CACIB, Best Of Breed"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mrs. Maryt Sunde (United Kingdom)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "SHIH-TZU Amistad Sincera de la Kassyna: Exc. #3"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mr. Carlos Fernández Renau (Spain)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "International Dog Show of León. 30.09.01"
+   ]
+  },
+  {
+   "type": "gallery",
+   "items": [
+    {
+     "type": "img",
+     "src": "fotos/thaila/THAILALEON_small.jpg"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "BOBTAIL Thaila de Larrywood: Exc. #1 CAC, CACIB, BOS "
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Specialist Judge: Mr. Laurent Pichard (Czechoslovakia)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "SHIH-TZU Amistad Sincera de la Kassyna: Exc. #2 RCAC, RCACIB"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge: Mr. Martín Baskaran (Spain)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
+}
