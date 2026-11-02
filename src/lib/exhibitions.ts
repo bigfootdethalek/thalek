@@ -14,23 +14,24 @@ export const exhibitionSchema = z.object({
 export function exhibitionBlocks(rows: Exhibition[], lang: Lang): Block[] {
   const blocks: Block[] = [];
   let lastShow = '';
+  let pendingJudge: Block | null = null;
   for (const row of rows.filter(r => r.status === 'approved').sort((a,b) => b.event_date.localeCompare(a.event_date) || a.dog_name.localeCompare(b.dog_name))) {
     const show = `${row.event_date}|${row.event_es}`;
     const date = row.event_date.split('-').reverse().join('.');
     if (show !== lastShow) {
+      if (pendingJudge) { blocks.push(pendingJudge); pendingJudge = null; }
       if (blocks.length) blocks.push({type:'divider'});
       blocks.push({type:'p',parts:[`${lang === 'es' ? row.event_es : row.event_en}. ${date}`],variant:'title'}, {type:'p',parts:['SHIH TZU'],variant:'subtitle'});
+      const showImgs = rows.filter(r => r.status === 'approved' && `${r.event_date}|${r.event_es}` === show)
+        .flatMap(r => [r.image_url, ...(r.extra_images ?? [])]).filter(Boolean);
+      if (showImgs.length) blocks.push({type:'gallery',items:showImgs.map(src => ({type:'img' as const,src,uniform:true}))});
       lastShow = show;
-    } else {
-      blocks.push({type:'p',parts:[' '],noSplit:true});
     }
     blocks.push({type:'p',parts:[row.dog_name],center:true}, {type:'p',parts:[lang === 'es' ? row.results_es : row.results_en],center:true});
     const award = lang === 'es' ? row.award_es : row.award_en;
     if (award) blocks.push({type:'p',parts:[award],heading:false,center:true});
-    blocks.push({type:'p',parts:[`${lang === 'es' ? 'Juez de Raza' : 'Breed Judge'}: ${lang === 'es' ? row.judge_es : row.judge_en}`],center:true});
-    const imgs = [row.image_url, ...(row.extra_images ?? [])].filter(Boolean);
-    if (imgs.length) blocks.push({type:'gallery',items:imgs.map(src => ({type:'img' as const,src,uniform:true}))});
-    blocks.push({type:'p',parts:[{text:lang === 'es' ? 'Ver exposición en Facebook' : 'View show on Facebook',href:row.source_url}],center:true});
+    pendingJudge = {type:'p',parts:[`${lang === 'es' ? 'Juez de Raza' : 'Breed Judge'}: ${lang === 'es' ? row.judge_es : row.judge_en}`],center:true};
   }
+  if (pendingJudge) blocks.push(pendingJudge);
   return blocks;
 }
