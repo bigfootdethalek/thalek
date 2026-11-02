@@ -1,115 +1,61 @@
 {
-  "file": "contacto_en.htm",
+  "file": "contacto-en.json",
   "title": "Contact",
+  "lang": "en",
   "blocks": [
     {
       "type": "p",
       "parts": [
-        " Contact Information"
-      ],
-      "heading": false
+        "CONTACT INFORMATION"
+      ]
     },
     {
       "type": "p",
       "parts": [
-        "Telephone"
-      ],
-      "heading": false
+        "Telephone and WhatsApp : + 34 676 22 08 96"
+      ]
     },
     {
       "type": "p",
       "parts": [
-        "+34 676 22 08 96"
-      ],
-      "heading": false
+        "URL : www.thalek.es"
+      ]
     },
     {
       "type": "p",
       "parts": [
-        " Postal direction"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        "SPAIN"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        "URL"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        " http://www.thalek.tk"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        " http://www.bigfoots.tk"
-      ],
-      "heading": false
+        "\n"
+      ]
     },
     {
       "type": "p",
       "parts": [
         "E-mail: bfdt@hotmail.com"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Member of"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        "RSCE : Real Sociedad Canina de España"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        "ACABE : Asociación de Criadores y Amigos del Bobtail mientras existió."
       ]
     },
     {
       "type": "p",
       "parts": [
-        "CAPPIE : Club del Antiguo Perro de Pastor Inglés en España mientras existió."
+        "MEMBER OF"
       ]
     },
     {
       "type": "p",
       "parts": [
-        "We make web pages",
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        },
-        "."
-      ],
-      "heading": false
+        "RSCE : Royal Canine Society of Spain"
+      ]
     },
     {
       "type": "p",
       "parts": [
-        "Edit and update © Big-Foot de Thalek."
-      ],
-      "heading": false
+        "ACABE : Association of Breeders and Friends of the Bobtail while it existed."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "CAPPIE : Club of the Old English Shepherd Dog in Spain while it existed."
+      ]
     }
-  ],
-  "lang": "en"
+  ]
 }
