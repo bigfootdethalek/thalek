@@ -1,1 +1,344 @@
-{"file":"campeones_en.htm","title":"Champions","blocks":[{"type":"table","headers":["Name","Sex","Titles"],"rows":[[[{"text":"AMISTAD SINCERA DE LA KASSYNA","to":"amistad-sincera-en"}],["BITCH"],["SPAIN CHAMPION"]],[[{"text":"ZOTTELS HAPPILY EVER AFTER","to":"zottels-en"}],["DOG"],["EUROPEAN HOPE 2004\nSOCIAL CLUB CHAMPION 2004\nPORTUGAL CHAMPION\nSPAIN CHAMPION\nINTERNATIONAL CHAMPION"]],[[{"text":"BIG-FOOT DE THALEK G. RETURN TO INNOCENCE","to":"return-to-innocence-en"}],["BITCH"],["EUROPEAN HOPE 2004"]],[[{"text":"THAILA DE LARRYWOOD","to":"thaila-en"}],["BITCH"],["INTERNATIONAL CHAMPION"]],[[{"text":"BIG-FOOT DE THALEK","to":"hi-sparkling-b-en"}," ",{"text":"HI SPARKLING B","to":"hi-sparkling-b-en"}],["DOG"],["WORLD HOPE 2005\nAMERICAS & CARIBBEAN WINNER 2005"]],[[{"text":"LITTLE THUNDER OF BIG-FOOT DE THALEK","to":"little-thunder-en"}],["DOG"],["PORTUGAL CHAMPION"]],[[{"text":"MEKONG JIANG UNIVERSAL BEAUTY","to":"universal-beauty-en"}],["DOG"],["SPAIN CHAMPION\nINTERNATIONAL CHAMPION"]],[[{"text":"FORGET ME NOTS DE PENAGUILA","to":"forget-me-nots-en"}],["BITCH"],["SPAIN CHAMPION\nINTERNATIONAL CHAMPION"]],[[{"text":"BIG-FOOT DE THALEK HAVE A DREAM","to":"have-a-dream-en"}],["DOG"],["CLUB JUNIOR CHAMPION - Shih-tzu Club Evropa (CZ)\nCLUB JUNIOR WINNER - Shih-tzu Club Evropa (CZ)\nCLUB CHAMPION (Adult) - Shih-tzu Club Evropa (CZ)\nCROATIA JUNIOR CHAMPION\nDĚTŘICHOV JUNIOR WINNER 2011 (CZ)\nCLUB JUNIOR WINNER - Klub Tibetských Plemien (SLO)\nDERBY JUNIOR WINNER 2011 (SLO)\nSLOVAKIA JUNIOR CHAMPION\nCLUB JUNIOR CHAMPION - Klub Tibetských Plemien\nHUNGARY JUNIOR CHAMPION\nJUNIOR CHAMPION OF CYPRUS\nAPHRODITE BALKANIAN JUNIOR WINNER SHOW'11 (CY)\nJUNIOR CHAMPION OF BULGARIA\nJUNIOR CHAMPION OF GEORGIA\nJUNIOR CHAMPION OF MOLDOVA\nBLACK SEA JUNIOR WINNER'11 (BG)\nBALKAN JUNIOR CHAMPION\nJUNIOR CHAMPION OF MACEDONIA"]],[[{"text":"BIG-FOOT DE THALEK HAPPILY EVER AFTER","to":"happily-ever-after-en"}],["DOG"],["MADRID JUNIOR WINNER 2011 (SP)\nSPAIN JUNIOR CHAMPION\nSPAIN CHAMPION\nINTERNATIONAL CHAMPION\nOPORTO WINNER 2014 (P)\nPORTUGAL CHAMPION\nIBERIAN CHAMPION\nSUPER GRAND CHAMPION OF SPAIN"]],[[{"text":"BIG-FOOT DE THALEK HONEY BEAR","to":"honey-bear-en"}],["BITCH"],["MADRID JUNIOR WINNER 2011 (SP)\nSPAIN JUNIOR CHAMPION\nINTERNATIONAL CHAMPION\nPORTUGAL CHAMPION\nSPAIN CHAMPION"]],[[{"text":"BIG-FOOT DE THALEK JUST FOR ME","to":"just-for-me-en"}],["BITCH"],["INTERNATIONAL CHAMPION\nPORTUGAL CHAMPION"]],[[{"text":"BIG-FOOT DE THALEK GIVE ME FIVE","to":"give-me-five-en"}],["DOG"],["PORTUGAL CHAMPION\nINTERNATIONAL CHAMPION\nSPAIN CHAMPION"]],[[{"text":"BIG-FOOT DE THALEK GHOST IN LOVE","to":"ghost-in-love-en"}],["BITCH"],["PORTUGAL CHAMPION\nINTERNATIONAL CHAMPION\nSPAIN CHAMPION"]],[[{"text":"BIG-FOOT DE THALEK JOY OF MY LIFE","to":"joy-of-my-life-en"}],["DOG"],["LISBOA PUPPY WINNER (PT)\nSPAIN JUNIOR CHAMPION\nPORTUGAL JUNIOR CHAMPION\nPORTUGAL CHAMPION\nPORTUGAL GRAND CHAMPION\nGIBRALTAR CHAMPION"]],[[{"text":"BIG-FOOT DE THALEK KNOWING A SECRET","to":"knowing-a-secret-en"}],["BITCH"],["SPAIN JUNIOR CHAMPION\nPORTUGAL JUNIOR CHAMPION\nSPAIN CHAMPION\nPORTUGAL CHAMPION\nINTERNATIONAL CHAMPION (U.A.)\nIBERIAN CHAMPION\nSUPER GRAND CHAMPION OF SPAIN (U.A.)"]],[[{"text":"BIG-FOOT DE THALEK LUCKY BREAK","to":"lucky-break-en"}],["DOG"],["PORTUGAL JUNIOR CHAMPION"]],[[{"text":"BIG-FOOT DE THALEK MIDNIGHT STORM","to":"midnight-storm-en"}],["DOG"],["POLAND JUNIOR CHAMPION\nSLOVAKIA JUNIOR CHAMPION\nPOLAND CHAMPION\nMOLDAVIAN CHAMPION\nBESARABIAN CHAMPION"]],[[{"text":"BIG-FOOT DE THALEK HAPPY ILUSION","to":"happy-ilusion-en"}],["DOG"],["SPAIN CHAMPION\nMEDITERRANEAN WINNER 2015 (P)\nPORTUGAL CHAMPION\nINTERNATIONAL CHAMPION (U.A.)\nIBERIAN CHAMPION"]],[[{"text":"BIG-FOOT DE THALEK IMPERIAL DRAGON","to":"imperial-dragon-en"}],["DOG"],["SPAIN CHAMPION\nOPORTO WINNER 2016 (P)\nPORTUGAL CHAMPION\nIBERIAN CHAMPION (U.A.)\nINTERNATIONAL CHAMPION (U.A.)"]],[[{"text":"BIG-FOOT DE THALEK NOTHING IS IMPOSSIBLE","to":"nothing-is-impossible-en"}],["DOG"],["SPAIN JUNIOR CHAMPION\nSPAIN CHAMPION (U.A.)"]],[["KAYBAROSHI HAN&HAN MOONLIGHT QUEEN"],["BITCH"],["IBERIAN CHAMPION (U.A.)"]]]},{"type":"p","parts":["HANDLER SERVICE"]},{"type":"table","headers":["Name","Sex","Titles"],"rows":[[[{"text":"MAY PRINCESS DANA","to":"h-may-princess-dana"}],["BITCH"],["SPAIN CHAMPION"]]]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+  "file": "campeones_en.htm",
+  "title": "Champions",
+  "blocks": [
+    {
+      "type": "table",
+      "headers": [
+        "Name",
+        "Sex",
+        "Titles"
+      ],
+      "rows": [
+        [
+          [
+            {
+              "text": "AMISTAD SINCERA DE LA KASSYNA",
+              "to": "amistad-sincera-en"
+            }
+          ],
+          [
+            "BITCH"
+          ],
+          [
+            "SPAIN CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "ZOTTELS HAPPILY EVER AFTER",
+              "to": "zottels-en"
+            }
+          ],
+          [
+            "DOG"
+          ],
+          [
+            "EUROPEAN HOPE 2004\nSOCIAL CLUB CHAMPION 2004\nPORTUGAL CHAMPION\nSPAIN CHAMPION\nINTERNATIONAL CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK G. RETURN TO INNOCENCE",
+              "to": "return-to-innocence-en"
+            }
+          ],
+          [
+            "BITCH"
+          ],
+          [
+            "EUROPEAN HOPE 2004"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "THAILA DE LARRYWOOD",
+              "to": "thaila-en"
+            }
+          ],
+          [
+            "BITCH"
+          ],
+          [
+            "INTERNATIONAL CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK",
+              "to": "hi-sparkling-b-en"
+            },
+            " ",
+            {
+              "text": "HI SPARKLING B",
+              "to": "hi-sparkling-b-en"
+            }
+          ],
+          [
+            "DOG"
+          ],
+          [
+            "WORLD HOPE 2005\nAMERICAS & CARIBBEAN WINNER 2005"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "LITTLE THUNDER OF BIG-FOOT DE THALEK",
+              "to": "little-thunder-en"
+            }
+          ],
+          [
+            "DOG"
+          ],
+          [
+            "PORTUGAL CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "MEKONG JIANG UNIVERSAL BEAUTY",
+              "to": "universal-beauty-en"
+            }
+          ],
+          [
+            "DOG"
+          ],
+          [
+            "SPAIN CHAMPION\nINTERNATIONAL CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "FORGET ME NOTS DE PENAGUILA",
+              "to": "forget-me-nots-en"
+            }
+          ],
+          [
+            "BITCH"
+          ],
+          [
+            "SPAIN CHAMPION\nINTERNATIONAL CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK HAVE A DREAM",
+              "to": "have-a-dream-en"
+            }
+          ],
+          [
+            "DOG"
+          ],
+          [
+            "CLUB JUNIOR CHAMPION - Shih-tzu Club Evropa (CZ)\nCLUB JUNIOR WINNER - Shih-tzu Club Evropa (CZ)\nCLUB CHAMPION (Adult) - Shih-tzu Club Evropa (CZ)\nCROATIA JUNIOR CHAMPION\nDĚTŘICHOV JUNIOR WINNER 2011 (CZ)\nCLUB JUNIOR WINNER - Klub Tibetských Plemien (SLO)\nDERBY JUNIOR WINNER 2011 (SLO)\nSLOVAKIA JUNIOR CHAMPION\nCLUB JUNIOR CHAMPION - Klub Tibetských Plemien\nHUNGARY JUNIOR CHAMPION\nJUNIOR CHAMPION OF CYPRUS\nAPHRODITE BALKANIAN JUNIOR WINNER SHOW'11 (CY)\nJUNIOR CHAMPION OF BULGARIA\nJUNIOR CHAMPION OF GEORGIA\nJUNIOR CHAMPION OF MOLDOVA\nBLACK SEA JUNIOR WINNER'11 (BG)\nBALKAN JUNIOR CHAMPION\nJUNIOR CHAMPION OF MACEDONIA"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK HAPPILY EVER AFTER",
+              "to": "happily-ever-after-en"
+            }
+          ],
+          [
+            "DOG"
+          ],
+          [
+            "MADRID JUNIOR WINNER 2011 (SP)\nSPAIN JUNIOR CHAMPION\nSPAIN CHAMPION\nINTERNATIONAL CHAMPION\nOPORTO WINNER 2014 (P)\nPORTUGAL CHAMPION\nIBERIAN CHAMPION\nSUPER GRAND CHAMPION OF SPAIN"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK HONEY BEAR",
+              "to": "honey-bear-en"
+            }
+          ],
+          [
+            "BITCH"
+          ],
+          [
+            "MADRID JUNIOR WINNER 2011 (SP)\nSPAIN JUNIOR CHAMPION\nINTERNATIONAL CHAMPION\nPORTUGAL CHAMPION\nSPAIN CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK JUST FOR ME",
+              "to": "just-for-me-en"
+            }
+          ],
+          [
+            "BITCH"
+          ],
+          [
+            "INTERNATIONAL CHAMPION\nPORTUGAL CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK GIVE ME FIVE",
+              "to": "give-me-five-en"
+            }
+          ],
+          [
+            "DOG"
+          ],
+          [
+            "PORTUGAL CHAMPION\nINTERNATIONAL CHAMPION\nSPAIN CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK GHOST IN LOVE",
+              "to": "ghost-in-love-en"
+            }
+          ],
+          [
+            "BITCH"
+          ],
+          [
+            "PORTUGAL CHAMPION\nINTERNATIONAL CHAMPION\nSPAIN CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK JOY OF MY LIFE",
+              "to": "joy-of-my-life-en"
+            }
+          ],
+          [
+            "DOG"
+          ],
+          [
+            "LISBOA PUPPY WINNER (PT)\nSPAIN JUNIOR CHAMPION\nPORTUGAL JUNIOR CHAMPION\nPORTUGAL CHAMPION\nPORTUGAL GRAND CHAMPION\nGIBRALTAR CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK KNOWING A SECRET",
+              "to": "knowing-a-secret-en"
+            }
+          ],
+          [
+            "BITCH"
+          ],
+          [
+            "SPAIN JUNIOR CHAMPION\nPORTUGAL JUNIOR CHAMPION\nSPAIN CHAMPION\nPORTUGAL CHAMPION\nINTERNATIONAL CHAMPION (U.A.)\nIBERIAN CHAMPION\nSUPER GRAND CHAMPION OF SPAIN (U.A.)"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK LUCKY BREAK",
+              "to": "lucky-break-en"
+            }
+          ],
+          [
+            "DOG"
+          ],
+          [
+            "PORTUGAL JUNIOR CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK MIDNIGHT STORM",
+              "to": "midnight-storm-en"
+            }
+          ],
+          [
+            "DOG"
+          ],
+          [
+            "POLAND JUNIOR CHAMPION\nSLOVAKIA JUNIOR CHAMPION\nPOLAND CHAMPION\nMOLDAVIAN CHAMPION\nBESARABIAN CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK HAPPY ILUSION",
+              "to": "happy-ilusion-en"
+            }
+          ],
+          [
+            "DOG"
+          ],
+          [
+            "SPAIN CHAMPION\nMEDITERRANEAN WINNER 2015 (P)\nPORTUGAL CHAMPION\nINTERNATIONAL CHAMPION (U.A.)\nIBERIAN CHAMPION"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK IMPERIAL DRAGON",
+              "to": "imperial-dragon-en"
+            }
+          ],
+          [
+            "DOG"
+          ],
+          [
+            "SPAIN CHAMPION\nOPORTO WINNER 2016 (P)\nPORTUGAL CHAMPION\nIBERIAN CHAMPION (U.A.)\nINTERNATIONAL CHAMPION (U.A.)"
+          ]
+        ],
+        [
+          [
+            {
+              "text": "BIG-FOOT DE THALEK NOTHING IS IMPOSSIBLE",
+              "to": "nothing-is-impossible-en"
+            }
+          ],
+          [
+            "DOG"
+          ],
+          [
+            "SPAIN JUNIOR CHAMPION\nSPAIN CHAMPION (U.A.)"
+          ]
+        ],
+        [
+          [
+            "KAYBAROSHI HAN&HAN MOONLIGHT QUEEN"
+          ],
+          [
+            "BITCH"
+          ],
+          [
+            "IBERIAN CHAMPION (U.A.)"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We make web pages",
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        },
+        "."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Edit and update © Big-Foot de Thalek."
+      ]
+    }
+  ],
+  "lang": "en"
+}
