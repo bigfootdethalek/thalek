@@ -1,6 +1,7 @@
 # Roadmap
 
 - [ ] Recheck all 2017 Facebook albums and text reports; add missing verified shows and results in Spanish and English without duplicates
+- [ ] Replace old duplicate 2017 entries with verified Facebook reports while preserving any unique historical data
 - [ ] Add missing verified exhibition results for Lulú only from FlymetotheMoonCavaliers photos — public photo/profile/album captures checked; no captions identifying Lulú and her missing results available, direct report links or screenshots needed
 - [x] Complete the 2017 news archive with verified missing exhibitions from Big-Foot de Thalek Facebook albums — added Talavera, León, international and national Muskiz-Bilbao, Portugalete and Medina de Pomar with 13 photos, results and judges in both languages; verified all photos load
 
