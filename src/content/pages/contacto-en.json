@@ -47,17 +47,7 @@
     {
       "type": "p",
       "parts": [
-        "E-mail"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        }
+        "E-mail: bfdt@hotmail.com"
       ],
       "heading": false
     },
