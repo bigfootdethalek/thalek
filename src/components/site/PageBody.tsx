@@ -93,7 +93,7 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
         const text = b.parts.map((p) => (typeof p === "string" ? p : p.text)).join("");
         if (isHeading(text))
           return (
-            <h2 key={i} className="pt-4 font-display text-2xl font-semibold text-primary">
+            <h2 key={i} className={`pt-4 font-display text-2xl font-semibold text-primary ${align}`}>
               {b.parts.map((p, j) => <Inline key={j} part={p} />)}
             </h2>
           );
