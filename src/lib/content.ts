@@ -58,7 +58,6 @@ export const nav: NavGroup[] = [
       { label: l("La familia", "The family"), slug: "mis-perros" },
       { label: l("Entrevista", "Interview"), slug: "entrevista" },
       { label: l("Revistas", "Magazines"), slug: "revistas" },
-      { label: l("Noticias", "News"), slug: "noticias-archivo" },
       { label: l("Agradecimiento", "Thanks"), slug: "agradecimiento" },
       { label: l("Homenaje", "Tribute"), slug: "homenaje" },
     ],
@@ -83,6 +82,10 @@ export const nav: NavGroup[] = [
   {
     label: l("Campeones", "Champions"),
     slug: "campeones",
+  },
+  {
+    label: l("Exposiciones", "Shows"),
+    slug: "noticias-archivo",
   },
 ].map((g) => ({
   ...g,
