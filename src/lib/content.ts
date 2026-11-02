@@ -83,6 +83,10 @@ export const nav: NavGroup[] = [
     label: l("Campeones", "Champions"),
     slug: "campeones",
   },
+  {
+    label: l("Exposiciones", "Shows"),
+    slug: "noticias-archivo",
+  },
 ].map((g) => ({
   ...g,
   slug: g.slug && hasPage(g.slug) ? g.slug : undefined,
