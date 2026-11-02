@@ -4,7 +4,8 @@ export type Part = string | { text: string; to?: string; href?: string; dog?: st
 export type Block =
   | { type: "p"; parts: Part[] }
   | { type: "table"; headers: string[]; rows: Part[][][] }
-  | { type: "gallery"; items: { type: "img"; src: string; to?: string; dog?: string; placeholder?: boolean }[] };
+  | { type: "divider" }
+  | { type: "gallery"; items: { type: "img"; src: string; to?: string; dog?: string; placeholder?: boolean; tall?: boolean }[] };
 export type Page = { file: string; title: string; lang: "es" | "en"; blocks: Block[] };
 export type Lang = "es" | "en";
 
