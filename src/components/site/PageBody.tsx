@@ -131,19 +131,27 @@ function renderGroup(blocks: Block[], align: string) {
               <span aria-hidden="true" className="ml-1">»</span>
             </p>
           );
-        if (isHeading(text))
+        if (isHeading(text)) {
+          // Lines grouped with neighbouring all-caps lines (a poem) keep the
+          // original heading look instead of the large turquoise title style.
+          const prev = i > 0 ? blocks[i - 1] : undefined;
+          const next = i < blocks.length - 1 ? blocks[i + 1] : undefined;
+          const poemLine = (prev && isHeadingBlock(prev)) || (next && isHeadingBlock(next));
           return (
             <h2
               key={i}
-              className={`pt-4 font-display font-semibold italic text-turquoise ${align} ${
+              className={`pt-4 font-display font-semibold ${align} ${
                 /^\s*[PM]:/.test(text)
-                  ? "text-[clamp(1.05rem,2.1vw,1.35rem)] leading-snug not-italic"
-                  : "text-3xl"
+                  ? "text-[clamp(1.05rem,2.1vw,1.35rem)] italic leading-snug text-turquoise"
+                  : poemLine
+                    ? "text-2xl text-primary"
+                    : "text-3xl italic text-turquoise"
               }`}
             >
               {b.parts.map((p, j) => <Inline key={j} part={p} />)}
             </h2>
           );
+        }
         if (b.lead)
           return (
             <p key={i} className={`text-center font-display text-2xl font-semibold italic leading-relaxed text-turquoise sm:text-3xl ${align}`}>
@@ -178,9 +186,10 @@ function splitGroups(blocks: Block[]): Block[][] {
       flush();
       continue;
     }
-    if (isHeadingBlock(b) && current.length) flush();
+    // Consecutive all-caps lines (e.g. a poem) stay together in one panel.
+    const last = current[current.length - 1];
+    if (isHeadingBlock(b) && current.length && !(last && isHeadingBlock(last))) flush();
     if (b.type === "gallery" && current.length) {
-      const last = current[current.length - 1];
       const groupHasGallery = current.some((x) => x.type === "gallery");
       if (groupHasGallery && last && last.type === "p" && !isHeadingBlock(last)) flush();
     }
