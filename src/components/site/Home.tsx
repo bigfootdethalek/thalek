@@ -8,7 +8,7 @@ const copy = {
     eyebrow: "Afijo R.S.C.E. 8.852 · Desde 1995",
     title: "Shih Tzu",
     sub: "Crianza selectiva y totalmente familiar.\nBienvenido al maravilloso mundo del Shih Tzu.",
-    notice: "Estamos renovando nuestra antigua página para darle un toque más moderno, y la estamos poniendo al día poco a poco.",
+    notice: "Estamos renovando nuestra antigua página para darle un toque más moderno y la iremos poniendo al día poco a poco.",
     puppies: "Ver cachorros",
     champions: "Nuestros campeones",
     breeds: "Nuestra raza",
