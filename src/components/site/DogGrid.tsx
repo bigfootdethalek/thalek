@@ -57,7 +57,8 @@ function DogCard({ dog, lang }: { dog: Dog; lang: Lang }) {
 
 export function DogGrid({ sex, lang }: { sex: "male" | "female"; lang: Lang }) {
   const list = getDogs(sex);
-  const retired = sex === "female" ? getDogs("female", true) : [];
+  const retired = sex === "female" ? getDogs("female", "retired") : [];
+  const memorial = getDogs(sex, "memorial");
   return (
     <section className="mb-16">
       <h2 className="font-display text-3xl font-semibold text-foreground">
@@ -71,6 +72,14 @@ export function DogGrid({ sex, lang }: { sex: "male" | "female"; lang: Lang }) {
           <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "Our retired females" : "Nuestras hembras retiradas"}</h2>
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {retired.map((dog) => <DogCard key={dog.id} dog={dog} lang={lang} />)}
+          </div>
+        </>
+      )}
+      {memorial.length > 0 && (
+        <>
+          <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "In memory" : "En memoria"}</h2>
+          <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {memorial.map((dog) => <DogCard key={dog.id} dog={dog} lang={lang} />)}
           </div>
         </>
       )}
