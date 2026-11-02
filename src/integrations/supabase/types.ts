@@ -14,16 +14,102 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      exhibitions: {
+        Row: {
+          award_en: string
+          award_es: string
+          dog_name: string
+          event_date: string
+          event_en: string
+          event_es: string
+          id: string
+          image_url: string
+          judge_en: string
+          judge_es: string
+          results_en: string
+          results_es: string
+          source_url: string
+          status: string
+          updated_at: string
+        }
+        Insert: {
+          award_en?: string
+          award_es?: string
+          dog_name: string
+          event_date: string
+          event_en: string
+          event_es: string
+          id?: string
+          image_url?: string
+          judge_en: string
+          judge_es: string
+          results_en: string
+          results_es: string
+          source_url: string
+          status?: string
+          updated_at?: string
+        }
+        Update: {
+          award_en?: string
+          award_es?: string
+          dog_name?: string
+          event_date?: string
+          event_en?: string
+          event_es?: string
+          id?: string
+          image_url?: string
+          judge_en?: string
+          judge_es?: string
+          results_en?: string
+          results_es?: string
+          source_url?: string
+          status?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          avatar_url: string
+          display_name: string
+          id: string
+        }
+        Insert: {
+          avatar_url?: string
+          display_name?: string
+          id: string
+        }
+        Update: {
+          avatar_url?: string
+          display_name?: string
+          id?: string
+        }
+        Relationships: []
+      }
+      user_roles: {
+        Row: {
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Insert: {
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Update: {
+          role?: Database["public"]["Enums"]["app_role"]
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      is_exhibition_editor: { Args: never; Returns: boolean }
     }
     Enums: {
-      [_ in never]: never
+      app_role: "editor"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -150,6 +236,8 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      app_role: ["editor"],
+    },
   },
 } as const
