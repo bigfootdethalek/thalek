@@ -71,7 +71,7 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
         if (b.type === "gallery") {
           const single = b.items.length === 1;
           return (
-            <div key={i} className={single ? "my-8 flex justify-center" : "my-8 grid grid-cols-2 gap-3 sm:grid-cols-3"}>
+            <div key={i} className={single ? "my-8 flex justify-center" : `my-8 grid grid-cols-2 gap-3 sm:grid-cols-3 ${align ? "mx-auto max-w-xl" : ""}`}>
               {b.items.map((it, j) => {
                 const img = (
                   <img
@@ -98,7 +98,7 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
             </h2>
           );
         return (
-          <p key={i} className={`leading-relaxed text-foreground/90 ${align}`}>
+          <p key={i} className="leading-relaxed text-foreground/90">
             {b.parts.map((p, j) => <Inline key={j} part={p} />)}
           </p>
         );
