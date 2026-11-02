@@ -5,6 +5,33 @@
     {
       "type": "p",
       "parts": [
+        "SOCIOS"
+      ],
+      "heading": true,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "RSCE : Real Sociedad Canina de España"
+      ],
+      "heading": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        "ACABE : Asociación de Criadores y Amigos del Bobtail mientras existió."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "CAPPIE : Club del Antiguo Perro de Pastor Inglés en España mientras existió."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
         "INFORMACIÓN DE CONTACTO"
       ],
       "heading": true,
@@ -37,33 +64,6 @@
         "E-mail: bfdt@hotmail.com"
       ],
       "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        "SOCIOS"
-      ],
-      "heading": true,
-      "center": true
-    },
-    {
-      "type": "p",
-      "parts": [
-        "RSCE : Real Sociedad Canina de España"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        "ACABE : Asociación de Criadores y Amigos del Bobtail mientras existió."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "CAPPIE : Club del Antiguo Perro de Pastor Inglés en España mientras existió."
-      ]
     }
   ],
   "lang": "es"

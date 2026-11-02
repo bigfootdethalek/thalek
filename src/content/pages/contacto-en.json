@@ -6,6 +6,32 @@
     {
       "type": "p",
       "parts": [
+        "MEMBER OF"
+      ],
+      "heading": true,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "RSCE : Royal Canine Society of Spain"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "ACABE : Association of Breeders and Friends of the Bobtail while it existed."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "CAPPIE : Club of the Old English Shepherd Dog in Spain while it existed."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
         "CONTACT INFORMATION"
       ],
       "heading": true,
@@ -33,32 +59,6 @@
       "type": "p",
       "parts": [
         "E-mail: bfdt@hotmail.com"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "MEMBER OF"
-      ],
-      "heading": true,
-      "center": true
-    },
-    {
-      "type": "p",
-      "parts": [
-        "RSCE : Royal Canine Society of Spain"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "ACABE : Association of Breeders and Friends of the Bobtail while it existed."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "CAPPIE : Club of the Old English Shepherd Dog in Spain while it existed."
       ]
     }
   ]
