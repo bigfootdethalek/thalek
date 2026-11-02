@@ -86,10 +86,10 @@ export function Home({ lang }: { lang: Lang }) {
             <article key={b.name} className="overflow-hidden rounded-md border border-border bg-card shadow-soft">
               {b.r ? (
                 <Link {...L(b.r)}>
-                  <img src={b.img.startsWith("fotos/") ? legacySrc(b.img) : b.img} alt={b.name} className="h-72 w-full object-cover" />
+                  <img src={b.img.startsWith("fotos/") ? legacySrc(b.img) : b.img} alt={b.name} className="h-auto w-full" />
                 </Link>
               ) : (
-                <img src={b.img.startsWith("fotos/") ? legacySrc(b.img) : b.img} alt={b.name} className="h-72 w-full object-cover" />
+                <img src={b.img.startsWith("fotos/") ? legacySrc(b.img) : b.img} alt={b.name} className="h-auto w-full" />
               )}
               <div className="p-6">
                 <h2 className="font-display text-3xl font-semibold text-primary">{b.name}</h2>
@@ -99,9 +99,9 @@ export function Home({ lang }: { lang: Lang }) {
                     {c.shihBreed.map((p) => <p key={p}>{p}</p>)}
                   </div>
                 )}
-                <div className="mt-4 flex gap-4 text-sm font-semibold">
-                  <Link {...L(b.m)} className="text-primary hover:underline">{c.males} →</Link>
-                  <Link {...L(b.f)} className="text-primary hover:underline">{c.females} →</Link>
+                <div className="mt-6 flex flex-wrap justify-center gap-3 text-sm font-semibold">
+                  <Link {...L(b.m)} className="inline-flex items-center gap-2 rounded-full bg-turquoise px-6 py-3 text-turquoise-foreground shadow-soft transition hover:-translate-y-0.5 hover:opacity-90">{c.males} →</Link>
+                  <Link {...L(b.f)} className="inline-flex items-center gap-2 rounded-full bg-turquoise px-6 py-3 text-turquoise-foreground shadow-soft transition hover:-translate-y-0.5 hover:opacity-90">{c.females} →</Link>
                 </div>
                 {b.breed && (
                   <img src={legacySrc("fotos/Criadero/Chicho/11DSC03903.JPG")} alt="Shih Tzu" className="mx-auto mt-6 max-h-80 rounded-md shadow-soft" />
