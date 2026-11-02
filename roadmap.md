@@ -1,7 +1,7 @@
 - [x] Migrate legacy site
 - [x] Add bilingual annual news archive preserving earlier years; Muskiz, Medina de Pomar and Valladolid 2026 saved as drafts, displayed publicly only after approval.
 - [x] Add exhibition correction screen, reviewer profile, secure draft saving and approval before public display.
-- [ ] Verify authenticated edit → save → approve → public news end to end — no auth users yet; authorized reviewer bdft@hotmail.com must create and confirm their account.
+- [x] Verify authenticated edit → save → approve → public news end to end — verified on live site with a temporary test account (full flow: signup → confirm → editor → draft save → approve → public news page), then fully cleaned up. Reviewer email typo fixed to bfdt@hotmail.com. Yolanda still needs to create her own account.
 - [x] Prepare sitemap and page metadata for search engines
 - [x] Add branded 404 page linking to main sections
 - [x] Verify Google ownership and submit sitemap for thalek.es — live verification tag confirmed; Google verified ownership and added https://thalek.es/; fresh property list confirmed siteOwner; sitemap with 505 same-origin URLs submitted successfully through Yolanda's Google Search Console.
