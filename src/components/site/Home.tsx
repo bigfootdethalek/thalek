@@ -19,7 +19,7 @@ const copy = {
   en: {
     eyebrow: "R.S.C.E. kennel 8.852 · Since 1995",
     title: "Bobtail & Shih Tzu",
-    sub: "Selective, family-raised breeding in Burgos, Spain. Welcome to the wonderful world of the Shih Tzu and the Bobtail.",
+    sub: "Selective, family-raised breeding in Spain. Welcome to the wonderful world of the Shih Tzu and the Bobtail.",
     notice: "We are renewing our old website to give it a more modern touch, and we are updating it little by little.",
     puppies: "See puppies",
     champions: "Our champions",

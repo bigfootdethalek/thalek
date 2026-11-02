@@ -94,7 +94,6 @@ export function SiteFooter({ lang }: { lang: Lang }) {
         </div>
         <div className="text-sm opacity-85">
           <p>Afijo R.S.C.E. 8.852</p>
-          <p>Burgos — España</p>
         </div>
         <div className="text-sm opacity-85">
           <p>+34 676 22 08 96</p>
