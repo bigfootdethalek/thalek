@@ -30,6 +30,7 @@ export function exhibitionBlocks(rows: Exhibition[], lang: Lang): Block[] {
     blocks.push({type:'p',parts:[row.dog_name],center:true}, {type:'p',parts:[lang === 'es' ? row.results_es : row.results_en],center:true});
     const award = lang === 'es' ? row.award_es : row.award_en;
     if (award) blocks.push({type:'p',parts:[award],heading:false,center:true});
+    blocks.push({type:'p',parts:[{text:lang === 'es' ? 'Ver exposición en Facebook' : 'View show on Facebook',href:row.source_url}],center:true});
     pendingJudge = {type:'p',parts:[`${lang === 'es' ? 'Juez de Raza' : 'Breed Judge'}: ${lang === 'es' ? row.judge_es : row.judge_en}`],center:true};
   }
   if (pendingJudge) blocks.push(pendingJudge);
