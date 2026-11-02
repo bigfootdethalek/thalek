@@ -131,7 +131,13 @@ function renderGroup(blocks: Block[], align: string) {
               <span aria-hidden="true" className="ml-1">»</span>
             </p>
           );
-        if (isHeading(text)) {
+        if (b.type === "p" && b.heading === true)
+          return (
+            <h2 key={i} className={`pt-4 text-center font-display font-semibold text-3xl italic leading-snug text-turquoise ${align}`}>
+              {b.parts.map((p, j) => <Inline key={j} part={p} />)}
+            </h2>
+          );
+        if (isHeading(text) && b.heading !== false) {
           // Lines grouped with neighbouring all-caps lines (a poem) keep the
           // original heading look instead of the large turquoise title style.
           const prev = i > 0 ? blocks[i - 1] : undefined;
@@ -167,7 +173,7 @@ function renderGroup(blocks: Block[], align: string) {
 }
 
 function isHeadingBlock(b: Block) {
-  return b.type === "p" && isHeading(b.parts.map((p) => (typeof p === "string" ? p : p.text)).join(""));
+  return b.type === "p" && b.heading !== false && isHeading(b.parts.map((p) => (typeof p === "string" ? p : p.text)).join(""));
 }
 
 // Sections are separated by explicit dividers, all-caps headings, or a photo

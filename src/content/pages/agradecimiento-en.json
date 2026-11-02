@@ -126,7 +126,8 @@
    "type": "p",
    "parts": [
     "¡¡A TODOS VOSOTROS: GRACIAS!!"
-   ]
+   ],
+   "heading": false
   },
   {
    "type": "p",
@@ -140,8 +141,9 @@
   {
    "type": "p",
    "parts": [
-    "A mis amigos"
-   ]
+    "A MIS AMIGOS"
+   ],
+   "heading": true
   },
   {
    "type": "p",
