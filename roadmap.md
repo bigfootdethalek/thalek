@@ -4,5 +4,5 @@
 - [x] Combine missing dogs from Chiens de France's In Memory list without duplicates
  - [x] Restructure the Bobtail males/females pages as a tribute with card sections, ready for new dogs
  - [x] Add new male Bobtail from Chiens de France (id 1351072) as the current bobtail
- - [ ] Add a home-page note saying the site is being modernised bit by bit (done, pending final report)
- - [ ] Connect the domain www.thalek.es to the project
+ - [x] Add a home-page note saying the site is being modernised bit by bit
+ - [x] Connect the domain www.thalek.es to the project — blocked: .es is not sold through Lovable; told Yolanda to buy it elsewhere and connect it (or take thalek.com)
