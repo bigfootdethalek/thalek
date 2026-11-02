@@ -26,7 +26,7 @@ const copy = {
     title: "Shih Tzu",
     sub: "Selective, family-raised breeding in Spain. Welcome to the wonderful world of the Shih Tzu and the Bobtail.",
     notice: "We are renewing our old website to give it a more modern touch, and we are updating it little by little.",
-    puppies: "See puppies",
+    puppies: "Puppies",
     champions: "Our champions",
     breeds: "Our breed",
     shih: "Highly selected Shih Tzu from the best American and European lines.",
