@@ -80,7 +80,7 @@ export function Home({ lang }: { lang: Lang }) {
         <p className="eyebrow text-accent">{c.breeds}</p>
         <div className="mt-6 grid gap-8 md:grid-cols-2">
           {[
-            { name: "Shih Tzu", text: c.shih, img: "fotos/Criadero/Miss/06MISSFRENTE.jpg", m: "shih-tzum", f: "shih-tzuh", breed: true },
+            { name: "Shih Tzu", text: c.shih, img: "fotos/Criadero/Miss/06MISSFRENTE.jpg", m: "shih-tzum", f: "shih-tzuh", r: "", breed: true },
             { name: "Bobtail", text: c.bob, img: "fotos/Criadero/London/ZDSC04808.JPG", m: "bobtailm", f: "bobtailh", r: "razabob", breed: false },
           ].map((b) => (
             <article key={b.name} className="overflow-hidden rounded-md border border-border bg-card shadow-soft">
