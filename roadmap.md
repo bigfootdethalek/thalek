@@ -21,3 +21,4 @@
 - [x] Remove "º" from results (Excelente 1, Excelente 2), including stored results when rendered in both languages
 - [x] Remove Junior Handling texts of Adrián from all annual news files (2018–2025)
 - [x] Write "Muy Prometedor 1" in full instead of "MP 1" (EN: "Very Promising 1")
+- [x] Botonera de años en turquesa en Archivo de noticias
