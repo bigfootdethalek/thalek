@@ -178,7 +178,9 @@ function splitGroups(blocks: Block[]): Block[][] {
       flush();
       continue;
     }
-    if (isHeadingBlock(b) && current.length) flush();
+    // Consecutive all-caps lines (e.g. a poem) stay together in one panel.
+    const last = current[current.length - 1];
+    if (isHeadingBlock(b) && current.length && !(last && isHeadingBlock(last))) flush();
     if (b.type === "gallery" && current.length) {
       const last = current[current.length - 1];
       const groupHasGallery = current.some((x) => x.type === "gallery");
