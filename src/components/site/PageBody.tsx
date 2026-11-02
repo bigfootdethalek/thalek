@@ -208,7 +208,7 @@ function renderGroup(blocks: Block[], align: string) {
 }
 
 function isHeadingBlock(b: Block) {
-  return b.type === "p" && b.heading !== false && isHeading(b.parts.map((p) => (typeof p === "string" ? p : p.text)).join(""));
+  return b.type === "p" && !b.variant && b.heading !== false && isHeading(b.parts.map((p) => (typeof p === "string" ? p : p.text)).join(""));
 }
 
 // Sections are separated by explicit dividers, all-caps headings, or a photo
