@@ -22,3 +22,7 @@
 - [x] Revistas: añadir enlace a otra portada (foto en Facebook, no descargable; enlace de texto)
 - [x] Revistas: mostrar también las tres fotos enlazadas de Facebook en español e inglés; imágenes descargadas y comprobadas en ambas versiones y móvil
 
+- [x] Revistas: 4.ª foto de Facebook (movimiento, captura/Instagram) añadida con enlaces FB+IG
+- [x] Revistas: foto de Instagram añadida
+
+- [x] Revistas: todas las fotos recortadas al mismo formato de retrato (0,72) y fila pareja; eliminadas 2 portadas duplicadas

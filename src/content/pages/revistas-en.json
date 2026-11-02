@@ -39,26 +39,11 @@
       "items": [
         {
           "type": "img",
-          "src": "/__l5e/assets-v1/76f0d417-8543-4b3c-9564-9a9e335c6089/revista-especial-shih-tzu-2017.jpg"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        {
-          "text": "See another magazine cover on Facebook",
-          "href": "https://www.facebook.com/photo/?fbid=10154442330281105&set=a.626683842823908&locale=es_ES"
-        }
-      ],
-      "center": true
-    },
-    {
-      "type": "gallery",
-      "items": [
+          "src": "/__l5e/assets-v1/34d52b21-f6e6-410d-aafc-07e98a02f6e8/revista-especial-shih-tzu-2017-portada.jpg"
+        },
         {
           "type": "img",
-          "src": "/__l5e/assets-v1/7c7c8fc7-b3a5-4120-9a68-85fef42e349e/portada-shih-tzu-2017.jpg"
+          "src": "/__l5e/assets-v1/b1b69566-ddcc-4e70-b619-93baad606c99/shih-tzu-movimiento-retrato.jpg"
         }
       ]
     },
@@ -66,27 +51,23 @@
       "type": "p",
       "parts": [
         {
-          "text": "See another magazine cover on Facebook",
+          "text": "See the cover on Facebook",
           "href": "https://www.facebook.com/photo?fbid=10154442325906105&set=a.626683842823908&locale=es_ES"
         }
       ],
       "center": true
     },
     {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "/__l5e/assets-v1/e8628aab-472a-4b18-998c-192205b04b1a/revista-perros-pequenos-2016.jpg"
-        }
-      ]
-    },
-    {
       "type": "p",
       "parts": [
         {
-          "text": "See another magazine cover on Facebook",
-          "href": "https://www.facebook.com/photo/?fbid=10153685714506105&set=a.626683842823908&locale=es_ES"
+          "text": "See it on Facebook",
+          "href": "https://www.facebook.com/share/p/1DS5i9ijN1/"
+        },
+        "  ·  ",
+        {
+          "text": "See it on Instagram",
+          "href": "https://www.instagram.com/p/BsnBi5Wl715/"
         }
       ],
       "center": true
