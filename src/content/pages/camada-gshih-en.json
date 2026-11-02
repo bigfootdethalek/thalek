@@ -1,1 +1,128 @@
-{"file":"camada_GShih_en.htm","title":"Litter \"G\"","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Chicho/DSC04892.JPG","to":"universal-beauty-en"},{"type":"img","src":"fotos/Criadero/Funny/13DSC06062.JPG","to":"a-lovely-dream-en"}]},{"type":"p","parts":[{"text":"F","to":"universal-beauty-en"},{"text":": CH. MEKONG JI","to":"universal-beauty-en"},{"text":"ANG UNIVERSAL BEAUTY","to":"universal-beauty-en"}]},{"type":"p","parts":["Litter born on September 5, 2009. Crossing out of our lovely imported boy Universal Beauty (Chicho) with completely American blood-lines with our girl A Lovely Dream (Funny)."]},{"type":"p","parts":[" Four beautiful pups were born three males and one female. Theirs colors are two red and white and two gold and withe."]},{"type":"p","parts":["PICS"]},{"type":"p","parts":["GOLD DRAGON "]},{"type":"p","parts":["Chechu owner by Berta (Alicante)"]},{"type":"p","parts":[" GOOD HEART "]},{"type":"p","parts":["Gibson owner by Susana (La Coruña)"]},{"type":"p","parts":["GIVE ME FIVE "]},{"type":"p","parts":["Junior owner by Big-Foot de Thalek"]},{"type":"p","parts":["GHOST IN LOVE "]},{"type":"p","parts":["Chanel owner by Big-Foot de Thalek"]},{"type":"p","parts":["VIDEO"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+  "file": "camada_GShih_en.htm",
+  "title": "Litter \"G\"",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Chicho/DSC04892.JPG",
+          "to": "universal-beauty-en"
+        },
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Funny/13DSC06062.JPG",
+          "to": "a-lovely-dream-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "F",
+          "to": "universal-beauty-en"
+        },
+        {
+          "text": ": CH. MEKONG JI",
+          "to": "universal-beauty-en"
+        },
+        {
+          "text": "Ang Universal Beauty",
+          "to": "universal-beauty-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Litter born on September 5, 2009. Crossing out of our lovely imported boy Universal Beauty (Chicho) with completely American blood-lines with our girl A Lovely Dream (Funny)."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Four beautiful pups were born three males and one female. Theirs colors are two red and white and two gold and withe."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "PICS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Gold Dragon"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Chechu owner by Berta (Alicante)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Good Heart"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Gibson owner by Susana (La Coruña)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Give Me Five"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Junior owner by Big-Foot de Thalek"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ghost In Love"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Chanel owner by Big-Foot de Thalek"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "VIDEO"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We make web pages",
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        },
+        "."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Edit and update © Big-Foot de Thalek."
+      ]
+    }
+  ],
+  "lang": "en"
+}

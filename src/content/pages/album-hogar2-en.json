@@ -1,1 +1,150 @@
-{"file":"album_hogar2_en.htm","title":"New Home","blocks":[{"type":"p","parts":[" PICS"]},{"type":"p","parts":[" Here you can see photos of some of our children in their new home."]},{"type":"p","parts":["We are working to update it as soon as possible with all the photos we have recived by our new friends through all these years."]},{"type":"p","parts":["ICE SPIRIT "]},{"type":"p","parts":["Ron owner with Javier & Margui (Cantabria)"]},{"type":"p","parts":["INFINITE DARLING "]},{"type":"p","parts":["Teo is owner by Xabi, Gloria & Paula (Barcelona)"]},{"type":"p","parts":["IMPERIAL PRINCESS "]},{"type":"p","parts":["Tina owner with Antonia (Sevilla)"]},{"type":"p","parts":[" IDYLL OF THE KINGS "]},{"type":"p","parts":["Pucho owner with German, Sergio & Marina (La Rioja)"]},{"type":"p","parts":[" IN LOVE WITH YOU "]},{"type":"p","parts":["Felipe is owner by Enrique & Carmen (Sevilla)"]},{"type":"p","parts":["HI SPARKLING B. "]},{"type":"p","parts":["Nano is owner by Patricia & Dante - Sparkling Bear's (Buenos Aires - Argentina)"]},{"type":"p","parts":["HAVE A DREAM "]},{"type":"p","parts":["Panda is owner by Javier & María Jose (Asturias)"]},{"type":"p","parts":["HOARD TREASURE "]},{"type":"p","parts":["Colin owner with Alejandro, Laura & Luis (Madrid)"]},{"type":"p","parts":["HONEY MOON "]},{"type":"p","parts":["Moon is owner by Maike & Marta (Alicante)"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+  "file": "album_hogar2_en.htm",
+  "title": "New Home",
+  "blocks": [
+    {
+      "type": "p",
+      "parts": [
+        " PICS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Here you can see photos of some of our children in their new home."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We are working to update it as soon as possible with all the photos we have recived by our new friends through all these years."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ice Spirit"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ron owner with Javier & Margui (Cantabria)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Infinite Darling"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Teo is owner by Xabi, Gloria & Paula (Barcelona)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Imperial Princess"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Tina owner with Antonia (Sevilla)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Idyll Of The Kings"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Pucho owner with German, Sergio & Marina (La Rioja)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "In Love With You"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Felipe is owner by Enrique & Carmen (Sevilla)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Hi Sparkling B."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Nano is owner by Patricia & Dante - Sparkling Bear's (Buenos Aires - Argentina)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Have A Dream"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Panda is owner by Javier & María Jose (Asturias)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Hoard Treasure"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Colin owner with Alejandro, Laura & Luis (Madrid)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Honey Moon"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Moon is owner by Maike & Marta (Alicante)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We make web pages",
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        },
+        "."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Edit and update © Big-Foot de Thalek."
+      ]
+    }
+  ],
+  "lang": "en"
+}
