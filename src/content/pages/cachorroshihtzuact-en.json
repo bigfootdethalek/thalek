@@ -1,284 +1,285 @@
 {
- "file": "cachorroshihtzuact_en.htm",
- "title": "Actual Litters",
- "blocks": [
-  {
-   "type": "p",
-   "parts": [
-    "Our litters are selective and sporadic."
-   ],
-   "center": false
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Our adult Shih Tzu are within the standard in terms of measurements."
-   ],
-   "center": false
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Our puppies are wormed, vaccinated, revaccinated and identified with microchip."
-   ],
-   "center": false
-  },
-  {
-   "type": "p",
-   "parts": [
-    "They are bred in a familiar atmosphere to guarantee their character. Not breed in cages."
-   ],
-   "center": false
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Show quality puppies."
-   ],
-   "center": false
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "NEW LITTER BORN"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "S LITTER"
-   ]
-  },
-  {
-   "type": "gallery",
-   "items": [
+  "file": "cachorroshihtzuact_en.htm",
+  "title": "Actual Litters",
+  "blocks": [
     {
-     "type": "img",
-     "src": "/__l5e/assets-v1/8caa9c73-1123-4ca2-8a05-6ef895f887ed/shihtzu_1109820_1.jpg",
-     "to": "shih-tzum-en",
-     "dog": "1109820"
+      "type": "p",
+      "parts": [
+        "Our litters are selective and sporadic."
+      ],
+      "center": false
     },
     {
-     "type": "img",
-     "src": "/__l5e/assets-v1/6ca1f075-c287-41b2-83a8-58b95b091639/shihtzu_1348460_1.jpg",
-     "to": "shih-tzuh-en",
-     "dog": "1348460"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    {
-     "text": "P: JR.CH. MULTI CH. BIG-FOOT DE THALEK SPIRIT OF HAPPINESS",
-     "to": "shih-tzum-en",
-     "dog": "1109820"
-    }
-   ],
-   "noSplit": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    {
-     "text": "M: CH. BIG-FOOT DE THALEK GREATEST LOVE OF ALL",
-     "to": "shih-tzuh-en",
-     "dog": "1348460"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Very special litter born at end of 2016. Soon more information."
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "No enquires."
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    " Page will be updated with photos and news."
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "L LITTER"
-   ]
-  },
-  {
-   "type": "gallery",
-   "items": [
-    {
-     "type": "img",
-     "src": "",
-     "placeholder": true
+      "type": "p",
+      "parts": [
+        "Our adult Shih Tzu are within the standard in terms of measurements."
+      ],
+      "center": false
     },
     {
-     "type": "img",
-     "src": "/__l5e/assets-v1/1474cc69-d095-4eae-87ca-9541ce3a8176/shihtzu_1348459_1.jpg",
-     "to": "shih-tzuh-en",
-     "dog": "1348459",
-     "tall": true,
-     "focus": "left"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "P: NATXO"
-   ],
-   "noSplit": true
-  },
-  {
-   "type": "p",
-   "parts": [
+      "type": "p",
+      "parts": [
+        "Our puppies are wormed, vaccinated, revaccinated and identified with microchip."
+      ],
+      "center": false
+    },
     {
-     "text": "M: BIG-FOOT DE THALEK FOLLOW YOUR DREAMS",
-     "to": "shih-tzuh-en",
-     "dog": "1348459"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Very expected new litter born in 2026."
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "NEW LITTER PLANNED"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "T LITTER"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    " P: "
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "M: "
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "We are planning our new litter on Summer 2017. Soon we will expand more information."
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Very serious enquires are wellcome."
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "p",
-   "parts": [
-    " READ THIS BEFORE YOU CONTACT US:"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    " Include also the following information to your e-mail: "
-   ],
-   "center": false
-  },
-  {
-   "type": "p",
-   "parts": [
-    " - short presentation about yourself and your family;"
-   ],
-   "center": false
-  },
-  {
-   "type": "p",
-   "parts": [
-    " - contact information (phone number and address);"
-   ],
-   "center": false
-  },
-  {
-   "type": "p",
-   "parts": [
-    " - your experience in Shih Tzu (or other breed) and your possible prefix."
-   ],
-   "center": false
-  },
-  {
-   "type": "p",
-   "parts": [
-    " We do not answer e-mails without name just asking a price!!! "
-   ],
-   "center": false
-  },
-  {
-   "type": "p",
-   "parts": [
-    " We are looking only for serious request."
-   ],
-   "center": false
-  },
-  {
-   "type": "p",
-   "parts": [
-    " We try to answer all inquiries. Sometimes it may take a few days for a reply."
-   ],
-   "center": false
-  },
-  {
-   "type": "p",
-   "parts": [
-    " Also y"
-   ],
-   "center": false
-  },
-  {
-   "type": "p",
-   "parts": [
-    "ou can also consult by phone +00 34 676 22 08 96."
-   ],
-   "center": false
-  },
-  {
-   "type": "p",
-   "parts": [
+      "type": "p",
+      "parts": [
+        "They are bred in a familiar atmosphere to guarantee their character. Not breed in cages."
+      ],
+      "center": false
+    },
     {
-     "text": "BFDT@hotmail.com",
-     "href": "mailto:BFDT@hotmail.com"
+      "type": "p",
+      "parts": [
+        "Show quality puppies."
+      ],
+      "center": false
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "NEW LITTER BORN"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "S LITTER"
+      ],
+      "heading": true
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/8caa9c73-1123-4ca2-8a05-6ef895f887ed/shihtzu_1109820_1.jpg",
+          "to": "shih-tzum-en",
+          "dog": "1109820"
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/6ca1f075-c287-41b2-83a8-58b95b091639/shihtzu_1348460_1.jpg",
+          "to": "shih-tzuh-en",
+          "dog": "1348460"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "P: JR.CH. MULTI CH. BIG-FOOT DE THALEK SPIRIT OF HAPPINESS",
+          "to": "shih-tzum-en",
+          "dog": "1109820"
+        }
+      ],
+      "noSplit": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: CH. BIG-FOOT DE THALEK GREATEST LOVE OF ALL",
+          "to": "shih-tzuh-en",
+          "dog": "1348460"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Very special litter born at end of 2016. Soon more information."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "No enquires."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Page will be updated with photos and news."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "L LITTER"
+      ]
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "",
+          "placeholder": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/1474cc69-d095-4eae-87ca-9541ce3a8176/shihtzu_1348459_1.jpg",
+          "to": "shih-tzuh-en",
+          "dog": "1348459",
+          "tall": true,
+          "focus": "left"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "P: NATXO"
+      ],
+      "noSplit": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: BIG-FOOT DE THALEK FOLLOW YOUR DREAMS",
+          "to": "shih-tzuh-en",
+          "dog": "1348459"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Very expected new litter born in 2026."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "NEW LITTER PLANNED"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "T LITTER"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " P: "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "M: "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We are planning our new litter on Summer 2017. Soon we will expand more information."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Very serious enquires are wellcome."
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        " READ THIS BEFORE YOU CONTACT US:"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Include also the following information to your e-mail: "
+      ],
+      "center": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        " - short presentation about yourself and your family;"
+      ],
+      "center": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        " - contact information (phone number and address);"
+      ],
+      "center": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        " - your experience in Shih Tzu (or other breed) and your possible prefix."
+      ],
+      "center": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        " We do not answer e-mails without name just asking a price!!! "
+      ],
+      "center": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        " We are looking only for serious request."
+      ],
+      "center": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        " We try to answer all inquiries. Sometimes it may take a few days for a reply."
+      ],
+      "center": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Also y"
+      ],
+      "center": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        "ou can also consult by phone +00 34 676 22 08 96."
+      ],
+      "center": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        }
+      ],
+      "center": false
     }
-   ],
-   "center": false
-  }
- ],
- "lang": "en"
+  ],
+  "lang": "en"
 }
