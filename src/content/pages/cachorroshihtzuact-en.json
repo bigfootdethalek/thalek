@@ -210,55 +210,64 @@
    "type": "p",
    "parts": [
     " Include also the following information to your e-mail: "
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     " - short presentation about yourself and your family;"
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     " - contact information (phone number and address);"
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     " - your experience in Shih Tzu (or other breed) and your possible prefix."
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     " We do not answer e-mails without name just asking a price!!! "
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     " We are looking only for serious request."
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     " We try to answer all inquiries. Sometimes it may take a few days for a reply."
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     " Also y"
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     "ou can also consult by phone +00 34 676 22 08 96."
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
@@ -267,7 +276,8 @@
      "text": "BFDT@hotmail.com",
      "href": "mailto:BFDT@hotmail.com"
     }
-   ]
+   ],
+   "center": false
   }
  ],
  "lang": "en"
