@@ -195,7 +195,7 @@ function splitGroups(blocks: Block[]): Block[][] {
     // Consecutive all-caps lines (e.g. a poem) stay together in one panel.
     // An explicit noSplit keeps a heading with the previous panel instead.
     const last = current[current.length - 1];
-    if (isHeadingBlock(b) && !b.noSplit && current.length && !(last && isHeadingBlock(last))) flush();
+    if (isHeadingBlock(b) && !("noSplit" in b && b.noSplit) && current.length && !(last && isHeadingBlock(last))) flush();
     if (b.type === "gallery" && current.length) {
       const groupHasGallery = current.some((x) => x.type === "gallery");
       if (groupHasGallery && last && last.type === "p" && !isHeadingBlock(last)) flush();
