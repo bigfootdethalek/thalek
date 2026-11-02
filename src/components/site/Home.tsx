@@ -1,7 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { inLang, legacySrc, type Lang, type Page } from "@/lib/content";
-import { SiteFooter, SiteHeader } from "./SiteHeader";
-import { PageBody } from "./PageBody";
+import { inLang, legacySrc, type Lang } from "@/lib/content";
 
 const copy = {
   es: {
@@ -16,7 +14,6 @@ const copy = {
     bob: "Especialistas en Bobtail desde nuestros comienzos como criadores.",
     males: "Machos",
     females: "Hembras",
-    news: "Últimas actualizaciones",
   },
   en: {
     eyebrow: "R.S.C.E. kennel 8.852 · Since 1995",
@@ -30,15 +27,11 @@ const copy = {
     bob: "Bobtail specialists since our very beginnings as breeders.",
     males: "Males",
     females: "Females",
-    news: "Latest updates",
   },
 };
 
-export function Home({ lang, updates }: { lang: Lang; updates: Page | null }) {
+export function Home({ lang }: { lang: Lang }) {
   const c = copy[lang];
-  const news = updates
-    ? updates.blocks.filter((b) => b.type === "p" && /^\s*\d{2}-\d{2}-\d{4}/.test(String(b.parts[0]))).slice(0, 8)
-    : [];
   const L = (slug: string) => ({ to: "/$slug" as const, params: { slug: inLang(slug, lang) } });
 
   return (
@@ -98,16 +91,6 @@ export function Home({ lang, updates }: { lang: Lang; updates: Page | null }) {
         </div>
       </section>
 
-      {news.length > 0 && (
-        <section className="bg-secondary">
-          <div className="mx-auto max-w-3xl px-5 py-16">
-            <h2 className="font-display text-4xl font-semibold text-primary">{c.news}</h2>
-            <div className="mt-6 [&_p]:border-b [&_p]:border-border [&_p]:pb-3">
-              <PageBody blocks={news} />
-            </div>
-          </div>
-        </section>
-      )}
       <SiteFooter lang={lang} />
     </div>
   );

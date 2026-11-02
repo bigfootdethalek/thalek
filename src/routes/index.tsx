@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { loadPage } from "@/lib/content";
 import { Home } from "@/components/site/Home";
 
 export const Route = createFileRoute("/")({
@@ -21,5 +20,5 @@ export const Route = createFileRoute("/")({
       { rel: "alternate", hrefLang: "en", href: "https://archive-to-studio-46.lovable.app/en" },
     ],
   }),
-  component: () => <Home lang="es" updates={Route.useLoaderData()} />,
+  component: () => <Home lang="es" />,
 });
