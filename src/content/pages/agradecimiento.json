@@ -121,8 +121,8 @@
       "parts": [
         "¡¡A TODOS VOSOTROS: GRACIAS!!"
       ],
-      "heading": false,
-      "center": true
+      "heading": true,
+      "noSplit": true
     },
     {
       "type": "p",
