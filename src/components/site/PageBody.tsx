@@ -70,8 +70,9 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
         }
         if (b.type === "gallery") {
           const single = b.items.length === 1;
+          const itemClass = single ? "" : "w-[calc(50%-0.375rem)] sm:w-[calc((100%-1.5rem)/3)]";
           return (
-            <div key={i} className={single ? "my-8 flex justify-center" : `my-8 grid grid-cols-2 gap-3 sm:grid-cols-3 ${align ? "mx-auto max-w-xl" : ""}`}>
+            <div key={i} className={single ? "my-8 flex justify-center" : `my-8 flex flex-wrap justify-center gap-3 ${align ? "mx-auto max-w-xl" : ""}`}>
               {b.items.map((it, j) => {
                 const img = (
                   <img
@@ -82,9 +83,9 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
                   />
                 );
                 return it.to && hasPage(it.to) ? (
-                  <Link key={j} to="/$slug" params={{ slug: it.to }} hash={it.dog ? `perro-${it.dog}` : undefined}>{img}</Link>
+                  <Link key={j} to="/$slug" params={{ slug: it.to }} hash={it.dog ? `perro-${it.dog}` : undefined} className={itemClass}>{img}</Link>
                 ) : (
-                  <div key={j}>{img}</div>
+                  <div key={j} className={itemClass}>{img}</div>
                 );
               })}
             </div>
