@@ -1,7 +1,7 @@
 # Roadmap
 
 - [x] Add verified Jerez 2025 results from the direct Facebook text post (2 November, Cosmo and Bosco)
-- [ ] Add the separate Jerez show of 1 November 2025 — awaiting its verified Facebook report and results
+- [x] Add the separate Jerez show of 1 November 2025 — verified in the same direct Facebook post: Cosmo, Excelente 1, CAC; Geoff Corish
 
 - [x] Gather accessible 2025 albums and photo-post captions, including Zaragoza found in Lulú's album
 - [x] Add Exposiciones 2025 in both languages with the shared 2026 format and archive links
