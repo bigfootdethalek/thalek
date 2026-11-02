@@ -97,6 +97,21 @@ function renderGroup(blocks: Block[], align: string) {
                     className={single ? "max-h-[520px] w-auto rounded-md shadow-soft" : "h-full w-full rounded-md object-cover shadow-soft transition hover:opacity-90"}
                   />
                 );
+                if (it.uniform) {
+                  const uniImg = (
+                    <img
+                      src={legacySrc(it.src)}
+                      alt=""
+                      loading="lazy"
+                      className="h-full w-auto max-w-full rounded-md shadow-soft"
+                    />
+                  );
+                  return it.to && hasPage(it.to) ? (
+                    <Link key={j} to="/$slug" params={{ slug: it.to }} {...(it.dog ? { hash: `perro-${it.dog}` } : {})} className="h-40 sm:h-[300px]">{uniImg}</Link>
+                  ) : (
+                    <div key={j} className="h-40 sm:h-[300px]">{uniImg}</div>
+                  );
+                }
                 if (it.tall) {
                   const tallImg = (
                     <img
