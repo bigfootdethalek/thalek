@@ -71,48 +71,15 @@ export type Database = {
         }
         Relationships: []
       }
-      profiles: {
-        Row: {
-          avatar_url: string
-          display_name: string
-          id: string
-        }
-        Insert: {
-          avatar_url?: string
-          display_name?: string
-          id: string
-        }
-        Update: {
-          avatar_url?: string
-          display_name?: string
-          id?: string
-        }
-        Relationships: []
-      }
-      user_roles: {
-        Row: {
-          role: Database["public"]["Enums"]["app_role"]
-          user_id: string
-        }
-        Insert: {
-          role: Database["public"]["Enums"]["app_role"]
-          user_id: string
-        }
-        Update: {
-          role?: Database["public"]["Enums"]["app_role"]
-          user_id?: string
-        }
-        Relationships: []
-      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      is_exhibition_editor: { Args: never; Returns: boolean }
+      [_ in never]: never
     }
     Enums: {
-      app_role: "editor"
+      [_ in never]: never
     }
     CompositeTypes: {
       [_ in never]: never
@@ -239,8 +206,6 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {
-      app_role: ["editor"],
-    },
+    Enums: {},
   },
 } as const
