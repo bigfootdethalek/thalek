@@ -77,7 +77,8 @@
      "to": "shih-tzum-en",
      "dog": "1109820"
     }
-   ]
+   ],
+   "noSplit": true
   },
   {
    "type": "p",
@@ -138,7 +139,8 @@
    "type": "p",
    "parts": [
     "P: NATXO"
-   ]
+   ],
+   "noSplit": true
   },
   {
    "type": "p",
