@@ -134,8 +134,9 @@ function renderGroup(blocks: Block[], align: string) {
         if (isHeading(text)) {
           // Lines grouped with neighbouring all-caps lines (a poem) keep the
           // original heading look instead of the large turquoise title style.
-          const poemLine =
-            (i > 0 && isHeadingBlock(blocks[i - 1])) || (i < blocks.length - 1 && isHeadingBlock(blocks[i + 1]));
+          const prev = i > 0 ? blocks[i - 1] : undefined;
+          const next = i < blocks.length - 1 ? blocks[i + 1] : undefined;
+          const poemLine = (prev && isHeadingBlock(prev)) || (next && isHeadingBlock(next));
           return (
             <h2
               key={i}
