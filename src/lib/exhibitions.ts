@@ -35,8 +35,9 @@ export function exhibitionBlocks(rows: Exhibition[], lang: Lang): Block[] {
       if (owner.length) blocks.push({type:'p',parts:[owner.join(' · ')],center:true});
     }
     const judge: Block = {type:'p',parts:[`${lang === 'es' ? 'Juez de Raza' : 'Breed Judge'}: ${lang === 'es' ? row.judge_es : row.judge_en}`],center:true};
-    const links: Block[] = [...new Set(rows.filter(r => r.status === 'approved' && `${r.event_date}|${r.event_es}` === show)
-      .map(r => r.source_url))]
+    const links: Block[] = [...new Map(rows.filter(r => r.status === 'approved' && `${r.event_date}|${r.event_es}` === show)
+      .map(r => [r.source_url.match(/[?&]set=a\.(\d+)/)?.[0] ?? r.source_url, r.source_url]))
+      .values()]
       .map(src => ({type:'p',parts:[{text:lang === 'es' ? 'Ver exposición en Facebook' : 'View show on Facebook',href:src}],center:true}));
     pendingTail = [judge, ...links];
   }
