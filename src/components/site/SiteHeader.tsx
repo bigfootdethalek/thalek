@@ -16,13 +16,23 @@ export function SiteHeader({ lang, twin }: { lang: Lang; twin?: string | null })
           Big-Foot <span className="italic text-foreground">de Thalek</span>
         </Link>
         <nav className="hidden items-center gap-1 lg:flex">
-          {nav.map((g) => (
+          {nav.map((g) =>
+            g.slug ? (
+              <Link
+                key={g.label.es}
+                to="/$slug"
+                params={{ slug: inLang(g.slug, lang) }}
+                className="rounded px-3 py-2 text-sm font-medium text-foreground hover:text-primary"
+              >
+                {g.label[lang]}
+              </Link>
+            ) : (
             <div key={g.label.es} className="group relative">
               <button className="flex items-center gap-1 rounded px-3 py-2 text-sm font-medium text-foreground hover:text-primary">
                 {g.label[lang]} <ChevronDown className="h-3.5 w-3.5" />
               </button>
               <div className="invisible absolute left-0 top-full min-w-52 rounded-md border border-border bg-popover p-2 opacity-0 shadow-soft transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
-                {g.items.map((i) => (
+                {g.items!.map((i) => (
                   <Link
                     key={i.slug}
                     to="/$slug"
