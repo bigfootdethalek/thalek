@@ -2,7 +2,7 @@ import { createFileRoute, notFound } from "@tanstack/react-router";
 import { langOf, loadPage, twinOf } from "@/lib/content";
 import { SiteFooter, SiteHeader } from "@/components/site/SiteHeader";
 import { PageBody } from "@/components/site/PageBody";
-import { DogGrid, dogPages } from "@/components/site/DogGrid";
+import { DogGrid, BobtailGrid, bobtailPages, dogPages } from "@/components/site/DogGrid";
 
 export const Route = createFileRoute("/$slug")({
   loader: async ({ params }) => {
@@ -36,6 +36,11 @@ function PageView() {
       {dogPages[slug] && (
         <div className="mx-auto max-w-6xl px-5 pt-12">
           <DogGrid sex={dogPages[slug]} lang={lang} />
+        </div>
+      )}
+      {bobtailPages[slug] && (
+        <div className="mx-auto max-w-6xl px-5 pt-12">
+          <BobtailGrid sex={bobtailPages[slug]} lang={lang} />
         </div>
       )}
       <main className="mx-auto max-w-3xl px-5 pt-12">
