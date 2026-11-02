@@ -1,0 +1,1 @@
+ALTER TABLE public.exhibitions ADD COLUMN extra_images text[] NOT NULL DEFAULT '{}';

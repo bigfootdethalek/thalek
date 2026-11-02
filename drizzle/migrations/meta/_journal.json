@@ -8,6 +8,13 @@
       "when": 1793643170566,
       "tag": "0000_exhibition_review",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793645454661,
+      "tag": "0001_exhibition_extra_photos",
+      "breakpoints": true
     }
   ]
 }
