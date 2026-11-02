@@ -14,6 +14,21 @@ function Inline({ part }: { part: Part }) {
   return <>{part.text}</>;
 }
 
+const SEX_ABBR: Record<string, string> = { MACHO: "M", HEMBRA: "H", MALE: "M", FEMALE: "F" };
+
+function CellContent({ cell }: { cell: Part[] }) {
+  const text = cell.map((p) => (typeof p === "string" ? p : p.text)).join("").trim();
+  const abbr = SEX_ABBR[text];
+  if (abbr)
+    return (
+      <>
+        <span className="sm:hidden">{abbr}</span>
+        <span className="hidden sm:inline">{cell.map((part, n) => <Inline key={n} part={part} />)}</span>
+      </>
+    );
+  return <>{cell.map((part, n) => <Inline key={n} part={part} />)}</>;
+}
+
 function isHeading(text: string) {
   const t = text.trim();
   return t.length > 2 && t.length < 70 && t === t.toUpperCase() && /[A-ZÁÉÍÓÚÑ]/.test(t);
@@ -43,7 +58,7 @@ export function PageBody({ blocks }: { blocks: Block[] }) {
                   <TableRow key={j}>
                     {row.map((cell, k) => (
                       <TableCell key={k} className={`border-r border-border py-4 text-center leading-relaxed sm:px-3 ${k === 1 ? "whitespace-nowrap px-1" : "whitespace-pre-line break-words px-2"}`}>
-                        {cell.map((part, n) => <Inline key={n} part={part} />)}
+                        <CellContent cell={cell} />
                       </TableCell>
                     ))}
                   </TableRow>
