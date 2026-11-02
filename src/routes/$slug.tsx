@@ -7,6 +7,7 @@ import { pageDescription, pageSearchLinks, PUBLIC_ORIGIN } from "@/lib/search-me
 import { NotFoundPage } from "@/components/site/NotFoundPage";
 import { publicExhibitions } from '@/lib/exhibitions.functions';
 import { exhibitionBlocks } from '@/lib/exhibitions';
+import { annualExhibitions } from '@/lib/annual-exhibitions';
 
 export const Route = createFileRoute("/$slug")({
   staticData: { sitemap: true },
@@ -17,7 +18,7 @@ export const Route = createFileRoute("/$slug")({
     if (exhibitionYear) {
       const year = `20${exhibitionYear[1]}`;
       const lang = langOf(params.slug);
-      const rows = (await publicExhibitions()).filter(r => r.event_date.startsWith(`${year}-`));
+      const rows = annualExhibitions[year] ?? (await publicExhibitions()).filter(r => r.event_date.startsWith(`${year}-`));
       page.blocks = [{type:'p',parts:[`${lang === 'es' ? 'EXPOSICIONES' : 'SHOWS'} ${year}`],heading:true},...exhibitionBlocks(rows,lang),{type:'p',parts:[{text:lang === 'es' ? 'Archivo de noticias' : 'News archive',to:lang === 'es' ? 'noticias-archivo' : 'noticias-archivo-en'}]}];
     }
     return { page, slug: params.slug };
