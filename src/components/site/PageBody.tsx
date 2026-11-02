@@ -125,7 +125,7 @@ function renderGroup(blocks: Block[], align: string) {
               key={i}
               className={`pt-4 font-display font-semibold text-primary ${align} ${
                 /^\s*[PM]:/.test(text)
-                  ? "text-[clamp(1.05rem,2.1vw,1.35rem)] leading-snug whitespace-nowrap"
+                  ? "text-[clamp(1.05rem,2.1vw,1.35rem)] leading-snug"
                   : "text-2xl"
               }`}
             >
