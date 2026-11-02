@@ -79,7 +79,7 @@ function renderGroup(blocks: Block[], align: string) {
           return (
             <nav key={i} aria-label="Años" className="mx-auto my-6 grid max-w-2xl grid-cols-4 gap-2 sm:grid-cols-6 md:grid-cols-8">
               {b.items.map((y) => (
-                <Link key={y.to} to="/$slug" params={{ slug: y.to }} className="rounded-full border border-accent/60 bg-card px-2 py-1.5 text-center text-sm font-semibold tracking-wide text-primary shadow-soft transition hover:-translate-y-0.5 hover:border-primary hover:bg-primary hover:text-primary-foreground">
+                <Link key={y.to} to="/$slug" params={{ slug: y.to }} className="rounded-full bg-turquoise px-2 py-1.5 text-center text-sm font-semibold tracking-wide text-turquoise-foreground shadow-soft transition hover:-translate-y-0.5 hover:opacity-90">
                   {y.text}
                 </Link>
               ))}
