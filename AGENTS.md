@@ -10,6 +10,7 @@
 <!-- LOVABLE:END -->
 
 ## Migrated legacy site
+- Annual news uses indexed bilingual legacy page JSON, with a separate archive page linking existing years without replacing them. Why: retain historical addresses and reuse the shared news presentation.
 - Preserve Google verification tags for existing accounts; additional account tags render directly in the shared HTML head to avoid same-name metadata deduplication.
 - Missing addresses render the shared branded NotFoundPage with typed links to real public sections and keep HTTP 404 status. Why: visitors following obsolete links can recover without creating soft-404 pages.
 - Search discovery uses a router-derived sitemap plus substantive legacy JSON pages; omit obsolete menu and alternate-home slugs and omit lastmod without authoritative page timestamps. Why: search engines need current public destinations, not invented update dates.
