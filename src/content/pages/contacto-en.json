@@ -6,6 +6,38 @@
     {
       "type": "p",
       "parts": [
+        "CONTACT INFORMATION"
+      ],
+      "heading": true,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Telephone and WhatsApp : + 34 676 22 08 96"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "E-mail: bfdt@hotmail.com"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "\n"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "URL : www.thalek.es"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
         "MEMBER OF"
       ],
       "heading": true,
@@ -27,38 +59,6 @@
       "type": "p",
       "parts": [
         "CAPPIE : Club of the Old English Shepherd Dog in Spain while it existed."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "CONTACT INFORMATION"
-      ],
-      "heading": true,
-      "center": true
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Telephone and WhatsApp : + 34 676 22 08 96"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "URL : www.thalek.es"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "\n"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "E-mail: bfdt@hotmail.com"
       ]
     }
   ]
