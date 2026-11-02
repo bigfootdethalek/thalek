@@ -8,6 +8,7 @@ const copy = {
     eyebrow: "Afijo R.S.C.E. 8.852 · Desde 1995",
     title: "Bobtail & Shih Tzu",
     sub: "Crianza selectiva y totalmente familiar.\nBienvenido al maravilloso mundo del Shih Tzu y el Bobtail.",
+    notice: "Estamos renovando nuestra antigua página para darle un toque más moderno, y la estamos poniendo al día poco a poco.",
     puppies: "Ver cachorros",
     champions: "Nuestros campeones",
     breeds: "Nuestras razas",
@@ -21,6 +22,7 @@ const copy = {
     eyebrow: "R.S.C.E. kennel 8.852 · Since 1995",
     title: "Bobtail & Shih Tzu",
     sub: "Selective, family-raised breeding in Burgos, Spain. Welcome to the wonderful world of the Shih Tzu and the Bobtail.",
+    notice: "We are renewing our old website to give it a more modern touch, and we are updating it little by little.",
     puppies: "See puppies",
     champions: "Our champions",
     breeds: "Our breeds",
@@ -51,6 +53,10 @@ export function Home({ lang, updates }: { lang: Lang; updates: Page | null }) {
             </h1>
             <p className="mt-3 font-display text-3xl italic opacity-90">{c.title}</p>
             <p className="mt-6 max-w-md text-base opacity-85">{c.sub}</p>
+            <p className="mt-3 flex items-start gap-2 max-w-md text-sm italic opacity-75">
+              <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" aria-hidden="true" />
+              {c.notice}
+            </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link {...L("cachorroshihtzuact")} className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-accent-foreground transition hover:opacity-90">
                 {c.puppies}
