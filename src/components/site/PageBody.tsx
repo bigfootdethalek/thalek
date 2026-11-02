@@ -146,7 +146,7 @@ function renderGroup(blocks: Block[], align: string) {
           return (
             <h2
               key={i}
-              className={`pt-4 font-display font-semibold ${align} ${
+              className={`pt-4 font-display font-semibold ${b.center ? "text-center" : align} ${
                 /^\s*[PM]:/.test(text)
                   ? "text-[clamp(1.05rem,2.1vw,1.35rem)] italic leading-snug text-turquoise"
                   : poemLine
