@@ -119,6 +119,14 @@ function renderGroup(blocks: Block[], align: string) {
           );
         }
         const text = b.parts.map((p) => (typeof p === "string" ? p : p.text)).join("");
+        if (b.type === "quote")
+          return (
+            <p key={i} className={`pt-4 text-center font-display text-xl italic leading-relaxed text-primary ${align}`}>
+              <span aria-hidden="true" className="mr-1 text-accent">«</span>
+              {b.parts.map((p, j) => <Inline key={j} part={p} />)}
+              <span aria-hidden="true" className="ml-1 text-accent">»</span>
+            </p>
+          );
         if (isHeading(text))
           return (
             <h2

@@ -3,6 +3,7 @@ import index from "@/content/index.json";
 export type Part = string | { text: string; to?: string; href?: string; dog?: string };
 export type Block =
   | { type: "p"; parts: Part[] }
+  | { type: "quote"; parts: Part[] }
   | { type: "table"; headers: string[]; rows: Part[][][] }
   | { type: "divider" }
   | { type: "gallery"; items: { type: "img"; src: string; to?: string; dog?: string; placeholder?: boolean; tall?: boolean; focus?: "left" | "right" }[] };
