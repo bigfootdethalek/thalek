@@ -144,6 +144,12 @@ function renderGroup(blocks: Block[], align: string) {
               {b.parts.map((p, j) => <Inline key={j} part={p} />)}
             </h2>
           );
+        if (b.lead)
+          return (
+            <p key={i} className={`text-center font-display text-2xl font-semibold italic leading-relaxed text-turquoise sm:text-3xl ${align}`}>
+              {b.parts.map((p, j) => <Inline key={j} part={p} />)}
+            </p>
+          );
         return (
           <p key={i} className="leading-relaxed text-foreground/90">
             {b.parts.map((p, j) => <Inline key={j} part={p} />)}
@@ -176,7 +182,7 @@ function splitGroups(blocks: Block[]): Block[][] {
     if (b.type === "gallery" && current.length) {
       const last = current[current.length - 1];
       const groupHasGallery = current.some((x) => x.type === "gallery");
-      if (groupHasGallery && last.type === "p" && !isHeadingBlock(last)) flush();
+      if (groupHasGallery && last && last.type === "p" && !isHeadingBlock(last)) flush();
     }
     current.push(b);
   }

@@ -2,7 +2,7 @@ import index from "@/content/index.json";
 
 export type Part = string | { text: string; to?: string; href?: string; dog?: string };
 export type Block =
-  | { type: "p"; parts: Part[] }
+  | { type: "p"; parts: Part[]; lead?: boolean }
   | { type: "quote"; parts: Part[] }
   | { type: "table"; headers: string[]; rows: Part[][][] }
   | { type: "divider" }
