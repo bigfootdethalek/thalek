@@ -34,7 +34,6 @@ const copy = {
     females: "Females",
     shihBreed: [
       "The Shih Tzu's strongest trait is its personality. It is fun and affectionate, never aggressive, and an excellent companion for children and adults. It is alert, lively and enjoys a good walk. It can play for hours and not a day will go by without it making you laugh. More than anything it loves people's company and affection. It happily entertains any stranger and gives its affection to the person closest to it. It is wonderful with children: it will play with them for hours, and the question is who will tire first, the children or the dog?",
-      "Our Shih Tzu come from American and European lines.",
     ],
   },
 };
