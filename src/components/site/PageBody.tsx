@@ -83,7 +83,7 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
                   />
                 );
                 return it.to && hasPage(it.to) ? (
-                  <Link key={j} to="/$slug" params={{ slug: it.to }} hash={it.dog ? `perro-${it.dog}` : undefined} className={itemClass}>{img}</Link>
+                  <Link key={j} to="/$slug" params={{ slug: it.to }} {...(it.dog ? { hash: `perro-${it.dog}` } : {})} className={itemClass}>{img}</Link>
                 ) : (
                   <div key={j} className={itemClass}>{img}</div>
                 );
