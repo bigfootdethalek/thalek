@@ -1,1 +1,95 @@
-{"file":"album_turismo_en.htm","title":"Of tourism","blocks":[{"type":"p","parts":[" PICS"]},{"type":"p","parts":["Aquí podéis ver algunas fotos que tenemos de nuestro hogar, los alrededores y sitios turísticos."]},{"type":"p","parts":["Pincha sobre la foto que quieras ver ampliada."]},{"type":"gallery","items":[{"type":"img","src":"images/hogar/CASA3_small.jpg"},{"type":"img","src":"images/hogar/CASA1_small.jpg"},{"type":"img","src":"images/hogar/CASA2_small.jpg"},{"type":"img","src":"images/hogar/CASA4_small.jpg"},{"type":"img","src":"images/hogar/ALREDEDORES_small.JPG"},{"type":"img","src":"images/hogar/ALREDEDORES2_small.JPG"},{"type":"img","src":"images/hogar/ALREDEDORES3_small.JPG"},{"type":"img","src":"images/hogar/ALREDEDORES4_small.JPG"},{"type":"img","src":"images/hogar/ALREDEDORES5_small.JPG"},{"type":"img","src":"images/hogar/ALREDEDORES6_small.JPG"},{"type":"img","src":"images/hogar/ALREDEDORES7_small.JPG"},{"type":"img","src":"images/hogar/ALREDEDORES8_small.JPG"}]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+ "file": "album_turismo_en.htm",
+ "title": "Of tourism",
+ "blocks": [
+  {
+   "type": "p",
+   "parts": [
+    " PICS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Here you can see some photos of our home, the surrounding area and tourist attractions."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Click on the photo you would like to enlarge."
+   ]
+  },
+  {
+   "type": "gallery",
+   "items": [
+    {
+     "type": "img",
+     "src": "images/hogar/CASA3_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "images/hogar/CASA1_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "images/hogar/CASA2_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "images/hogar/CASA4_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "images/hogar/ALREDEDORES_small.JPG"
+    },
+    {
+     "type": "img",
+     "src": "images/hogar/ALREDEDORES2_small.JPG"
+    },
+    {
+     "type": "img",
+     "src": "images/hogar/ALREDEDORES3_small.JPG"
+    },
+    {
+     "type": "img",
+     "src": "images/hogar/ALREDEDORES4_small.JPG"
+    },
+    {
+     "type": "img",
+     "src": "images/hogar/ALREDEDORES5_small.JPG"
+    },
+    {
+     "type": "img",
+     "src": "images/hogar/ALREDEDORES6_small.JPG"
+    },
+    {
+     "type": "img",
+     "src": "images/hogar/ALREDEDORES7_small.JPG"
+    },
+    {
+     "type": "img",
+     "src": "images/hogar/ALREDEDORES8_small.JPG"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
+}

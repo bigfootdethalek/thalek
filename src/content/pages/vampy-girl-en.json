@@ -1,93 +1,93 @@
 {
-  "file": "vampy_girl_en.htm",
-  "title": "Vampy Girl Of Big-Foot de Thalek",
-  "blocks": [
+ "file": "vampy_girl_en.htm",
+ "title": "Vampy Girl Of Big-Foot de Thalek",
+ "blocks": [
+  {
+   "type": "gallery",
+   "items": [
     {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Vampy/08VAMPY_EXPOSICION.jpg"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " Vampy Girl Of Big-Foot de Thalek"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "(VAMPY)"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "7/7/2000 - 2/8/2012"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Female born on 7 de Julio de 2000. HD: B-A. Shoulder height: 59 cm."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Parents DNA-identified at the Faculty of Veterinary Medicine in León."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "From the cross of our female Wanda and Multi Ch. Impact Performance, a male from Brinkley lines and very old lines such as Pockethall."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Ella posee una silueta muy femenina, con una excelente cabeza, ojos marrones oscuros con excelente pigmentación y buenas angulaciones. Su movimiento es muy típico y armonioso."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "De momento Vampy ha salido a ring en clase cachorro y abierta, obteniendo muy buenos resultados. Ahora vive retirada a la vida en contemplación."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Se aprecia en ella el porte y la elegancia en el movimiento de su madre, su gran inteligencia y capacidad de aprendizaje."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "PICS"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "We make web pages",
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        },
-        "."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Edit and update © Big-Foot de Thalek."
-      ]
+     "type": "img",
+     "src": "fotos/Criadero/Vampy/08VAMPY_EXPOSICION.jpg"
     }
-  ],
-  "lang": "en"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " Vampy Girl Of Big-Foot de Thalek"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "(VAMPY)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "7/7/2000 - 2/8/2012"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Female born on July 7, 2000. HD: B-A. Shoulder height: 59 cm."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Parents DNA-identified at the Faculty of Veterinary Medicine in León."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "From the cross of our female Wanda and Multi Ch. Impact Performance, a male from Brinkley lines and very old lines such as Pockethall."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "She has a very feminine outline, with an excellent head, dark brown eyes with excellent pigmentation and good angulation. Her movement is very typical and harmonious."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "So far, Vampy has appeared in the ring in puppy and open classes, achieving very good results. She now enjoys a quiet life in retirement."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Her mother's bearing and elegance of movement, great intelligence and ability to learn are evident in her."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "PICS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
 }

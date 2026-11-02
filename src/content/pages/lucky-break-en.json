@@ -1,87 +1,87 @@
 {
-  "file": "lucky_break_en.htm",
-  "title": "Lucky Break",
-  "blocks": [
+ "file": "lucky_break_en.htm",
+ "title": "Lucky Break",
+ "blocks": [
+  {
+   "type": "gallery",
+   "items": [
     {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Lucky/Oviedo 14 Nac 01.jpg"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Jch.pt. Big-Foot de Thalek Lucky Break"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " (LUCKY)"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Owner Jessica"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Male blanco y dorado born on 27 of October de 2011."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "PORTUGAL JUNIOR CHAMPION"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "From the cross of our latest import, Feel The Angel (Dandy), with our female Clear Spring (Yazmine), daughter of our Champion Amistad Sincera (Miss), this beautiful dog was born."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "She is now living with our friend Jessica and her furry companions in A Coruña. We are grateful for the trust she has placed in us, our dogs and our breeding."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "We hope and wish her a successful show career."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "PHOTOS"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "We make web pages",
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        },
-        "."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Edit and update © Big-Foot de Thalek."
-      ]
+     "type": "img",
+     "src": "fotos/Criadero/Lucky/Oviedo 14 Nac 01.jpg"
     }
-  ],
-  "lang": "en"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Jch.pt. Big-Foot de Thalek Lucky Break"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " (LUCKY)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Owner Jessica"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Male white and gold born on 27 of October of 2011."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "PORTUGAL JUNIOR CHAMPION"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "From the cross of our latest import, Feel The Angel (Dandy), with our female Clear Spring (Yazmine), daughter of our Champion Amistad Sincera (Miss), this beautiful dog was born."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "She is now living with our friend Jessica and her furry companions in A Coruña. We are grateful for the trust she has placed in us, our dogs and our breeding."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We hope and wish her a successful show career."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "PHOTOS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
 }

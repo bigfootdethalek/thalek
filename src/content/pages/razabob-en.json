@@ -1,1 +1,39 @@
-{"file":"razabob_en.htm","title":"Breed","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/London/mini 17.jpg"}]},{"type":"p","parts":["El Bobtail es un perro afectuoso, desbordante de energía y de temperamento alegre, siempre dispuesto a bromear. Es una de las razas más características y distinguidas. Su aspecto, con una abundante capa de pelo, y con un carácter afable y hogareño, hacen del Antiguo Perro de Pastor Inglés uno de los más leales y fascinantes compañeros para la vida familiar."]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+ "file": "razabob_en.htm",
+ "title": "Breed",
+ "blocks": [
+  {
+   "type": "gallery",
+   "items": [
+    {
+     "type": "img",
+     "src": "fotos/Criadero/London/mini 17.jpg"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "The Bobtail is an affectionate dog, brimming with energy and blessed with a cheerful temperament, always ready to play. It is one of the most distinctive and distinguished breeds. With its abundant coat and gentle, home-loving nature, the Old English Sheepdog is one of the most loyal and fascinating companions for family life."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
+}

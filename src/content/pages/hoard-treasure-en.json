@@ -1,69 +1,69 @@
 {
-  "file": "hoard_treasure_en.htm",
-  "title": "Big-Foot de Thalek Hoard Treasure",
-  "blocks": [
+ "file": "hoard_treasure_en.htm",
+ "title": "Big-Foot de Thalek Hoard Treasure",
+ "blocks": [
+  {
+   "type": "gallery",
+   "items": [
     {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "fotos/colin/H_HOARDTREASURECAB5MES_small1.JPG"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Big-Foot de Thalek Hoard Treasure"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "(COLIN)"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Macho nacido el 10 de Diciembre de 2004. HD: ?. Altura a la cruz: 65 cm."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Fruto del cruce de nuestro espectacular semental Zottels Happily Ever After con nuestra hembra Wanda uniendo las más importantes líneas de sangre europeas en su pedigree. "
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Ahora está viviendo con nuestros amigos Luis y Laura en Madrid."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "PICS"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "We make web pages",
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        },
-        "."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Edit and update © Big-Foot de Thalek."
-      ]
+     "type": "img",
+     "src": "fotos/colin/H_HOARDTREASURECAB5MES_small1.JPG"
     }
-  ],
-  "lang": "en"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Big-Foot de Thalek Hoard Treasure"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "(COLIN)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Male born on December 10, 2004. HD: ?. Shoulder height: 65 cm."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "From the cross of our spectacular stud dog Zottels Happily Ever After with our female Wanda, combining the most important European bloodlines in his pedigree. "
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "He now lives with our friends Luis and Laura in Madrid."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "PICS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
 }

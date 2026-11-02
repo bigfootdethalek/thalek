@@ -1,97 +1,97 @@
 {
-  "file": "nothing_is_impossible_en.htm",
-  "title": "Ch.Nothing Is Impossible",
-  "blocks": [
+ "file": "nothing_is_impossible_en.htm",
+ "title": "Ch.Nothing Is Impossible",
+ "blocks": [
+  {
+   "type": "gallery",
+   "items": [
     {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "images/dibujos/sh110.jpg"
-        },
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Texas/DSC08133.JPG"
-        }
-      ]
+     "type": "img",
+     "src": "images/dibujos/sh110.jpg"
     },
     {
-      "type": "p",
-      "parts": [
-        "Jch.e.,ch. Big-Foot de Thalek Nothing Is Impossible"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " (TEXAS)"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Macho blanco y dorado nacido el 18 de agosto de 2014. Altura a la cruz: cm. Peso: Kg."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "CAMPEÓN JOVEN EN ESPAÑA DE BELLEZA"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "CAMPEÓN EN ESPAÑA DE BELLEZA (P.H.)"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Identificado por ADN en la Real Sociedad Canina de España."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " Fruto del cruce de nuestra preciosa importación Feel The Angel (Dandy) con nuestra con nuestra hembra A Lovely Dream (Funny) madre de nuestros multi campeones Junior y Chanel y abuela de varios campeones como Dragon, Storm..."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Actualmente compitiendo en los rings."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Nos sentimos muy felices de haber criado este pequeño en nuestra casa."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "FOTOS"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "We make web pages",
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        },
-        "."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Edit and update © Big-Foot de Thalek."
-      ]
+     "type": "img",
+     "src": "fotos/Criadero/Texas/DSC08133.JPG"
     }
-  ],
-  "lang": "en"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Jch.e.,ch. Big-Foot de Thalek Nothing Is Impossible"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " (TEXAS)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "White and gold Male born on August 18, 2014. Shoulder height: cm. Weight: Kg."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "SPANISH JUNIOR BEAUTY CHAMPION"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "SPANISH BEAUTY CHAMPION (P.H.)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "DNA-identified at the Real Sociedad Canina de España."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " From the cross of our beautiful import Feel The Angel (Dandy) with our female A Lovely Dream (Funny), mother of our multi-champions Junior and Chanel and grandmother of several champions such as Dragon, Storm..."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Currently competing in the show rings."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We are very happy to have bred this little boy in our home."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "PHOTOS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
 }
