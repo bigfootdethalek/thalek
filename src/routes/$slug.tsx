@@ -57,10 +57,10 @@ function PageView() {
       )}
       <main className={`mx-auto ${hasTable ? "max-w-4xl" : "max-w-3xl"} px-5 pt-12`}>
         <p className="eyebrow text-accent">Big-Foot de Thalek</p>
-        <h1 className="mt-2 font-display text-4xl font-semibold text-foreground md:text-5xl">{page.title}</h1>
+        <h1 className="mt-2 font-display text-4xl font-semibold italic text-turquoise md:text-5xl">{page.title}</h1>
         <div className="mt-6 h-px w-24 bg-accent" />
         <div className="mt-8">
-          <PageBody blocks={page.blocks} center={centered} firstAsPanel={slug === "criadero" || slug === "criadero-en"} />
+          <PageBody blocks={page.blocks} center={centered} firstAsPanel={["criadero", "criadero-en", "mis-perros", "mis-perros-en"].includes(slug)} />
         </div>
       </main>
       <SiteFooter lang={lang} />

@@ -1,1 +1,178 @@
-{"file":"mis_perros.htm","title":"Mis Perros","blocks":[{"type":"p","parts":["Big-Foot de Thalek"]},{"type":"gallery","items":[{"type":"img","src":"fotos/familia/THALEK1_small.jpg"},{"type":"img","src":"fotos/familia/TODOS2_small.jpg"},{"type":"img","src":"fotos/familia/BOSCATHAILA_small.jpg"},{"type":"img","src":"fotos/miss/MISS19MESES_small1.jpg"},{"type":"img","src":"fotos/familia/ZOTTELSAROATUM_small.jpg"},{"type":"img","src":"fotos/familia/THUBOS2_small.jpg"},{"type":"img","src":"fotos/familia/THUNDERLONDONAROA_small.jpg"}]},{"type":"p","parts":["Ésta es parte de mi familia. Todo gira entorno a ellos porque su carácter alegre, su afectuosidad, su energía te arrastra con ellos. Convivir con ellos ha cambiado mi vida. Con ellos he aprendido a valorar sus mejores cualidades, entre las que destaca su carácter y belleza. Nunca me canso de admirarlos."]},{"type":"gallery","items":[{"type":"img","src":"fotos/familia/FAMILIA_small.jpg"},{"type":"img","src":"fotos/familia/VAMPYMISS_small.jpg"},{"type":"img","src":"fotos/thaila/THAILAYO_small.jpg"},{"type":"img","src":"fotos/miss/MISSYOFRENTE_small.jpg"}]},{"type":"p","parts":["Otra cosa realmente bella es la unión que existe entre ellos. Son un grupo inseparable en el cual todos tienen su cometido. También valoro su compañía que resulta muy grata y reconfortante. Con ellos paso muchas horas de mi vida y pasaría más si tuviese más tiempo."]},{"type":"gallery","items":[{"type":"img","src":"fotos/familia/A_CACHORROS_small.jpg"},{"type":"img","src":"fotos/familia/BOSCAS_small.jpg"},{"type":"img","src":"fotos/miss/MISSMOON_small.jpg"},{"type":"img","src":"fotos/familia/C_CAMADA58D_small.jpg"},{"type":"img","src":"fotos/familia/G_CAMADA8SEM_small.jpg"}]},{"type":"p","parts":["Es muy divertido intentar colocar a nueve perros para sacar una foto y más si son cachorros dispuestos a toda clase de juegos. Aunque a veces ellos posan muy bien y salen fotos así. "]},{"type":"gallery","items":[{"type":"img","src":"fotos/miss/MISSDORMIDA_small.jpg"},{"type":"img","src":"fotos/thaila/THAILAESPERA_small.jpg"},{"type":"img","src":"fotos/bosca/BOSCAPEINANDO_small.jpg"},{"type":"img","src":"fotos/bosca/BOSCARING_small.jpg"},{"type":"img","src":"fotos/thaila/THAILAGRUPO_small.jpg"},{"type":"img","src":"fotos/bosca/BOSCABIS_small.jpg"},{"type":"img","src":"fotos/miss/MISSGRUPOTORRE_small1.jpg"},{"type":"img","src":"fotos/bosca/BOSCALEONBIS2_small.jpg"},{"type":"img","src":"fotos/london/ZOTTELSEUROPEA2BESTOFGROUPDER_small.jpg"},{"type":"img","src":"fotos/london/ZOTTELSIZD11MESYMEDMONO2_small1.jpg"},{"type":"img","src":"fotos/thunder/THUNDERGRUPOPOMBAL_small.jpg"},{"type":"img","src":"fotos/london/LONTHA2PAREJAMONO_small.jpg"}]},{"type":"p","parts":["Pasamos tiempos de espera y de sueño a la puerta de ring en las exposiciones. ¡¡Menuda paciencia que tienen!!Largas horas de preparación para estar a punto y con todas sus cualidades resaltadas. Al final, después de la valoración de los jueces en el ring, el esfuerzo se ve recompensado y se logra el triunfo."]}],"lang":"es"}
+{
+ "file": "mis_perros.htm",
+ "title": "Mis Perros",
+ "blocks": [
+  {
+   "type": "p",
+   "parts": [
+    "Big-Foot de Thalek"
+   ]
+  },
+  {
+   "type": "gallery",
+   "items": [
+    {
+     "type": "img",
+     "src": "fotos/familia/THALEK1_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/familia/TODOS2_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/familia/BOSCATHAILA_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/miss/MISS19MESES_small1.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/familia/ZOTTELSAROATUM_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/familia/THUBOS2_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/familia/THUNDERLONDONAROA_small.jpg"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Ésta es parte de mi familia. Todo gira entorno a ellos porque su carácter alegre, su afectuosidad, su energía te arrastra con ellos. Convivir con ellos ha cambiado mi vida. Con ellos he aprendido a valorar sus mejores cualidades, entre las que destaca su carácter y belleza. Nunca me canso de admirarlos."
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "gallery",
+   "items": [
+    {
+     "type": "img",
+     "src": "fotos/familia/FAMILIA_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/familia/VAMPYMISS_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/thaila/THAILAYO_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/miss/MISSYOFRENTE_small.jpg"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Otra cosa realmente bella es la unión que existe entre ellos. Son un grupo inseparable en el cual todos tienen su cometido. También valoro su compañía que resulta muy grata y reconfortante. Con ellos paso muchas horas de mi vida y pasaría más si tuviese más tiempo."
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "gallery",
+   "items": [
+    {
+     "type": "img",
+     "src": "fotos/familia/A_CACHORROS_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/familia/BOSCAS_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/miss/MISSMOON_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/familia/C_CAMADA58D_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/familia/G_CAMADA8SEM_small.jpg"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Es muy divertido intentar colocar a nueve perros para sacar una foto y más si son cachorros dispuestos a toda clase de juegos. Aunque a veces ellos posan muy bien y salen fotos así. "
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "gallery",
+   "items": [
+    {
+     "type": "img",
+     "src": "fotos/miss/MISSDORMIDA_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/thaila/THAILAESPERA_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/bosca/BOSCAPEINANDO_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/bosca/BOSCARING_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/thaila/THAILAGRUPO_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/bosca/BOSCABIS_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/miss/MISSGRUPOTORRE_small1.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/bosca/BOSCALEONBIS2_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/london/ZOTTELSEUROPEA2BESTOFGROUPDER_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/london/ZOTTELSIZD11MESYMEDMONO2_small1.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/thunder/THUNDERGRUPOPOMBAL_small.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/london/LONTHA2PAREJAMONO_small.jpg"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Pasamos tiempos de espera y de sueño a la puerta de ring en las exposiciones. ¡¡Menuda paciencia que tienen!!Largas horas de preparación para estar a punto y con todas sus cualidades resaltadas. Al final, después de la valoración de los jueces en el ring, el esfuerzo se ve recompensado y se logra el triunfo."
+   ]
+  }
+ ],
+ "lang": "es"
+}

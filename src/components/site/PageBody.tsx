@@ -135,10 +135,10 @@ function renderGroup(blocks: Block[], align: string) {
           return (
             <h2
               key={i}
-              className={`pt-4 font-display font-semibold text-primary ${align} ${
+              className={`pt-4 font-display font-semibold italic text-turquoise ${align} ${
                 /^\s*[PM]:/.test(text)
-                  ? "text-[clamp(1.05rem,2.1vw,1.35rem)] leading-snug"
-                  : "text-2xl"
+                  ? "text-[clamp(1.05rem,2.1vw,1.35rem)] leading-snug not-italic"
+                  : "text-3xl"
               }`}
             >
               {b.parts.map((p, j) => <Inline key={j} part={p} />)}
