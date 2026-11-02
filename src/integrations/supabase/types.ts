@@ -22,6 +22,7 @@ export type Database = {
           event_date: string
           event_en: string
           event_es: string
+          extra_images: string[]
           id: string
           image_url: string
           judge_en: string
@@ -39,6 +40,7 @@ export type Database = {
           event_date: string
           event_en: string
           event_es: string
+          extra_images?: string[]
           id?: string
           image_url?: string
           judge_en: string
@@ -56,6 +58,7 @@ export type Database = {
           event_date?: string
           event_en?: string
           event_es?: string
+          extra_images?: string[]
           id?: string
           image_url?: string
           judge_en?: string
