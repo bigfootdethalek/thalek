@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { ChevronDown, Facebook, Instagram, Menu, X } from "lucide-react";
 import { inLang, nav, type Lang } from "@/lib/content";
 
 export function SiteHeader({ lang, twin }: { lang: Lang; twin?: string | null }) {
