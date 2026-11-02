@@ -15,6 +15,13 @@
       "when": 1793645454661,
       "tag": "0001_exhibition_extra_photos",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793648739047,
+      "tag": "0002_annual_exhibition_source_details",
+      "breakpoints": true
     }
   ]
 }
