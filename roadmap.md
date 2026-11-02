@@ -22,3 +22,4 @@
 - [x] Remove Junior Handling texts of Adrián from all annual news files (2018–2025)
 - [x] Write "Muy Prometedor 1" in full instead of "MP 1" (EN: "Very Promising 1")
 - [x] Botonera de años en turquesa en Archivo de noticias
+- [x] Put every English page fully in English (translated 634 Spanish strings across ~100 *-en.json pages: kennel story, acknowledgements, dog profiles, pedigree tables, breed standards, care pages, legacy news); verified in the browser with no Spanish left
