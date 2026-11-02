@@ -15,4 +15,4 @@
 - [x] Link Camada K parents (text and photo) each to its own dog card via deep links (/shih-tzum#perro-1109820, /shih-tzuh#perro-1348460)
 - [ ] Restyle legacy page titles (italic, bold, large, turquoise) and give Mis Perros the panel/ornament layout
 - [x] Restyle legacy page titles (italic, bold, large, turquoise) and give Mis Perros the panel/ornament layout
-- [ ] Apply sectioned panel layout with ornaments to most legacy content pages
+- [x] Apply sectioned panel layout with ornaments to most legacy content pages
