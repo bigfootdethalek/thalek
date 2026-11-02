@@ -17,7 +17,7 @@ const copy = {
     females: "Hembras",
     shihBreed: [
       "La característica más fuerte del Shih Tzu es su personalidad. Es divertido y cariñoso, para nada agresivo y un excelente compañero para niños y adultos. Es alerta, vivaz y disfruta de un buen paseo. Puede jugar por horas y no habrá día en que no le haga reír. Ama más que nada la compañía y el afecto de la gente. Es feliz entreteniendo a cualquier extraño y concede su afecto a la persona más cercana. Es grandioso con los niños. Jugará con ellos por horas y la pregunta es: ¿Quiénes se cansarán primero: los niños o el perro?",
-      "Nuestros Shih Tzu proceden de líneas americanas y europeas.",
+      "Alta selección de Shih Tzu, con las mejores líneas americanas y europeas.",
     ],
   },
   en: {
