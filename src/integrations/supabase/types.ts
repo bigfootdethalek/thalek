@@ -18,6 +18,7 @@ export type Database = {
         Row: {
           award_en: string
           award_es: string
+          breed: string
           dog_name: string
           event_date: string
           event_en: string
@@ -27,6 +28,8 @@ export type Database = {
           image_url: string
           judge_en: string
           judge_es: string
+          notes_en: string
+          notes_es: string
           results_en: string
           results_es: string
           source_url: string
@@ -36,6 +39,7 @@ export type Database = {
         Insert: {
           award_en?: string
           award_es?: string
+          breed?: string
           dog_name: string
           event_date: string
           event_en: string
@@ -45,6 +49,8 @@ export type Database = {
           image_url?: string
           judge_en: string
           judge_es: string
+          notes_en?: string
+          notes_es?: string
           results_en: string
           results_es: string
           source_url: string
@@ -54,6 +60,7 @@ export type Database = {
         Update: {
           award_en?: string
           award_es?: string
+          breed?: string
           dog_name?: string
           event_date?: string
           event_en?: string
@@ -63,6 +70,8 @@ export type Database = {
           image_url?: string
           judge_en?: string
           judge_es?: string
+          notes_en?: string
+          notes_es?: string
           results_en?: string
           results_es?: string
           source_url?: string

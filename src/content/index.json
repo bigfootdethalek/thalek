@@ -2544,6 +2544,30 @@
     "l": "en",
     "i": null
   },
+  "noticias18": { "t": "Exposiciones 2018", "l": "es", "i": null },
+  "noticias18-en": { "t": "Shows 2018", "l": "en", "i": null },
+  "noticias19": { "t": "Exposiciones 2019", "l": "es", "i": null },
+  "noticias19-en": { "t": "Shows 2019", "l": "en", "i": null },
+  "noticias20": { "t": "Exposiciones 2020", "l": "es", "i": null },
+  "noticias20-en": { "t": "Shows 2020", "l": "en", "i": null },
+  "noticias21": { "t": "Exposiciones 2021", "l": "es", "i": null },
+  "noticias21-en": { "t": "Shows 2021", "l": "en", "i": null },
+  "noticias22": { "t": "Exposiciones 2022", "l": "es", "i": null },
+  "noticias22-en": { "t": "Shows 2022", "l": "en", "i": null },
+  "noticias23": { "t": "Exposiciones 2023", "l": "es", "i": null },
+  "noticias23-en": { "t": "Shows 2023", "l": "en", "i": null },
+  "noticias24": { "t": "Exposiciones 2024", "l": "es", "i": null },
+  "noticias24-en": { "t": "Shows 2024", "l": "en", "i": null },
+  "noticias25": {
+    "t": "Exposiciones 2025",
+    "l": "es",
+    "i": null
+  },
+  "noticias25-en": {
+    "t": "Shows 2025",
+    "l": "en",
+    "i": null
+  },
   "noticias26": {
     "t": "Noticias 2026",
     "l": "es",

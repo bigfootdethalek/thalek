@@ -7,16 +7,19 @@ import { pageDescription, pageSearchLinks, PUBLIC_ORIGIN } from "@/lib/search-me
 import { NotFoundPage } from "@/components/site/NotFoundPage";
 import { publicExhibitions } from '@/lib/exhibitions.functions';
 import { exhibitionBlocks } from '@/lib/exhibitions';
+import { annualExhibitions } from '@/lib/annual-exhibitions';
 
 export const Route = createFileRoute("/$slug")({
   staticData: { sitemap: true },
   loader: async ({ params }) => {
     const page = await loadPage(params.slug);
     if (!page) throw notFound();
-    if (params.slug === 'noticias26' || params.slug === 'noticias26-en') {
+    const exhibitionYear = /^noticias(1[89]|2[0-6])(?:-en)?$/.exec(params.slug);
+    if (exhibitionYear) {
+      const year = `20${exhibitionYear[1]}`;
       const lang = langOf(params.slug);
-      const rows = (await publicExhibitions()).filter(r => r.event_date.startsWith('2026-'));
-      page.blocks = [{type:'p',parts:[lang === 'es' ? 'EXPOSICIONES 2026' : 'SHOWS 2026'],heading:true},...exhibitionBlocks(rows,lang),{type:'p',parts:[{text:lang === 'es' ? 'Archivo de noticias' : 'News archive',to:lang === 'es' ? 'noticias-archivo' : 'noticias-archivo-en'}]}];
+      const rows = annualExhibitions[year] ?? (await publicExhibitions()).filter(r => r.event_date.startsWith(`${year}-`));
+      page.blocks = [{type:'p',parts:[`${lang === 'es' ? 'EXPOSICIONES' : 'SHOWS'} ${year}`],heading:true},...exhibitionBlocks(rows,lang),{type:'p',parts:[{text:lang === 'es' ? 'Archivo de noticias' : 'News archive',to:lang === 'es' ? 'noticias-archivo' : 'noticias-archivo-en'}]}];
     }
     return { page, slug: params.slug };
   },

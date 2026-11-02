@@ -1,0 +1,46 @@
+[
+  {
+    "event_date": "2021-06-26",
+    "event_es": "Exposición Nacional Canina de Cantabria",
+    "event_en": "National Dog Show of Cantabria",
+    "dog_name": "Big-Foot de Thalek Zeus’ Lightning - Zeus",
+    "breed": "Shih Tzu",
+    "image_url": "/__l5e/assets-v1/46418791-29b3-4cfe-ad92-03e4f989ce9c/show-10223317759305528.jpg",
+    "extra_images": [
+      "/__l5e/assets-v1/78fec2bc-34a3-4d9c-baf6-22c2d15a676a/show-10223348379791021.jpg"
+    ],
+    "source_url": "https://www.facebook.com/photo/?fbid=10223348379791021&set=a.10223317765945694",
+    "status": "approved",
+    "results_es": "Excelente 1, CCJ, Mejor Joven Macho, Mejor Macho, BOS",
+    "award_es": "CANTÁBRICO WINNER",
+    "judge_es": "Jose Homem de Mello (Portugal)",
+    "notes_es": "Regreso a las exposiciones tras 14 meses de pausa por la COVID. Primera exposición de Zeus y Naroa.",
+    "results_en": "Exc. 1, CCJ, Best Junior Male, Best Male, BOS",
+    "award_en": "CANTÁBRICO WINNER",
+    "judge_en": "Jose Homem de Mello (Portugal)",
+    "notes_en": "Return to shows after a 14-month break due to COVID. First show for Zeus and Naroa.",
+    "id": "0378dd2e-e317-571f-a8cd-fcf9f9e59b9b",
+    "updated_at": "2026-11-02T19:41:00Z"
+  },
+  {
+    "event_date": "2021-06-26",
+    "event_es": "Exposición Nacional Canina de Cantabria",
+    "event_en": "National Dog Show of Cantabria",
+    "dog_name": "Big-Foot de Thalek You Are The Only One - Naroa",
+    "breed": "Shih Tzu",
+    "image_url": "/__l5e/assets-v1/8936a9de-44f4-4fe6-9651-deabb28c7558/show-10223320292528857.jpg",
+    "extra_images": [],
+    "source_url": "https://www.facebook.com/photo/?fbid=10223320292528857&set=a.10223317765945694",
+    "status": "approved",
+    "results_es": "Excelente 1, CCJ, Mejor de Raza Joven, Mejor Hembra, Mejor de Raza",
+    "award_es": "CANTÁBRICO WINNER",
+    "judge_es": "Jose Homem de Mello (Portugal)",
+    "notes_es": "",
+    "results_en": "Exc. 1, CCJ, Best of Breed Junior, Best of Breed, BOB",
+    "award_en": "CANTÁBRICO WINNER",
+    "judge_en": "Jose Homem de Mello (Portugal)",
+    "notes_en": "",
+    "id": "d7942108-821b-5e92-ac32-0aab29afba36",
+    "updated_at": "2026-11-02T19:41:00Z"
+  }
+]
