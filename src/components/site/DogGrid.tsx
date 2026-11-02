@@ -1,10 +1,7 @@
 import { useState } from "react";
-import dogs from "@/content/cdf-dogs.json";
+import { Button } from "@/components/ui/button";
+import { getDogs, type Dog } from "@/lib/dogs";
 import type { Lang } from "@/lib/content";
-
-type Dog = (typeof dogs)[number];
-
-const sortKey = (d: Dog) => (d.born ? d.born.split("/").reverse().join("") : "0");
 
 /** Which legacy pages show the current dog cards, and for which sex. */
 export const dogPages: Record<string, "male" | "female"> = {
@@ -26,9 +23,9 @@ function DogCard({ dog, lang }: { dog: Dog; lang: Lang }) {
       {dog.photos.length > 1 && (
         <div className="flex gap-1 p-2">
           {dog.photos.map((p, j) => (
-            <button key={p} onClick={() => setI(j)} className={`h-12 w-12 overflow-hidden rounded border-2 ${j === i ? "border-primary" : "border-transparent"}`}>
+            <Button variant="ghost" key={p} onClick={() => setI(j)} aria-label={`${name}, ${lang === "en" ? "photo" : "foto"} ${j + 1}`} aria-pressed={j === i} className={`h-12 w-12 overflow-hidden rounded border-2 p-0 ${j === i ? "border-primary" : "border-transparent"}`}>
               <img src={p} alt="" className="h-full w-full object-cover" />
-            </button>
+            </Button>
           ))}
         </div>
       )}
@@ -59,7 +56,9 @@ function DogCard({ dog, lang }: { dog: Dog; lang: Lang }) {
 }
 
 export function DogGrid({ sex, lang }: { sex: "male" | "female"; lang: Lang }) {
-  const list = dogs.filter((d) => d.sex === sex).sort((a, b) => sortKey(b).localeCompare(sortKey(a)));
+  const list = getDogs(sex);
+  const retired = sex === "female" ? getDogs("female", "retired") : [];
+  const memorial = getDogs(sex, "memorial");
   return (
     <section className="mb-16">
       <h2 className="font-display text-3xl font-semibold text-foreground">
@@ -68,6 +67,22 @@ export function DogGrid({ sex, lang }: { sex: "male" | "female"; lang: Lang }) {
       <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {list.map((d) => <DogCard key={d.id} dog={d} lang={lang} />)}
       </div>
+      {retired.length > 0 && (
+        <>
+          <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "Our retired females" : "Nuestras hembras retiradas"}</h2>
+          <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {retired.map((dog) => <DogCard key={dog.id} dog={dog} lang={lang} />)}
+          </div>
+        </>
+      )}
+      {memorial.length > 0 && (
+        <>
+          <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "In memory" : "En memoria"}</h2>
+          <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {memorial.map((dog) => <DogCard key={dog.id} dog={dog} lang={lang} />)}
+          </div>
+        </>
+      )}
       <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "From our archive" : "De nuestro archivo"}</h2>
     </section>
   );

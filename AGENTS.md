@@ -12,3 +12,4 @@
 ## Migrated legacy site
 - Legacy page content lives as one JSON per page in src/content/pages (slug = old filename, `-en` suffix = English) rendered by the `/$slug` route; edit content there rather than hardcoding pages. Why: 500+ pages imported from the old FrontPage site.
 - Legacy photos are served from public/legacy with their original paths so extracted content references stay valid.
+- Shih Tzu cards use a shared catalogue keyed by source dog ID, with optional retired and memorial flags and shared filtering; these groups appear separately on each sex's page in both languages so dogs are not duplicated or presented as current breeding dogs.
