@@ -9,7 +9,7 @@ const copy = {
     title: "Shih Tzu",
     sub: "Crianza selectiva y totalmente familiar.\nBienvenido al maravilloso mundo del Shih Tzu y el Bobtail.",
     notice: "Estamos renovando nuestra antigua página para darle un toque más moderno y la iremos poniendo al día poco a poco.",
-    puppies: "Ver cachorros",
+    puppies: "Cachorros",
     champions: "Nuestros campeones",
     breeds: "Nuestra raza",
     shih: "Alta selección de Shih Tzu, con las mejores líneas americanas y europeas.",
