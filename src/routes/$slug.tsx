@@ -30,6 +30,7 @@ export const Route = createFileRoute("/$slug")({
         {type:'p',parts:[`${lang === 'es' ? 'EXPOSICIONES' : 'SHOWS'} 2026`],heading:true},
         ...exhibitionBlocks(rows,lang),
         {type:'divider'},
+        {type:'p',parts:[lang === 'es' ? 'EXPOSICIONES' : 'SHOWS'],heading:true,center:true},
         {type:'years',items},
       ];
     }
