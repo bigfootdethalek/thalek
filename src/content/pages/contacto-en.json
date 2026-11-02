@@ -7,7 +7,9 @@
       "type": "p",
       "parts": [
         "CONTACT INFORMATION"
-      ]
+      ],
+      "heading": true,
+      "center": true
     },
     {
       "type": "p",
@@ -37,7 +39,9 @@
       "type": "p",
       "parts": [
         "MEMBER OF"
-      ]
+      ],
+      "heading": true,
+      "center": true
     },
     {
       "type": "p",
