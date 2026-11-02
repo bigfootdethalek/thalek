@@ -42,7 +42,7 @@ export function PageBody({ blocks }: { blocks: Block[] }) {
                 {b.rows.map((row, j) => (
                   <TableRow key={j}>
                     {row.map((cell, k) => (
-                      <TableCell key={k} className="whitespace-pre-line break-words border-r border-border px-2 py-4 text-center leading-relaxed sm:px-3">
+                      <TableCell key={k} className={`border-r border-border py-4 text-center leading-relaxed sm:px-3 ${k === 1 ? "whitespace-nowrap px-1" : "whitespace-pre-line break-words px-2"}`}>
                         {cell.map((part, n) => <Inline key={n} part={part} />)}
                       </TableCell>
                     ))}
