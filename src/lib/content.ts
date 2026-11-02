@@ -6,7 +6,7 @@ export type Block =
   | { type: "quote"; parts: Part[] }
   | { type: "table"; headers: string[]; rows: Part[][][] }
   | { type: "divider" }
-  | { type: "gallery"; items: { type: "img"; src: string; to?: string; dog?: string; placeholder?: boolean; tall?: boolean; ratio?: "4/7" | "3/4" | "4/5"; focus?: "left" | "right" }[] };
+  | { type: "gallery"; items: { type: "img"; src: string; to?: string; dog?: string; placeholder?: boolean; tall?: boolean; uniform?: boolean; ratio?: "4/7" | "3/4" | "4/5"; focus?: "left" | "right" }[] };
 export type Page = { file: string; title: string; lang: "es" | "en"; blocks: Block[] };
 export type Lang = "es" | "en";
 

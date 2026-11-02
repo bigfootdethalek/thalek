@@ -23,20 +23,17 @@
         {
           "type": "img",
           "src": "images/dibujos/Portada20septiembre16 El Mundo Del Perro.jpg",
-          "tall": true,
-          "ratio": "3/4"
+          "uniform": true
         },
         {
           "type": "img",
           "src": "images/dibujos/Articulo extra - Razas Mini.jpg",
-          "tall": true,
-          "ratio": "3/4"
+          "uniform": true
         },
         {
           "type": "img",
           "src": "images/dibujos/Articulo Caes y Co. Portada.jpg",
-          "tall": true,
-          "ratio": "3/4"
+          "uniform": true
         }
       ]
     },
@@ -46,14 +43,12 @@
         {
           "type": "img",
           "src": "/__l5e/assets-v1/34d52b21-f6e6-410d-aafc-07e98a02f6e8/revista-especial-shih-tzu-2017-portada.jpg",
-          "tall": true,
-          "ratio": "3/4"
+          "uniform": true
         },
         {
           "type": "img",
           "src": "/__l5e/assets-v1/b1b69566-ddcc-4e70-b619-93baad606c99/shih-tzu-movimiento-retrato.jpg",
-          "tall": true,
-          "ratio": "3/4"
+          "uniform": true
         }
       ]
     },
@@ -63,14 +58,12 @@
         {
           "type": "img",
           "src": "/__l5e/assets-v1/2e400987-ea05-4183-8891-01ccd3ef1e88/revista-especial-shih-tzu-2017.jpg",
-          "tall": true,
-          "ratio": "3/4"
+          "uniform": true
         },
         {
           "type": "img",
           "src": "/__l5e/assets-v1/7ef7951e-90bc-4d38-aeab-8e6b3fec75db/revista-perros-pequenos-2016.jpg",
-          "tall": true,
-          "ratio": "3/4"
+          "uniform": true
         }
       ]
     },
