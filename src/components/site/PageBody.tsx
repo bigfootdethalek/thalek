@@ -121,7 +121,14 @@ function renderGroup(blocks: Block[], align: string) {
         const text = b.parts.map((p) => (typeof p === "string" ? p : p.text)).join("");
         if (isHeading(text))
           return (
-            <h2 key={i} className={`pt-4 font-display text-2xl font-semibold text-primary ${align}`}>
+            <h2
+              key={i}
+              className={`pt-4 font-display font-semibold text-primary ${align} ${
+                /^\s*[PM]:/.test(text)
+                  ? "text-[clamp(1.05rem,2.1vw,1.35rem)] leading-snug"
+                  : "text-2xl"
+              }`}
+            >
               {b.parts.map((p, j) => <Inline key={j} part={p} />)}
             </h2>
           );
