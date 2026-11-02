@@ -57,6 +57,7 @@ export const nav: NavGroup[] = [
       { label: l("Historia", "Our story"), slug: "criadero" },
       { label: l("La familia", "The family"), slug: "mis-perros" },
       { label: l("Entrevista", "Interview"), slug: "entrevista" },
+      { label: l("Revistas", "Magazines"), slug: "revistas" },
       { label: l("Agradecimiento", "Thanks"), slug: "agradecimiento" },
       { label: l("Homenaje", "Tribute"), slug: "homenaje" },
     ],
@@ -92,9 +93,5 @@ export const nav: NavGroup[] = [
   {
     label: l("Campeones", "Champions"),
     items: [{ label: l("Campeones", "Champions"), slug: "campeones" }],
-  },
-  {
-    label: l("Revistas", "Magazines"),
-    items: [{ label: l("Revistas", "Magazines"), slug: "revistas" }],
   },
 ].map((g) => ({ ...g, items: g.items.filter((i) => hasPage(i.slug)) }));
