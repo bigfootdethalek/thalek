@@ -213,9 +213,9 @@ function splitGroups(blocks: Block[]): Block[][] {
   return groups;
 }
 
-export function PageBody({ blocks, center = false }: { blocks: Block[]; center?: boolean }) {
+export function PageBody({ blocks, center = false, singlePanel = false }: { blocks: Block[]; center?: boolean; singlePanel?: boolean }) {
   const align = center ? "text-center" : "";
-  const groups = splitGroups(blocks);
+  const groups = singlePanel ? [blocks.filter((b) => b.type !== "divider")] : splitGroups(blocks);
   return (
     <div className="space-y-8">
       {groups.map((g, gi) => (
