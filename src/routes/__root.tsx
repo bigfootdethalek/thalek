@@ -91,6 +91,7 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang={pathname === "/en" || pathname.endsWith("-en") ? "en" : "es"}>
       <head>
         <HeadContent />
+        <meta name="google-site-verification" content="pdx71g-vRgS5sqSVZuEfgB2aE1bEo1SylEZxCSf5Olg" />
       </head>
       <body>
         {children}
