@@ -65,7 +65,6 @@ export const nav: NavGroup[] = [
       { label: l("Hembras", "Females"), slug: "shih-tzuh" },
       { label: l("En el mundo", "Around the world"), slug: "shih-tzuw" },
       { label: l("Camada actual", "Current litter"), slug: "cachorroshihtzuact" },
-      { label: l("Camada planeada", "Planned litter"), slug: "cachorroshihtzufut" },
       { label: l("La raza", "The breed"), slug: "razashi" },
       { label: l("Cuidados", "Care"), slug: "cuidados-1" },
       { label: l("Historia de la raza", "Breed history"), slug: "origen-e-historia-1" },
