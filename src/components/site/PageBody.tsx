@@ -152,7 +152,7 @@ function renderGroup(blocks: Block[], align: string) {
   });
 }
 
-export function PageBody({ blocks, center = false }: { blocks: Block[]; center?: boolean }) {
+export function PageBody({ blocks, center = false, firstAsPanel = false }: { blocks: Block[]; center?: boolean; firstAsPanel?: boolean }) {
   const align = center ? "text-center" : "";
   const groups: Block[][] = [];
   let current: Block[] = [];
@@ -168,13 +168,15 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
   return (
     <div className="space-y-8">
       {groups.map((g, gi) => {
-        if (gi === 0) return <div key={gi} className="space-y-4">{renderGroup(g, align)}</div>;
+        const pi = gi - (firstAsPanel ? 0 : 1);
+        if (!firstAsPanel && gi === 0)
+          return <div key={gi} className="space-y-4">{renderGroup(g, align)}</div>;
         return (
           <div key={gi} className="space-y-8">
             <Ornament />
             <section
               className={`rounded-3xl border p-6 shadow-soft sm:p-10 ${
-                gi % 2 === 1 ? "border-border bg-secondary/50" : "border-accent/25 bg-accent/10"
+                pi % 2 === 1 ? "border-border bg-secondary/50" : "border-accent/25 bg-accent/10"
               }`}
             >
               <div className="space-y-4">{renderGroup(g, align)}</div>
