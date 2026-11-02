@@ -143,18 +143,25 @@ function renderGroup(blocks: Block[], align: string) {
           const prev = i > 0 ? blocks[i - 1] : undefined;
           const next = i < blocks.length - 1 ? blocks[i + 1] : undefined;
           const poemLine = (prev && isHeadingBlock(prev)) || (next && isHeadingBlock(next));
+          const isParentLine = /^\s*[PM]:/.test(text);
           return (
             <h2
               key={i}
               className={`pt-4 whitespace-pre-line font-display font-semibold ${b.center ? "text-center" : align} ${
-                /^\s*[PM]:/.test(text)
+                isParentLine
                   ? "text-[clamp(1.05rem,2.1vw,1.35rem)] italic leading-snug text-turquoise"
                   : poemLine
                     ? "text-2xl text-primary"
                     : "text-3xl italic text-turquoise"
               }`}
             >
-              {b.parts.map((p, j) => <Inline key={j} part={p} />)}
+              {b.parts.map((p, j) =>
+                isParentLine && typeof p === "string" ? (
+                  <span key={j} className="font-medium text-primary underline decoration-accent underline-offset-4">{p}</span>
+                ) : (
+                  <Inline key={j} part={p} />
+                )
+              )}
             </h2>
           );
         }
