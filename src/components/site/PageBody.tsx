@@ -76,13 +76,7 @@ function renderGroup(blocks: Block[], align: string) {
           );
         }
         if (b.type === "divider") {
-          return (
-            <div key={i} className="my-10 flex items-center gap-3" aria-hidden="true">
-              <span className="h-px flex-1 bg-border" />
-              <span className="h-1.5 w-1.5 rotate-45 bg-accent" />
-              <span className="h-px flex-1 bg-border" />
-            </div>
-          );
+          return <Ornament key={i} className="my-12" />;
         }
         if (b.type === "gallery") {
           const single = b.items.length === 1;
