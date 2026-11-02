@@ -107,10 +107,11 @@ function renderGroup(blocks: Block[], align: string) {
                       className="h-full w-full rounded-md object-cover shadow-soft transition hover:opacity-90"
                     />
                   );
+                  const ratioClass = it.ratio === "3/4" ? "aspect-[3/4]" : it.ratio === "4/5" ? "aspect-[4/5]" : "aspect-[4/7]";
                   return it.to && hasPage(it.to) ? (
-                    <Link key={j} to="/$slug" params={{ slug: it.to }} {...(it.dog ? { hash: `perro-${it.dog}` } : {})} className={`${itemClass} aspect-[4/7]`}>{tallImg}</Link>
+                    <Link key={j} to="/$slug" params={{ slug: it.to }} {...(it.dog ? { hash: `perro-${it.dog}` } : {})} className={`${itemClass} ${ratioClass}`}>{tallImg}</Link>
                   ) : (
-                    <div key={j} className={`${itemClass} aspect-[4/7]`}>{tallImg}</div>
+                    <div key={j} className={`${itemClass} ${ratioClass}`}>{tallImg}</div>
                   );
                 }
                 return it.to && hasPage(it.to) ? (
