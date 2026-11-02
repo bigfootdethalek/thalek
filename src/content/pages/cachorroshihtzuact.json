@@ -134,6 +134,11 @@
       "items": [
         {
           "type": "img",
+          "src": "",
+          "placeholder": true
+        },
+        {
+          "type": "img",
           "src": "/__l5e/assets-v1/1474cc69-d095-4eae-87ca-9541ce3a8176/shihtzu_1348459_1.jpg",
           "to": "shih-tzuh",
           "dog": "1348459"
@@ -154,6 +159,12 @@
           "to": "shih-tzuh",
           "dog": "1348459"
         }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Nueva camada super esperada nacida en 2026."
       ]
     },
     {
