@@ -7,7 +7,7 @@ const copy = {
   es: {
     eyebrow: "Afijo R.S.C.E. 8.852 · Desde 1995",
     title: "Shih Tzu",
-    sub: "Crianza selectiva y totalmente familiar.\nBienvenido al maravilloso mundo del Shih Tzu.",
+    sub: "Crianza selectiva y totalmente familiar.\nBienvenido al maravilloso mundo del Shih Tzu y el Bobtail.",
     notice: "Estamos renovando nuestra antigua página para darle un toque más moderno y la iremos poniendo al día poco a poco.",
     puppies: "Ver cachorros",
     champions: "Nuestros campeones",
@@ -24,7 +24,7 @@ const copy = {
   en: {
     eyebrow: "R.S.C.E. kennel 8.852 · Since 1995",
     title: "Shih Tzu",
-    sub: "Selective, family-raised breeding in Spain. Welcome to the wonderful world of the Shih Tzu.",
+    sub: "Selective, family-raised breeding in Spain. Welcome to the wonderful world of the Shih Tzu and the Bobtail.",
     notice: "We are renewing our old website to give it a more modern touch, and we are updating it little by little.",
     puppies: "See puppies",
     champions: "Our champions",
