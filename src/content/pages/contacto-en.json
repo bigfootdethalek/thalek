@@ -12,6 +12,20 @@
     {
       "type": "p",
       "parts": [
+        "Telephone"
+      ],
+      "heading": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        "+34 676 22 08 96"
+      ],
+      "heading": false
+    },
+    {
+      "type": "p",
+      "parts": [
         " Postal direction"
       ],
       "heading": false
@@ -76,20 +90,6 @@
       "parts": [
         "CAPPIE : Club del Antiguo Perro de Pastor Inglés en España mientras existió."
       ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Telephone"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        "+34 676 22 08 96"
-      ],
-      "heading": false
     },
     {
       "type": "p",
