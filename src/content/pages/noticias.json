@@ -29,6 +29,436 @@
       ]
     },
     {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Exposición Internacional Canina de Talavera de la Reina - QC. 08.10.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/3638dc97-2cda-4e90-816a-5a633cbb3cc5/show-2017-10213032220373483.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/4e8984fb-653d-4b33-9c13-7d14339d2f60/show-2017-10213035223608562.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Our Sweet Surprise From Audrey's Paradise - Audrey"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excelente 1, CAC-QC, CACIB"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "MEJOR HEMBRA, BOS · Nueva CAMPEONA DE ESPAÑA (P.H.)"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Juez de Raza: Mrs. Encarna Moreno (España)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "Ver exposición en Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10213032217773418&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Exposición Internacional Canina de León (España). 24.09.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/785b07f4-2c70-4926-b6d9-bf4e0567e1a5/show-2017-10212927561357073.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/f4b69c5f-cf3a-49b2-a050-a027b00da7c8/show-2017-10212928464419649.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ch. Kaybaroshi Han&Har Moonlight Queen - Jolka"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excelente 1, CAC, CACIB"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "MEJOR HEMBRA, BOS · Nueva CAMPEONA INTERNACIONAL (P.H.)"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Juez de Raza: Mr. Ulises Rodríguez (España)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "Ver exposición en Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10212927560237045&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Exposición Internacional Canina de Muskiz-Bilbao (España). 03.09.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/97c8e6d3-5702-4907-9d6f-b00fe5f52b46/show-2017-10212796449519359.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/73eef3ab-deb3-4a64-a325-72ac5e4769f0/show-2017-10212805337221546.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Our Sweet Surprise From Audrey's Paradise - Audrey"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excelente 1, CAC, RCACIB"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Juez de Raza: Mrs. Joyce O'Connor (Irlanda)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "Ver exposición en Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10212796449199351&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Exposición Nacional Canina de Muskiz-Bilbao (España). 02.09.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/0f356649-f118-4a43-bf45-7ea594aa6633/show-2017-10212789166257282.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/37288645-f1c2-4515-b1e7-fa0fcfee84de/show-2017-10212789228578840.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/32d0319a-d486-4272-be20-d722b852bcfa/show-2017-10212807201188144.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Our Sweet Surprise From Audrey's Paradise - Audrey"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excelente 1, CAC"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "MEJOR HEMBRA, BOS"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Juez de Raza: Mrs. Encarna Moreno (España)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "Ver exposición en Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10212789164497238&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Exposición Internacional Canina de Portugalete (España). 09.07.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/a07f6a99-7a01-484c-b2ec-88201346c27c/show-2017-10212284338916914.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/29a09430-40c9-4bed-8f31-abe4d7b818d1/show-2017-10212289796093340.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Our Sweet Surprise From Audrey's Paradise - Audrey"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excelente 2, RCAC, RCACIB"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Juez de Raza: Mrs. Viva Maria Soleckyj-Szpunar (Polonia)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "Ver exposición en Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10212284333316774&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Exposición Internacional Canina de Medina de Pomar (España). 25.06.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/ea7a3928-3584-4b8b-a4f9-96021c427b9b/show-2017-10212057472045384.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/4faf1536-f7e8-4c52-9d95-0a2399e5d261/show-2017-10212069353222406.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ch. Kaybaroshi Han&Har Moonlight Queen - Jolka"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excelente 1, CAC, CACIB"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "MEJOR HEMBRA, BOS · Nueva CAMPEONA DE ESPAÑA (P.H.)"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Juez de Raza: Mr. Marian Draganescu (Rumanía)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "Ver exposición en Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10212057468125286&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
       "type": "p",
       "parts": [
         " Exposición Internacional Canina de Madrid-QC. 27 & 28.05.17"

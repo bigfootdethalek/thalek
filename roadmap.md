@@ -1,5 +1,8 @@
 # Roadmap
 
+- [ ] Add missing verified exhibition results for Lulú only from FlymetotheMoonCavaliers photos — public photo/profile/album captures checked; no captions identifying Lulú and her missing results available, direct report links or screenshots needed
+- [x] Complete the 2017 news archive with verified missing exhibitions from Big-Foot de Thalek Facebook albums — added Talavera, León, international and national Muskiz-Bilbao, Portugalete and Medina de Pomar with 13 photos, results and judges in both languages; verified all photos load
+
 - [x] Add verified Jerez 2025 results from the direct Facebook text post (2 November, Cosmo and Bosco)
 - [x] Add the separate Jerez show of 1 November 2025 — verified in the same direct Facebook post: Cosmo, Excelente 1, CAC; Geoff Corish
 
