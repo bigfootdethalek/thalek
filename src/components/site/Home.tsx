@@ -86,10 +86,10 @@ export function Home({ lang }: { lang: Lang }) {
             <article key={b.name} className="overflow-hidden rounded-md border border-border bg-card shadow-soft">
               {b.r ? (
                 <Link {...L(b.r)}>
-                  <img src={b.img.startsWith("fotos/") ? legacySrc(b.img) : b.img} alt={b.name} className="h-72 w-full object-cover" />
+                  <img src={b.img.startsWith("fotos/") ? legacySrc(b.img) : b.img} alt={b.name} className="h-auto w-full" />
                 </Link>
               ) : (
-                <img src={b.img.startsWith("fotos/") ? legacySrc(b.img) : b.img} alt={b.name} className="h-72 w-full object-cover" />
+                <img src={b.img.startsWith("fotos/") ? legacySrc(b.img) : b.img} alt={b.name} className="h-auto w-full" />
               )}
               <div className="p-6">
                 <h2 className="font-display text-3xl font-semibold text-primary">{b.name}</h2>
