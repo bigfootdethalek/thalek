@@ -19,7 +19,8 @@ export function exhibitionBlocks(rows: Exhibition[], lang: Lang): Block[] {
       if (showImgs.length) blocks.push({type:'gallery',items:showImgs.map(src => ({type:'img' as const,src,uniform:true}))});
       lastShow = show;
     }
-    blocks.push({type:'p',parts:[row.dog_name],center:true}, {type:'p',parts:[lang === 'es' ? row.results_es : row.results_en],center:true});
+    const results = (lang === 'es' ? row.results_es : row.results_en).replace(/º/g, '');
+    blocks.push({type:'p',parts:[row.dog_name],center:true}, {type:'p',parts:[results],center:true});
     const award = lang === 'es' ? row.award_es : row.award_en;
     if (award) {
       const [awardText = '', ...owner] = award.split(' · ');
