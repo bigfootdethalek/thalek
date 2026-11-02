@@ -112,7 +112,8 @@
      "to": "shih-tzum",
      "dog": "1109820"
     }
-   ]
+   ],
+   "noSplit": true
   },
   {
    "type": "p",
@@ -161,7 +162,8 @@
    "type": "p",
    "parts": [
     "P: NATXO"
-   ]
+   ],
+   "noSplit": true
   },
   {
    "type": "p",
@@ -231,55 +233,64 @@
    "type": "p",
    "parts": [
     "LEA ESTO ANTES DE CONTACTAR CON NOSOTROS:"
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     "Si ya ha enviado un mensaje antes y nos expresó su interés en nuestros cachorros, es mejor que visite nuestro sitio web a menudo o nos contacte de nuevo después de un tiempo."
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     " Incluya también la siguiente información:"
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     " - breve presentación sobre usted y su familia;"
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     " - información de contacto (número de teléfono y dirección);"
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     " - su experiencia en el Shih Tzu (u otra raza) y su afijo si lo tiene."
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     "Buscamos solamente personas serias."
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     " Tratamos de responder todas las preguntas. A veces nos puede llevar unos días responder."
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
    "parts": [
     "Puede consultar por teléfono +34 676 22 08 96."
-   ]
+   ],
+   "center": false
   },
   {
    "type": "p",
@@ -288,7 +299,8 @@
      "text": "BFDT@hotmail.com",
      "href": "mailto:BFDT@hotmail.com"
     }
-   ]
+   ],
+   "center": false
   },
   {
    "type": "gallery",
