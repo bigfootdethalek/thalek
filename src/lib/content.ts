@@ -5,7 +5,7 @@ export type Block =
   | { type: "p"; parts: Part[] }
   | { type: "table"; headers: string[]; rows: Part[][][] }
   | { type: "divider" }
-  | { type: "gallery"; items: { type: "img"; src: string; to?: string; dog?: string; placeholder?: boolean; tall?: boolean }[] };
+  | { type: "gallery"; items: { type: "img"; src: string; to?: string; dog?: string; placeholder?: boolean; tall?: boolean; focus?: "left" | "right" }[] };
 export type Page = { file: string; title: string; lang: "es" | "en"; blocks: Block[] };
 export type Lang = "es" | "en";
 
