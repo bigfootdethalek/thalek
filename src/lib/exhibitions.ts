@@ -20,7 +20,7 @@ export function exhibitionBlocks(rows: Exhibition[], lang: Lang): Block[] {
       lastShow = show;
     }
     const results = (lang === 'es' ? row.results_es : row.results_en).replace(/(\d)\.?º/g, '$1');
-    blocks.push({type:'p',parts:[row.dog_name],center:true}, {type:'p',parts:[results],center:true});
+    blocks.push({type:'p',parts:[row.dog_name],heading:false,center:true}, {type:'p',parts:[results],heading:false,center:true});
     const award = lang === 'es' ? row.award_es : row.award_en;
     if (award) {
       const [awardText = '', ...owner] = award.split(' · ');
