@@ -121,10 +121,10 @@ function renderGroup(blocks: Block[], align: string) {
         const text = b.parts.map((p) => (typeof p === "string" ? p : p.text)).join("");
         if (b.type === "quote")
           return (
-            <p key={i} className={`pt-4 text-center font-display text-xl italic leading-relaxed text-primary ${align}`}>
-              <span aria-hidden="true" className="mr-1 text-accent">«</span>
+            <p key={i} className={`pt-4 text-center font-display text-2xl italic leading-relaxed text-accent sm:text-3xl ${align}`}>
+              <span aria-hidden="true" className="mr-1">«</span>
               {b.parts.map((p, j) => <Inline key={j} part={p} />)}
-              <span aria-hidden="true" className="ml-1 text-accent">»</span>
+              <span aria-hidden="true" className="ml-1">»</span>
             </p>
           );
         if (isHeading(text))
