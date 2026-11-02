@@ -93,7 +93,7 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
                     src={legacySrc(it.src)}
                     alt=""
                     loading="lazy"
-                    className={single || it.tall ? "h-full w-full rounded-md object-cover shadow-soft transition hover:opacity-90" : "max-h-[520px] w-auto rounded-md shadow-soft"}
+                    className={single ? "max-h-[520px] w-auto rounded-md shadow-soft" : "h-full w-full rounded-md object-cover shadow-soft transition hover:opacity-90"}
                   />
                 );
                 if (it.tall) {
