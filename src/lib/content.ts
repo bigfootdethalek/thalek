@@ -46,7 +46,7 @@ export function inLang(slug: string, lang: Lang) {
   return slug;
 }
 
-export type NavGroup = { label: Record<Lang, string>; slug?: string; items?: { label: Record<Lang, string>; slug: string }[] };
+export type NavGroup = { label: Record<Lang, string>; slug?: string | undefined; items?: { label: Record<Lang, string>; slug: string }[] | undefined };
 
 const l = (es: string, en: string) => ({ es, en });
 
