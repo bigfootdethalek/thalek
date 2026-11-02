@@ -1,16 +1,8 @@
-import { z } from 'zod';
 import type { Block, Lang } from './content';
 import type { Tables } from '@/integrations/supabase/types';
 
 export type Exhibition = Tables<'exhibitions'>;
-const text = z.string().trim().min(1).max(500);
-export const exhibitionSchema = z.object({
-  id: z.string().uuid(), event_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).refine(v => !Number.isNaN(Date.parse(v)) && new Date(v).toISOString().slice(0,10) === v),
-  event_es: text, event_en: text, dog_name: text, results_es: text, results_en: text,
-  award_es: z.string().trim().max(500), award_en: z.string().trim().max(500), judge_es: text, judge_en: text,
-  image_url: z.string().refine(v => v === '' || v.startsWith('/__l5e/assets-v1/') || /^https:\/\//.test(v)),
-  source_url: z.string().url().refine(v => new URL(v).hostname === 'www.facebook.com'), status: z.enum(['draft','approved']),
-});
+
 export function exhibitionBlocks(rows: Exhibition[], lang: Lang): Block[] {
   const blocks: Block[] = [];
   let lastShow = '';
