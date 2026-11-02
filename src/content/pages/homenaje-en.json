@@ -202,13 +202,18 @@
       "type": "p",
       "parts": [
         "EL FIRMAMENTO BRILLA MÁS QUE NUNCA"
-      ]
+      ],
+      "center": true
     },
     {
       "type": "p",
       "parts": [
         "Bobby"
-      ]
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "p",
