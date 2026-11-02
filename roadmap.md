@@ -24,3 +24,5 @@
 
 - [ ] Revistas: añadir 4.ª foto de Facebook (El Mundo del Perro, enlace share 1DS5i9ijN1); web original caída, buscando alternativa
 - [ ] Revistas: añadir foto de Instagram (instagram.com/p/BsnBi5Wl715/)
+- [x] Revistas: descargar foto de Instagram (1080px) 
+- [ ] Revistas: FB — captura de pantalla de la publicación (petición de Yolanda)
