@@ -1,34 +1,4 @@
-- [x] Migrate legacy site
-- [x] Add bilingual annual news archive preserving earlier years; Muskiz, Medina de Pomar and Valladolid 2026 saved as drafts, displayed publicly only after approval.
-- [x] Add exhibition correction screen, reviewer profile, secure draft saving and approval before public display.
-- [x] Verify authenticated edit → save → approve → public news end to end — verified on live site with a temporary test account (full flow: signup → confirm → editor → draft save → approve → public news page), then fully cleaned up. Reviewer email typo fixed to bfdt@hotmail.com. Yolanda still needs to create her own account.
-- [x] Prepare sitemap and page metadata for search engines
-- [x] Add branded 404 page linking to main sections
-- [x] Verify Google ownership and submit sitemap for thalek.es — live verification tag confirmed; Google verified ownership and added https://thalek.es/; fresh property list confirmed siteOwner; sitemap with 505 same-origin URLs submitted successfully through Yolanda's Google Search Console.
-- [ ] Register with Bing and submit sitemap — connection declined; needs account authorization
-- [x] Add current Shih Tzu females and males (photos) from chiens-de-france
-- [x] Add retired females and photos from Chiens de France without duplicating existing dogs
-- [x] Combine missing dogs from Chiens de France's In Memory list without duplicates
- - [x] Restructure the Bobtail males/females pages as a tribute with card sections, ready for new dogs
- - [x] Add new male Bobtail from Chiens de France (id 1351072) as the current bobtail
- - [x] Add a home-page note saying the site is being modernised bit by bit
- - [ ] Connect the domain www.thalek.es to the project — Yolanda will buy .es elsewhere (offered ~1€ first year); after purchase, connect it via Settings → Domains and add the DNS records Lovable shows
-- [x] Center single-dog sections
-- [x] Remove "Últimas actualizaciones" news section from the home page
-- [x] Link Camada K parents (text and photo) each to its own dog card via deep links (/shih-tzum#perro-1109820, /shih-tzuh#perro-1348460)
-- [ ] Restyle legacy page titles (italic, bold, large, turquoise) and give Mis Perros the panel/ornament layout
-- [x] Restyle legacy page titles (italic, bold, large, turquoise) and give Mis Perros the panel/ornament layout
-- [x] Apply sectioned panel layout with ornaments to most legacy content pages
-[x] Agradecimiento: poem title turquoise/italic/bold/centered; "¡¡A TODOS VOSOTROS: GRACIAS!!" merged into previous text
-- [x] /homenaje: unir el cuadro de Thalek con «Nuestra estrella Thalek» y centrar todo su texto
-- [x] Revistas: añadir texto introductorio sobre revistas y artículos
-- [x] Revistas: añadir enlace a otra portada (foto en Facebook, no descargable; enlace de texto)
-- [x] Revistas: mostrar también las tres fotos enlazadas de Facebook en español e inglés; imágenes descargadas y comprobadas en ambas versiones y móvil
+# Roadmap
 
-- [x] Revistas: 4.ª foto de Facebook (movimiento, captura/Instagram) añadida con enlaces FB+IG
-- [x] Revistas: foto de Instagram añadida
-
-- [x] Revistas: todas las fotos recortadas al mismo formato de retrato (0,72) y fila pareja; eliminadas 2 portadas duplicadas
-- [x] Exposiciones 2026: mostrar el juez una sola vez por exposición, antes del enlace de Facebook
-- [x] Exposiciones 2026: colocar las fotos de cada exposición después de "Shih Tzu" y antes del primer perro
-- [x] Exposiciones 2026: quitar la foto repetida de Muskiz (la misma foto dos veces)
+- [x] Dedupe "Ver exposición en Facebook" links in exhibitionBlocks
+- [ ] Owner text on its own line in exhibition blocks (Lulú, Marian Segura — check where owner data lives)
