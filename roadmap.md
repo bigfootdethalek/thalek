@@ -1,5 +1,6 @@
 - [x] Migrate legacy site
 - [ ] Add source-verified Facebook Dog Show results to bilingual annual news pages, preserving the existing news format.
+- [ ] Add private exhibition review and correction screen with saved drafts and approval before public display — requires Cloud and editor access setup.
 - [x] Prepare sitemap and page metadata for search engines
 - [x] Add branded 404 page linking to main sections
 - [x] Verify Google ownership and submit sitemap for thalek.es — live verification tag confirmed; Google verified ownership and added https://thalek.es/; fresh property list confirmed siteOwner; sitemap with 505 same-origin URLs submitted successfully through Yolanda's Google Search Console.
