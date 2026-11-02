@@ -217,7 +217,8 @@
       "type": "p",
       "parts": [
         "26-04-1995 / 04-03-2003"
-      ]
+      ],
+      "center": true
     },
     {
       "type": "gallery",
