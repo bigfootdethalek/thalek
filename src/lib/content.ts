@@ -77,20 +77,6 @@ export const nav: NavGroup[] = [
     ],
   },
   {
-    label: l("Bobtail", "Bobtail"),
-    items: [
-      { label: l("Macho", "Male"), slug: "bobtailm" },
-      { label: l("Hembras", "Females"), slug: "bobtailh" },
-      { label: l("En el mundo", "Around the world"), slug: "bobtailw" },
-      { label: l("Camada", "Litter"), slug: "cachorrobobtailact" },
-      { label: l("Camadas anteriores", "Previous litters"), slug: "cachorrobobtailant" },
-      { label: l("La raza", "The breed"), slug: "razabob" },
-      { label: l("Cuidados", "Care"), slug: "cuidados" },
-      { label: l("Historia de la raza", "Breed history"), slug: "origen-e-histora" },
-      { label: l("Standard", "Standard"), slug: "standardbob" },
-    ],
-  },
-  {
     label: l("Campeones", "Champions"),
     slug: "campeones",
   },
