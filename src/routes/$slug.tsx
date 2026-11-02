@@ -4,6 +4,7 @@ import { SiteFooter, SiteHeader } from "@/components/site/SiteHeader";
 import { PageBody } from "@/components/site/PageBody";
 import { DogGrid, BobtailGrid, bobtailPages, dogPages } from "@/components/site/DogGrid";
 import { pageDescription, pageSearchLinks, PUBLIC_ORIGIN } from "@/lib/search-metadata";
+import { NotFoundPage } from "@/components/site/NotFoundPage";
 
 export const Route = createFileRoute("/$slug")({
   staticData: { sitemap: true },
@@ -24,11 +25,14 @@ export const Route = createFileRoute("/$slug")({
         { property: "og:type", content: "article" },
         ...(loaderData ? [{ property: "og:url", content: `${PUBLIC_ORIGIN}/${encodeURIComponent(loaderData.slug)}` }] : []),
         { name: "twitter:card", content: "summary_large_image" },
+        ...(!loaderData ? [{ name: "robots", content: "noindex" }] : []),
       ],
       links: loaderData ? pageSearchLinks(loaderData.slug, langOf(loaderData.slug)) : [],
     };
   },
   component: PageView,
+  notFoundComponent: NotFoundPage,
+  errorComponent: () => <NotFoundPage />,
 });
 
 function PageView() {

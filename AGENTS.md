@@ -10,6 +10,7 @@
 <!-- LOVABLE:END -->
 
 ## Migrated legacy site
+- Missing addresses render the shared branded NotFoundPage with typed links to real public sections and keep HTTP 404 status. Why: visitors following obsolete links can recover without creating soft-404 pages.
 - Search discovery uses a router-derived sitemap plus substantive legacy JSON pages; omit obsolete menu and alternate-home slugs and omit lastmod without authoritative page timestamps. Why: search engines need current public destinations, not invented update dates.
 - Page-specific search descriptions derive from the page title and actual text, with self-referencing canonical URLs on leaf routes. Why: preserve the imported content while avoiding generic snippets across the archive.
 - Legacy page content lives as one JSON per page in src/content/pages (slug = old filename, `-en` suffix = English) rendered by the `/$slug` route; edit content there rather than hardcoding pages. Why: 500+ pages imported from the old FrontPage site.

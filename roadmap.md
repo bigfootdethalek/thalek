@@ -1,7 +1,8 @@
 - [x] Migrate legacy site
-- [ ] Prepare sitemap and page metadata for search engines
+- [x] Prepare sitemap and page metadata for search engines
+- [ ] Add branded 404 page linking to main sections
 - [ ] Verify Google ownership and submit sitemap — requires connected account and published verification tag
-- [ ] Register with Bing and submit sitemap — requires connected account and verified site
+- [ ] Register with Bing and submit sitemap — connection declined; needs account authorization
 - [x] Add current Shih Tzu females and males (photos) from chiens-de-france
 - [x] Add retired females and photos from Chiens de France without duplicating existing dogs
 - [x] Combine missing dogs from Chiens de France's In Memory list without duplicates
