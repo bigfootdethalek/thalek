@@ -70,8 +70,6 @@ function DogCard({ dog, lang }: { dog: Dog; lang: Lang }) {
   );
 }
 
-}
-
 /** Grid of dog cards; a single dog is shown centered instead of left-aligned. */
 function DogsGrid({ dogs, lang }: { dogs: Dog[]; lang: Lang }) {
   if (dogs.length === 1) {
