@@ -13,7 +13,7 @@ export const Route = createFileRoute("/$slug")({
   loader: async ({ params }) => {
     const page = await loadPage(params.slug);
     if (!page) throw notFound();
-    const exhibitionYear = /^noticias(25|26)(?:-en)?$/.exec(params.slug);
+    const exhibitionYear = /^noticias(1[89]|2[0-6])(?:-en)?$/.exec(params.slug);
     if (exhibitionYear) {
       const year = `20${exhibitionYear[1]}`;
       const lang = langOf(params.slug);
