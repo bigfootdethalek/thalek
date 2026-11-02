@@ -12,40 +12,6 @@
     {
       "type": "p",
       "parts": [
-        "Member of"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        "RSCE : Real Sociedad Canina de España"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        "ACABE : Asociación de Criadores y Amigos del Bobtail mientras existió."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Telephone"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        "+34 676 22 08 96"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
         " Postal direction"
       ],
       "heading": false
@@ -92,6 +58,40 @@
           "text": "BFDT@hotmail.com",
           "href": "mailto:BFDT@hotmail.com"
         }
+      ],
+      "heading": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Member of"
+      ],
+      "heading": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        "RSCE : Real Sociedad Canina de España"
+      ],
+      "heading": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        "ACABE : Asociación de Criadores y Amigos del Bobtail mientras existió."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Telephone"
+      ],
+      "heading": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        "+34 676 22 08 96"
       ],
       "heading": false
     },
