@@ -18,3 +18,6 @@
 - [x] Apply sectioned panel layout with ornaments to most legacy content pages
 [x] Agradecimiento: poem title turquoise/italic/bold/centered; "¡¡A TODOS VOSOTROS: GRACIAS!!" merged into previous text
 - [x] /homenaje: unir el cuadro de Thalek con «Nuestra estrella Thalek» y centrar todo su texto
+- [x] Revistas: añadir texto introductorio sobre revistas y artículos
+- [x] Revistas: añadir enlace a otra portada (foto en Facebook, no descargable; enlace de texto)
+

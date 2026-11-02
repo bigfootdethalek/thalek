@@ -4,6 +4,7 @@
   "lang": "es",
   "blocks": [
     { "type": "p", "parts": ["ARTICULOS EN LAS REVISTAS"], "heading": true, "center": true },
+    { "type": "p", "parts": ["A lo largo de los años, nuestros ejemplares han ido apareciendo en las revistas más prestigiosas del sector del mundo del perro tanto en España como en Portugal, para ser representantes como modelos de la raza. Además se nos solicitó ayuda y colaboración para escribir varios artículos en esas revistas."] },
     {
       "type": "gallery",
       "items": [
@@ -11,6 +12,7 @@
         { "type": "img", "src": "images/dibujos/Articulo extra - Razas Mini.jpg" },
         { "type": "img", "src": "images/dibujos/Articulo Caes y Co. Portada.jpg" }
       ]
-    }
+    },
+    { "type": "p", "parts": [{ "text": "Ver otra portada en Facebook", "href": "https://www.facebook.com/photo/?fbid=10154442330281105&set=a.626683842823908&locale=es_ES" }], "center": true }
   ]
 }
