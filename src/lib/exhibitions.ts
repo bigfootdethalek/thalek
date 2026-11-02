@@ -30,7 +30,7 @@ export function exhibitionBlocks(rows: Exhibition[], lang: Lang): Block[] {
     blocks.push({type:'p',parts:[row.dog_name],center:true}, {type:'p',parts:[lang === 'es' ? row.results_es : row.results_en],center:true});
     const award = lang === 'es' ? row.award_es : row.award_en;
     if (award) {
-      const [awardText, ...owner] = award.split(' · ');
+      const [awardText = '', ...owner] = award.split(' · ');
       blocks.push({type:'p',parts:[awardText],heading:false,center:true});
       if (owner.length) blocks.push({type:'p',parts:[owner.join(' · ')],center:true});
     }
