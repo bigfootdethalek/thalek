@@ -135,14 +135,20 @@ function renderGroup(blocks: Block[], align: string) {
           return (
             <h2
               key={i}
-              className={`pt-4 font-display font-semibold text-primary ${align} ${
+              className={`pt-4 font-display font-semibold italic text-turquoise ${align} ${
                 /^\s*[PM]:/.test(text)
-                  ? "text-[clamp(1.05rem,2.1vw,1.35rem)] leading-snug"
-                  : "text-2xl"
+                  ? "text-[clamp(1.05rem,2.1vw,1.35rem)] leading-snug not-italic"
+                  : "text-3xl"
               }`}
             >
               {b.parts.map((p, j) => <Inline key={j} part={p} />)}
             </h2>
+          );
+        if (b.lead)
+          return (
+            <p key={i} className={`text-center font-display text-2xl font-semibold italic leading-relaxed text-turquoise sm:text-3xl ${align}`}>
+              {b.parts.map((p, j) => <Inline key={j} part={p} />)}
+            </p>
           );
         return (
           <p key={i} className="leading-relaxed text-foreground/90">
@@ -152,38 +158,55 @@ function renderGroup(blocks: Block[], align: string) {
   });
 }
 
-export function PageBody({ blocks, center = false, firstAsPanel = false }: { blocks: Block[]; center?: boolean; firstAsPanel?: boolean }) {
-  const align = center ? "text-center" : "";
+function isHeadingBlock(b: Block) {
+  return b.type === "p" && isHeading(b.parts.map((p) => (typeof p === "string" ? p : p.text)).join(""));
+}
+
+// Sections are separated by explicit dividers, all-caps headings, or a photo
+// gallery that follows plain text once the section already has photos.
+function splitGroups(blocks: Block[]): Block[][] {
   const groups: Block[][] = [];
   let current: Block[] = [];
-  for (const b of blocks) {
-    if (b.type === "divider") {
+  const flush = () => {
+    if (current.length) {
       groups.push(current);
       current = [];
-    } else {
-      current.push(b);
     }
+  };
+  for (const b of blocks) {
+    if (b.type === "divider") {
+      flush();
+      continue;
+    }
+    if (isHeadingBlock(b) && current.length) flush();
+    if (b.type === "gallery" && current.length) {
+      const last = current[current.length - 1];
+      const groupHasGallery = current.some((x) => x.type === "gallery");
+      if (groupHasGallery && last && last.type === "p" && !isHeadingBlock(last)) flush();
+    }
+    current.push(b);
   }
-  groups.push(current);
+  flush();
+  return groups;
+}
+
+export function PageBody({ blocks, center = false }: { blocks: Block[]; center?: boolean }) {
+  const align = center ? "text-center" : "";
+  const groups = splitGroups(blocks);
   return (
     <div className="space-y-8">
-      {groups.map((g, gi) => {
-        const pi = gi - (firstAsPanel ? 0 : 1);
-        if (!firstAsPanel && gi === 0)
-          return <div key={gi} className="space-y-4">{renderGroup(g, align)}</div>;
-        return (
-          <div key={gi} className="space-y-8">
-            {gi > 0 && <Ornament />}
-            <section
-              className={`rounded-3xl border p-6 shadow-soft sm:p-10 ${
-                pi % 2 === 1 ? "border-border bg-secondary/50" : "border-accent/25 bg-accent/10"
-              }`}
-            >
-              <div className="space-y-4">{renderGroup(g, align)}</div>
-            </section>
-          </div>
-        );
-      })}
+      {groups.map((g, gi) => (
+        <div key={gi} className="space-y-8">
+          {gi > 0 && <Ornament />}
+          <section
+            className={`rounded-3xl border p-6 shadow-soft sm:p-10 ${
+              gi % 2 === 1 ? "border-border bg-secondary/50" : "border-accent/25 bg-accent/10"
+            }`}
+          >
+            <div className="space-y-4">{renderGroup(g, align)}</div>
+          </section>
+        </div>
+      ))}
     </div>
   );
 }
