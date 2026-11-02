@@ -2,9 +2,6 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { ChevronDown, Facebook, Instagram, Menu, X } from "lucide-react";
 import { inLang, nav, type Lang } from "@/lib/content";
-import { supabase } from '@/integrations/supabase/client';
-import { useEffect } from 'react';
-import { Button } from '@/components/ui/button';
 
 export function SiteHeader({ lang, twin }: { lang: Lang; twin?: string | null }) {
   const [open, setOpen] = useState(false);
@@ -109,8 +106,6 @@ export function SiteHeader({ lang, twin }: { lang: Lang; twin?: string | null })
 }
 
 export function SiteFooter({ lang }: { lang: Lang }) {
-  const [signed,setSigned]=useState(false);
-  useEffect(()=>{void supabase.auth.getUser().then(({data})=>setSigned(Boolean(data.user)));const {data}=supabase.auth.onAuthStateChange((_event,session)=>setSigned(Boolean(session)));return()=>data.subscription.unsubscribe();},[]);
   return (
     <footer className="mt-24 bg-plum-deep text-primary-foreground">
       <div className="mx-auto grid max-w-6xl gap-8 px-5 py-12 md:grid-cols-3">
@@ -162,7 +157,6 @@ export function SiteFooter({ lang }: { lang: Lang }) {
           </a>
         </div>
       </div>
-      <div className="flex justify-center pb-4"><Button asChild variant="link" className="text-primary-foreground"><Link to={signed?'/revision-exposiciones':'/auth'}>{signed?(lang==='es'?'Revisar exposiciones':'Review exhibitions'):(lang==='es'?'Acceso de revisión':'Reviewer sign-in')}</Link></Button></div>
       <p className="pb-6 text-center text-xs opacity-60">© Big-Foot de Thalek</p>
     </footer>
   );
