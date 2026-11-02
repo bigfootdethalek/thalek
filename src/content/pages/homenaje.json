@@ -140,7 +140,8 @@
         "ÉSTA ES NUESTRA QUERIDA THALEK,\nEL \"POR QUÉ\" DE NUESTRO AFIJO."
       ],
       "center": true,
-      "noSplit": true
+      "noSplit": true,
+      "heading": false
     },
     {
       "type": "p",

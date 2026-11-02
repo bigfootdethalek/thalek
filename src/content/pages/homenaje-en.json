@@ -140,7 +140,8 @@
         "THIS IS OURS DEAR THALEK, THE \"WHY\" OF OUR KENNEL."
       ],
       "center": true,
-      "noSplit": true
+      "noSplit": true,
+      "heading": false
     },
     {
       "type": "p",
