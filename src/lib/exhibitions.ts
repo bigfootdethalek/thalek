@@ -29,7 +29,11 @@ export function exhibitionBlocks(rows: Exhibition[], lang: Lang): Block[] {
     }
     blocks.push({type:'p',parts:[row.dog_name],center:true}, {type:'p',parts:[lang === 'es' ? row.results_es : row.results_en],center:true});
     const award = lang === 'es' ? row.award_es : row.award_en;
-    if (award) blocks.push({type:'p',parts:[award],heading:false,center:true});
+    if (award) {
+      const [awardText, ...owner] = award.split(' · ');
+      blocks.push({type:'p',parts:[awardText],heading:false,center:true});
+      if (owner.length) blocks.push({type:'p',parts:[owner.join(' · ')],center:true});
+    }
     const judge: Block = {type:'p',parts:[`${lang === 'es' ? 'Juez de Raza' : 'Breed Judge'}: ${lang === 'es' ? row.judge_es : row.judge_en}`],center:true};
     const links: Block[] = [...new Set(rows.filter(r => r.status === 'approved' && `${r.event_date}|${r.event_es}` === show)
       .map(r => r.source_url))]
