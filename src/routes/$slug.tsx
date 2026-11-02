@@ -27,7 +27,7 @@ export const Route = createFileRoute("/$slug")({
       const items = page.blocks.flatMap(b => b.type === 'p' ? b.parts.filter((x): x is { text: string; to: string } => typeof x !== 'string' && !!x.to && /^\d{4}$/.test(x.text)) : []);
       const rows = (await publicExhibitions()).filter(r => r.event_date.startsWith('2026-'));
       page.blocks = [
-        {type:'p',parts:[lang === 'es' ? 'NOTICIAS ANUALES' : 'ANNUAL NEWS'],heading:true,center:true},
+        {type:'p',parts:[lang === 'es' ? 'EXPOSICIONES' : 'SHOWS'],heading:true,center:true},
         {type:'years',items},
         {type:'divider'},
         {type:'p',parts:[`${lang === 'es' ? 'EXPOSICIONES' : 'SHOWS'} 2026`],heading:true},

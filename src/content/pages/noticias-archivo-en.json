@@ -6,7 +6,7 @@
     {
       "type": "p",
       "parts": [
-        "ANNUAL NEWS"
+        "SHOWS"
       ],
       "heading": true,
       "center": true
@@ -16,7 +16,7 @@
       "parts": [
         {
           "text": "2026",
-          "to": "noticias26-en"
+          "to": "noticias-archivo-en"
         }
       ],
       "center": true
@@ -35,17 +35,75 @@
       "type": "p",
       "parts": [
         {
-          "text": "2024", "to": "noticias24-en"
+          "text": "2024",
+          "to": "noticias24-en"
         }
-      ], "center": true
+      ],
+      "center": true
     },
-    { "type": "p", "parts": [{ "text": "2023", "to": "noticias23-en" }], "center": true },
-    { "type": "p", "parts": [{ "text": "2022", "to": "noticias22-en" }], "center": true },
-    { "type": "p", "parts": [{ "text": "2021", "to": "noticias21-en" }], "center": true },
-    { "type": "p", "parts": [{ "text": "2020", "to": "noticias20-en" }], "center": true },
-    { "type": "p", "parts": [{ "text": "2019", "to": "noticias19-en" }], "center": true },
-    { "type": "p", "parts": [{ "text": "2018", "to": "noticias18-en" }], "center": true },
-    { "type": "p", "parts": [
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2023",
+          "to": "noticias23-en"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2022",
+          "to": "noticias22-en"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2021",
+          "to": "noticias21-en"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2020",
+          "to": "noticias20-en"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2019",
+          "to": "noticias19-en"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2018",
+          "to": "noticias18-en"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
         {
           "text": "2017",
           "to": "noticias-en"
