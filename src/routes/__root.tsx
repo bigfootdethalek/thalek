@@ -65,7 +65,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "google-site-verification", content: "4ZJFuzAZyS5oJZrsazj8-mvPcZkUkKcZq1dYZt4E7hQ" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Big-Foot de Thalek" },
-      { name: "description", content: "Criadero de Bobtail y Shih Tzu en Burgos, España." },
+      { name: "description", content: "Criadero de Bobtail y Shih Tzu en España." },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
