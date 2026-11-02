@@ -5,4 +5,4 @@
  - [x] Restructure the Bobtail males/females pages as a tribute with card sections, ready for new dogs
  - [x] Add new male Bobtail from Chiens de France (id 1351072) as the current bobtail
  - [x] Add a home-page note saying the site is being modernised bit by bit
- - [x] Connect the domain www.thalek.es to the project — blocked: .es is not sold through Lovable; told Yolanda to buy it elsewhere and connect it (or take thalek.com)
+ - [ ] Connect the domain www.thalek.es to the project — Yolanda will buy .es elsewhere (offered ~1€ first year); after purchase, connect it via Settings → Domains and add the DNS records Lovable shows
