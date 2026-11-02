@@ -44,7 +44,8 @@
       "type": "p",
       "parts": [
         "NEW LITTER BORN"
-      ]
+      ],
+      "heading": true
     },
     {
       "type": "p",
@@ -166,13 +167,15 @@
       "type": "p",
       "parts": [
         "NEW LITTER PLANNED"
-      ]
+      ],
+      "heading": true
     },
     {
       "type": "p",
       "parts": [
         "T LITTER"
-      ]
+      ],
+      "heading": true
     },
     {
       "type": "p",

@@ -79,7 +79,8 @@
       "type": "p",
       "parts": [
         "NUEVA CAMADA NACIDA"
-      ]
+      ],
+      "heading": true
     },
     {
       "type": "p",
@@ -189,13 +190,15 @@
       "type": "p",
       "parts": [
         "NUEVA CAMADA PLANIFICADA"
-      ]
+      ],
+      "heading": true
     },
     {
       "type": "p",
       "parts": [
         "CAMADA M"
-      ]
+      ],
+      "heading": true
     },
     {
       "type": "p",
