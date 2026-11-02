@@ -16,7 +16,7 @@ export function exhibitionBlocks(rows: Exhibition[], lang: Lang): Block[] {
   for (const row of rows.filter(r => r.status === 'approved').sort((a,b) => b.event_date.localeCompare(a.event_date))) {
     if (blocks.length) blocks.push({type:'divider'});
     const date = row.event_date.split('-').reverse().join('.');
-    blocks.push({type:'p',parts:[`${lang === 'es' ? row.event_es : row.event_en}. ${date}`],variant:'title'}, {type:'p',parts:['SHIH TZU'],variant:'subtitle'}, {type:'p',parts:[row.dog_name],center:true}, {type:'p',parts:[lang === 'es' ? row.results_es : row.results_en],center:true]});
+    blocks.push({type:'p',parts:[`${lang === 'es' ? row.event_es : row.event_en}. ${date}`],variant:'title'}, {type:'p',parts:['SHIH TZU'],variant:'subtitle'}, {type:'p',parts:[row.dog_name],center:true}, {type:'p',parts:[lang === 'es' ? row.results_es : row.results_en],center:true});
     const award = lang === 'es' ? row.award_es : row.award_en;
     if (award) blocks.push({type:'p',parts:[award],center:true});
     blocks.push({type:'p',parts:[`${lang === 'es' ? 'Juez de Raza' : 'Breed Judge'}: ${lang === 'es' ? row.judge_es : row.judge_en}`],center:true});
