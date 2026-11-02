@@ -48,6 +48,23 @@
       ]
     },
     {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/2e400987-ea05-4183-8891-01ccd3ef1e88/revista-especial-shih-tzu-2017.jpg"
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/435a05ee-e022-4ec3-a66f-5bb592f3f9db/portada-shih-tzu-2017.jpg"
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/7ef7951e-90bc-4d38-aeab-8e6b3fec75db/revista-perros-pequenos-2016.jpg"
+        }
+      ]
+    },
+    {
       "type": "p",
       "parts": [
         {
