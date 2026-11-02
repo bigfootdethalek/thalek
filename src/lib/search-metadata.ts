@@ -5,7 +5,7 @@ const obsoletePages = new Set(["menushi", "menubob", "inicioshi", "iniciobob", "
 
 export function isSearchPage(slug: string, page: Page): boolean {
   return hasPage(slug) && !obsoletePages.has(slug) && page.blocks.some((block) =>
-    block.type === "gallery" ? block.items.length > 0 : block.type === "table" ? block.rows.length > 0 : block.parts.length > 0,
+    block.type === "gallery" ? block.items.length > 0 : block.type === "table" ? block.rows.length > 0 : block.type === "divider" ? false : block.parts.length > 0,
   );
 }
 
