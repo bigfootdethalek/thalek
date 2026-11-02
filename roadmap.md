@@ -22,3 +22,5 @@
 - [x] Revistas: añadir enlace a otra portada (foto en Facebook, no descargable; enlace de texto)
 - [x] Revistas: mostrar también las tres fotos enlazadas de Facebook en español e inglés; imágenes descargadas y comprobadas en ambas versiones y móvil
 
+- [ ] Revistas: añadir 4.ª foto de Facebook (El Mundo del Perro, enlace share 1DS5i9ijN1); web original caída, buscando alternativa
+- [ ] Revistas: añadir foto de Instagram (instagram.com/p/BsnBi5Wl715/)
