@@ -21,7 +21,7 @@ export const Route = createFileRoute("/sitemap.xml")({
             if (path) entries.push({ path });
           }
         }
-        return new Response(sitemapXML(PUBLIC_ORIGIN, entries), {
+        return new Response(sitemapXML("https://thalek.es", entries), {
           headers: { "Content-Type": "application/xml", "Cache-Control": "public, max-age=3600" },
         });
       },
