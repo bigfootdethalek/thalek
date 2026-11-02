@@ -154,7 +154,13 @@ function renderGroup(blocks: Block[], align: string) {
                     : "text-3xl italic text-turquoise"
               }`}
             >
-              {b.parts.map((p, j) => <Inline key={j} part={p} />)}
+              {b.parts.map((p, j) =>
+                typeof p === "string" ? (
+                  <span key={j} className="font-medium text-primary underline decoration-accent underline-offset-4">{p}</span>
+                ) : (
+                  <Inline key={j} part={p} />
+                )
+              )}
             </h2>
           );
         }
