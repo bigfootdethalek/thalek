@@ -90,12 +90,7 @@ export const nav: NavGroup[] = [
     ],
   },
   {
-    label: l("Noticias", "News"),
-    items: [
-      { label: l("Noticias", "News"), slug: "noticias" },
-      { label: l("Campeones", "Champions"), slug: "campeones" },
-      { label: l("Handler", "Handler"), slug: "handler" },
-      { label: l("Actualizaciones", "Site updates"), slug: "actualizacionweb" },
-    ],
+    label: l("Campeones", "Champions"),
+    items: [{ label: l("Campeones", "Champions"), slug: "campeones" }],
   },
 ].map((g) => ({ ...g, items: g.items.filter((i) => hasPage(i.slug)) }));
