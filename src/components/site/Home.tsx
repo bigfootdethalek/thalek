@@ -53,6 +53,10 @@ export function Home({ lang, updates }: { lang: Lang; updates: Page | null }) {
             </h1>
             <p className="mt-3 font-display text-3xl italic opacity-90">{c.title}</p>
             <p className="mt-6 max-w-md text-base opacity-85">{c.sub}</p>
+            <p className="mt-3 flex items-start gap-2 max-w-md text-sm italic opacity-75">
+              <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" aria-hidden="true" />
+              {c.notice}
+            </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link {...L("cachorroshihtzuact")} className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-accent-foreground transition hover:opacity-90">
                 {c.puppies}
