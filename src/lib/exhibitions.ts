@@ -14,12 +14,12 @@ export const exhibitionSchema = z.object({
 export function exhibitionBlocks(rows: Exhibition[], lang: Lang): Block[] {
   const blocks: Block[] = [];
   let lastShow = '';
-  let pendingJudge: Block | null = null;
+  let pendingTail: Block[] = [];
   for (const row of rows.filter(r => r.status === 'approved').sort((a,b) => b.event_date.localeCompare(a.event_date) || a.dog_name.localeCompare(b.dog_name))) {
     const show = `${row.event_date}|${row.event_es}`;
     const date = row.event_date.split('-').reverse().join('.');
     if (show !== lastShow) {
-      if (pendingJudge) { blocks.push(pendingJudge); pendingJudge = null; }
+      blocks.push(...pendingTail); pendingTail = [];
       if (blocks.length) blocks.push({type:'divider'});
       blocks.push({type:'p',parts:[`${lang === 'es' ? row.event_es : row.event_en}. ${date}`],variant:'title'}, {type:'p',parts:['SHIH TZU'],variant:'subtitle'});
       const showImgs = rows.filter(r => r.status === 'approved' && `${r.event_date}|${r.event_es}` === show)
@@ -30,9 +30,12 @@ export function exhibitionBlocks(rows: Exhibition[], lang: Lang): Block[] {
     blocks.push({type:'p',parts:[row.dog_name],center:true}, {type:'p',parts:[lang === 'es' ? row.results_es : row.results_en],center:true});
     const award = lang === 'es' ? row.award_es : row.award_en;
     if (award) blocks.push({type:'p',parts:[award],heading:false,center:true});
-    blocks.push({type:'p',parts:[{text:lang === 'es' ? 'Ver exposición en Facebook' : 'View show on Facebook',href:row.source_url}],center:true});
-    pendingJudge = {type:'p',parts:[`${lang === 'es' ? 'Juez de Raza' : 'Breed Judge'}: ${lang === 'es' ? row.judge_es : row.judge_en}`],center:true};
+    pendingTail = [
+      {type:'p',parts:[`${lang === 'es' ? 'Juez de Raza' : 'Breed Judge'}: ${lang === 'es' ? row.judge_es : row.judge_en}`],center:true},
+      ...rows.filter(r => r.status === 'approved' && `${r.event_date}|${r.event_es}` === show)
+        .map(r => ({type:'p' as const,parts:[{text:lang === 'es' ? 'Ver exposición en Facebook' : 'View show on Facebook',href:r.source_url}] as const,center:true})),
+    ];
   }
-  if (pendingJudge) blocks.push(pendingJudge);
+  blocks.push(...pendingTail);
   return blocks;
 }
