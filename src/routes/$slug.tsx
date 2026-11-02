@@ -38,6 +38,11 @@ function PageView() {
           <DogGrid sex={dogPages[slug]} lang={lang} />
         </div>
       )}
+      {bobtailPages[slug] && (
+        <div className="mx-auto max-w-6xl px-5 pt-12">
+          <BobtailGrid sex={bobtailPages[slug]} lang={lang} />
+        </div>
+      )}
       <main className="mx-auto max-w-3xl px-5 pt-12">
         <p className="eyebrow text-accent">Big-Foot de Thalek</p>
         <h1 className="mt-2 font-display text-4xl font-semibold text-foreground md:text-5xl">{page.title}</h1>

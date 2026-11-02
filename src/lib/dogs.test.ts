@@ -21,3 +21,20 @@ describe("Combined breeder lists", () => {
     expect([...getDogs("female"), ...getDogs("male")].some(dog => imported.some(item => item.id === dog.id))).toBe(false);
   });
 });
+
+describe("Bobtail tribute", () => {
+  it("shows the imported male as the only current bobtail", () => {
+    expect(getBobtails("male").map(dog => dog.id)).toEqual(["1351072"]);
+    expect(getBobtails("female")).toEqual([]);
+  });
+
+  it("keeps the past bobtails as a tribute on each sex's page", () => {
+    expect(getBobtails("male", "homage").map(dog => dog.id)).toEqual(["bobtail-london"]);
+    expect(getBobtails("female", "homage").map(dog => dog.id)).toEqual(["bobtail-sheila", "bobtail-thalia"]);
+    expect(getBobtails("male").some(dog => dog.homage)).toBe(false);
+  });
+
+  it("does not duplicate the imported male with the shih tzu catalogue", () => {
+    expect(dogs.some(dog => dog.id === "1351072")).toBe(false);
+  });
+});
