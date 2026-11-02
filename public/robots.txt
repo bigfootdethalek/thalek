@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://archive-to-studio-46.lovable.app/sitemap.xml

@@ -3,8 +3,10 @@ import { langOf, loadPage, twinOf } from "@/lib/content";
 import { SiteFooter, SiteHeader } from "@/components/site/SiteHeader";
 import { PageBody } from "@/components/site/PageBody";
 import { DogGrid, BobtailGrid, bobtailPages, dogPages } from "@/components/site/DogGrid";
+import { pageDescription, pageSearchLinks, PUBLIC_ORIGIN } from "@/lib/search-metadata";
 
 export const Route = createFileRoute("/$slug")({
+  staticData: { sitemap: true },
   loader: async ({ params }) => {
     const page = await loadPage(params.slug);
     if (!page) throw notFound();
@@ -12,7 +14,7 @@ export const Route = createFileRoute("/$slug")({
   },
   head: ({ loaderData }) => {
     const title = loaderData ? `${loaderData.page.title} — Big-Foot de Thalek` : "Big-Foot de Thalek";
-    const desc = "Big-Foot de Thalek: criadero de Bobtail y Shih Tzu en Burgos, España.";
+    const desc = loaderData ? pageDescription(loaderData.page, langOf(loaderData.slug)) : "Big-Foot de Thalek: Bobtail y Shih Tzu.";
     return {
       meta: [
         { title },
@@ -20,8 +22,10 @@ export const Route = createFileRoute("/$slug")({
         { property: "og:title", content: title },
         { property: "og:description", content: desc },
         { property: "og:type", content: "article" },
+        ...(loaderData ? [{ property: "og:url", content: `${PUBLIC_ORIGIN}/${encodeURIComponent(loaderData.slug)}` }] : []),
         { name: "twitter:card", content: "summary_large_image" },
       ],
+      links: loaderData ? pageSearchLinks(loaderData.slug, langOf(loaderData.slug)) : [],
     };
   },
   component: PageView,
