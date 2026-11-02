@@ -4,6 +4,7 @@
   "lang": "en",
   "blocks": [
     { "type": "p", "parts": ["ARTICLES IN MAGAZINES"], "heading": true, "center": true },
+    { "type": "p", "parts": ["Over the years, our dogs have been appearing in the most prestigious magazines of the dog world, both in Spain and in Portugal, as representatives and models of the breed. We were also asked for help and collaboration to write several articles in those magazines."] },
     {
       "type": "gallery",
       "items": [
