@@ -60,7 +60,7 @@ function PageView() {
         <h1 className="mt-2 font-display text-4xl font-semibold italic text-turquoise md:text-5xl">{page.title}</h1>
         <div className="mt-6 h-px w-24 bg-accent" />
         <div className="mt-8">
-          <PageBody blocks={page.blocks} center={centered} firstAsPanel={["criadero", "criadero-en", "mis-perros", "mis-perros-en"].includes(slug)} />
+          <PageBody blocks={page.blocks} center={centered} />
         </div>
       </main>
       <SiteFooter lang={lang} />
