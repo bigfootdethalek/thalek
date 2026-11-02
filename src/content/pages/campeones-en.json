@@ -311,7 +311,10 @@
         ],
         [
           [
-            "KAYBAROSHI HAN&HAN MOONLIGHT QUEEN"
+            {
+              "text": "KAYBAROSHI HAN&HAN MOONLIGHT QUEEN",
+              "to": "shih-tzuh-en"
+            }
           ],
           [
             "BITCH"
