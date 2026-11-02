@@ -2543,5 +2543,25 @@
     "t": "Magazines",
     "l": "en",
     "i": null
+  },
+  "noticias26": {
+    "t": "Noticias 2026",
+    "l": "es",
+    "i": null
+  },
+  "noticias26-en": {
+    "t": "News 2026",
+    "l": "en",
+    "i": null
+  },
+  "noticias-archivo": {
+    "t": "Archivo de noticias",
+    "l": "es",
+    "i": null
+  },
+  "noticias-archivo-en": {
+    "t": "News archive",
+    "l": "en",
+    "i": null
   }
 }

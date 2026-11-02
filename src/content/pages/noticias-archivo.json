@@ -1,0 +1,185 @@
+{
+  "file": "noticias-archivo.htm",
+  "title": "Archivo de noticias",
+  "lang": "es",
+  "blocks": [
+    {
+      "type": "p",
+      "parts": [
+        "NOTICIAS ANUALES"
+      ],
+      "heading": true,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2026",
+          "to": "noticias26"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2017",
+          "to": "noticias"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2016",
+          "to": "noticias16"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2015",
+          "to": "noticias15"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2014",
+          "to": "noticias14"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2013",
+          "to": "noticias13"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2012",
+          "to": "noticias12"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2011",
+          "to": "noticias11"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2010",
+          "to": "noticias10"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2009",
+          "to": "noticias09"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2008",
+          "to": "noticias08"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2007",
+          "to": "noticias07"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2006",
+          "to": "noticias06"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2005",
+          "to": "noticias05"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2004",
+          "to": "noticias04"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2003",
+          "to": "noticias03"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "2002",
+          "to": "noticias02"
+        }
+      ],
+      "center": true
+    }
+  ]
+}

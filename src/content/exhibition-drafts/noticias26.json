@@ -1,0 +1,182 @@
+{
+  "file": "noticias26.htm",
+  "title": "Noticias 2026",
+  "lang": "es",
+  "blocks": [
+    {
+      "type": "p",
+      "parts": [
+        "EXPOSICIONES 2026"
+      ],
+      "heading": true,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Exposición Internacional Canina de Muskiz (España). 13.09.2026"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "heading": true,
+      "noSplit": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Jr.Ch. Big-Foot de Thalek Believe In Your Dreams — Oreo: Excelente 1º, CAC, CACIB, Mejor Macho, BOS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "EUSKADI WINNER"
+      ],
+      "heading": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Juez de Raza: Mr. Istvan Orcik (Serbia)"
+      ]
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/0bb00643-faf5-435d-91c9-e3d74108eac0/dog-show-muskiz-2026.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "Ver exposición en Facebook",
+          "href": "https://www.facebook.com/photo/?fbid=10240133389805781&set=a.10240121479788038"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Exposición Internacional Canina de Medina de Pomar (España). 14.06.2026"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "heading": true,
+      "noSplit": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Esp.Jr.Ch. Big-Foot de Thalek Give Me A Kiss — Thunder: Excelente 1º, CAC, CACIB, Mejor Macho, BOS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "NUEVO CAMPEÓN DE ESPAÑA (P.H.)"
+      ],
+      "heading": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Juez de Raza: Mrs. Carmen Navarro Guisado (España)"
+      ]
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/ff1ac706-d646-4043-aa61-115fec52bae8/dog-show-medina-2026.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "Ver exposición en Facebook",
+          "href": "https://www.facebook.com/photo/?fbid=10239193842597688&set=a.10239193846757792"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Exposición Internacional Canina de Valladolid — QC RSCE Winner (España). 03.05.2026"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "heading": true,
+      "noSplit": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Big-Foot de Thalek Just As You Like — Neo: Excelente 2º, RCCJ, RCACIB-J"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Juez de Raza: Mr. Miguel Llunch Blanco (España)"
+      ]
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/61f7aa4a-db32-4b16-9ad4-40918809692a/dog-show-valladolid-2026.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "Ver exposición en Facebook",
+          "href": "https://www.facebook.com/photo/?fbid=10239193028177328&set=a.10239183335055006"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "Archivo de noticias",
+          "to": "noticias-archivo"
+        }
+      ]
+    }
+  ]
+}
