@@ -157,7 +157,8 @@
         "SIEMPRE LA TENEMOS PRESENTE Y NUNCA LA OLVIDAREMOS. "
       ],
       "center": true,
-      "noSplit": true
+      "noSplit": true,
+      "heading": false
     },
     {
       "type": "p",
@@ -165,7 +166,8 @@
         "THALEK: SABES QUE TODO LO QUE HEMOS HECHO HA SIDO POR TI Y PARA TI. "
       ],
       "center": true,
-      "noSplit": true
+      "noSplit": true,
+      "heading": false
     },
     {
       "type": "p",
@@ -173,7 +175,8 @@
         "EL DÍA QUE PARTISTE TE HICE UNA PROMESA Y LA ESTAMOS CUMPLIENDO:"
       ],
       "center": true,
-      "noSplit": true
+      "noSplit": true,
+      "heading": false
     },
     {
       "type": "p",
@@ -181,7 +184,8 @@
         "CONVERTIRNOS EN UNOS GRANDES CRIADORES Y AMANTES DE LOS TUYOS."
       ],
       "center": true,
-      "noSplit": true
+      "noSplit": true,
+      "heading": false
     },
     {
       "type": "p",
@@ -189,7 +193,8 @@
         "¡YA ESTAMOS EN CAMINO!"
       ],
       "center": true,
-      "noSplit": true
+      "noSplit": true,
+      "heading": false
     },
     {
       "type": "divider"
