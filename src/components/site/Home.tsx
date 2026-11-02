@@ -97,7 +97,6 @@ export function Home({ lang }: { lang: Lang }) {
                 {b.text && <p className="mt-2 text-muted-foreground">{b.text}</p>}
                 {b.breed && (
                   <div className="mt-4 space-y-3 text-sm leading-relaxed text-muted-foreground">
-                    <img src={legacySrc("fotos/Criadero/Chicho/11DSC03903.JPG")} alt="Shih Tzu" className="mx-auto max-h-80 rounded-md shadow-soft" />
                     {c.shihBreed.map((p) => <p key={p}>{p}</p>)}
                   </div>
                 )}
@@ -105,6 +104,9 @@ export function Home({ lang }: { lang: Lang }) {
                   <Link {...L(b.m)} className="text-primary hover:underline">{c.males} →</Link>
                   <Link {...L(b.f)} className="text-primary hover:underline">{c.females} →</Link>
                 </div>
+                {b.breed && (
+                  <img src={legacySrc("fotos/Criadero/Chicho/11DSC03903.JPG")} alt="Shih Tzu" className="mx-auto mt-6 max-h-80 rounded-md shadow-soft" />
+                )}
               </div>
             </article>
           ))}
