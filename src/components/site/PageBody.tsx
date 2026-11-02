@@ -173,7 +173,7 @@ export function PageBody({ blocks, center = false, firstAsPanel = false }: { blo
           return <div key={gi} className="space-y-4">{renderGroup(g, align)}</div>;
         return (
           <div key={gi} className="space-y-8">
-            <Ornament />
+            {gi > 0 && <Ornament />}
             <section
               className={`rounded-3xl border p-6 shadow-soft sm:p-10 ${
                 pi % 2 === 1 ? "border-border bg-secondary/50" : "border-accent/25 bg-accent/10"
