@@ -1,1 +1,213 @@
-{"file":"have_a_dream_en.htm","title":"Jr.Ch. Have A Dream","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Drimik/Katowice 11 4.jpg"}]},{"type":"p","parts":["Multi Jr.CH., multi BISJ BIG-FOOT DE THALEK HAVE A DREAM"]},{"type":"p","parts":[" (DRIMIK)"]},{"type":"p","parts":[" Owner Miroslava"]},{"type":"p","parts":["Red and white male born on May 23, 2010. Shoulder height: 26,5 cm."]},{"type":"p","parts":["BEST DOG 2011 SLOVAKIA CLUB KTP"]},{"type":"p","parts":["CLUB JUNIOR CHAMPION - Shih-tzu Club Evropa (CZ)"]},{"type":"p","parts":["CLUB JUNIOR WINNER - Shih-tzu Club Evropa (CZ)"]},{"type":"p","parts":["CLUB WINNER (Adult) - Shih-tzu Club Evropa (CZ)"]},{"type":"p","parts":["CROATIA JUNIOR CHAMPION"]},{"type":"p","parts":["DĚTŘICHOV JUNIOR WINNER 2011 (CZ)"]},{"type":"p","parts":["CLUB JUNIOR WINNER - Klub Tibetských Plemien (SLO)"]},{"type":"p","parts":["DERBY JUNIOR WINNER 2011 (SLO)"]},{"type":"p","parts":["SLOVAKIA JUNIOR CHAMPION"]},{"type":"p","parts":["CLUB JUNIOR CHAMPION - Klub Tibetských Plemien (SLO)"]},{"type":"p","parts":["HUNGARY JUNIOR CHAMPION"]},{"type":"p","parts":["JUNIOR CHAMPION OF CYPRUS"]},{"type":"p","parts":["APHRODITE BALKANIAN JUNIOR WINNER SHOW'11 (CY)"]},{"type":"p","parts":["JUNIOR CHAMPION OF BULGARIA"]},{"type":"p","parts":["JUNIOR CHAMPION OF GEORGIA"]},{"type":"p","parts":["JUNIOR CHAMPION OF MOLDOVA"]},{"type":"p","parts":["BLACK SEA JUNIOR WINNER'11 (BG)"]},{"type":"p","parts":["BALKAN JUNIOR CHAMPION"]},{"type":"p","parts":["JUNIOR CHAMPION OF MACEDONIA"]},{"type":"p","parts":["Qualified for Crufts 2012 X 3"]},{"type":"p","parts":["Father of Top Shih Tzu in Ireland 2013, 2014"]},{"type":"p","parts":["Father identified by DNA in Real Sociedad Canina de España."]},{"type":"p","parts":["Born of the mated of our beautiful boy Ch. Universal Beauty (Chicho) with our first girl Clear Spring (Yazmine) daughter of our Champion Amistad Sincera (Miss) joining important American bloodlines in his pedigree. "]},{"type":"p","parts":["Now he is living with our Miroslava Sawkova (Silesia Dream) and her two Tzu boys in Czech Republic. We appreciate your trust in us, in our Shih Tzu and in our our way of breeding and acquire Drimik for show him in Europe."]},{"type":"p","parts":["We hope and hope that his career in the shows to be successful and Mirka enjoy a lot of her small carroty."]},{"type":"p","parts":["PICS"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+  "file": "have_a_dream_en.htm",
+  "title": "Jr.Ch. Have A Dream",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Drimik/Katowice 11 4.jpg"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Multi Jr.CH., multi Bisj Big-Foot de Thalek Have A Dream"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " (DRIMIK)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Owner Miroslava"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Red and white male born on May 23, 2010. Shoulder height: 26,5 cm."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BEST DOG 2011 SLOVAKIA CLUB KTP"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "CLUB JUNIOR CHAMPION - Shih-tzu Club Evropa (CZ)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "CLUB JUNIOR WINNER - Shih-tzu Club Evropa (CZ)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "CLUB WINNER (Adult) - Shih-tzu Club Evropa (CZ)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "CROATIA JUNIOR CHAMPION"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "DĚTŘICHOV JUNIOR WINNER 2011 (CZ)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "CLUB JUNIOR WINNER - Klub Tibetských Plemien (SLO)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "DERBY JUNIOR WINNER 2011 (SLO)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SLOVAKIA JUNIOR CHAMPION"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "CLUB JUNIOR CHAMPION - Klub Tibetských Plemien (SLO)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "HUNGARY JUNIOR CHAMPION"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "JUNIOR CHAMPION OF CYPRUS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "APHRODITE BALKANIAN JUNIOR WINNER SHOW'11 (CY)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "JUNIOR CHAMPION OF BULGARIA"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "JUNIOR CHAMPION OF GEORGIA"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "JUNIOR CHAMPION OF MOLDOVA"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BLACK SEA JUNIOR WINNER'11 (BG)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BALKAN JUNIOR CHAMPION"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "JUNIOR CHAMPION OF MACEDONIA"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Qualified for Crufts 2012 X 3"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Father of Top Shih Tzu in Ireland 2013, 2014"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Father identified by DNA in Real Sociedad Canina de España."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Born of the mated of our beautiful boy Ch. Universal Beauty (Chicho) with our first girl Clear Spring (Yazmine) daughter of our Champion Amistad Sincera (Miss) joining important American bloodlines in his pedigree. "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Now he is living with our Miroslava Sawkova (Silesia Dream) and her two Tzu boys in Czech Republic. We appreciate your trust in us, in our Shih Tzu and in our our way of breeding and acquire Drimik for show him in Europe."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We hope and hope that his career in the shows to be successful and Mirka enjoy a lot of her small carroty."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "PICS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We make web pages",
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        },
+        "."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Edit and update © Big-Foot de Thalek."
+      ]
+    }
+  ],
+  "lang": "en"
+}

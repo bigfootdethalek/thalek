@@ -1,1 +1,124 @@
-{"file":"camada_MShih.htm","title":"Camada \"M\"","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Dandy/DSC07007.JPG","to":"feel-the-angel"},{"type":"img","src":"fotos/Criadero/Chanel/DSC05080.JPG","to":"ghost-in-love"}]},{"type":"p","parts":[{"text":"P: LEMURO FEEL THE ANGEL","to":"feel-the-angel"}]},{"type":"p","parts":[{"text":"M: CH. BIG-FOOT DE THALEK GHOST IN LOVE","to":"ghost-in-love"}]},{"type":"p","parts":[" Nueva camada super especial nacida verano de 2013. La mama es nuestra con nuestra preciosa Campeona de España, Portugal, Internacional Ghost In Love (Chanel). El papa es nuestra última importación Feel The Angel (Dandy)."]},{"type":"p","parts":[" Han nacido cinco hermosos cachorros."]},{"type":"p","parts":["FOTOS"]},{"type":"p","parts":["MIDNIGHT STORM"]},{"type":"p","parts":[" Stormy es propiedad de Barbara (Polonia)"]},{"type":"p","parts":["MY SWEET DREAM"]},{"type":"p","parts":["Kissy es propiedad de Karin (Dinamarca)"]},{"type":"p","parts":["MOONLIGHT SHADOW"]},{"type":"p","parts":["Shadow propiedad de Rosa y M Rosa (Asturias)"]},{"type":"p","parts":["MAGIC SUNSHINE"]},{"type":"p","parts":["Sunny es propiedad de Paloma, Charo & Nacho (León)"]},{"type":"p","parts":["MYSTERY OF THE WORLD"]},{"type":"p","parts":[" Mystery es propiedad de Stéphanie & Jerome (Francia)"]},{"type":"p","parts":["VIDEO"]}],"lang":"es"}
+{
+  "file": "camada_MShih.htm",
+  "title": "Camada \"M\"",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Dandy/DSC07007.JPG",
+          "to": "feel-the-angel"
+        },
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Chanel/DSC05080.JPG",
+          "to": "ghost-in-love"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "P: LEMURO FEEL THE ANGEL",
+          "to": "feel-the-angel"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: CH. Big-Foot de Thalek Ghost In Love",
+          "to": "ghost-in-love"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Nueva camada super especial nacida verano de 2013. La mama es nuestra con nuestra preciosa Campeona de España, Portugal, Internacional Ghost In Love (Chanel). El papa es nuestra última importación Feel The Angel (Dandy)."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Han nacido cinco hermosos cachorros."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Midnight Storm"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Stormy es propiedad de Barbara (Polonia)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "My Sweet Dream"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Kissy es propiedad de Karin (Dinamarca)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Moonlight Shadow"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Shadow propiedad de Rosa y M Rosa (Asturias)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Magic Sunshine"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Sunny es propiedad de Paloma, Charo & Nacho (León)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Mystery Of The World"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Mystery es propiedad de Stéphanie & Jerome (Francia)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "VIDEO"
+      ]
+    }
+  ],
+  "lang": "es"
+}

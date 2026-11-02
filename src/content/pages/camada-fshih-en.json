@@ -1,1 +1,121 @@
-{"file":"camada_FShih_en.htm","title":"Litter \"F\"","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Chicho/DSC04892.JPG","to":"universal-beauty-en"},{"type":"img","src":"fotos/Criadero/Aroa/26DSC06675.JPG","to":"sincere-friendship-en"}]},{"type":"p","parts":[{"text":"F","to":"universal-beauty-en"},{"text":": CH. MEKONG JIANG UNIVERSAL BEAUTY","to":"universal-beauty-en"}]},{"type":"p","parts":[{"text":"M: SINCERE FRIENDSHIP DE LA KASSYNA","to":"sincere-friendship-en"}]},{"type":"p","parts":["Litter born on Febryary 22, 2009 out of our lovely imported boy Universal Beauty (Chicho) with completely American blood-line with our girl Sincere Frienship (Aroa)."]},{"type":"p","parts":[" Three beautiful pups were born three female. Their color is gold and withe."]},{"type":"p","parts":["PICS"]},{"type":"p","parts":["FOR MY HEART "]},{"type":"p","parts":["Kitty owner by Carlos (Valencia)"]},{"type":"p","parts":["FALLEN IN LOVE "]},{"type":"p","parts":["Lola owner by Mayka (Valencia)"]},{"type":"p","parts":["FANTASY COME TRUE "]},{"type":"p","parts":["Miga owner by Sveta & Vladimir (Alicante)"]},{"type":"p","parts":["VIDEO"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+  "file": "camada_FShih_en.htm",
+  "title": "Litter \"F\"",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Chicho/DSC04892.JPG",
+          "to": "universal-beauty-en"
+        },
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Aroa/26DSC06675.JPG",
+          "to": "sincere-friendship-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "F",
+          "to": "universal-beauty-en"
+        },
+        {
+          "text": ": CH. MEKONG JIANG UNIVERSAL BEAUTY",
+          "to": "universal-beauty-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: SINCERE FRIENDSHIP DE LA KASSYNA",
+          "to": "sincere-friendship-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Litter born on Febryary 22, 2009 out of our lovely imported boy Universal Beauty (Chicho) with completely American blood-line with our girl Sincere Frienship (Aroa)."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Three beautiful pups were born three female. Their color is gold and withe."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "PICS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "For My Heart"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Kitty owner by Carlos (Valencia)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Fallen In Love"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Lola owner by Mayka (Valencia)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Fantasy Come True"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Miga owner by Sveta & Vladimir (Alicante)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "VIDEO"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We make web pages",
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        },
+        "."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Edit and update © Big-Foot de Thalek."
+      ]
+    }
+  ],
+  "lang": "en"
+}

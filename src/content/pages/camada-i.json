@@ -1,1 +1,142 @@
-{"file":"camada_I.htm","title":"Camada \"I\"","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/London/91DSC09998.JPG","to":"zottels"},{"type":"img","src":"fotos/Criadero/Shakira/25SPARKLINGBEARIZD19M3.JPG","to":"sparkling-bear"}]},{"type":"p","parts":[{"text":"P: CH. ZOTTELS HAPPILY EVER AFTER","to":"zottels"}]},{"type":"p","parts":[{"text":"M: SPARKLING BEAR'S BIG-FOOT DE THALEK","to":"sparkling-bear"}]},{"type":"p","parts":["El orgulloso papá es nuestro ejemplar importado de Inglaterra y la mamá es nuestra hembra importada de Argentina uniendo las más importantes líneas europeas con las más importantes líneas americanas."]},{"type":"p","parts":["El parto ha tenido lugar el 4 de Diciembre de 2006. Han sido siete ejemplares de los cuales cinco han sido machos y dos hembras."]},{"type":"p","parts":["FOTOS"]},{"type":"p","parts":["BIG-FOOT DE THALEK ISN'T SHE LOVELY"]},{"type":"p","parts":["Tara es propiedad de Regina (Murcia)"]},{"type":"p","parts":["BIG-FOOT DE THALEK ICE SPIRIT HD A-A"]},{"type":"p","parts":["Ron está en copropiedad con Javier & Margui (Cantabria)"]},{"type":"p","parts":["BIG-FOOT DE THALEK INFINITE DARLING "]},{"type":"p","parts":["Teo es propiedad de Xabi, Gloria & Paula (Barcelona)"]},{"type":"p","parts":["BIG-FOOT DE THALEK IN MY DREAMS HD A-A"]},{"type":"p","parts":["Larra está en copropiedad con Francisco Javier (Pamplona)"]},{"type":"p","parts":["BIG-FOOT DE THALEK IMPERIAL PRINCESS "]},{"type":"p","parts":["Tina está en copropiedad con Antonia (Sevilla)"]},{"type":"p","parts":[" BIG-FOOT DE THALEK IDYLL OF THE KINGS HD A-A"]},{"type":"p","parts":["Pucho está en copropiedad con German, Sergio & Marina (La Rioja)"]},{"type":"p","parts":[" BIG-FOOT DE THALEK IN LOVE WITH YOU HD A-B"]},{"type":"p","parts":["Felipe es propiedad de Enrique & Carmen (Sevilla)"]}],"lang":"es"}
+{
+  "file": "camada_I.htm",
+  "title": "Camada \"I\"",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/London/91DSC09998.JPG",
+          "to": "zottels"
+        },
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Shakira/25SPARKLINGBEARIZD19M3.JPG",
+          "to": "sparkling-bear"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "P: CH. ZOTTELS HAPPILY EVER AFTER",
+          "to": "zottels"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: Sparkling Bear's Big-Foot de Thalek",
+          "to": "sparkling-bear"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "El orgulloso papá es nuestro ejemplar importado de Inglaterra y la mamá es nuestra hembra importada de Argentina uniendo las más importantes líneas europeas con las más importantes líneas americanas."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "El parto ha tenido lugar el 4 de Diciembre de 2006. Han sido siete ejemplares de los cuales cinco han sido machos y dos hembras."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Big-Foot de Thalek Isn't She Lovely"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Tara es propiedad de Regina (Murcia)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Big-Foot de Thalek Ice Spirit HD A-A"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ron está en copropiedad con Javier & Margui (Cantabria)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Big-Foot de Thalek Infinite Darling "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Teo es propiedad de Xabi, Gloria & Paula (Barcelona)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Big-Foot de Thalek In My Dreams HD A-A"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Larra está en copropiedad con Francisco Javier (Pamplona)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Big-Foot de Thalek Imperial Princess "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Tina está en copropiedad con Antonia (Sevilla)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Big-Foot de Thalek Idyll Of The Kings HD A-A"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Pucho está en copropiedad con German, Sergio & Marina (La Rioja)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Big-Foot de Thalek In Love With You HD A-B"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Felipe es propiedad de Enrique & Carmen (Sevilla)"
+      ]
+    }
+  ],
+  "lang": "es"
+}

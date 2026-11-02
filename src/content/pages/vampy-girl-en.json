@@ -1,1 +1,93 @@
-{"file":"vampy_girl_en.htm","title":"Vampy Girl of Big-Foot de Thalek","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Vampy/08VAMPY_EXPOSICION.jpg"}]},{"type":"p","parts":[" VAMPY GIRL OF BIG-FOOT DE THALEK"]},{"type":"p","parts":["(VAMPY)"]},{"type":"p","parts":["7/7/2000 - 2/8/2012"]},{"type":"p","parts":["Hembra nacida el 7 de Julio de 2000. HD: B-A. Altura a la cruz: 59 cm."]},{"type":"p","parts":["Padres identificados por ADN en la Facultad Veterinaria de León."]},{"type":"p","parts":["Fruto del cruce de nuestra hembra Wanda y de Multi Ch. Impact Performance, macho que proviene de líneas Brinkley y de líneas muy antiguas como la Pockethall."]},{"type":"p","parts":["Ella posee una silueta muy femenina, con una excelente cabeza, ojos marrones oscuros con excelente pigmentación y buenas angulaciones. Su movimiento es muy típico y armonioso."]},{"type":"p","parts":["De momento Vampy ha salido a ring en clase cachorro y abierta, obteniendo muy buenos resultados. Ahora vive retirada a la vida en contemplación."]},{"type":"p","parts":["Se aprecia en ella el porte y la elegancia en el movimiento de su madre, su gran inteligencia y capacidad de aprendizaje."]},{"type":"p","parts":["PICS"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+  "file": "vampy_girl_en.htm",
+  "title": "Vampy Girl Of Big-Foot de Thalek",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Vampy/08VAMPY_EXPOSICION.jpg"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Vampy Girl Of Big-Foot de Thalek"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "(VAMPY)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "7/7/2000 - 2/8/2012"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Hembra nacida el 7 de Julio de 2000. HD: B-A. Altura a la cruz: 59 cm."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Padres identificados por ADN en la Facultad Veterinaria de León."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Fruto del cruce de nuestra hembra Wanda y de Multi Ch. Impact Performance, macho que proviene de líneas Brinkley y de líneas muy antiguas como la Pockethall."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ella posee una silueta muy femenina, con una excelente cabeza, ojos marrones oscuros con excelente pigmentación y buenas angulaciones. Su movimiento es muy típico y armonioso."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "De momento Vampy ha salido a ring en clase cachorro y abierta, obteniendo muy buenos resultados. Ahora vive retirada a la vida en contemplación."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Se aprecia en ella el porte y la elegancia en el movimiento de su madre, su gran inteligencia y capacidad de aprendizaje."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "PICS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We make web pages",
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        },
+        "."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Edit and update © Big-Foot de Thalek."
+      ]
+    }
+  ],
+  "lang": "en"
+}

@@ -1,1 +1,106 @@
-{"file":"camada_E.htm","title":"Camada \"E\"","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Thunder/37THUNDERSEN4A.jpg","to":"little-thunder"},{"type":"img","src":"fotos/Criadero/Thaila/06THAILA_SENTADA_WEB.jpg","to":"thaila"}]},{"type":"p","parts":[{"text":"P: CH. LITTLE THUNDER OF BIG-FOOT DE THALEK","to":"little-thunder"}]},{"type":"p","parts":[{"text":"M: CH. THAILA DE LARRYWOOD","to":"thaila"}]},{"type":"p","parts":["Camada producto del cruce de nuestro semental Little Thunder con nuestra hembra Thaila uniendo las más importantes líneas de sangre. Son nietos de nuestra preciosa hembra Wanda. Repetición de nuestra camada C."]},{"type":"p","parts":["El parto tuvo lugar el 30 de Mayo de 2003. Nacieron cuatro ejemplares de los cuales uno fue macho y tres hembras. "]},{"type":"p","parts":["FOTOS"]},{"type":"p","parts":["BIG-FOOT DE THALEK ENAMOURED GHOST"]},{"type":"p","parts":["Gos es propiedad de Carmen & Sergio (San Sebastián)"]},{"type":"p","parts":["BIG-FOOT DE THALEK ETERNAL FLAME "]},{"type":"p","parts":["Dana es propiedad de Vanesa & Sergio (Barcelona)"]},{"type":"p","parts":["BIG-FOOT DE THALEK ELEGANCE PRINCESS"]},{"type":"p","parts":["Zaina es propiedad de Paula, Javier & Esther (Cantabria)"]},{"type":"p","parts":["BIG-FOOT DE THALEK EASY TO LOVE "]},{"type":"p","parts":["Perla es propiedad de Esther, Alba, Pablo & Mª Angeles (Madrid)"]}],"lang":"es"}
+{
+  "file": "camada_E.htm",
+  "title": "Camada \"E\"",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Thunder/37THUNDERSEN4A.jpg",
+          "to": "little-thunder"
+        },
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Thaila/06THAILA_SENTADA_WEB.jpg",
+          "to": "thaila"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "P: CH. Little Thunder Of Big-Foot de Thalek",
+          "to": "little-thunder"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: CH. THAILA DE LARRYWOOD",
+          "to": "thaila"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Camada producto del cruce de nuestro semental Little Thunder con nuestra hembra Thaila uniendo las más importantes líneas de sangre. Son nietos de nuestra preciosa hembra Wanda. Repetición de nuestra camada C."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "El parto tuvo lugar el 30 de Mayo de 2003. Nacieron cuatro ejemplares de los cuales uno fue macho y tres hembras. "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Big-Foot de Thalek Enamoured Ghost"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Gos es propiedad de Carmen & Sergio (San Sebastián)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Big-Foot de Thalek Eternal Flame "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Dana es propiedad de Vanesa & Sergio (Barcelona)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Big-Foot de Thalek Elegance Princess"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Zaina es propiedad de Paula, Javier & Esther (Cantabria)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Big-Foot de Thalek Easy To Love "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Perla es propiedad de Esther, Alba, Pablo & Mª Angeles (Madrid)"
+      ]
+    }
+  ],
+  "lang": "es"
+}

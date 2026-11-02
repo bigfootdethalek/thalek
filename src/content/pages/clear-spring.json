@@ -1,1 +1,70 @@
-{"file":"clear_spring.htm","title":"Clear Spring","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Yazmine/37DSC07753.JPG"}]},{"type":"p","parts":["BIG-FOOT DE THALEK CLEAR SPRING"]},{"type":"p","parts":[" (YAZMINE)"]},{"type":"p","parts":["Hembra dorada y blanca nacida el 16 de Abril de 2007. Altura a la cruz: 24,50 cm. Peso: 6,700 Kg."]},{"type":"p","parts":["Madre identificada por ADN en la Real Sociedad Canina de España."]},{"type":"p","parts":[" Después de varios años de larga espera por fin nació nuestra niña más esperada y añorada. Fruto del cruce de Nano con nuestra hembra Campeona de España Amistad Sincera (Miss) ha nacido esta peque, que por supuesto se ha quedado en casa. Tras años de espera, tiempo y dedicación nuestro esfuerzo se ha visto recompensado con ella."]},{"type":"p","parts":[" Posee una estructura y silueta como corresponde a la sangre y linaje que tiene. Super femenina con cabeza muy expresiva y con profundo y marcado stop, ojos grandes y llenos, boca con dientes perfectamente alineados, si apenas prognatismo, con tijera invertida, siendo muy chata. Unas excelentes angulaciones tanto delanteras como traseras que le confieren un gran movimiento, con fuerte empuje desde todos los ángulos, con una preciosa inserción y largura de cuello, espalda muy recta con una inserción de rabo perfecta. Su largura y calidad de pelo son increíbles, muy denso y de buena textura."]},{"type":"p","parts":["Tenemos la gran suerte de haber criado esta pequeña en nuestra casa."]},{"type":"p","parts":["Madre de nuestras camadas E, H, J y L. Es madre de 4 de nuestros campeones."]},{"type":"p","parts":["FOTOS"]}],"lang":"es"}
+{
+  "file": "clear_spring.htm",
+  "title": "Clear Spring",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Yazmine/37DSC07753.JPG"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Big-Foot de Thalek Clear Spring"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " (YAZMINE)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Hembra dorada y blanca nacida el 16 de Abril de 2007. Altura a la cruz: 24,50 cm. Peso: 6,700 Kg."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Madre identificada por ADN en la Real Sociedad Canina de España."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Después de varios años de larga espera por fin nació nuestra niña más esperada y añorada. Fruto del cruce de Nano con nuestra hembra Campeona de España Amistad Sincera (Miss) ha nacido esta peque, que por supuesto se ha quedado en casa. Tras años de espera, tiempo y dedicación nuestro esfuerzo se ha visto recompensado con ella."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Posee una estructura y silueta como corresponde a la sangre y linaje que tiene. Super femenina con cabeza muy expresiva y con profundo y marcado stop, ojos grandes y llenos, boca con dientes perfectamente alineados, si apenas prognatismo, con tijera invertida, siendo muy chata. Unas excelentes angulaciones tanto delanteras como traseras que le confieren un gran movimiento, con fuerte empuje desde todos los ángulos, con una preciosa inserción y largura de cuello, espalda muy recta con una inserción de rabo perfecta. Su largura y calidad de pelo son increíbles, muy denso y de buena textura."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Tenemos la gran suerte de haber criado esta pequeña en nuestra casa."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Madre de nuestras camadas E, H, J y L. Es madre de 4 de nuestros campeones."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    }
+  ],
+  "lang": "es"
+}
