@@ -72,7 +72,7 @@ function DogCard({ dog, lang }: { dog: Dog; lang: Lang }) {
 
 /** Grid of dog cards; a single dog is shown centered instead of left-aligned. */
 function DogsGrid({ dogs, lang }: { dogs: Dog[]; lang: Lang }) {
-  if (dogs.length === 1) {
+  if (dogs.length === 1 && dogs[0]) {
     return (
       <div className="mt-6 flex justify-center">
         <div className="w-full max-w-sm"><DogCard dog={dogs[0]} lang={lang} /></div>
