@@ -15,6 +15,10 @@ const copy = {
     bob: "Especialistas en Bobtail desde nuestros comienzos como criadores.",
     males: "Machos",
     females: "Hembras",
+    shihBreed: [
+      "La característica más fuerte del Shih Tzu es su personalidad. Es divertido y cariñoso, para nada agresivo y un excelente compañero para niños y adultos. Es alerta, vivaz y disfruta de un buen paseo. Puede jugar por horas y no habrá día en que no le haga reír. Ama más que nada la compañía y el afecto de la gente. Es feliz entreteniendo a cualquier extraño y concede su afecto a la persona más cercana. Es grandioso con los niños. Jugará con ellos por horas y la pregunta es: ¿Quiénes se cansarán primero: los niños o el perro?",
+      "Nuestros Shih Tzu proceden de líneas americanas y europeas.",
+    ],
   },
   en: {
     eyebrow: "R.S.C.E. kennel 8.852 · Since 1995",
@@ -28,6 +32,10 @@ const copy = {
     bob: "Bobtail specialists since our very beginnings as breeders.",
     males: "Males",
     females: "Females",
+    shihBreed: [
+      "The Shih Tzu's strongest trait is its personality. It is fun and affectionate, never aggressive, and an excellent companion for children and adults. It is alert, lively and enjoys a good walk. It can play for hours and not a day will go by without it making you laugh. More than anything it loves people's company and affection. It happily entertains any stranger and gives its affection to the person closest to it. It is wonderful with children: it will play with them for hours, and the question is who will tire first, the children or the dog?",
+      "Our Shih Tzu come from American and European lines.",
+    ],
   },
 };
 
@@ -72,16 +80,26 @@ export function Home({ lang }: { lang: Lang }) {
         <p className="eyebrow text-accent">{c.breeds}</p>
         <div className="mt-6 grid gap-8 md:grid-cols-2">
           {[
-            { name: "Shih Tzu", text: c.shih, img: "fotos/Criadero/Miss/06MISSFRENTE.jpg", m: "shih-tzum", f: "shih-tzuh", r: "razashi" },
-            { name: "Bobtail", text: c.bob, img: "fotos/Criadero/London/ZDSC04808.JPG", m: "bobtailm", f: "bobtailh", r: "razabob" },
+            { name: "Shih Tzu", text: c.shih, img: "fotos/Criadero/Miss/06MISSFRENTE.jpg", m: "shih-tzum", f: "shih-tzuh", breed: true },
+            { name: "Bobtail", text: c.bob, img: "fotos/Criadero/London/ZDSC04808.JPG", m: "bobtailm", f: "bobtailh", r: "razabob", breed: false },
           ].map((b) => (
             <article key={b.name} className="overflow-hidden rounded-md border border-border bg-card shadow-soft">
-              <Link {...L(b.r)}>
+              {b.r ? (
+                <Link {...L(b.r)}>
+                  <img src={legacySrc(b.img)} alt={b.name} className="h-72 w-full object-cover" />
+                </Link>
+              ) : (
                 <img src={legacySrc(b.img)} alt={b.name} className="h-72 w-full object-cover" />
-              </Link>
+              )}
               <div className="p-6">
                 <h2 className="font-display text-3xl font-semibold text-primary">{b.name}</h2>
                 <p className="mt-2 text-muted-foreground">{b.text}</p>
+                {b.breed && (
+                  <div className="mt-4 space-y-3 text-sm leading-relaxed text-muted-foreground">
+                    <img src={legacySrc("fotos/Criadero/Chicho/11DSC03903.JPG")} alt="Shih Tzu" className="mx-auto max-h-80 rounded-md shadow-soft" />
+                    {c.shihBreed.map((p) => <p key={p}>{p}</p>)}
+                  </div>
+                )}
                 <div className="mt-4 flex gap-4 text-sm font-semibold">
                   <Link {...L(b.m)} className="text-primary hover:underline">{c.males} →</Link>
                   <Link {...L(b.f)} className="text-primary hover:underline">{c.females} →</Link>
