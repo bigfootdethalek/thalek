@@ -1,1 +1,129 @@
-{"file":"camada_LShih_en.htm","title":"Litter \"L\"","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Dandy/DSC07007.JPG","to":"feel-the-angel-en"},{"type":"img","src":"fotos/Criadero/Yazmine/37DSC07753.JPG","to":"clear-spring-en"}]},{"type":"p","parts":[{"text":"P: LEMURO FEEL THE ANGEL","to":"feel-the-angel-en"}]},{"type":"p","parts":[{"text":"M: BIG-FOOT DE THALEK CLEAR SPRING","to":"clear-spring-en"}]},{"type":"p","parts":["Very special litter born on April, 2013. Mummy is our girl Clear Spring (Yazmine) daughter our champion Amistad (Miss). Father is our last import Feel The Angel (Dandy)."]},{"type":"p","parts":["Four beautiful pups were born."]},{"type":"p","parts":["PICS"]},{"type":"p","parts":["LITTLE DRAGON"]},{"type":"p","parts":[" Dragon owner by Carmen (Madrid)"]},{"type":"p","parts":["LUCKY BREAK"]},{"type":"p","parts":[" Lucky owner by Jessica (La Coruña)"]},{"type":"p","parts":["LATIN LOVER"]},{"type":"p","parts":["Latino es co-owner by Desirée & Big-Foot de Thalek (Valladolid)"]},{"type":"p","parts":["LOOK AT ME"]},{"type":"p","parts":[" Jimmy owner by Stéphanie & Jerome (France)"]},{"type":"p","parts":["VIDEO"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+  "file": "camada_LShih_en.htm",
+  "title": "Litter \"L\"",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Dandy/DSC07007.JPG",
+          "to": "feel-the-angel-en"
+        },
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Yazmine/37DSC07753.JPG",
+          "to": "clear-spring-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "P: LEMURO FEEL THE ANGEL",
+          "to": "feel-the-angel-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: BIG-FOOT DE THALEK CLEAR SPRING",
+          "to": "clear-spring-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Very special litter born on April, 2013. Mummy is our girl Clear Spring (Yazmine) daughter our champion Amistad (Miss). Father is our last import Feel The Angel (Dandy)."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Four beautiful pups were born."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "PICS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "LITTLE DRAGON"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Dragon owner by Carmen (Madrid)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "LUCKY BREAK"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Lucky owner by Jessica (La Coruña)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "LATIN LOVER"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Latino es co-owner by Desirée & Big-Foot de Thalek (Valladolid)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "LOOK AT ME"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Jimmy owner by Stéphanie & Jerome (France)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "VIDEO"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We make web pages",
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        },
+        "."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Edit and update © Big-Foot de Thalek."
+      ]
+    }
+  ],
+  "lang": "en"
+}

@@ -1,1 +1,118 @@
-{"file":"camada_H.htm","title":"Camada \"H\"","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/London/91DSC09998.JPG","to":"zottels"},{"type":"img","src":"fotos/Criadero/Bosca/01BOSCA.jpg","to":"wanda"}]},{"type":"p","parts":[{"text":"P: CH. ZOTTELS HAPPILY EVER AFTER","to":"zottels"}]},{"type":"p","parts":[{"text":"M: BISS WANDA DEL ATICO","to":"wanda"}]},{"type":"p","parts":["El orgulloso papá es nuestro espectacular ejemplar importado de Inglaterra y la mamá nuestra hembra Wanda uniendo las mejores líneas europeas en una."]},{"type":"p","parts":["El parto ha tenido lugar el 10 de Diciembre de 2004. Han sido cinco ejemplares de los cuales dos han sido machos y tres hembras."]},{"type":"p","parts":["FOTOS"]},{"type":"p","parts":["BIG-FOOT DE THALEK HEY LOOK AT ME "]},{"type":"p","parts":["Wendy es propiedad de Ana María (Málaga)"]},{"type":"p","parts":["BIG-FOOT DE THALEK HI SPARKLING B. "]},{"type":"p","parts":["Nano es propiedad de Patricia & Dante - Sparkling Bear's (Buenos Aires - Argentina)"]},{"type":"p","parts":["BIG-FOOT DE THALEK HAVE A DREAM "]},{"type":"p","parts":["Panda es propiedad de Javier & María Jose (Asturias)"]},{"type":"p","parts":["BIG-FOOT DE THALEK HOARD TREASURE "]},{"type":"p","parts":["Colin está en copropiedad con Alejandro, Laura & Luis (Madrid)"]},{"type":"p","parts":["BIG-FOOT DE THALEK HONEY MOON "]},{"type":"p","parts":["Moon es propiedad de Maike & Marta (Alicante)"]}],"lang":"es"}
+{
+  "file": "camada_H.htm",
+  "title": "Camada \"H\"",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/London/91DSC09998.JPG",
+          "to": "zottels"
+        },
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Bosca/01BOSCA.jpg",
+          "to": "wanda"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "P: CH. ZOTTELS HAPPILY EVER AFTER",
+          "to": "zottels"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: BISS WANDA DEL ATICO",
+          "to": "wanda"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "El orgulloso papá es nuestro espectacular ejemplar importado de Inglaterra y la mamá nuestra hembra Wanda uniendo las mejores líneas europeas en una."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "El parto ha tenido lugar el 10 de Diciembre de 2004. Han sido cinco ejemplares de los cuales dos han sido machos y tres hembras."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK HEY LOOK AT ME "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Wendy es propiedad de Ana María (Málaga)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK HI SPARKLING B. "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Nano es propiedad de Patricia & Dante - Sparkling Bear's (Buenos Aires - Argentina)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK HAVE A DREAM "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Panda es propiedad de Javier & María Jose (Asturias)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK HOARD TREASURE "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Colin está en copropiedad con Alejandro, Laura & Luis (Madrid)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK HONEY MOON "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Moon es propiedad de Maike & Marta (Alicante)"
+      ]
+    }
+  ],
+  "lang": "es"
+}

@@ -1,1 +1,87 @@
-{"file":"reata_en.htm","title":"Reata's I'm Big-Foot de Thalek","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Neo/27NEOIZD4MESES1.jpg"}]},{"type":"p","parts":["REATA'S I'M BIG-FOOT DE THALEK"]},{"type":"p","parts":[" (NEO)"]},{"type":"p","parts":["26/3/2003 - /08/2003"]},{"type":"p","parts":["Macho nacido el 26 de Marzo de 2003. HD: ?. Altura a la cruz: ? cm."]},{"type":"p","parts":["Ejemplar de uno de los criadores Top del mundo: Davor Javor (REATA'S). Llegó a nuestro hogar el 9 de Junio de 2003. Lo hemos importado desde Croacia para introducir en nuestra línea la estructura, el hueso, las angulaciones y el tipismo fuera de lo común que su sangre tiene."]},{"type":"p","parts":["Fruto del cruce delBobtail Top Semental en Hungría 1999, 2000, 2001 Ch.LamedaZottel Quicksilver y la hembra ganadora de BIS Ch.Reata's Carisma para unir en su sangre los mejores Bobtails existentes en la historia en un cruce supercerrado (inbreeding). Es sobrino del BIS y del RBIS en el Euro OES Show 2003 (Reata's Class Two Thounsand y Reata's Como Las Condes respectivamente)."]},{"type":"p","parts":["Doy las gracias a sus criadores Davor y Andrea Javor (del criadero \"Reata´s\") por habernos confiado este fantástico ejemplar y por la ayuda que nos han brindado."]},{"type":"p","parts":[" Lamentablemente ya no se encuentra entre nosotros, pero hemos disfrutado con él los meses más maravillosos de nuestra vida."]},{"type":"p","parts":["PICS"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+  "file": "reata_en.htm",
+  "title": "Reata's I'm Big-Foot de Thalek",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Neo/27NEOIZD4MESES1.jpg"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "REATA'S I'M BIG-FOOT DE THALEK"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " (NEO)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "26/3/2003 - /08/2003"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Macho nacido el 26 de Marzo de 2003. HD: ?. Altura a la cruz: ? cm."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ejemplar de uno de los criadores Top del mundo: Davor Javor (REATA'S). Llegó a nuestro hogar el 9 de Junio de 2003. Lo hemos importado desde Croacia para introducir en nuestra línea la estructura, el hueso, las angulaciones y el tipismo fuera de lo común que su sangre tiene."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Fruto del cruce delBobtail Top Semental en Hungría 1999, 2000, 2001 Ch.LamedaZottel Quicksilver y la hembra ganadora de BIS Ch.Reata's Carisma para unir en su sangre los mejores Bobtails existentes en la historia en un cruce supercerrado (inbreeding). Es sobrino del BIS y del RBIS en el Euro OES Show 2003 (Reata's Class Two Thounsand y Reata's Como Las Condes respectivamente)."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Doy las gracias a sus criadores Davor y Andrea Javor (del criadero \"Reata´s\") por habernos confiado este fantástico ejemplar y por la ayuda que nos han brindado."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Lamentablemente ya no se encuentra entre nosotros, pero hemos disfrutado con él los meses más maravillosos de nuestra vida."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "PICS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We make web pages",
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        },
+        "."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Edit and update © Big-Foot de Thalek."
+      ]
+    }
+  ],
+  "lang": "en"
+}

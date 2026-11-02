@@ -1,1 +1,118 @@
-{"file":"camada_J.htm","title":"Camada \"J\"","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/London/91DSC09998.JPG","to":"zottels"},{"type":"img","src":"fotos/Criadero/Shakira/25SPARKLINGBEARIZD19M3.JPG","to":"sparkling-bear"}]},{"type":"p","parts":[{"text":"P: CH. ZOTTELS HAPPILY EVER AFTER","to":"zottels"}]},{"type":"p","parts":[{"text":"M: SPARKLING BEAR'S BIG-FOOT DE THALEK","to":"sparkling-bear"}]},{"type":"p","parts":["Camada nacida del cruce de nuestro London, ejemplar importado de Inglaterra con nuestra hembra Shakira importada de Argentina para unir las más importantes líneas europeas con las más importantes líneas americanas."]},{"type":"p","parts":["El parto ha tenido lugar el 28 de Octubre de 2007. Han sido cinco ejemplares de los cuales dos han sido machos y tres hembras."]},{"type":"p","parts":["FOTOS"]},{"type":"p","parts":["BIG-FOOT DE THALEK JEWEL OF THE SEA "]},{"type":"p","parts":["Jewel es propiedad de Irina Zhuravleva & Alexander Bondar - Secrets Of Love (Moscú - Rusia)"]},{"type":"p","parts":["BIG-FOOT DE THALEK JUST FOR ME HD A-A"]},{"type":"p","parts":["Sheila es propiedad de Big-Foot de Thalek"]},{"type":"p","parts":["BIG-FOOT DE THALEK JOY FOR EVER "]},{"type":"p","parts":["Dudo está en copropiedad con Almudena, Fernando & María (Vizcaya)"]},{"type":"p","parts":["BIG-FOOT DE THALEK JAMES BLUE EYE "]},{"type":"p","parts":["Blue es propiedad de Paco, Carmen & Samuel (Málaga)"]},{"type":"p","parts":["BIG-FOOT DE THALEK JASMINE WILD PEARL "]},{"type":"p","parts":["Afryka es propiedad de María & David (Tarragona)"]}],"lang":"es"}
+{
+  "file": "camada_J.htm",
+  "title": "Camada \"J\"",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/London/91DSC09998.JPG",
+          "to": "zottels"
+        },
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Shakira/25SPARKLINGBEARIZD19M3.JPG",
+          "to": "sparkling-bear"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "P: CH. ZOTTELS HAPPILY EVER AFTER",
+          "to": "zottels"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: SPARKLING BEAR'S BIG-FOOT DE THALEK",
+          "to": "sparkling-bear"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Camada nacida del cruce de nuestro London, ejemplar importado de Inglaterra con nuestra hembra Shakira importada de Argentina para unir las más importantes líneas europeas con las más importantes líneas americanas."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "El parto ha tenido lugar el 28 de Octubre de 2007. Han sido cinco ejemplares de los cuales dos han sido machos y tres hembras."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK JEWEL OF THE SEA "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Jewel es propiedad de Irina Zhuravleva & Alexander Bondar - Secrets Of Love (Moscú - Rusia)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK JUST FOR ME HD A-A"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Sheila es propiedad de Big-Foot de Thalek"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK JOY FOR EVER "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Dudo está en copropiedad con Almudena, Fernando & María (Vizcaya)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK JAMES BLUE EYE "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Blue es propiedad de Paco, Carmen & Samuel (Málaga)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK JASMINE WILD PEARL "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Afryka es propiedad de María & David (Tarragona)"
+      ]
+    }
+  ],
+  "lang": "es"
+}

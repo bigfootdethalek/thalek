@@ -1,1 +1,93 @@
-{"file":"mystery_of_the_world_en.htm","title":"Mystery Of The World","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Mystery/DSC02558.JPG"}]},{"type":"p","parts":["BIG-FOOT DE THALEK MYSTERY OF THE WORLD"]},{"type":"p","parts":[" (MYSTERY)"]},{"type":"p","parts":[" Propietarios Stéphanie y Jérome"]},{"type":"p","parts":["Macho blanco y rojo nacido el 15 de Junio de 2013."]},{"type":"p","parts":["Identificado por ADN en la Société Centrale Canine. Confirmado en Francia."]},{"type":"p","parts":["Madre identificada por ADN en la Real Sociedad Canina de España."]},{"type":"p","parts":[" Fruto del cruce de nuestra última importación Feel The Angel (Dandy) con nuestra preciosa Campeona de España, Portugal, Internacional Ghost In Love (Chanel) ha nacido este bello ejemplar."]},{"type":"p","parts":["Está viviendo con nuestros grandes amigos Stéphanie Duronssoy, Jérome Gaschet y sus Shih Tzu en Francia. Le agradecemos la confianza depositada en nosotros, en nuestros ejemplares y en nuestra forma de crianza y por adquirir a Mystery para exponerlo en Europa."]},{"type":"p","parts":["Esperamos y deseamos que su carrera en las exposiciones sea exitosa y que pronto sepamos de él en las exposiciones y sobre todo que sea muy, muy feliz con sus nuevos papis."]},{"type":"p","parts":["FOTOS"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+  "file": "mystery_of_the_world_en.htm",
+  "title": "Mystery Of The World",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Mystery/DSC02558.JPG"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK MYSTERY OF THE WORLD"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " (MYSTERY)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Propietarios Stéphanie y Jérome"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Macho blanco y rojo nacido el 15 de Junio de 2013."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Identificado por ADN en la Société Centrale Canine. Confirmado en Francia."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Madre identificada por ADN en la Real Sociedad Canina de España."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Fruto del cruce de nuestra última importación Feel The Angel (Dandy) con nuestra preciosa Campeona de España, Portugal, Internacional Ghost In Love (Chanel) ha nacido este bello ejemplar."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Está viviendo con nuestros grandes amigos Stéphanie Duronssoy, Jérome Gaschet y sus Shih Tzu en Francia. Le agradecemos la confianza depositada en nosotros, en nuestros ejemplares y en nuestra forma de crianza y por adquirir a Mystery para exponerlo en Europa."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Esperamos y deseamos que su carrera en las exposiciones sea exitosa y que pronto sepamos de él en las exposiciones y sobre todo que sea muy, muy feliz con sus nuevos papis."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We make web pages",
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        },
+        "."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Edit and update © Big-Foot de Thalek."
+      ]
+    }
+  ],
+  "lang": "en"
+}

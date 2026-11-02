@@ -1,1 +1,87 @@
-{"file":"lucky_break_en.htm","title":"Lucky Break","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Lucky/Oviedo 14 Nac 01.jpg"}]},{"type":"p","parts":["JCH.PT. BIG-FOOT DE THALEK LUCKY BREAK"]},{"type":"p","parts":[" (LUCKY)"]},{"type":"p","parts":["Propietaria Jessica"]},{"type":"p","parts":["Macho blanco y dorado nacido el 27 de Octubre de 2011."]},{"type":"p","parts":["PORTUGAL JUNIOR CHAMPION"]},{"type":"p","parts":["Fruto del cruce de nuestra última importación Feel The Angel (Dandy) con nuestra hembra Clear Spring (Yazmine), hija de nuestra Campeona Amistad Sincera (Miss) ha nacido este bello ejemplar."]},{"type":"p","parts":["Ahora está viviendo con nuestra amiga Jessica y sus peludos en A Coruña. Le agradecemos la confianza depositada en nosotros, en nuestros ejemplares y en nuestra forma de crianza."]},{"type":"p","parts":["Esperamos y deseamos que su carrera en las exposiciones sea exitosa."]},{"type":"p","parts":["FOTOS"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+  "file": "lucky_break_en.htm",
+  "title": "Lucky Break",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Lucky/Oviedo 14 Nac 01.jpg"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "JCH.PT. BIG-FOOT DE THALEK LUCKY BREAK"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " (LUCKY)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Propietaria Jessica"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Macho blanco y dorado nacido el 27 de Octubre de 2011."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "PORTUGAL JUNIOR CHAMPION"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Fruto del cruce de nuestra última importación Feel The Angel (Dandy) con nuestra hembra Clear Spring (Yazmine), hija de nuestra Campeona Amistad Sincera (Miss) ha nacido este bello ejemplar."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ahora está viviendo con nuestra amiga Jessica y sus peludos en A Coruña. Le agradecemos la confianza depositada en nosotros, en nuestros ejemplares y en nuestra forma de crianza."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Esperamos y deseamos que su carrera en las exposiciones sea exitosa."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We make web pages",
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        },
+        "."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Edit and update © Big-Foot de Thalek."
+      ]
+    }
+  ],
+  "lang": "en"
+}

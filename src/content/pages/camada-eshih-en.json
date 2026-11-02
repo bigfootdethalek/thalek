@@ -1,1 +1,133 @@
-{"file":"camada_EShih_en.htm","title":"Litter \"E\"","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Chicho/DSC02815.JPG","to":"universal-beauty-en"},{"type":"img","src":"fotos/Criadero/Yazmine/37DSC07753.JPG","to":"clear-spring-en"}]},{"type":"p","parts":[{"text":"F","to":"universal-beauty-en"},{"text":": CH. MEKONG JIANG UNIVERSAL BEAUTY","to":"universal-beauty-en"}]},{"type":"p","parts":[{"text":"M: BIG-FOOT DE THALEK CLEAR SPRING","to":"clear-spring-en"}]},{"type":"p","parts":["Litter born on January 12, 2009. Crossing out of our lovely imported boy Universal Beauty (Chicho) with completely American blood-lines with our girl Clear Spring (Yazmine) daughter our champion Amistad (Miss)."]},{"type":"p","parts":["Four beautiful pups were born three males and one female. Theirs colors are two red and white, one tricolor and one brindle gold and withe."]},{"type":"p","parts":["PICS"]},{"type":"p","parts":["EVERLASTING LOVE "]},{"type":"p","parts":["Elsa owner by Cristina & Carlos (Barcelona)"]},{"type":"p","parts":["EVER SO HAPPY "]},{"type":"p","parts":["Bruno owner by Lucía, Miguel & Kira (Madrid)"]},{"type":"p","parts":["ETERNAL PASSION "]},{"type":"p","parts":["Tintin owner by Lucía, Albi & Miguel (Castellón)"]},{"type":"p","parts":["EXOTIC MYSTERY "]},{"type":"p","parts":["Bubu owner by Alberto & Patricia (BizKaia)"]},{"type":"p","parts":["VIDEO"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+  "file": "camada_EShih_en.htm",
+  "title": "Litter \"E\"",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Chicho/DSC02815.JPG",
+          "to": "universal-beauty-en"
+        },
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Yazmine/37DSC07753.JPG",
+          "to": "clear-spring-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "F",
+          "to": "universal-beauty-en"
+        },
+        {
+          "text": ": CH. MEKONG JIANG UNIVERSAL BEAUTY",
+          "to": "universal-beauty-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: BIG-FOOT DE THALEK CLEAR SPRING",
+          "to": "clear-spring-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Litter born on January 12, 2009. Crossing out of our lovely imported boy Universal Beauty (Chicho) with completely American blood-lines with our girl Clear Spring (Yazmine) daughter our champion Amistad (Miss)."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Four beautiful pups were born three males and one female. Theirs colors are two red and white, one tricolor and one brindle gold and withe."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "PICS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "EVERLASTING LOVE "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Elsa owner by Cristina & Carlos (Barcelona)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "EVER SO HAPPY "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Bruno owner by Lucía, Miguel & Kira (Madrid)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "ETERNAL PASSION "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Tintin owner by Lucía, Albi & Miguel (Castellón)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "EXOTIC MYSTERY "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Bubu owner by Alberto & Patricia (BizKaia)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "VIDEO"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We make web pages",
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        },
+        "."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Edit and update © Big-Foot de Thalek."
+      ]
+    }
+  ],
+  "lang": "en"
+}

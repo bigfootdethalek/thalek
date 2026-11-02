@@ -1,1 +1,76 @@
-{"file":"look_at_me.htm","title":"Look At Me","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Jimmy/DSC04883.JPG"}]},{"type":"p","parts":["BIG-FOOT DE THALEK LOOK AT ME"]},{"type":"p","parts":[" (JIMMY)"]},{"type":"p","parts":["Propietarios"]},{"type":"p","parts":[" Propietarios Stéphanie y Jérome"]},{"type":"p","parts":["Macho rojo y blanco nacido el 27 de Octubre de 2011."]},{"type":"p","parts":["Identificado por ADN en la Société Centrale Canine. Confirmado en Francia."]},{"type":"p","parts":["Fruto del cruce de nuestra última importación Feel The Angel (Dandy) con nuestra hembra Clear Spring (Yazmine), hija de nuestra Campeona Amistad Sincera (Miss) ha nacido este bello ejemplar."]},{"type":"p","parts":["Está viviendo con nuestros grandes amigos Stéphanie Duronssoy, Jérome Gaschet y sus Shih Tzu en Francia. Le agradecemos la confianza depositada en nosotros, en nuestros ejemplares y en nuestra forma de crianza y por adquirir a Jimmy para exponerlo en Europa."]},{"type":"p","parts":["Esperamos y deseamos que su carrera en las exposiciones sea exitosa y que pronto sepamos de él en las exposiciones y sobre todo que sea muy, muy feliz con sus nuevos papis."]},{"type":"p","parts":["FOTOS"]}],"lang":"es"}
+{
+  "file": "look_at_me.htm",
+  "title": "Look At Me",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Jimmy/DSC04883.JPG"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK LOOK AT ME"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " (JIMMY)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Propietarios"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Propietarios Stéphanie y Jérome"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Macho rojo y blanco nacido el 27 de Octubre de 2011."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Identificado por ADN en la Société Centrale Canine. Confirmado en Francia."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Fruto del cruce de nuestra última importación Feel The Angel (Dandy) con nuestra hembra Clear Spring (Yazmine), hija de nuestra Campeona Amistad Sincera (Miss) ha nacido este bello ejemplar."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Está viviendo con nuestros grandes amigos Stéphanie Duronssoy, Jérome Gaschet y sus Shih Tzu en Francia. Le agradecemos la confianza depositada en nosotros, en nuestros ejemplares y en nuestra forma de crianza y por adquirir a Jimmy para exponerlo en Europa."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Esperamos y deseamos que su carrera en las exposiciones sea exitosa y que pronto sepamos de él en las exposiciones y sobre todo que sea muy, muy feliz con sus nuevos papis."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    }
+  ],
+  "lang": "es"
+}

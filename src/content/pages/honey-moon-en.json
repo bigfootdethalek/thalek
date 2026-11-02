@@ -1,1 +1,75 @@
-{"file":"honey_moon_en.htm","title":"Big-Foot de Thalek Honey Moon","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/moon/H_HONEYMOONIZD10MES_small1.JPG"}]},{"type":"p","parts":["BIG-FOOT DE THALEK HONEY MOON"]},{"type":"p","parts":["(MOON)"]},{"type":"p","parts":["Hembra nacida el 10 de Diciembre de 2004. HD: ?. Altura a la cruz: 56 cm."]},{"type":"p","parts":["Fruto del cruce de nuestro espectacular semental Zottels Happily Ever After con nuestra hembra Wanda uniendo las más importantes líneas de sangre europeas en su pedigree. "]},{"type":"p","parts":["Ahora está viviendo con nuestras amigas Maike y Marta en Alicante."]},{"type":"p","parts":["Esperamos y deseamos que su carrera en las exposiciones sea tan exitosa como la de su padre."]},{"type":"p","parts":["PICS"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+  "file": "honey_moon_en.htm",
+  "title": "Big-Foot de Thalek Honey Moon",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/moon/H_HONEYMOONIZD10MES_small1.JPG"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK HONEY MOON"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "(MOON)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Hembra nacida el 10 de Diciembre de 2004. HD: ?. Altura a la cruz: 56 cm."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Fruto del cruce de nuestro espectacular semental Zottels Happily Ever After con nuestra hembra Wanda uniendo las más importantes líneas de sangre europeas en su pedigree. "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ahora está viviendo con nuestras amigas Maike y Marta en Alicante."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Esperamos y deseamos que su carrera en las exposiciones sea tan exitosa como la de su padre."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "PICS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We make web pages",
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        },
+        "."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Edit and update © Big-Foot de Thalek."
+      ]
+    }
+  ],
+  "lang": "en"
+}

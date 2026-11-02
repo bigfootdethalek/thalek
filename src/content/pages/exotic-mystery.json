@@ -1,1 +1,64 @@
-{"file":"exotic_mystery.htm","title":"Exotic Mystery","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Bubu/Exposicion Medina de Pomar 16.JPG"}]},{"type":"p","parts":[" BIG-FOOT DE THALEK EXOTIC MYSTERY"]},{"type":"p","parts":[" (BUBU)"]},{"type":"p","parts":["Propietarios Patricia y Alberto"]},{"type":"p","parts":["Macho blanco y rojo nacido el 12 de Enero de 2009."]},{"type":"p","parts":["Padre identificado por ADN en la Real Sociedad Canina de España."]},{"type":"p","parts":["Fruto del cruce de nuestro precioso semental Universal Beauty (Chicho) con nuestra hembra Clear Spring (Yazmine), hija de nuestra Campeona Amistad Sincera (Miss) ha nacido este bello ejemplar."]},{"type":"p","parts":["Ahora está viviendo con nuestros amigos Patricia y Alberto en Vizcaya. Les agradecemos la confianza depositada en nosotros."]},{"type":"p","parts":["FOTOS"]}],"lang":"es"}
+{
+  "file": "exotic_mystery.htm",
+  "title": "Exotic Mystery",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Bubu/Exposicion Medina de Pomar 16.JPG"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " BIG-FOOT DE THALEK EXOTIC MYSTERY"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " (BUBU)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Propietarios Patricia y Alberto"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Macho blanco y rojo nacido el 12 de Enero de 2009."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Padre identificado por ADN en la Real Sociedad Canina de España."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Fruto del cruce de nuestro precioso semental Universal Beauty (Chicho) con nuestra hembra Clear Spring (Yazmine), hija de nuestra Campeona Amistad Sincera (Miss) ha nacido este bello ejemplar."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ahora está viviendo con nuestros amigos Patricia y Alberto en Vizcaya. Les agradecemos la confianza depositada en nosotros."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    }
+  ],
+  "lang": "es"
+}

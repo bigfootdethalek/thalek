@@ -1,1 +1,133 @@
-{"file":"camada_HShih.htm","title":"Camada \"H\"","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Chicho/DSC08412.JPG","to":"universal-beauty"},{"type":"img","src":"fotos/Criadero/Yazmine/37DSC07753.JPG","to":"clear-spring"}]},{"type":"p","parts":[{"text":"M: BIG-FOOT DE THALEK CLEAR SPRING","to":"clear-spring"}]},{"type":"p","parts":[" Nueva camada nacida del c"]},{"type":"p","parts":["ruce de nuestro precioso ejemplar importado Universal Beauty (Chicho) con nuestra hembra Clear Spring (Yazmine) hija de nuestra campeona Amistad (Miss)."]},{"type":"p","parts":[" Han nacido seis hermosos cachorros, que son cinco machos y una hembra."]},{"type":"p","parts":["FOTOS"]},{"type":"p","parts":["HAPPILY EVER AFTER"]},{"type":"p","parts":[" Guizmo es propiedad de Big-Foot de Thalek"]},{"type":"p","parts":["HAPPY ILUSION"]},{"type":"p","parts":["Merlín es propiedad de Big-Foot de Thalek"]},{"type":"p","parts":["HELLO AGAIN"]},{"type":"p","parts":[" Nao es propiedad de María & Pablo (Islas Canarias)"]},{"type":"p","parts":["HAVE A DREAM"]},{"type":"p","parts":[" Drimik es propiedad de Miroslava (República Checa)"]},{"type":"p","parts":["HEART BREAKER"]},{"type":"p","parts":[" Baloo es propiedad de Diana, Rebeca y Jero (Cantabria)"]},{"type":"p","parts":["HONEY BEAR"]},{"type":"p","parts":["Winnie es propiedad de Big-Foot de Thalek"]},{"type":"p","parts":["VIDEO"]}],"lang":"es"}
+{
+  "file": "camada_HShih.htm",
+  "title": "Camada \"H\"",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Chicho/DSC08412.JPG",
+          "to": "universal-beauty"
+        },
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Yazmine/37DSC07753.JPG",
+          "to": "clear-spring"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: BIG-FOOT DE THALEK CLEAR SPRING",
+          "to": "clear-spring"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Nueva camada nacida del c"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "ruce de nuestro precioso ejemplar importado Universal Beauty (Chicho) con nuestra hembra Clear Spring (Yazmine) hija de nuestra campeona Amistad (Miss)."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Han nacido seis hermosos cachorros, que son cinco machos y una hembra."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "HAPPILY EVER AFTER"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Guizmo es propiedad de Big-Foot de Thalek"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "HAPPY ILUSION"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Merlín es propiedad de Big-Foot de Thalek"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "HELLO AGAIN"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Nao es propiedad de María & Pablo (Islas Canarias)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "HAVE A DREAM"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Drimik es propiedad de Miroslava (República Checa)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "HEART BREAKER"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Baloo es propiedad de Diana, Rebeca y Jero (Cantabria)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "HONEY BEAR"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Winnie es propiedad de Big-Foot de Thalek"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "VIDEO"
+      ]
+    }
+  ],
+  "lang": "es"
+}

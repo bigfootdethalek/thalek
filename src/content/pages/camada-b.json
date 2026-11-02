@@ -1,1 +1,101 @@
-{"file":"camada_B.htm","title":"Camada \"B\"","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Bosca/01BOSCA.jpg","to":"wanda"}]},{"type":"p","parts":[{"text":"P: MULTI CH. MAGIC SOUND DA QUINTA D'ABROEIRA","to":"links-magic"}]},{"type":"p","parts":[{"text":"M: BISS WANDA DEL ÁTICO","to":"wanda"}]},{"type":"p","parts":["Camada del cruce realizado entre Multi Ch. Magic Sound Da Quinta D'Abroeira y Wanda uniendo dos grandes líneas de sangre. "]},{"type":"p","parts":["El parto tuvo lugar el 7 de Julio de 2001. La camada se compuso de dos machos y dos hembras."]},{"type":"p","parts":["FOTOS"]},{"type":"p","parts":["LUCKSOR OF BIG-FOOT DE THALEK"]},{"type":"p","parts":["Lucksor es propiedad de María (Cádiz)"]},{"type":"p","parts":[" BOSCA OF BIG-FOOT DE THALEK"]},{"type":"p","parts":["Bosca es propiedad de Marta (Lugo)"]},{"type":"p","parts":[" WEMBA OF BIG-FOOT DE THALEK"]},{"type":"p","parts":["Tasha es propiedad de Meritxel (Barcelona)"]},{"type":"p","parts":[" SHERKAN OF BIG-FOOT DE THALEK"]},{"type":"p","parts":["Hommer es propiedad de Tania (Madrid)"]}],"lang":"es"}
+{
+  "file": "camada_B.htm",
+  "title": "Camada \"B\"",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Bosca/01BOSCA.jpg",
+          "to": "wanda"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "P: MULTI CH. MAGIC SOUND DA QUINTA D'ABROEIRA",
+          "to": "links-magic"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: BISS WANDA DEL ÁTICO",
+          "to": "wanda"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Camada del cruce realizado entre Multi Ch. Magic Sound Da Quinta D'Abroeira y Wanda uniendo dos grandes líneas de sangre. "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "El parto tuvo lugar el 7 de Julio de 2001. La camada se compuso de dos machos y dos hembras."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "LUCKSOR OF BIG-FOOT DE THALEK"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Lucksor es propiedad de María (Cádiz)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " BOSCA OF BIG-FOOT DE THALEK"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Bosca es propiedad de Marta (Lugo)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " WEMBA OF BIG-FOOT DE THALEK"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Tasha es propiedad de Meritxel (Barcelona)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " SHERKAN OF BIG-FOOT DE THALEK"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Hommer es propiedad de Tania (Madrid)"
+      ]
+    }
+  ],
+  "lang": "es"
+}

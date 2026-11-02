@@ -1,1 +1,76 @@
-{"file":"hi_sparkling_b.htm","title":"Hi Sparkling B","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/nano/H_ HISPARKLINGBSEN5MES2_small1.jpg"}]},{"type":"p","parts":["BIG-FOOT DE THALEK HI SPARKLING B"]},{"type":"p","parts":["(NANO)"]},{"type":"p","parts":["Macho nacido el 10 de Diciembre de 2004. HD: Libre.Altura a la cruz: 63 cm."]},{"type":"p","parts":["CAMPEÓN DEL MUNDO 2005 EN CLASE CACHORRO: ESPERANZA MUNDIAL 2005"]},{"type":"p","parts":["VENCEDOR DE LAS AMÉRICAS Y EL CARIBE 2005"]},{"type":"p","parts":["Fruto del cruce de nuestro espectacular semental Zottels Happily Ever After con nuestra hembra Wanda uniendo las más importantes líneas de sangre europeas en su pedigree. "]},{"type":"p","parts":["Ahora está viviendo con nuestros amigos Patricia Hazán y Dante Olla del criadero Sparkling Bear's situado en Buenos Aires (Argentina). Les agradecemos la confianza depositada en nuestro criadero, en nuestros ejemplares y en nuestra forma de crianza."]},{"type":"p","parts":["Su comienzo en las exposiciones ya ha empezado. Esperamos y deseamos que su carrera sea tan exitosa como la de su padre."]},{"type":"p","parts":["Es ya padre de varias camadas y tiene repartidos hijos campeones por varias partes del mundo: China, Ecuador, Argentina, Brasil, Uruguay, España..."]},{"type":"p","parts":["FOTOS"]}],"lang":"es"}
+{
+  "file": "hi_sparkling_b.htm",
+  "title": "Hi Sparkling B",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/nano/H_ HISPARKLINGBSEN5MES2_small1.jpg"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BIG-FOOT DE THALEK HI SPARKLING B"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "(NANO)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Macho nacido el 10 de Diciembre de 2004. HD: Libre.Altura a la cruz: 63 cm."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "CAMPEÓN DEL MUNDO 2005 EN CLASE CACHORRO: ESPERANZA MUNDIAL 2005"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "VENCEDOR DE LAS AMÉRICAS Y EL CARIBE 2005"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Fruto del cruce de nuestro espectacular semental Zottels Happily Ever After con nuestra hembra Wanda uniendo las más importantes líneas de sangre europeas en su pedigree. "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ahora está viviendo con nuestros amigos Patricia Hazán y Dante Olla del criadero Sparkling Bear's situado en Buenos Aires (Argentina). Les agradecemos la confianza depositada en nuestro criadero, en nuestros ejemplares y en nuestra forma de crianza."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Su comienzo en las exposiciones ya ha empezado. Esperamos y deseamos que su carrera sea tan exitosa como la de su padre."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Es ya padre de varias camadas y tiene repartidos hijos campeones por varias partes del mundo: China, Ecuador, Argentina, Brasil, Uruguay, España..."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    }
+  ],
+  "lang": "es"
+}

@@ -1,1 +1,147 @@
-{"file":"camada_KShih_en.htm","title":"Litter \"K\"","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Gizmo/DSC03974 1.JPG","to":"happily-ever-after-en"},{"type":"img","src":"fotos/Criadero/Engye/DSC00740.JPG","to":"forget-me-nots-en"}]},{"type":"p","parts":[{"text":"P: JR.CH., CH. BIG-FOOT DE THALEK HAPPILY EVER AFTER","to":"happily-ever-after-en"}]},{"type":"p","parts":[{"text":"M: CH. FORGET ME NOTS DE PENAGUILA","to":"forget-me-nots-en"}]},{"type":"p","parts":["Very special"]},{"type":"p","parts":[" litter born on November, 2012. We have mated our Spain Junior Campion, Spain, International Ch. Happily Ever After (Guizmo) with our girl Spain, International Ch. Forget Me Nots (Engye). "]},{"type":"p","parts":["Five beautiful pups were born."]},{"type":"p","parts":["PICS"]},{"type":"p","parts":["KEY OF LEGEND"]},{"type":"p","parts":[" Sol owner by Marga (León)"]},{"type":"p","parts":["KISS ME QUICK"]},{"type":"p","parts":[" Kissi owner by Mari Carmen (Barcelona)"]},{"type":"p","parts":["KNIGHT WIND"]},{"type":"p","parts":["Flynn owner by Nuria (Madrid)"]},{"type":"p","parts":["KEEP MY DREAM"]},{"type":"p","parts":[" Dream owner by Tove (Norway)"]},{"type":"p","parts":["KNOWING A SECRET"]},{"type":"p","parts":[" DaKotha owner by Big-Foot de Thalek"]},{"type":"p","parts":["VIDEO"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+  "file": "camada_KShih_en.htm",
+  "title": "Litter \"K\"",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Gizmo/DSC03974 1.JPG",
+          "to": "happily-ever-after-en"
+        },
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Engye/DSC00740.JPG",
+          "to": "forget-me-nots-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "P: JR.CH., CH. BIG-FOOT DE THALEK HAPPILY EVER AFTER",
+          "to": "happily-ever-after-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: CH. FORGET ME NOTS DE PENAGUILA",
+          "to": "forget-me-nots-en"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Very special"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " litter born on November, 2012. We have mated our Spain Junior Campion, Spain, International Ch. Happily Ever After (Guizmo) with our girl Spain, International Ch. Forget Me Nots (Engye). "
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Five beautiful pups were born."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "PICS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "KEY OF LEGEND"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Sol owner by Marga (León)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "KISS ME QUICK"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Kissi owner by Mari Carmen (Barcelona)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "KNIGHT WIND"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Flynn owner by Nuria (Madrid)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "KEEP MY DREAM"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Dream owner by Tove (Norway)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "KNOWING A SECRET"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " DaKotha owner by Big-Foot de Thalek"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "VIDEO"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "We make web pages",
+        {
+          "text": "BFDT@hotmail.com",
+          "href": "mailto:BFDT@hotmail.com"
+        },
+        "."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Edit and update © Big-Foot de Thalek."
+      ]
+    }
+  ],
+  "lang": "en"
+}

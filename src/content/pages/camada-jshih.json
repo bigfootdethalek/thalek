@@ -1,1 +1,130 @@
-{"file":"camada_JShih.htm","title":"Camada \"J\"","blocks":[{"type":"gallery","items":[{"type":"img","src":"fotos/Criadero/Chicho/DSC08412.JPG","to":"universal-beauty"},{"type":"img","src":"fotos/Criadero/Yazmine/37DSC07753.JPG","to":"clear-spring"}]},{"type":"p","parts":[{"text":"P: CH. MEKONG JIANG UNIVERSAL BEAUTY","to":"universal-beauty"}]},{"type":"p","parts":[{"text":"M: BIG-FOOT DE THALEK CLEAR SPRING","to":"clear-spring"}]},{"type":"p","parts":[" Nueva camada nacida en octubre de 2011. Repetición de nuestra camada H de"]},{"type":"p","parts":[" nuestro precioso ejemplar importado Universal Beauty (Chicho) con nuestra hembra Clear Spring (Yazmine) hija de nuestra campeona Amistad (Miss). Hermanos de Guizmo, Merlín y Winnie."]},{"type":"p","parts":[" Han nacido cinco hermosos cachorros."]},{"type":"p","parts":["FOTOS"]},{"type":"p","parts":["JOY OF MY LIFE"]},{"type":"p","parts":[" Joy es propiedad de Jessica (La Coruña)"]},{"type":"p","parts":["JAZMINE WILD"]},{"type":"p","parts":[" Sila es propiedad de Enrique (Sevilla)"]},{"type":"p","parts":["JUST FOR FUN"]},{"type":"p","parts":[" Shinjuku es propiedad de Rosario & Javier (Vizcaya)"]},{"type":"p","parts":["JACKIE CHUBBY BEAR"]},{"type":"p","parts":[" Keko es propiedad de Isabel (Asturias)"]},{"type":"p","parts":["JUMPING DRAGON"]},{"type":"p","parts":["Klaus es propiedad de Carlos & Mª Eugenia (La Coruña)"]},{"type":"p","parts":["VIDEO"]}],"lang":"es"}
+{
+  "file": "camada_JShih.htm",
+  "title": "Camada \"J\"",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Chicho/DSC08412.JPG",
+          "to": "universal-beauty"
+        },
+        {
+          "type": "img",
+          "src": "fotos/Criadero/Yazmine/37DSC07753.JPG",
+          "to": "clear-spring"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "P: CH. MEKONG JIANG UNIVERSAL BEAUTY",
+          "to": "universal-beauty"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "M: BIG-FOOT DE THALEK CLEAR SPRING",
+          "to": "clear-spring"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Nueva camada nacida en octubre de 2011. Repetición de nuestra camada H de"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " nuestro precioso ejemplar importado Universal Beauty (Chicho) con nuestra hembra Clear Spring (Yazmine) hija de nuestra campeona Amistad (Miss). Hermanos de Guizmo, Merlín y Winnie."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Han nacido cinco hermosos cachorros."
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "FOTOS"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "JOY OF MY LIFE"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Joy es propiedad de Jessica (La Coruña)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "JAZMINE WILD"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Sila es propiedad de Enrique (Sevilla)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "JUST FOR FUN"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Shinjuku es propiedad de Rosario & Javier (Vizcaya)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "JACKIE CHUBBY BEAR"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        " Keko es propiedad de Isabel (Asturias)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "JUMPING DRAGON"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Klaus es propiedad de Carlos & Mª Eugenia (La Coruña)"
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "VIDEO"
+      ]
+    }
+  ],
+  "lang": "es"
+}
