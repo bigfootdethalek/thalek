@@ -14,6 +14,7 @@ import { Route as SlugRouteImport } from './routes/$slug'
 import { Route as AuthRouteImport } from './routes/auth'
 import { Route as EnRouteImport } from './routes/en'
 import { Route as ResetPasswordRouteImport } from './routes/reset-password'
+import { Route as RevisionExposicionesRouteImport } from './routes/revision-exposiciones'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 
 const IndexRoute = IndexRouteImport.update({
@@ -41,6 +42,11 @@ const ResetPasswordRoute = ResetPasswordRouteImport.update({
   path: '/reset-password',
   getParentRoute: () => rootRouteImport,
 } as any)
+const RevisionExposicionesRoute = RevisionExposicionesRouteImport.update({
+  id: '/revision-exposiciones',
+  path: '/revision-exposiciones',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
   path: '/sitemap.xml',
@@ -53,6 +59,7 @@ export interface FileRoutesByFullPath {
   '/auth': typeof AuthRoute
   '/en': typeof EnRoute
   '/reset-password': typeof ResetPasswordRoute
+  '/revision-exposiciones': typeof RevisionExposicionesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
 }
 export interface FileRoutesByTo {
@@ -61,6 +68,7 @@ export interface FileRoutesByTo {
   '/auth': typeof AuthRoute
   '/en': typeof EnRoute
   '/reset-password': typeof ResetPasswordRoute
+  '/revision-exposiciones': typeof RevisionExposicionesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
 }
 export interface FileRoutesById {
@@ -70,14 +78,28 @@ export interface FileRoutesById {
   '/auth': typeof AuthRoute
   '/en': typeof EnRoute
   '/reset-password': typeof ResetPasswordRoute
+  '/revision-exposiciones': typeof RevisionExposicionesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    '/' | '/$slug' | '/auth' | '/en' | '/reset-password' | '/sitemap.xml'
+    | '/'
+    | '/$slug'
+    | '/auth'
+    | '/en'
+    | '/reset-password'
+    | '/revision-exposiciones'
+    | '/sitemap.xml'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/$slug' | '/auth' | '/en' | '/reset-password' | '/sitemap.xml'
+  to:
+    | '/'
+    | '/$slug'
+    | '/auth'
+    | '/en'
+    | '/reset-password'
+    | '/revision-exposiciones'
+    | '/sitemap.xml'
   id:
     | '__root__'
     | '/'
@@ -85,6 +107,7 @@ export interface FileRouteTypes {
     | '/auth'
     | '/en'
     | '/reset-password'
+    | '/revision-exposiciones'
     | '/sitemap.xml'
   fileRoutesById: FileRoutesById
 }
@@ -94,6 +117,7 @@ export interface RootRouteChildren {
   AuthRoute: typeof AuthRoute
   EnRoute: typeof EnRoute
   ResetPasswordRoute: typeof ResetPasswordRoute
+  RevisionExposicionesRoute: typeof RevisionExposicionesRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
 }
 
@@ -134,6 +158,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ResetPasswordRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/revision-exposiciones': {
+      id: '/revision-exposiciones'
+      path: '/revision-exposiciones'
+      fullPath: '/revision-exposiciones'
+      preLoaderRoute: typeof RevisionExposicionesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/sitemap.xml': {
       id: '/sitemap.xml'
       path: '/sitemap.xml'
@@ -150,6 +181,7 @@ const rootRouteChildren: RootRouteChildren = {
   AuthRoute: AuthRoute,
   EnRoute: EnRoute,
   ResetPasswordRoute: ResetPasswordRoute,
+  RevisionExposicionesRoute: RevisionExposicionesRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
 }
 export const routeTree = rootRouteImport
