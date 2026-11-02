@@ -1,6 +1,6 @@
 - [x] Migrate legacy site
 - [x] Prepare sitemap and page metadata for search engines
-- [ ] Add branded 404 page linking to main sections
+- [x] Add branded 404 page linking to main sections
 - [ ] Verify Google ownership and submit sitemap — requires connected account and published verification tag
 - [ ] Register with Bing and submit sitemap — connection declined; needs account authorization
 - [x] Add current Shih Tzu females and males (photos) from chiens-de-france
