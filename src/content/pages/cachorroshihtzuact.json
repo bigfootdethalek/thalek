@@ -79,8 +79,8 @@
       "items": [
         {
           "type": "img",
-          "src": "fotos/Criadero/Dragon/DSC03649.JPG",
-          "to": "imperial-dragon"
+          "src": "/__l5e/assets-v1/8caa9c73-1123-4ca2-8a05-6ef895f887ed/shihtzu_1109820_1.jpg",
+          "to": "shih-tzum"
         },
         {
           "type": "img",
@@ -94,7 +94,7 @@
       "parts": [
         {
           "text": "P: JR.CH. MULTI CH. BIG-FOOT DE THALEK SPIRIT OF HAPPINESS",
-          "to": "imperial-dragon"
+          "to": "shih-tzum"
         }
       ]
     },

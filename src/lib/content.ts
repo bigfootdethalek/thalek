@@ -24,6 +24,7 @@ export async function loadPage(slug: string): Promise<Page | null> {
 }
 
 export function legacySrc(src: string) {
+  if (src.startsWith("/") || src.startsWith("http")) return src;
   return "/legacy/" + src.split("/").map(encodeURIComponent).join("/");
 }
 
