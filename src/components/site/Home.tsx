@@ -6,8 +6,8 @@ import { SiteFooter, SiteHeader } from "./SiteHeader";
 const copy = {
   es: {
     eyebrow: "Afijo R.S.C.E. 8.852 · Desde 1995",
-    title: "Bobtail & Shih Tzu",
-    sub: "Crianza selectiva y totalmente familiar.\nBienvenido al maravilloso mundo del Shih Tzu y el Bobtail.",
+    title: "Shih Tzu",
+    sub: "Crianza selectiva y totalmente familiar.\nBienvenido al maravilloso mundo del Shih Tzu.",
     notice: "Estamos renovando nuestra antigua página para darle un toque más moderno, y la estamos poniendo al día poco a poco.",
     puppies: "Ver cachorros",
     champions: "Nuestros campeones",
@@ -23,8 +23,8 @@ const copy = {
   },
   en: {
     eyebrow: "R.S.C.E. kennel 8.852 · Since 1995",
-    title: "Bobtail & Shih Tzu",
-    sub: "Selective, family-raised breeding in Spain. Welcome to the wonderful world of the Shih Tzu and the Bobtail.",
+    title: "Shih Tzu",
+    sub: "Selective, family-raised breeding in Spain. Welcome to the wonderful world of the Shih Tzu.",
     notice: "We are renewing our old website to give it a more modern touch, and we are updating it little by little.",
     puppies: "See puppies",
     champions: "Our champions",
@@ -79,10 +79,9 @@ export function Home({ lang }: { lang: Lang }) {
 
       <section className="mx-auto max-w-6xl px-5 py-20">
         <p className="eyebrow text-accent">{c.breeds}</p>
-        <div className="mt-6 grid gap-8 md:grid-cols-2">
+        <div className="mx-auto mt-6 grid max-w-2xl gap-8">
           {[
             { name: "Shih Tzu", text: "", img: shihCover, m: "shih-tzum", f: "shih-tzuh", r: "", breed: true },
-            { name: "Bobtail", text: c.bob, img: "fotos/Criadero/London/ZDSC04808.JPG", m: "bobtailm", f: "bobtailh", r: "razabob", breed: false },
           ].map((b) => (
             <article key={b.name} className="overflow-hidden rounded-md border border-border bg-card shadow-soft">
               {b.r ? (
