@@ -12,7 +12,8 @@ import { annualExhibitions } from '@/lib/annual-exhibitions';
 export const Route = createFileRoute("/$slug")({
   staticData: { sitemap: true },
   loader: async ({ params }) => {
-    const page = await loadPage(params.slug);
+    const loaded = await loadPage(params.slug);
+    const page = loaded && { ...loaded };
     if (!page) throw notFound();
     const exhibitionYear = /^noticias(1[89]|2[0-6])(?:-en)?$/.exec(params.slug);
     if (exhibitionYear) {
