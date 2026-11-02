@@ -73,7 +73,12 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
           const itemClass = single ? "" : "w-[calc(50%-0.375rem)] sm:w-[calc((100%-1.5rem)/3)]";
           return (
             <div key={i} className={single ? "my-8 flex justify-center" : `my-8 flex flex-wrap justify-center gap-3 ${align ? "mx-auto max-w-xl" : ""}`}>
-              {b.items.map((it, j) => {
+          {b.items.map((it, j) => {
+                if (it.placeholder) {
+                  return (
+                    <div key={j} className={`${itemClass} aspect-[3/2] rounded-md border border-dashed border-border bg-secondary/40`} aria-hidden="true" />
+                  );
+                }
                 const img = (
                   <img
                     src={legacySrc(it.src)}
