@@ -27,9 +27,9 @@ export function PageBody({ blocks }: { blocks: Block[] }) {
           return (
             <Table key={i} className="table-fixed border border-border text-xs sm:text-sm">
               <colgroup>
-                <col className="w-[38%]" />
-                <col className="w-[15%]" />
-                <col className="w-[47%]" />
+                <col className="w-[44%]" />
+                <col className="w-[10%]" />
+                <col className="w-[46%]" />
               </colgroup>
               <TableHeader className="bg-secondary">
                 <TableRow>

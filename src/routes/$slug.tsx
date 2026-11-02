@@ -38,6 +38,8 @@ export const Route = createFileRoute("/$slug")({
 function PageView() {
   const { page, slug } = Route.useLoaderData();
   const lang = langOf(slug);
+  // Pages with tables (e.g. Campeones) get a wider main column so names fit on one row.
+  const hasTable = page.blocks.some((b) => b.type === "table");
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader lang={lang} twin={twinOf(slug)} />
@@ -51,7 +53,7 @@ function PageView() {
           <BobtailGrid sex={bobtailPages[slug]} lang={lang} />
         </div>
       )}
-      <main className="mx-auto max-w-3xl px-5 pt-12">
+      <main className={`mx-auto ${hasTable ? "max-w-4xl" : "max-w-3xl"} px-5 pt-12`}>
         <p className="eyebrow text-accent">Big-Foot de Thalek</p>
         <h1 className="mt-2 font-display text-4xl font-semibold text-foreground md:text-5xl">{page.title}</h1>
         <div className="mt-6 h-px w-24 bg-accent" />
