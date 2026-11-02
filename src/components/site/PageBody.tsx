@@ -58,7 +58,7 @@ export function PageBody({ blocks }: { blocks: Block[] }) {
                   <TableRow key={j}>
                     {row.map((cell, k) => (
                       <TableCell key={k} className={`border-r border-border py-4 text-center leading-relaxed sm:px-3 ${k === 1 ? "whitespace-nowrap px-1" : "whitespace-pre-line break-words px-2"}`}>
-                        {cell.map((part, n) => <Inline key={n} part={part} />)}
+                        <CellContent cell={cell} />
                       </TableCell>
                     ))}
                   </TableRow>
