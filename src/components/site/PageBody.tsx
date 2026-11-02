@@ -98,7 +98,7 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
             </h2>
           );
         return (
-          <p key={i} className={`leading-relaxed text-foreground/90 ${align}`}>
+          <p key={i} className="leading-relaxed text-foreground/90">
             {b.parts.map((p, j) => <Inline key={j} part={p} />)}
           </p>
         );
