@@ -6,6 +6,7 @@ import {
   useRouter,
   HeadContent,
   Scripts,
+  useRouterState,
   type ErrorComponentProps,
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
@@ -74,9 +75,11 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
 }
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
+  staticData: { sitemap: false },
   head: () => ({
     meta: [
       { charSet: "utf-8" },
+      { name: "google-site-verification", content: "4ZJFuzAZyS5oJZrsazj8-mvPcZkUkKcZq1dYZt4E7hQ" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Big-Foot de Thalek" },
       { name: "description", content: "Criadero de Bobtail y Shih Tzu en Burgos, España." },
@@ -99,8 +102,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 });
 
 function RootShell({ children }: { children: ReactNode }) {
+  const pathname = useRouterState({ select: (state) => state.location.pathname });
   return (
-    <html lang="en">
+    <html lang={pathname === "/en" || pathname.endsWith("-en") ? "en" : "es"}>
       <head>
         <HeadContent />
       </head>
