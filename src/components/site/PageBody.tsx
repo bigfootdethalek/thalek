@@ -34,11 +34,8 @@ function isHeading(text: string) {
   return t.length > 2 && t.length < 70 && t === t.toUpperCase() && /[A-ZÁÉÍÓÚÑ]/.test(t);
 }
 
-export function PageBody({ blocks, center = false }: { blocks: Block[]; center?: boolean }) {
-  const align = center ? "text-center" : "";
-  return (
-    <div className="space-y-4">
-      {blocks.map((b, i) => {
+function renderGroup(blocks: Block[], align: string) {
+  return blocks.map((b, i) => {
         if (b.type === "table") {
           return (
             <Table key={i} className="table-fixed border border-border text-xs sm:text-sm">
@@ -132,6 +129,30 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
           <p key={i} className="leading-relaxed text-foreground/90">
             {b.parts.map((p, j) => <Inline key={j} part={p} />)}
           </p>
+  });
+}
+
+export function PageBody({ blocks, center = false }: { blocks: Block[]; center?: boolean }) {
+  const align = center ? "text-center" : "";
+  const groups: Block[][] = [];
+  let current: Block[] = [];
+  for (const b of blocks) {
+    if (b.type === "divider") {
+      groups.push(current);
+      current = [];
+    } else {
+      current.push(b);
+    }
+  }
+  groups.push(current);
+  return (
+    <div className="space-y-10">
+      {groups.map((g, gi) => {
+        if (gi === 0) return <div key={gi} className="space-y-4">{renderGroup(g, align)}</div>;
+        return (
+          <section key={gi} className={`rounded-2xl border p-6 shadow-soft sm:p-10 ${gi % 2 === 1 ? "border-border bg-secondary/40" : "border-accent/40 bg-accent/10"}`}>
+            <div className="space-y-4">{renderGroup(g, align)}</div>
+          </section>
         );
       })}
     </div>
