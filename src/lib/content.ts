@@ -93,4 +93,8 @@ export const nav: NavGroup[] = [
     label: l("Campeones", "Champions"),
     items: [{ label: l("Campeones", "Champions"), slug: "campeones" }],
   },
+  {
+    label: l("Revistas", "Magazines"),
+    items: [{ label: l("Revistas", "Magazines"), slug: "revistas" }],
+  },
 ].map((g) => ({ ...g, items: g.items.filter((i) => hasPage(i.slug)) }));
