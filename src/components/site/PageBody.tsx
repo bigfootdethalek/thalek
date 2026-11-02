@@ -147,6 +147,18 @@ function renderGroup(blocks: Block[], align: string) {
               <span aria-hidden="true" className="ml-1">»</span>
             </p>
           );
+        if (b.type === "p" && b.variant === "title")
+          return (
+            <p key={i} className="text-center font-display text-2xl font-bold leading-snug text-primary sm:text-3xl">
+              {b.parts.map((p, j) => <Inline key={j} part={p} />)}
+            </p>
+          );
+        if (b.type === "p" && b.variant === "subtitle")
+          return (
+            <p key={i} className="text-center font-display text-lg font-medium leading-snug text-foreground/85">
+              {b.parts.map((p, j) => <Inline key={j} part={p} />)}
+            </p>
+          );
         if (b.type === "p" && b.heading === true)
           return (
             <h2 key={i} className={`pt-4 text-center font-display font-semibold text-3xl italic leading-snug text-turquoise ${align}`}>
@@ -196,7 +208,7 @@ function renderGroup(blocks: Block[], align: string) {
 }
 
 function isHeadingBlock(b: Block) {
-  return b.type === "p" && b.heading !== false && isHeading(b.parts.map((p) => (typeof p === "string" ? p : p.text)).join(""));
+  return b.type === "p" && !b.variant && b.heading !== false && isHeading(b.parts.map((p) => (typeof p === "string" ? p : p.text)).join(""));
 }
 
 // Sections are separated by explicit dividers, all-caps headings, or a photo
