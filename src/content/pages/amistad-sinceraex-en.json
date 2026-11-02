@@ -1,1 +1,420 @@
-{"file":"amistad_sinceraex_en.htm","title":"Shows","blocks":[{"type":"p","parts":["SHOW RESULTS"]},{"type":"p","parts":["Puppy Class"]},{"type":"p","parts":["Qualification"]},{"type":"p","parts":["Town"]},{"type":"p","parts":["Judge"]},{"type":"p","parts":["VG 1 Best Female"]},{"type":"p","parts":["Int. Madrid Otoño'00 Obligatory Point"]},{"type":"p","parts":["Mrs. Lisbeth Campbell"]},{"type":"p","parts":["VG 2"]},{"type":"p","parts":["Int. Torrelavega'01"]},{"type":"p","parts":["Mrs. Kerstin Nilsson"]},{"type":"p","parts":["Junior Class"]},{"type":"p","parts":["Qualification"]},{"type":"p","parts":["Town"]},{"type":"p","parts":["Judge"]},{"type":"p","parts":["Exc. 1 Best Junior"]},{"type":"p","parts":["Int. Guipúzcoa'01"]},{"type":"p","parts":["Mrs. Pamela Cross-Sterm"]},{"type":"p","parts":["Exc. 1 Best Junior"]},{"type":"p","parts":["Int. Madrid Primavera'01 Obligatory Point"]},{"type":"p","parts":["Mr. Martín Freeman"]},{"type":"p","parts":["Exc. 1 Best Junior, BOB"]},{"type":"p","parts":["Int. Medina de Pomar'01"]},{"type":"p","parts":["Mr. Rodi Hübenthal"]},{"type":"p","parts":["Open Class"]},{"type":"p","parts":["Qualification"]},{"type":"p","parts":["Town"]},{"type":"p","parts":["Judge"]},{"type":"p","parts":["Exc. 2 RCAC, RCACIB"]},{"type":"p","parts":["Int. León'01"]},{"type":"p","parts":["Mr. Martín Baskaran"]},{"type":"p","parts":["Exc. 3"]},{"type":"p","parts":["Int. Pamplona'01"]},{"type":"p","parts":["Mr. Carlos Fernández Renau"]},{"type":"p","parts":["Exc. 1 CAC, CACIB, BOB, 2 BIG"]},{"type":"p","parts":["Int. Torrelavega'02"]},{"type":"p","parts":["Mr. Sergio Montesinos"]},{"type":"p","parts":["Exc. 2 RCAC-QC, RCACIB"]},{"type":"p","parts":["Int. Granada'02 Obligatory Point"]},{"type":"p","parts":["Mrs. Ana Mesto"]},{"type":"p","parts":["Exc. 1 CAC, CACIB, BOS"]},{"type":"p","parts":["Int. Valladolid'02"]},{"type":"p","parts":["Mrs. Heidi Kirschbichler"]},{"type":"p","parts":["Exc. 1 CAC-QC, CACIB, BOS"]},{"type":"p","parts":["Int. Madrid Primavera'02 Obligatory Point"]},{"type":"p","parts":["Mrs. Pamela Cross Sterrn"]},{"type":"p","parts":["Exc. 1 CAC, BOB, 3 BIG"]},{"type":"p","parts":["Nac. Santander'02"]},{"type":"p","parts":["Mr. Palmiro Cottafavi"]},{"type":"p","parts":["Exc. 1 CAC, CACIB, BOS"]},{"type":"p","parts":["Int. Medina de Pomar'02"]},{"type":"p","parts":["Mrs. M. Irene González Moreno"]},{"type":"p","parts":["Exc. 1 CAC, CACIB, BOS"]},{"type":"p","parts":["Int. León'02"]},{"type":"p","parts":["Mr. Giabatta Tabó"]},{"type":"p","parts":["Exc. 2 RCAC-QC, RCACIB"]},{"type":"p","parts":["Int. Porto'03 (Portugal) Obligatory Point"]},{"type":"p","parts":["Mr. David Allan"]},{"type":"p","parts":["Champion Class"]},{"type":"p","parts":["Qualification"]},{"type":"p","parts":["Town"]},{"type":"p","parts":["Judge"]},{"type":"p","parts":["Exc. 1 RCAC"]},{"type":"p","parts":["Nac. Valladolid'03"]},{"type":"p","parts":["Mr. Tore Fossum"]},{"type":"p","parts":["BEAUTY SPAIN CHAMPION"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+ "file": "amistad_sinceraex_en.htm",
+ "title": "Shows",
+ "blocks": [
+  {
+   "type": "p",
+   "parts": [
+    "SHOW RESULTS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Puppy Class"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Qualification"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Town"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "VG 1 Best Female"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Madrid Autumn'00 Obligatory Point"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. Lisbeth Campbell"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "VG 2"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Torrelavega'01"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. Kerstin Nilsson"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Junior Class"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Qualification"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Town"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 Best Junior"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Guipúzcoa'01"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. Pamela Cross-Sterm"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 Best Junior"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Madrid Spring'01 Obligatory Point"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Martín Freeman"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 Best Junior, BOB"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Medina de Pomar'01"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Rodi Hübenthal"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Open Class"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Qualification"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Town"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 2 RCAC, RCACIB"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. León'01"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Martín Baskaran"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 3"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Pamplona'01"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Carlos Fernández Renau"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAC, CACIB, BOB, 2 BIG"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Torrelavega'02"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Sergio Montesinos"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 2 RCAC-QC, RCACIB"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Granada'02 Obligatory Point"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. Ana Mesto"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAC, CACIB, BOS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Valladolid'02"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. Heidi Kirschbichler"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAC-QC, CACIB, BOS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Madrid Spring'02 Obligatory Point"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. Pamela Cross Sterrn"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAC, BOB, 3 BIG"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nat. Santander'02"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Palmiro Cottafavi"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAC, CACIB, BOS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Medina de Pomar'02"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. M. Irene González Moreno"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAC, CACIB, BOS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. León'02"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Giabatta Tabó"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 2 RCAC-QC, RCACIB"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Porto'03 (Portugal) Obligatory Point"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. David Allan"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Champion Class"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Qualification"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Town"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 RCAC"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nat. Valladolid'03"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Tore Fossum"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "BEAUTY SPAIN CHAMPION"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
+}

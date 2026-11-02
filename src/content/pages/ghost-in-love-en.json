@@ -1,105 +1,105 @@
 {
-  "file": "ghost_in_love_en.htm",
-  "title": "Ch. Ghost In Love",
-  "blocks": [
+ "file": "ghost_in_love_en.htm",
+ "title": "Ch. Ghost In Love",
+ "blocks": [
+  {
+   "type": "gallery",
+   "items": [
     {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Chanel/DSC05067.JPG"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "CH. Big-Foot de Thalek Ghost In Love"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " (CHANEL)"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Hembra blanca y roja nacida el 5 de septiembre de 2009. Shoulder height: 22,90 cm. Weith: 5,700 Kg."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "CAMPEONA EN PORTUGAL DE BELLEZA, CAMPEONA INTERNACIONAL, CAMPEONA EN ESPAÑA DE BELLEZA"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Clasificada para Crufts 2012"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Identificada por ADN en la Real Sociedad Canina de España."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Padre identificado por ADN en la Real Sociedad Canina de España."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " Fruto del cruce de nuestro Campeón Universal Beauty (Chicho) con nuestra hembra A Lovely Dream (Funny) ha nacido esta hermosa pequeña, que nos ha conquistado con su carácter y que por supuesto se ha quedado en casa."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Actualmente está retirada de las exposiciones después de haber completado todos sus títulos."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Nos sentimos muy felices de haber criado esta pequeña muñeca en nuestra casa."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Madre de nuestra camada M."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "FOTOS"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "We make web pages",
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        },
-        "."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Edit and update © Big-Foot de Thalek."
-      ]
+     "type": "img",
+     "src": "fotos/Criadero/Chanel/DSC05067.JPG"
     }
-  ],
-  "lang": "en"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "CH. Big-Foot de Thalek Ghost In Love"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " (CHANEL)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "White and red female born on September 5, 2009. Shoulder height: 22,90 cm. Weith: 5,700 Kg."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "PORTUGUESE BEAUTY CHAMPION, INTERNATIONAL CHAMPION, SPANISH BEAUTY CHAMPION"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Qualified for Crufts 2012"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "DNA identified with the Real Sociedad Canina de España."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Father DNA identified with the Real Sociedad Canina de España."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " From the cross of our Champion Universal Beauty (Chicho) with our female A Lovely Dream (Funny), this beautiful little girl was born. She has won us over with her personality and of course has stayed with us."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "She is now retired from showing after completing all her titles."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We are very happy to have bred this little doll in our home."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mother of our M litter."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "PHOTOS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
 }

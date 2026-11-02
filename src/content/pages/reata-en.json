@@ -1,87 +1,87 @@
 {
-  "file": "reata_en.htm",
-  "title": "Reata's I'm Big-Foot de Thalek",
-  "blocks": [
+ "file": "reata_en.htm",
+ "title": "Reata's I'm Big-Foot de Thalek",
+ "blocks": [
+  {
+   "type": "gallery",
+   "items": [
     {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Neo/27NEOIZD4MESES1.jpg"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Reata's I'm Big-Foot de Thalek"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " (NEO)"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "26/3/2003 - /08/2003"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Male, born on March 26, 2003. HD: ?. Shoulder height: ? cm."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Ejemplar de uno de los criadores Top del mundo: Davor Javor (REATA'S). Llegó a nuestro hogar el 9 of June de 2003. Lo hemos importado desde Croacia para introducir en nuestra línea la estructura, el hueso, las angulaciones y el tipismo fuera de lo común que su sangre tiene."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "From the cross oflBobtail Top Semental en Hungría 1999, 2000, 2001 Ch.LamedaZottel Quicksilver y la hembra ganadora de BIS Ch.Reata's Carisma para unir en su sangre los mejores Bobtails existentes en la historia en un cruce supercerrado (inbreeding). Es sobrino del BIS y del RBIS en el Euro OES Show 2003 (Reata's Class Two Thounsand y Reata's Como Las Condes respectivamente)."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Doy las gracias a sus criadores Davor y Andrea Javor (del kennel \"Reata´s\") por habernos confiado este fantástico ejemplar y por la ayuda que nos han brindado."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " Lamentablemente ya no se encuentra entre nosotros, pero hemos disfrutado con él los meses más maravillosos de nuestra vida."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "PICS"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "We make web pages",
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        },
-        "."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Edit and update © Big-Foot de Thalek."
-      ]
+     "type": "img",
+     "src": "fotos/Criadero/Neo/27NEOIZD4MESES1.jpg"
     }
-  ],
-  "lang": "en"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Reata's I'm Big-Foot de Thalek"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " (NEO)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "26/3/2003 - /08/2003"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Male, born on March 26, 2003. HD: ?. Shoulder height: ? cm."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "A dog from one of the world's Top breeders: Davor Javor (REATA'S). He arrived at our home on June 9, 2003. We imported him from Croatia to introduce the structure, bone, angulation and exceptional breed type of his bloodline into our line."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "From the cross oflBobtail Top Sire in Hungary 1999, 2000, 2001 Ch.LamedaZottel Quicksilver and the BIS-winning female Ch.Reata's Carisma to bring together the best Bobtails in history in his bloodline through a very close cross (inbreeding). He is a nephew of the BIS and RBIS winners at the Euro OES Show 2003 (Reata's Class Two Thounsand and Reata's Como Las Condes respectively)."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "I thank his breeders Davor and Andrea Javor (of the kennel \"Reata´s\") for entrusting us with this fantastic dog and for the help they have given us."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " Sadly, he is no longer with us, but we enjoyed the most wonderful months of our lives with him."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "PICS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
 }

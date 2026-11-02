@@ -1,87 +1,87 @@
 {
-  "file": "my_sweet_dream_en.htm",
-  "title": "My Sweet Dream",
-  "blocks": [
+ "file": "my_sweet_dream_en.htm",
+ "title": "My Sweet Dream",
+ "blocks": [
+  {
+   "type": "gallery",
+   "items": [
     {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Kissy/DSC01443.jpg"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Big-Foot de Thalek My Sweet Dream"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " (KISSY)"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " Owner Karin"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Female blanca y dorada born on 15 of June de 2013."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Madre identificada por ADN en la Real Sociedad Canina de España."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " From the cross of nuestra última importación Feel The Angel (Dandy) con nuestra preciosa Campeona de España, Portugal, Internacional Ghost In Love (Chanel) ha nacido esta bella pequeña."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Pronto irá a vivir con nuestra amiga Karin Jette (Moon-Boots) y sus Shih Tzu en Dinamarca. Le agradecemos la confianza depositada en nosotros, en nuestros ejemplares y en nuestra forma de crianza y por adquirir a Kissy para exponerla en Europa."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Esperamos y deseamos que su carrera en las exposiciones sea exitosa y que pronto sepamos de ella en las exposiciones y sobre todo que sea muy, muy feliz con sus nueva mami."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "PHOTOS"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "We make web pages",
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        },
-        "."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Edit and update © Big-Foot de Thalek."
-      ]
+     "type": "img",
+     "src": "fotos/Criadero/Kissy/DSC01443.jpg"
     }
-  ],
-  "lang": "en"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Big-Foot de Thalek My Sweet Dream"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " (KISSY)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " Owner Karin"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Female white and gold born on 15 of June of 2013."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mother DNA-identified at the Real Sociedad Canina de España."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " From the cross of our latest import Feel The Angel (Dandy) with our beautiful Spanish, Portuguese and International Champion Ghost In Love (Chanel), this beautiful little girl was born."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "She will soon go to live with our friend Karin Jette (Moon-Boots) and her Shih Tzu in Denmark. We thank her for her trust in us, our dogs and our breeding methods, and for acquiring Kissy to show her in Europe."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We hope and wish that her show career will be successful and that we will soon hear news of her at shows, and above all that she will be very, very happy with her new mum."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "PHOTOS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
 }

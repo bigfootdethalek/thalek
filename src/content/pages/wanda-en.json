@@ -1,105 +1,105 @@
 {
-  "file": "wanda_en.htm",
-  "title": "BISSWanda del Atico",
-  "blocks": [
+ "file": "wanda_en.htm",
+ "title": "BISSWanda del Atico",
+ "blocks": [
+  {
+   "type": "gallery",
+   "items": [
     {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Bosca/23BOSCA_EXPOSICIONMESA.jpg"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "BISS WANDA DEL ATICO"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "(BOSCA)"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "10/10/1996 - 3/1/2009"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Female born on 10 of October de 1996. HD: B-A. Shoulder height: 59 cm. ACABE Sociability test: PASSED."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Identificada por ADN en la Facultad Veterinaria de León."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Producto del cruce de líneas de campeones mundiales con las mejores líneas españolas. Nieta de Vigilat's Dear Davy Jori, aparecen en su pedigree ejemplares de las más importantes líneas europeas. Llegó a nuestro hogar el 16 of November de 1996."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Con 11 meses empezó su andadura por las exposiciones españolas. Sus resultados en la clase joven fueron excelentes, subiendo al podium de grupo en varias ocasiones. Ya en Open Class continuó fuerte. Con 17 meses quedó excelente 4ª en la Monográfica española entre una gran competencia. Su carrera desde entonces ha sido imparable quedando en cuatro ocasiones excelente 2ª RCAC en el punto obligatorio para el campeonato, CACQC (punto obligatorio para el campeonato de Portugal) en Oporto'00, B.I.S. en el III Open Acabe celebrado en Valladolid en el 2001, siendo su Test de Sociabilidad APTO. Sus últimas tres salidas han sido realizadas en punto obligatorio y en todas ellas ha conseguido ser excelente 2ª RCAC."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "El 29 de Septiembre de 2002 se presenta de nuevo en la International Dog Show of León consiguiendo ser Exc. 1ª CAC, CACIB, Mejor Female, Best of Breed, Best in Group y 4ª en el BIS, pasando por la criba de tres prestigiosos jueces extranjeros internacionales."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Alcanzó su plena madurez al ser madre por primera vez el 7 de Julio de 2000, transmitiendo su inteligencia, porte y elegancia a sus hijos. Ahora vive retired from showing y de la cría y disfrutamos en cada momento de su presencia."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "She is the mother of nuestras litters A, B, F y H."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Está totalmente retirada viviendo una feliz vejez aunque ella se siente todavía como un cachorro y está todo el día jugando a pesar de sus ya casi 12 años."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "PICS"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "We make web pages",
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        },
-        "."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Edit and update © Big-Foot de Thalek."
-      ]
+     "type": "img",
+     "src": "fotos/Criadero/Bosca/23BOSCA_EXPOSICIONMESA.jpg"
     }
-  ],
-  "lang": "en"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "BISS WANDA DEL ATICO"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "(BOSCA)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "10/10/1996 - 3/1/2009"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Female born on October 10, 1996. HD: B-A. Shoulder height: 59 cm. ACABE Sociability test: PASSED."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "DNA-identified at the Faculty of Veterinary Medicine in León."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "From the cross of world champion lines with the best Spanish lines. A granddaughter of Vigilat's Dear Davy Jori, her pedigree includes dogs from the most important European lines. She arrived at our home on November 16, 1996."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "At 11 months, she began her career at Spanish shows. Her results in junior class were excellent, reaching the group podium on several occasions. She continued strongly in Open Class. At 17 months, she placed Excellent 4 at the Spanish Specialty Show against strong competition. Her career since then has been unstoppable, earning Excellent 2 RCAC on four occasions at the obligatory point for the championship, CACQC (obligatory point for the Portuguese championship) at Porto'00, and B.I.S. at the III Open Acabe held in Valladolid in 2001, with her Sociability Test PASSED. Her last three appearances were at obligatory point shows, and she achieved Excellent 2 RCAC at all of them."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "On September 29, 2002, she appeared again at the International Dog Show of León, achieving Exc. 1 CAC, CACIB, Best Female, Best of Breed, Best in Group and 4th in BIS, passing the scrutiny of three prestigious foreign international judges."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "She reached full maturity when she became a mother for the first time on July 7, 2000, passing on her intelligence, bearing and elegance to her offspring. She now lives retired from showing and breeding, and we enjoy every moment of her presence."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "She is the mother of our litters A, B, F and H."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "She is fully retired and enjoying a happy old age, although she still feels like a puppy and plays all day despite being almost 12 years old."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "PICS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
 }

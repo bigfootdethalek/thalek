@@ -1,99 +1,99 @@
 {
-  "file": "thaila_en.htm",
-  "title": "Ch. Thaila de Larrywood",
-  "blocks": [
+ "file": "thaila_en.htm",
+ "title": "Ch. Thaila de Larrywood",
+ "blocks": [
+  {
+   "type": "gallery",
+   "items": [
     {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Thaila/04THAILA_EXPOSICION_WEB.jpg"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "CH. THAILA DE LARRYWOOD"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "(THAILA)"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "10/11/1997 - 15/07/2006"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Female born on 26 of November de 1997. HD: A-A. Shoulder height: 56 cm. ACABE Sociability test: PASSED."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "CHAMPION INTERNACIONAL DE BELLEZA"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Thaila forma parte de la culminación en la cría del afijo Larrywood. Producto del cruce de Fardón de Larrywood (hijo de Shakespeare) y Lucy de Larrywood (hermana de litter de Shakespeare) en un cruce cerrado de líneas inglesas hacia el ejemplar Barnolby Troubles Hooter at Oldoak."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Llegó a casa el 3 of January de 1998. Pronto empezó a dar muestras de lo que sería en un futuro. "
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Es una perra muy típica y elegante, pequeña y femenina, con excelentes angulaciones, cabeza y cuello y con un pelo de gran calidad. Su movimiento es muy típico. Tiene abundante pigmentación alrededor de sus ojos marrones oscuros. "
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Su primera salida a ring en Open Class la realizó en León en septiembre de 1998 a la edad de 22 meses, con el prestigioso specialist judge Mr. Stuart Mallard, quedando excelente 2ª RCAC RCACIB. Sale a ring en contadas ocasiones y entre sus resultados destaca el obtenido en Madrid (Otoño'00) excelente 2ª RCAC RCACIB."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "She is the mother of nuestras litters C, E y G."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "PICS"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "We make web pages",
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        },
-        "."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Edit and update © Big-Foot de Thalek."
-      ]
+     "type": "img",
+     "src": "fotos/Criadero/Thaila/04THAILA_EXPOSICION_WEB.jpg"
     }
-  ],
-  "lang": "en"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "CH. THAILA DE LARRYWOOD"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "(THAILA)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "10/11/1997 - 15/07/2006"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Female born on November 26, 1997. HD: A-A. Shoulder height: 56 cm. ACABE Sociability test: PASSED."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "CHAMPION OF INTERNATIONAL BEAUTY"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Thaila represents part of the culmination of the Larrywood kennel's breeding work. From the cross of Fardón de Larrywood (son of Shakespeare) and Lucy de Larrywood (litter sister of Shakespeare), closely linebred through English lines to Barnolby Troubles Hooter at Oldoak."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "She arrived home on January 3, 1998. She soon began to show signs of what she would become. "
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "She is a very typical and elegant female, small and feminine, with excellent angulation, head and neck and a high-quality coat. Her movement is very typical of the breed. She has abundant pigmentation around her dark brown eyes. "
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Her first appearance in the ring in Open Class was in León in September 1998 at the age of 22 months, under the prestigious specialist judge Mr. Stuart Mallard, placing Excellent 2 RCAC RCACIB. She appears in the ring only occasionally, and one of her notable results was in Madrid (Autumn'00), Excellent 2 RCAC RCACIB."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "She is the mother of our litters C, E and G."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "PICS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
 }

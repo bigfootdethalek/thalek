@@ -1,81 +1,81 @@
 {
-  "file": "return_to_innocence_en.htm",
-  "title": "Big-Foot de Thalek Gentle Return To Innocence",
-  "blocks": [
+ "file": "return_to_innocence_en.htm",
+ "title": "Big-Foot de Thalek Gentle Return To Innocence",
+ "blocks": [
+  {
+   "type": "gallery",
+   "items": [
     {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "fotos/aroab/G_GENTLERETURNTOINNOCENCEIZD4MES2_small1.jpg"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Big-Foot de Thalek Gentle Return To Innocence"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " (AROA)"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Female, born on December 3, 2003. HD: ?. Shoulder height: ? cm."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "EUROPEAN CHAMPION 2004 IN PUPPY CLASS: EUROPEAN PROMISE 2004"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "From the cross of nuestro semental Little Thunder con nuestra hembra Thaila uniendo las más importantes líneas de sangre en su pedigree. Es nieta de nuestra espectacular hembra Wanda. Es la unión de nuestras dos líneas de sangre para conseguir un retorno a las líneas clásicas inglesas."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Su comienzo en las exposiciones no ha podido ser mejor, quedando en la European Dog Show of Barcelona 2004 Best Puppy Female obteniendo el Título que la convierte en Campeona de Europa en Clase Cachorros de ESPERANZA EUROPEA 2004 y especificándose en su Rapport que es una hembra de gran calidad, excelentemente balanceada y muy femenina."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Ahora está viviendo con nuestros amigos Blanca y Juan de Barcelona."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "PICS"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "We make web pages",
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        },
-        "."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Edit and update © Big-Foot de Thalek."
-      ]
+     "type": "img",
+     "src": "fotos/aroab/G_GENTLERETURNTOINNOCENCEIZD4MES2_small1.jpg"
     }
-  ],
-  "lang": "en"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Big-Foot de Thalek Gentle Return To Innocence"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " (AROA)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Female, born on December 3, 2003. HD: ?. Shoulder height: ? cm."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "EUROPEAN CHAMPION 2004 IN PUPPY CLASS: EUROPEAN PROMISE 2004"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "From the cross of our sire Little Thunder with our female Thaila, bringing together the most important bloodlines in her pedigree. She is a granddaughter of our spectacular female Wanda. She brings together our two bloodlines to achieve a return to the classic English lines."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Her start in shows could not have been better, winning Best Puppy Female at the European Dog Show of Barcelona 2004 and earning the title of EUROPEAN PROMISE 2004, making her European Champion in Puppy Class. Her report states that she is a high-quality female, excellently balanced and very feminine."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "She is now living with our friends Blanca and Juan from Barcelona."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "PICS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
 }

@@ -1,1 +1,378 @@
-{"file":"midnight_stormex_en.htm","title":"Shows","blocks":[{"type":"p","parts":["SHOW RESULTS"]},{"type":"p","parts":["Junior Class"]},{"type":"p","parts":["Qualification"]},{"type":"p","parts":["Town"]},{"type":"p","parts":["Judge"]},{"type":"p","parts":["Exc. 1 CAJC, Best Junior Male, BOB Junior, Best Male, BOS"]},{"type":"p","parts":["Nac. Rybnik'14 (Poland)"]},{"type":"p","parts":["Mrs. Joanna Szczepanska Korpetta"]},{"type":"p","parts":["Exc. 1 CAJC, Best Junior Male, BOB Junior, Best Male, BOS"]},{"type":"p","parts":["2 BISS Junior"]},{"type":"p","parts":["9 Group FCI Nat. Bytom'14 (Poland)"]},{"type":"p","parts":["Mr. Jaroslav Matyas"]},{"type":"p","parts":["Exc. 1 CAJC, Best Junior Male, BOB Junior, Best Male, BOB"]},{"type":"p","parts":["Nat. Bytom'14 (Poland)"]},{"type":"p","parts":["Mr. Jakubowi Kruczek"]},{"type":"p","parts":["Exc. 1 CAJC, Best Junior Male, BOB Junior, Best Male, BOB"]},{"type":"p","parts":["Nat. Velka Ida'14 (Slovakia)"]},{"type":"p","parts":["Mr. Grzegorzowi Robak"]},{"type":"p","parts":["Exc. 1 CAJC, Best Junior Male, BOB Junior,"]},{"type":"p","parts":["4 BIS Junior"]},{"type":"p","parts":["Int. Zakopane'14 (Poland)"]},{"type":"p","parts":["Mrs. Maria Zasada"]},{"type":"p","parts":["Exc. 1 CAJC, Best Junior Male, BOB Junior, Best Male, BOB"]},{"type":"p","parts":["Nat. Lučenec'14 (Slovakia)"]},{"type":"p","parts":["Mr. Grzegorzowi Robak"]},{"type":"p","parts":["Intermediate Class"]},{"type":"p","parts":["Qualification"]},{"type":"p","parts":["Town"]},{"type":"p","parts":["Judge"]},{"type":"p","parts":["Exc. 1 CAC, Best Male, BOB"]},{"type":"p","parts":["Nat. Rybnik'14 (Poland)"]},{"type":"p","parts":["Mrs. Zuzana Petik"]},{"type":"p","parts":["Exc. 1 CAC, Class Winner"]},{"type":"p","parts":["Int. Katowice'15 (Poland)"]},{"type":"p","parts":["Mrs. Carmen Navarro"]},{"type":"p","parts":["Exc. 1 CAC, Best Male, BOB, 4 BIG"]},{"type":"p","parts":[" Nat. Krajowa Wystawa'15 (Poland)"]},{"type":"p","parts":["Mrs. Anna Dzidt"]},{"type":"p","parts":["Exc. 1 CAC, Best Male, BOB"]},{"type":"p","parts":["Nat. Lučenec'15 (Slovakia)"]},{"type":"p","parts":["Mrs. Iveta Vojteková"]},{"type":"p","parts":["Exc. 1, CAC, RCACIB"]},{"type":"p","parts":["Int. Lučenec'15 (Slovakia)"]},{"type":"p","parts":["Mr. Miroslav Guni"]},{"type":"p","parts":["Exc. 1 CAC, Best Male, BOB"]},{"type":"p","parts":[" Nat. Krajowa Wystawa Psów Racibórz '15 (Poland)"]},{"type":"p","parts":["Mrs. Aneta Dopierała"]},{"type":"p","parts":["Open Class"]},{"type":"p","parts":["Qualification"]},{"type":"p","parts":["Town"]},{"type":"p","parts":["Judge"]},{"type":"p","parts":["Exc. 1 CAC, Best Male, BOB, 3 BIG"]},{"type":"p","parts":[" Winter Nat. Bedzin'15 (Poland)"]},{"type":"p","parts":["Mr. Erwin Deutscher"]},{"type":"p","parts":["POLAND JUNIOR CHAMPION"]},{"type":"p","parts":["SLOVAKIA JUNIOR CHAMPION"]},{"type":"p","parts":["POLAND CHAMPION"]},{"type":"p","parts":["MOLDAVIAN CHAMPION"]},{"type":"p","parts":["BESARABIAN CHAMPION"]},{"type":"p","parts":["We make web pages",{"text":"BFDT@hotmail.com","href":"mailto:BFDT@hotmail.com"},"."]},{"type":"p","parts":["Edit and update © Big-Foot de Thalek."]}],"lang":"en"}
+{
+ "file": "midnight_stormex_en.htm",
+ "title": "Shows",
+ "blocks": [
+  {
+   "type": "p",
+   "parts": [
+    "SHOW RESULTS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Junior Class"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Qualification"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Town"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAJC, Best Junior Male, BOB Junior, Best Male, BOS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nat. Rybnik'14 (Poland)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. Joanna Szczepanska Korpetta"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAJC, Best Junior Male, BOB Junior, Best Male, BOS"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "2 BISS Junior"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "9 Group FCI Nat. Bytom'14 (Poland)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Jaroslav Matyas"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAJC, Best Junior Male, BOB Junior, Best Male, BOB"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nat. Bytom'14 (Poland)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Jakubowi Kruczek"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAJC, Best Junior Male, BOB Junior, Best Male, BOB"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nat. Velka Ida'14 (Slovakia)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Grzegorzowi Robak"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAJC, Best Junior Male, BOB Junior,"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "4 BIS Junior"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Zakopane'14 (Poland)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. Maria Zasada"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAJC, Best Junior Male, BOB Junior, Best Male, BOB"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nat. Lučenec'14 (Slovakia)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Grzegorzowi Robak"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Intermediate Class"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Qualification"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Town"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAC, Best Male, BOB"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nat. Rybnik'14 (Poland)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. Zuzana Petik"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAC, Class Winner"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Katowice'15 (Poland)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. Carmen Navarro"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAC, Best Male, BOB, 4 BIG"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " Nat. Krajowa Wystawa'15 (Poland)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. Anna Dzidt"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAC, Best Male, BOB"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nat. Lučenec'15 (Slovakia)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. Iveta Vojteková"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1, CAC, RCACIB"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Int. Lučenec'15 (Slovakia)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Miroslav Guni"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAC, Best Male, BOB"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " Nat. Krajowa Wystawa Psów Racibórz '15 (Poland)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mrs. Aneta Dopierała"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Open Class"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Qualification"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Town"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Judge"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Exc. 1 CAC, Best Male, BOB, 3 BIG"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    " Winter Nat. Bedzin'15 (Poland)"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Mr. Erwin Deutscher"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "POLAND JUNIOR CHAMPION"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "SLOVAKIA JUNIOR CHAMPION"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "POLAND CHAMPION"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "MOLDAVIAN CHAMPION"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "BESARABIAN CHAMPION"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "We make web pages",
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    },
+    "."
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Edit and update © Big-Foot de Thalek."
+   ]
+  }
+ ],
+ "lang": "en"
+}
