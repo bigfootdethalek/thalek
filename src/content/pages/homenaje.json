@@ -107,7 +107,7 @@
     {
       "type": "p",
       "parts": [
-        "\\n\\n\\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 Yolanda"
+        "\n\n\\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 \\u00a0 Yolanda"
       ]
     },
     {
@@ -137,7 +137,7 @@
     {
       "type": "p",
       "parts": [
-        "ÉSTA ES NUESTRA QUERIDA THALEK,\\nEL \"POR QUÉ\" DE NUESTRO AFIJO."
+        "ÉSTA ES NUESTRA QUERIDA THALEK,\nEL \"POR QUÉ\" DE NUESTRO AFIJO."
       ],
       "center": true,
       "noSplit": true
