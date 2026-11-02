@@ -29,3 +29,5 @@
 - [x] Revistas: foto de Instagram añadida
 
 - [x] Revistas: todas las fotos recortadas al mismo formato de retrato (0,72) y fila pareja; eliminadas 2 portadas duplicadas
+- [ ] Exposiciones 2026: mostrar el juez una sola vez por exposición, tras resultados y fotos
+- [ ] Exposiciones 2026: colocar las fotos de cada exposición después de "Shih Tzu" y antes del primer perro
