@@ -26,6 +26,13 @@
     {
       "type": "p",
       "parts": [
+        "Teléfono para llamadas y WhatsApp : + 34 676 22 08 96"
+      ],
+      "heading": false
+    },
+    {
+      "type": "p",
+      "parts": [
         "Dirección postal"
       ],
       "heading": false
