@@ -38,6 +38,8 @@ export const Route = createFileRoute("/$slug")({
 function PageView() {
   const { page, slug } = Route.useLoaderData();
   const lang = langOf(slug);
+  // Camadas Actuales is shown with centered text, both languages.
+  const centered = slug === "cachorroshihtzuact" || slug === "cachorroshihtzuact-en";
   // Pages with tables (e.g. Campeones) get a wider main column so names fit on one row.
   const hasTable = page.blocks.some((b) => b.type === "table");
   return (
