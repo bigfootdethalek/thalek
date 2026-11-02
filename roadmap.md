@@ -1,6 +1,6 @@
 # Roadmap
 
-- [ ] Add verified Jerez 2025 results from the direct Facebook text post (2 November, Cosmo and Bosco)
+- [x] Add verified Jerez 2025 results from the direct Facebook text post (2 November, Cosmo and Bosco)
 
 - [x] Gather accessible 2025 albums and photo-post captions, including Zaragoza found in Lulú's album
 - [x] Add Exposiciones 2025 in both languages with the shared 2026 format and archive links
