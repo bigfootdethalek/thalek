@@ -1,7 +1,7 @@
 - [x] Migrate legacy site
 - [x] Prepare sitemap and page metadata for search engines
 - [x] Add branded 404 page linking to main sections
-- [ ] Verify Google ownership and submit sitemap — account connected; publication requested but live verification tag and sitemap not yet visible; resume after deployment
+- [ ] Verify Google ownership and submit sitemap for thalek.es — linked account confirmed; checking the live verification tag and same-origin sitemap
 - [ ] Register with Bing and submit sitemap — connection declined; needs account authorization
 - [x] Add current Shih Tzu females and males (photos) from chiens-de-france
 - [x] Add retired females and photos from Chiens de France without duplicating existing dogs
