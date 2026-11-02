@@ -1,0 +1,16 @@
+{
+  "file": "revistas-en.html",
+  "title": "Magazines",
+  "lang": "en",
+  "blocks": [
+    { "type": "p", "parts": ["ARTICLES IN MAGAZINES"] },
+    {
+      "type": "gallery",
+      "items": [
+        { "type": "img", "src": "images/dibujos/Portada20septiembre16 El Mundo Del Perro.jpg" },
+        { "type": "img", "src": "images/dibujos/Articulo extra - Razas Mini.jpg" },
+        { "type": "img", "src": "images/dibujos/Articulo Caes & Co. Portada.jpg" }
+      ]
+    }
+  ]
+}
