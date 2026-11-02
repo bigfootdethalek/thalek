@@ -98,7 +98,13 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
                 );
                 if (it.tall) {
                   const tallImg = (
-                    <img src={legacySrc(it.src)} alt="" loading="lazy" className="h-full w-full rounded-md object-cover shadow-soft transition hover:opacity-90" />
+                    <img
+                      src={legacySrc(it.src)}
+                      alt=""
+                      loading="lazy"
+                      style={it.focus ? { objectPosition: it.focus } : undefined}
+                      className="h-full w-full rounded-md object-cover shadow-soft transition hover:opacity-90"
+                    />
                   );
                   return it.to && hasPage(it.to) ? (
                     <Link key={j} to="/$slug" params={{ slug: it.to }} {...(it.dog ? { hash: `perro-${it.dog}` } : {})} className={`${itemClass} aspect-[4/7]`}>{tallImg}</Link>
