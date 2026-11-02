@@ -18,7 +18,7 @@ export function exhibitionBlocks(rows: Exhibition[], lang: Lang): Block[] {
     const date = row.event_date.split('-').reverse().join('.');
     blocks.push({type:'p',parts:[`${lang === 'es' ? row.event_es : row.event_en}. ${date}`],variant:'title'}, {type:'p',parts:['SHIH TZU'],variant:'subtitle'}, {type:'p',parts:[row.dog_name],center:true}, {type:'p',parts:[lang === 'es' ? row.results_es : row.results_en],center:true});
     const award = lang === 'es' ? row.award_es : row.award_en;
-    if (award) blocks.push({type:'p',parts:[award],center:true});
+    if (award) blocks.push({type:'p',parts:[award],heading:false,center:true});
     blocks.push({type:'p',parts:[`${lang === 'es' ? 'Juez de Raza' : 'Breed Judge'}: ${lang === 'es' ? row.judge_es : row.judge_en}`],center:true});
     if (row.image_url) blocks.push({type:'gallery',items:[{type:'img',src:row.image_url,uniform:true}]});
     blocks.push({type:'p',parts:[{text:lang === 'es' ? 'Ver exposición en Facebook' : 'View show on Facebook',href:row.source_url}],center:true});
