@@ -129,6 +129,7 @@ function renderGroup(blocks: Block[], align: string) {
           <p key={i} className="leading-relaxed text-foreground/90">
             {b.parts.map((p, j) => <Inline key={j} part={p} />)}
           </p>
+        );
   });
 }
 
