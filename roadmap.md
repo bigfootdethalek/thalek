@@ -1,2 +1,3 @@
 - [x] Migrate legacy site
 - [x] Add current Shih Tzu females and males (photos) from chiens-de-france
+- [ ] Add retired females and photos from Chiens de France without duplicating existing dogs
