@@ -34,6 +34,16 @@ function isHeading(text: string) {
   return t.length > 2 && t.length < 70 && t === t.toUpperCase() && /[A-ZÁÉÍÓÚÑ]/.test(t);
 }
 
+function Ornament({ className = "" }: { className?: string }) {
+  return (
+    <div className={`flex items-center justify-center gap-3 ${className}`} aria-hidden="true">
+      <span className="h-px w-16 bg-gradient-to-r from-transparent to-accent/70 sm:w-28" />
+      <span className="h-2 w-2 rotate-45 rounded-[2px] bg-accent shadow-soft" />
+      <span className="h-px w-16 bg-gradient-to-l from-transparent to-accent/70 sm:w-28" />
+    </div>
+  );
+}
+
 function renderGroup(blocks: Block[], align: string) {
   return blocks.map((b, i) => {
         if (b.type === "table") {
