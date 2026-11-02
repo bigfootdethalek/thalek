@@ -114,13 +114,15 @@
       "type": "p",
       "parts": [
         "OUR STAR THALEK"
-      ]
+      ],
+      "center": true
     },
     {
       "type": "p",
       "parts": [
         "08-03-1997 / 26-06-1997"
-      ]
+      ],
+      "center": true
     },
     {
       "type": "gallery",
@@ -129,14 +131,16 @@
           "type": "img",
           "src": "fotos/familia/THALEK_small.jpg"
         }
-      ]
+      ],
+      "center": true
     },
     {
       "type": "p",
       "parts": [
         "THIS IS OURS DEAR THALEK, THE \"WHY\" OF OUR KENNEL."
       ],
-      "center": true
+      "center": true,
+      "noSplit": true
     },
     {
       "type": "p",

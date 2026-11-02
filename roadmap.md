@@ -17,3 +17,4 @@
 - [x] Restyle legacy page titles (italic, bold, large, turquoise) and give Mis Perros the panel/ornament layout
 - [x] Apply sectioned panel layout with ornaments to most legacy content pages
 [x] Agradecimiento: poem title turquoise/italic/bold/centered; "¡¡A TODOS VOSOTROS: GRACIAS!!" merged into previous text
+- [x] /homenaje: unir el cuadro de Thalek con «Nuestra estrella Thalek» y centrar todo su texto

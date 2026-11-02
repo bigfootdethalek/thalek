@@ -114,13 +114,15 @@
       "type": "p",
       "parts": [
         "NUESTRA ESTRELLA THALEK"
-      ]
+      ],
+      "center": true
     },
     {
       "type": "p",
       "parts": [
         "08-03-1997 / 26-06-1997"
-      ]
+      ],
+      "center": true
     },
     {
       "type": "gallery",
@@ -129,14 +131,16 @@
           "type": "img",
           "src": "fotos/familia/THALEK_small.jpg"
         }
-      ]
+      ],
+      "center": true
     },
     {
       "type": "p",
       "parts": [
         "ÉSTA ES NUESTRA QUERIDA THALEK,\\nEL \"POR QUÉ\" DE NUESTRO AFIJO."
       ],
-      "center": true
+      "center": true,
+      "noSplit": true
     },
     {
       "type": "p",
