@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 import { getDogs, getBobtails, type Dog } from "@/lib/dogs";
@@ -24,8 +24,13 @@ function DogCard({ dog, lang }: { dog: Dog; lang: Lang }) {
   const [i, setI] = useState(0);
   const champion = dog.name.startsWith("CH.");
   const name = dog.name.replace(/^CH\.\s*/, "");
+  // Deep links like /shih-tzum#perro-1109820 scroll straight to this card.
+  useEffect(() => {
+    if (window.location.hash === `#perro-${dog.id}`)
+      document.getElementById(`perro-${dog.id}`)?.scrollIntoView({ block: "center" });
+  }, [dog.id]);
   return (
-    <article className="overflow-hidden rounded-md border border-border bg-card shadow-soft">
+    <article id={`perro-${dog.id}`} className="overflow-hidden rounded-md border border-border bg-card shadow-soft scroll-mt-24">
       <div className="aspect-[4/5] bg-muted">
         {dog.photos[i] && <img src={dog.photos[i]} alt={name} loading="lazy" className="h-full w-full object-cover" />}
       </div>

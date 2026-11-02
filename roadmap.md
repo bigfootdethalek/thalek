@@ -12,3 +12,4 @@
  - [ ] Connect the domain www.thalek.es to the project — Yolanda will buy .es elsewhere (offered ~1€ first year); after purchase, connect it via Settings → Domains and add the DNS records Lovable shows
 - [x] Center single-dog sections
 - [x] Remove "Últimas actualizaciones" news section from the home page
+- [x] Link Camada K parents (text and photo) each to its own dog card via deep links (/shih-tzum#perro-1109820, /shih-tzuh#perro-1348460)
