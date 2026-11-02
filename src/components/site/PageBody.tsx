@@ -166,13 +166,20 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
   }
   groups.push(current);
   return (
-    <div className="space-y-10">
+    <div className="space-y-8">
       {groups.map((g, gi) => {
         if (gi === 0) return <div key={gi} className="space-y-4">{renderGroup(g, align)}</div>;
         return (
-          <section key={gi} className={`rounded-2xl border p-6 shadow-soft sm:p-10 ${gi % 2 === 1 ? "border-border bg-secondary/40" : "border-accent/40 bg-accent/10"}`}>
-            <div className="space-y-4">{renderGroup(g, align)}</div>
-          </section>
+          <div key={gi} className="space-y-8">
+            <Ornament />
+            <section
+              className={`rounded-3xl border p-6 shadow-soft sm:p-10 ${
+                gi % 2 === 1 ? "border-border bg-secondary/50" : "border-accent/25 bg-accent/10"
+              }`}
+            >
+              <div className="space-y-4">{renderGroup(g, align)}</div>
+            </section>
+          </div>
         );
       })}
     </div>
