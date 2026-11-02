@@ -34,6 +34,16 @@ function isHeading(text: string) {
   return t.length > 2 && t.length < 70 && t === t.toUpperCase() && /[A-ZÁÉÍÓÚÑ]/.test(t);
 }
 
+function Ornament({ className = "" }: { className?: string }) {
+  return (
+    <div className={`flex items-center justify-center gap-3 ${className}`} aria-hidden="true">
+      <span className="h-px w-16 bg-gradient-to-r from-transparent to-accent/70 sm:w-28" />
+      <span className="h-2 w-2 rotate-45 rounded-[2px] bg-accent shadow-soft" />
+      <span className="h-px w-16 bg-gradient-to-l from-transparent to-accent/70 sm:w-28" />
+    </div>
+  );
+}
+
 function renderGroup(blocks: Block[], align: string) {
   return blocks.map((b, i) => {
         if (b.type === "table") {
@@ -66,13 +76,7 @@ function renderGroup(blocks: Block[], align: string) {
           );
         }
         if (b.type === "divider") {
-          return (
-            <div key={i} className="my-10 flex items-center gap-3" aria-hidden="true">
-              <span className="h-px flex-1 bg-border" />
-              <span className="h-1.5 w-1.5 rotate-45 bg-accent" />
-              <span className="h-px flex-1 bg-border" />
-            </div>
-          );
+          return <Ornament key={i} className="my-12" />;
         }
         if (b.type === "gallery") {
           const single = b.items.length === 1;
@@ -162,13 +166,20 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
   }
   groups.push(current);
   return (
-    <div className="space-y-10">
+    <div className="space-y-8">
       {groups.map((g, gi) => {
         if (gi === 0) return <div key={gi} className="space-y-4">{renderGroup(g, align)}</div>;
         return (
-          <section key={gi} className={`rounded-2xl border p-6 shadow-soft sm:p-10 ${gi % 2 === 1 ? "border-border bg-secondary/40" : "border-accent/40 bg-accent/10"}`}>
-            <div className="space-y-4">{renderGroup(g, align)}</div>
-          </section>
+          <div key={gi} className="space-y-8">
+            <Ornament />
+            <section
+              className={`rounded-3xl border p-6 shadow-soft sm:p-10 ${
+                gi % 2 === 1 ? "border-border bg-secondary/50" : "border-accent/25 bg-accent/10"
+              }`}
+            >
+              <div className="space-y-4">{renderGroup(g, align)}</div>
+            </section>
+          </div>
         );
       })}
     </div>
