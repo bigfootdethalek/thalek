@@ -3,6 +3,7 @@ import index from "@/content/index.json";
 export type Part = string | { text: string; to?: string; href?: string };
 export type Block =
   | { type: "p"; parts: Part[] }
+  | { type: "table"; headers: string[]; rows: Part[][][] }
   | { type: "gallery"; items: { type: "img"; src: string; to?: string }[] };
 export type Page = { file: string; title: string; lang: "es" | "en"; blocks: Block[] };
 export type Lang = "es" | "en";

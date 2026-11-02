@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { hasPage, legacySrc, type Block, type Part } from "@/lib/content";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 
 function Inline({ part }: { part: Part }) {
   if (typeof part === "string") return <>{part}</>;
@@ -22,6 +23,35 @@ export function PageBody({ blocks }: { blocks: Block[] }) {
   return (
     <div className="space-y-4">
       {blocks.map((b, i) => {
+        if (b.type === "table") {
+          return (
+            <Table key={i} className="table-fixed border border-border text-xs sm:text-sm">
+              <colgroup>
+                <col className="w-[38%]" />
+                <col className="w-[15%]" />
+                <col className="w-[47%]" />
+              </colgroup>
+              <TableHeader className="bg-secondary">
+                <TableRow>
+                  {b.headers.map((header, j) => (
+                    <TableHead key={j} scope="col" className="border-r border-border px-2 py-3 text-center font-semibold text-primary sm:px-3">{header}</TableHead>
+                  ))}
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                {b.rows.map((row, j) => (
+                  <TableRow key={j}>
+                    {row.map((cell, k) => (
+                      <TableCell key={k} className="whitespace-pre-line break-words border-r border-border px-2 py-4 text-center leading-relaxed sm:px-3">
+                        {cell.map((part, n) => <Inline key={n} part={part} />)}
+                      </TableCell>
+                    ))}
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          );
+        }
         if (b.type === "gallery") {
           const single = b.items.length === 1;
           return (
