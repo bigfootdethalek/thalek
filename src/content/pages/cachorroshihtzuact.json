@@ -1,318 +1,354 @@
 {
-  "file": "cachorroshihtzuact.htm",
-  "title": "Camadas Actuales",
-  "blocks": [
+ "file": "cachorroshihtzuact.htm",
+ "title": "Camadas Actuales",
+ "blocks": [
+  {
+   "type": "p",
+   "parts": [
+    "Nuestras camadas son selectivas y esporádicas."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nos basamos en la calidad, no en la cantidad, por eso nuestras camadas son muy esporádicas y muy seleccionadas."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nuestros Shih Tzu adultos están dentro del estandard en cuanto a medidas. No criamos tamaños mini ni mal llamados imperiales."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Sus éxitos en exposiciones lo demuestran: más de 30 multicampeones de distintos países en los últimos años. Puedes verlos en el link CAMPEONES."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nuestros ejemplares tienen hechas pruebas de ADN."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nuestros cachorros están desparasitados, vacunados, revacunados e identificados con microchip."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Son criados en un ambiente familiar para garantizar su carácter. Criamos a nuestros Shih Tzu con todo el amor y el esmero que necesitan para conseguir grandes ejemplares con un carácter equilibrado. No criamos en jaulas. Comparten nuestra vida en familia."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Para exposición y compañía."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Los cachorros se entregan bajo riguroso orden de reserva."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Por el bienestar de nuestros cachorros, los entregamos a sus nuevas familias en persona."
+   ],
+   "center": false
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "p",
+   "parts": [
+    "NUEVA CAMADA NACIDA"
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "CAMADA K"
+   ],
+   "center": false
+  },
+  {
+   "type": "gallery",
+   "items": [
     {
-      "type": "p",
-      "parts": [
-        "Nuestras camadas son selectivas y esporádicas."
-      ]
+     "type": "img",
+     "src": "/__l5e/assets-v1/8caa9c73-1123-4ca2-8a05-6ef895f887ed/shihtzu_1109820_1.jpg",
+     "to": "shih-tzum",
+     "dog": "1109820"
     },
     {
-      "type": "p",
-      "parts": [
-        "Nos basamos en la calidad, no en la cantidad, por eso nuestras camadas son muy esporádicas y muy seleccionadas."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Nuestros Shih Tzu adultos están dentro del estandard en cuanto a medidas. No criamos tamaños mini ni mal llamados imperiales."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Sus éxitos en exposiciones lo demuestran: más de 30 multicampeones de distintos países en los últimos años. Puedes verlos en el link CAMPEONES."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Nuestros ejemplares tienen hechas pruebas de ADN."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Nuestros cachorros están desparasitados, vacunados, revacunados e identificados con microchip."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Son criados en un ambiente familiar para garantizar su carácter. Criamos a nuestros Shih Tzu con todo el amor y el esmero que necesitan para conseguir grandes ejemplares con un carácter equilibrado. No criamos en jaulas. Comparten nuestra vida en familia."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Para exposición y compañía."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Los cachorros se entregan bajo riguroso orden de reserva."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Por el bienestar de nuestros cachorros, los entregamos a sus nuevas familias en persona."
-      ]
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "p",
-      "parts": [
-        "NUEVA CAMADA NACIDA"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "CAMADA K"
-      ]
-    },
-    {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "/__l5e/assets-v1/8caa9c73-1123-4ca2-8a05-6ef895f887ed/shihtzu_1109820_1.jpg",
-          "to": "shih-tzum",
-          "dog": "1109820"
-        },
-        {
-          "type": "img",
-          "src": "/__l5e/assets-v1/a943a102-5cba-4fae-bf86-61c473fc40fb/shihtzu_1348460_4.jpg",
-          "to": "shih-tzuh",
-          "dog": "1348460"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        {
-          "text": "P: JR.CH. MULTI CH. BIG-FOOT DE THALEK SPIRIT OF HAPPINESS",
-          "to": "shih-tzum",
-          "dog": "1109820"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        {
-          "text": "M: CH. BIG-FOOT DE THALEK GREATEST LOVE AT ALL",
-          "to": "shih-tzuh",
-          "dog": "1348460"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Nueva camada super esperada nacida en 2026."
-      ]
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "p",
-      "parts": [
-        "CAMADA L"
-      ]
-    },
-    {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "",
-          "placeholder": true
-        },
-        {
-          "type": "img",
-          "src": "/__l5e/assets-v1/1474cc69-d095-4eae-87ca-9541ce3a8176/shihtzu_1348459_1.jpg",
-          "to": "shih-tzuh",
-          "dog": "1348459",
-          "tall": true,
-          "focus": "left"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "P: NATXO"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        {
-          "text": "M: BIG-FOOT DE THALEK FOLLOW YOUR DREAMS",
-          "to": "shih-tzuh",
-          "dog": "1348459"
-        }
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Nueva camada super esperada nacida en 2026."
-      ]
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "p",
-      "parts": [
-        "NUEVA CAMADA PLANIFICADA"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "CAMADA M"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " P:"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "M: "
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Estamos planificando nuestra nueva camada para 2027. Pronto ampliaremos más información."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Se admiten alguna reserva formal."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Contacta para más información."
-      ]
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "p",
-      "parts": [
-        "LEA ESTO ANTES DE CONTACTAR CON NOSOTROS:"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Si ya ha enviado un mensaje antes y nos expresó su interés en nuestros cachorros, es mejor que visite nuestro sitio web a menudo o nos contacte de nuevo después de un tiempo."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " Incluya también la siguiente información:"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " - breve presentación sobre usted y su familia;"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " - información de contacto (número de teléfono y dirección);"
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " - su experiencia en el Shih Tzu (u otra raza) y su afijo si lo tiene."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Buscamos solamente personas serias."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        " Tratamos de responder todas las preguntas. A veces nos puede llevar unos días responder."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        "Puede consultar por teléfono +34 676 22 08 96."
-      ]
-    },
-    {
-      "type": "p",
-      "parts": [
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        }
-      ]
-    },
-    {
-      "type": "gallery",
-      "items": [
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Cachorro/DSC04259.JPG"
-        },
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Cachorro/DSC04536.JPG"
-        },
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Cachorro/DSC08343 3.jpg"
-        },
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Cachorro/_DSC0571.jpg"
-        },
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Cachorro/DSC08018.JPG"
-        },
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Cachorro/_DSC0744.jpg"
-        },
-        {
-          "type": "img",
-          "src": "fotos/Criadero/Cachorro/DSC00425.JPG"
-        }
-      ]
+     "type": "img",
+     "src": "/__l5e/assets-v1/a943a102-5cba-4fae-bf86-61c473fc40fb/shihtzu_1348460_4.jpg",
+     "to": "shih-tzuh",
+     "dog": "1348460"
     }
-  ],
-  "lang": "es"
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    {
+     "text": "P: JR.CH. MULTI CH. BIG-FOOT DE THALEK SPIRIT OF HAPPINESS",
+     "to": "shih-tzum",
+     "dog": "1109820"
+    }
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    {
+     "text": "M: CH. BIG-FOOT DE THALEK GREATEST LOVE AT ALL",
+     "to": "shih-tzuh",
+     "dog": "1348460"
+    }
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nueva camada super esperada nacida en 2026."
+   ],
+   "center": false
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "p",
+   "parts": [
+    "CAMADA L"
+   ],
+   "center": false
+  },
+  {
+   "type": "gallery",
+   "items": [
+    {
+     "type": "img",
+     "src": "",
+     "placeholder": true
+    },
+    {
+     "type": "img",
+     "src": "/__l5e/assets-v1/1474cc69-d095-4eae-87ca-9541ce3a8176/shihtzu_1348459_1.jpg",
+     "to": "shih-tzuh",
+     "dog": "1348459",
+     "tall": true,
+     "focus": "left"
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "parts": [
+    "P: NATXO"
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    {
+     "text": "M: BIG-FOOT DE THALEK FOLLOW YOUR DREAMS",
+     "to": "shih-tzuh",
+     "dog": "1348459"
+    }
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Nueva camada super esperada nacida en 2026."
+   ],
+   "center": false
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "p",
+   "parts": [
+    "NUEVA CAMADA PLANIFICADA"
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "CAMADA M"
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    " P:"
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "M: "
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Estamos planificando nuestra nueva camada para 2027. Pronto ampliaremos más información."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Se admiten alguna reserva formal."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Contacta para más información."
+   ],
+   "center": false
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "p",
+   "parts": [
+    "LEA ESTO ANTES DE CONTACTAR CON NOSOTROS:"
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Si ya ha enviado un mensaje antes y nos expresó su interés en nuestros cachorros, es mejor que visite nuestro sitio web a menudo o nos contacte de nuevo después de un tiempo."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    " Incluya también la siguiente información:"
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    " - breve presentación sobre usted y su familia;"
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    " - información de contacto (número de teléfono y dirección);"
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    " - su experiencia en el Shih Tzu (u otra raza) y su afijo si lo tiene."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Buscamos solamente personas serias."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    " Tratamos de responder todas las preguntas. A veces nos puede llevar unos días responder."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    "Puede consultar por teléfono +34 676 22 08 96."
+   ],
+   "center": false
+  },
+  {
+   "type": "p",
+   "parts": [
+    {
+     "text": "BFDT@hotmail.com",
+     "href": "mailto:BFDT@hotmail.com"
+    }
+   ],
+   "center": false
+  },
+  {
+   "type": "gallery",
+   "items": [
+    {
+     "type": "img",
+     "src": "fotos/Criadero/Cachorro/DSC04259.JPG"
+    },
+    {
+     "type": "img",
+     "src": "fotos/Criadero/Cachorro/DSC04536.JPG"
+    },
+    {
+     "type": "img",
+     "src": "fotos/Criadero/Cachorro/DSC08343 3.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/Criadero/Cachorro/_DSC0571.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/Criadero/Cachorro/DSC08018.JPG"
+    },
+    {
+     "type": "img",
+     "src": "fotos/Criadero/Cachorro/_DSC0744.jpg"
+    },
+    {
+     "type": "img",
+     "src": "fotos/Criadero/Cachorro/DSC00425.JPG"
+    }
+   ]
+  }
+ ],
+ "lang": "es"
 }
