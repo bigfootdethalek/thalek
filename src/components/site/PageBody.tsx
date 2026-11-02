@@ -14,6 +14,21 @@ function Inline({ part }: { part: Part }) {
   return <>{part.text}</>;
 }
 
+const SEX_ABBR: Record<string, string> = { MACHO: "M", HEMBRA: "H", MALE: "M", FEMALE: "F" };
+
+function CellContent({ cell }: { cell: Part[] }) {
+  const text = cell.map((p) => (typeof p === "string" ? p : p.text)).join("").trim();
+  const abbr = SEX_ABBR[text];
+  if (abbr)
+    return (
+      <>
+        <span className="sm:hidden">{abbr}</span>
+        <span className="hidden sm:inline">{cell.map((part, n) => <Inline key={n} part={part} />)}</span>
+      </>
+    );
+  return <>{cell.map((part, n) => <Inline key={n} part={part} />)}</>;
+}
+
 function isHeading(text: string) {
   const t = text.trim();
   return t.length > 2 && t.length < 70 && t === t.toUpperCase() && /[A-ZÁÉÍÓÚÑ]/.test(t);
