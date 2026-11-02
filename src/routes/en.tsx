@@ -1,10 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { loadPage } from "@/lib/content";
 import { Home } from "@/components/site/Home";
 
 export const Route = createFileRoute("/en")({
   staticData: { sitemap: true },
-  loader: () => loadPage("inicioshi-en"),
   head: () => ({
     meta: [
       { title: "Big-Foot de Thalek — Bobtail & Shih Tzu Breeder in Spain" },
@@ -21,5 +19,5 @@ export const Route = createFileRoute("/en")({
       { rel: "alternate", hrefLang: "en", href: "https://archive-to-studio-46.lovable.app/en" },
     ],
   }),
-  component: () => <Home lang="en" updates={Route.useLoaderData()} />,
+  component: () => <Home lang="en" />,
 });

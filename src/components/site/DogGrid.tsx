@@ -70,6 +70,22 @@ function DogCard({ dog, lang }: { dog: Dog; lang: Lang }) {
   );
 }
 
+/** Grid of dog cards; a single dog is shown centered instead of left-aligned. */
+function DogsGrid({ dogs, lang }: { dogs: Dog[]; lang: Lang }) {
+  if (dogs.length === 1 && dogs[0]) {
+    return (
+      <div className="mt-6 flex justify-center">
+        <div className="w-full max-w-sm"><DogCard dog={dogs[0]} lang={lang} /></div>
+      </div>
+    );
+  }
+  return (
+    <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {dogs.map((d) => <DogCard key={d.id} dog={d} lang={lang} />)}
+    </div>
+  );
+}
+
 export function DogGrid({ sex, lang }: { sex: "male" | "female"; lang: Lang }) {
   const list = getDogs(sex);
   const retired = sex === "female" ? getDogs("female", "retired") : [];
@@ -79,23 +95,17 @@ export function DogGrid({ sex, lang }: { sex: "male" | "female"; lang: Lang }) {
       <h2 className="font-display text-3xl font-semibold text-foreground">
         {sex === "male" ? (lang === "en" ? "Our current males" : "Nuestros machos actuales") : lang === "en" ? "Our current females" : "Nuestras hembras actuales"}
       </h2>
-      <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {list.map((d) => <DogCard key={d.id} dog={d} lang={lang} />)}
-      </div>
+      <DogsGrid dogs={list} lang={lang} />
       {retired.length > 0 && (
         <>
           <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "Our retired females" : "Nuestras hembras retiradas"}</h2>
-          <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {retired.map((dog) => <DogCard key={dog.id} dog={dog} lang={lang} />)}
-          </div>
+          <DogsGrid dogs={retired} lang={lang} />
         </>
       )}
       {memorial.length > 0 && (
         <>
           <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "In memory" : "En memoria"}</h2>
-          <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {memorial.map((dog) => <DogCard key={dog.id} dog={dog} lang={lang} />)}
-          </div>
+          <DogsGrid dogs={memorial} lang={lang} />
         </>
       )}
       <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "From our archive" : "De nuestro archivo"}</h2>
@@ -112,9 +122,7 @@ export function BobtailGrid({ sex, lang }: { sex: "male" | "female"; lang: Lang 
         {sex === "male" ? (lang === "en" ? "Our male" : "Nuestro macho") : lang === "en" ? "Our females" : "Nuestras hembras"}
       </h2>
       {current.length > 0 ? (
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {current.map((dog) => <DogCard key={dog.id} dog={dog} lang={lang} />)}
-        </div>
+        <DogsGrid dogs={current} lang={lang} />
       ) : (
         <p className="mt-3 text-muted-foreground">
           {sex === "male"
@@ -125,9 +133,7 @@ export function BobtailGrid({ sex, lang }: { sex: "male" | "female"; lang: Lang 
       {homage.length > 0 && (
         <>
           <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "In memoriam" : "En homenaje"}</h2>
-          <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {homage.map((dog) => <DogCard key={dog.id} dog={dog} lang={lang} />)}
-          </div>
+          <DogsGrid dogs={homage} lang={lang} />
         </>
       )}
       <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "From our archive" : "De nuestro archivo"}</h2>
