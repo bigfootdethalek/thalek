@@ -68,15 +68,24 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
             </Table>
           );
         }
+        if (b.type === "divider") {
+          return (
+            <div key={i} className="my-10 flex items-center gap-3" aria-hidden="true">
+              <span className="h-px flex-1 bg-border" />
+              <span className="h-1.5 w-1.5 rotate-45 bg-accent" />
+              <span className="h-px flex-1 bg-border" />
+            </div>
+          );
+        }
         if (b.type === "gallery") {
           const single = b.items.length === 1;
           const itemClass = single ? "" : "w-[calc(50%-0.375rem)] sm:w-[calc((100%-1.5rem)/3)]";
           return (
             <div key={i} className={single ? "my-8 flex justify-center" : `my-8 flex flex-wrap justify-center gap-3 ${align ? "mx-auto max-w-xl" : ""}`}>
-          {b.items.map((it, j) => {
+              {b.items.map((it, j) => {
                 if (it.placeholder) {
                   return (
-                    <div key={j} className={`${itemClass} aspect-[3/2] rounded-md border border-dashed border-border bg-secondary/40`} aria-hidden="true" />
+                    <div key={j} className={`${itemClass} aspect-[4/7] rounded-md border border-dashed border-border bg-secondary/40`} aria-hidden="true" />
                   );
                 }
                 const img = (
@@ -87,6 +96,22 @@ export function PageBody({ blocks, center = false }: { blocks: Block[]; center?:
                     className={single ? "max-h-[520px] w-auto rounded-md shadow-soft" : "h-full w-full rounded-md object-cover shadow-soft transition hover:opacity-90"}
                   />
                 );
+                if (it.tall) {
+                  const tallImg = (
+                    <img
+                      src={legacySrc(it.src)}
+                      alt=""
+                      loading="lazy"
+                      style={it.focus ? { objectPosition: it.focus } : undefined}
+                      className="h-full w-full rounded-md object-cover shadow-soft transition hover:opacity-90"
+                    />
+                  );
+                  return it.to && hasPage(it.to) ? (
+                    <Link key={j} to="/$slug" params={{ slug: it.to }} {...(it.dog ? { hash: `perro-${it.dog}` } : {})} className={`${itemClass} aspect-[4/7]`}>{tallImg}</Link>
+                  ) : (
+                    <div key={j} className={`${itemClass} aspect-[4/7]`}>{tallImg}</div>
+                  );
+                }
                 return it.to && hasPage(it.to) ? (
                   <Link key={j} to="/$slug" params={{ slug: it.to }} {...(it.dog ? { hash: `perro-${it.dog}` } : {})} className={itemClass}>{img}</Link>
                 ) : (
