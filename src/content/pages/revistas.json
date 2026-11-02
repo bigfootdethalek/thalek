@@ -13,6 +13,7 @@
         { "type": "img", "src": "images/dibujos/Articulo Caes y Co. Portada.jpg" }
       ]
     },
-    { "type": "p", "parts": [{ "text": "Ver otra portada en Facebook", "href": "https://www.facebook.com/photo/?fbid=10154442330281105&set=a.626683842823908&locale=es_ES" }], "center": true }
+    { "type": "p", "parts": [{ "text": "Ver otra portada en Facebook", "href": "https://www.facebook.com/photo/?fbid=10154442330281105&set=a.626683842823908&locale=es_ES" }], "center": true },
+    { "type": "p", "parts": [{ "text": "Ver otra portada en Facebook", "href": "https://www.facebook.com/photo?fbid=10154442325906105&set=a.626683842823908&locale=es_ES" }], "center": true }
   ]
 }
