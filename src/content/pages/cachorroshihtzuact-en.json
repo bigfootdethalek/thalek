@@ -121,7 +121,8 @@
           "src": "/__l5e/assets-v1/1474cc69-d095-4eae-87ca-9541ce3a8176/shihtzu_1348459_1.jpg",
           "to": "shih-tzuh-en",
           "dog": "1348459",
-          "tall": true
+          "tall": true,
+          "focus": "left"
         }
       ]
     },
