@@ -12,6 +12,20 @@
     {
       "type": "p",
       "parts": [
+        "Telephone"
+      ],
+      "heading": false
+    },
+    {
+      "type": "p",
+      "parts": [
+        "+34 676 22 08 96"
+      ],
+      "heading": false
+    },
+    {
+      "type": "p",
+      "parts": [
         " Postal direction"
       ],
       "heading": false
@@ -47,17 +61,7 @@
     {
       "type": "p",
       "parts": [
-        "E-mail"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        {
-          "text": "BFDT@hotmail.com",
-          "href": "mailto:BFDT@hotmail.com"
-        }
+        "E-mail: bfdt@hotmail.com"
       ],
       "heading": false
     },
@@ -84,16 +88,8 @@
     {
       "type": "p",
       "parts": [
-        "Telephone"
-      ],
-      "heading": false
-    },
-    {
-      "type": "p",
-      "parts": [
-        "+34 676 22 08 96"
-      ],
-      "heading": false
+        "CAPPIE : Club del Antiguo Perro de Pastor Inglés en España mientras existió."
+      ]
     },
     {
       "type": "p",
