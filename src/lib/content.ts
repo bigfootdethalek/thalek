@@ -68,13 +68,16 @@ export const nav: NavGroup[] = [
       { label: l("Machos", "Males"), slug: "shih-tzum" },
       { label: l("Hembras", "Females"), slug: "shih-tzuh" },
       { label: l("En el mundo", "Around the world"), slug: "shih-tzuw" },
-      { label: l("Camada", "Litter"), slug: "cachorroshihtzuact" },
       { label: l("Cuidados", "Care"), slug: "cuidados-1" },
       { label: l("Historia de la raza", "Breed history"), slug: "origen-e-historia-1" },
       { label: l("Standard", "Standard"), slug: "standardshi" },
       { label: l("Movimiento", "Movement"), slug: "movimiento-1" },
       { label: l("Simbolismo", "Symbolism"), slug: "simbolismo-1" },
     ],
+  },
+  {
+    label: l("Cachorros", "Puppies"),
+    slug: "cachorroshihtzuact",
   },
   {
     label: l("Campeones", "Champions"),
