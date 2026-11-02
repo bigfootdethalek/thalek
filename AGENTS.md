@@ -10,8 +10,8 @@
 <!-- LOVABLE:END -->
 
 ## Migrated legacy site
-- Historical annual news stays in indexed bilingual legacy JSON; reviewable new exhibitions live in Cloud with draft/approved status and reuse PageBody on annual pages. Why: preserve archive addresses while ensuring only approved results reach the public.
-- Exhibition writes require an authenticated editor role assigned only to the confirmed authorized reviewer; profiles are separate from roles. Why: protect public news against unauthorized edits.
+- Exhibition news is read-only public data: the Cloud `exhibitions` table is SELECT-only for anon/authenticated (approved rows only) and renders through `exhibitionBlocks` on the annual pages; the reviewer UI, auth routes and write paths were removed at the owner's request — do not reintroduce review/auth screens. Why: the owner asked to delete the review access and all related data.
+- Facebook links on show entries dedupe per album (`set=a.<id>`), the award owner text renders on its own line, and results never use the "º" ordinal (e.g. "Excelente 1"). Why: owner-requested display rules for exhibition entries.
 - Preserve Google verification tags for existing accounts; additional account tags render directly in the shared HTML head to avoid same-name metadata deduplication.
 - Missing addresses render the shared branded NotFoundPage with typed links to real public sections and keep HTTP 404 status. Why: visitors following obsolete links can recover without creating soft-404 pages.
 - Search discovery uses a router-derived sitemap plus substantive legacy JSON pages; omit obsolete menu and alternate-home slugs and omit lastmod without authoritative page timestamps. Why: search engines need current public destinations, not invented update dates.
