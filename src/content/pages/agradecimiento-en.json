@@ -44,7 +44,11 @@
       "parts": [
         "¡¡GRACIAS DE TODO CORAZÓN!!"
       ],
-      "center": true
+      "center": true,
+      "noSplit": true
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "p",
