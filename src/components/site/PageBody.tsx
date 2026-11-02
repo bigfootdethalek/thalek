@@ -165,7 +165,7 @@ function renderGroup(blocks: Block[], align: string) {
             </p>
           );
         return (
-          <p key={i} className={`leading-relaxed text-foreground/90 ${b.center ? "text-center" : align}`}>
+          <p key={i} className={`leading-relaxed text-foreground/90 ${b.center === false ? "" : b.center ? "text-center" : align}`}>
             {b.parts.map((p, j) => <Inline key={j} part={p} />)}
           </p>
         );
