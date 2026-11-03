@@ -1,552 +1,1043 @@
 {
- "file": "noticias_en.htm",
- "title": "News 2017",
- "blocks": [
-  {
-   "type": "p",
-   "parts": [
-    " NEW FAMILY MEMBER: Audrey"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
+  "file": "noticias_en.htm",
+  "title": "News 2017",
+  "blocks": [
     {
-     "text": "Bobtail Puppies",
-     "to": "cachorrobobtailact-en"
-    },
-    " / ",
-    {
-     "text": "Shih Tzu Litter",
-     "to": "cachorroshihtzuact-en"
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "SHOWS 2017"
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "International Dog Show of Talavera de la Reina - QC. 08.10.2017"
-   ],
-   "variant": "title"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "SHIH TZU"
-   ],
-   "variant": "subtitle"
-  },
-  {
-   "type": "gallery",
-   "items": [
-    {
-     "type": "img",
-     "src": "/__l5e/assets-v1/3638dc97-2cda-4e90-816a-5a633cbb3cc5/show-2017-10213032220373483.jpg",
-     "uniform": true
+      "type": "p",
+      "parts": [
+        "SHOWS 2017"
+      ],
+      "heading": true,
+      "center": true
     },
     {
-     "type": "img",
-     "src": "/__l5e/assets-v1/4e8984fb-653d-4b33-9c13-7d14339d2f60/show-2017-10213035223608562.jpg",
-     "uniform": true
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Our Sweet Surprise From Audrey's Paradise - Audrey"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Excellent 1, CAC-QC, CACIB"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "BEST FEMALE, BOS · New SPAIN CHAMPION (U.A.)"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Breed Judge: Mrs. Encarna Moreno (Spain)"
-   ],
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    {
-     "text": "View show on Facebook",
-     "href": "https://www.facebook.com/media/set/?set=a.10213032217773418&type=3"
-    }
-   ],
-   "center": true
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "International Dog Show of León (Spain). 24.09.2017"
-   ],
-   "variant": "title"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "SHIH TZU"
-   ],
-   "variant": "subtitle"
-  },
-  {
-   "type": "gallery",
-   "items": [
-    {
-     "type": "img",
-     "src": "/__l5e/assets-v1/785b07f4-2c70-4926-b6d9-bf4e0567e1a5/show-2017-10212927561357073.jpg",
-     "uniform": true
+      "type": "p",
+      "parts": [
+        "International Dog Show of Talavera de la Reina - QC. 08.10.2017"
+      ],
+      "variant": "title"
     },
     {
-     "type": "img",
-     "src": "/__l5e/assets-v1/f4b69c5f-cf3a-49b2-a050-a027b00da7c8/show-2017-10212928464419649.jpg",
-     "uniform": true
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Ch. Kaybaroshi Han&Har Moonlight Queen - Jolka"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Excellent 1, CAC, CACIB"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "BEST FEMALE, BOS · New INTERNATIONAL CHAMPION (U.A.)"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Breed Judge: Mr. Ulises Rodríguez (Spain)"
-   ],
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    {
-     "text": "View show on Facebook",
-     "href": "https://www.facebook.com/media/set/?set=a.10212927560237045&type=3"
-    }
-   ],
-   "center": true
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "International Dog Show of Muskiz-Bilbao (Spain). 03.09.2017"
-   ],
-   "variant": "title"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "SHIH TZU"
-   ],
-   "variant": "subtitle"
-  },
-  {
-   "type": "gallery",
-   "items": [
-    {
-     "type": "img",
-     "src": "/__l5e/assets-v1/97c8e6d3-5702-4907-9d6f-b00fe5f52b46/show-2017-10212796449519359.jpg",
-     "uniform": true
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
     },
     {
-     "type": "img",
-     "src": "/__l5e/assets-v1/73eef3ab-deb3-4a64-a325-72ac5e4769f0/show-2017-10212805337221546.jpg",
-     "uniform": true
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Our Sweet Surprise From Audrey's Paradise - Audrey"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Excellent 1, CAC, RCACIB"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Breed Judge: Mrs. Joyce O'Connor (Ireland)"
-   ],
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    {
-     "text": "View show on Facebook",
-     "href": "https://www.facebook.com/media/set/?set=a.10212796449199351&type=3"
-    }
-   ],
-   "center": true
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "National Dog Show of Muskiz-Bilbao (Spain). 02.09.2017"
-   ],
-   "variant": "title"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "SHIH TZU"
-   ],
-   "variant": "subtitle"
-  },
-  {
-   "type": "gallery",
-   "items": [
-    {
-     "type": "img",
-     "src": "/__l5e/assets-v1/0f356649-f118-4a43-bf45-7ea594aa6633/show-2017-10212789166257282.jpg",
-     "uniform": true
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/3638dc97-2cda-4e90-816a-5a633cbb3cc5/show-2017-10213032220373483.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/4e8984fb-653d-4b33-9c13-7d14339d2f60/show-2017-10213035223608562.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/0ef9ca83-ebca-4e3d-b0df-77d86950acfd/show-2017-10213037142816541.jpg",
+          "uniform": true
+        }
+      ]
     },
     {
-     "type": "img",
-     "src": "/__l5e/assets-v1/37288645-f1c2-4515-b1e7-fa0fcfee84de/show-2017-10212789228578840.jpg",
-     "uniform": true
+      "type": "p",
+      "parts": [
+        "Our Sweet Surprise From Audrey's Paradise - Audrey"
+      ],
+      "heading": false,
+      "center": true
     },
     {
-     "type": "img",
-     "src": "/__l5e/assets-v1/32d0319a-d486-4272-be20-d722b852bcfa/show-2017-10212807201188144.jpg",
-     "uniform": true
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Our Sweet Surprise From Audrey's Paradise - Audrey"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Excellent 1, CAC"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "BEST FEMALE, BOS"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Breed Judge: Mrs. Encarna Moreno (Spain)"
-   ],
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    {
-     "text": "View show on Facebook",
-     "href": "https://www.facebook.com/media/set/?set=a.10212789164497238&type=3"
-    }
-   ],
-   "center": true
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "International Dog Show of Portugalete (Spain). 09.07.2017"
-   ],
-   "variant": "title"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "SHIH TZU"
-   ],
-   "variant": "subtitle"
-  },
-  {
-   "type": "gallery",
-   "items": [
-    {
-     "type": "img",
-     "src": "/__l5e/assets-v1/a07f6a99-7a01-484c-b2ec-88201346c27c/show-2017-10212284338916914.jpg",
-     "uniform": true
+      "type": "p",
+      "parts": [
+        "Excellent 1, CAC-QC, CACIB"
+      ],
+      "heading": false,
+      "center": true
     },
     {
-     "type": "img",
-     "src": "/__l5e/assets-v1/29a09430-40c9-4bed-8f31-abe4d7b818d1/show-2017-10212289796093340.jpg",
-     "uniform": true
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Our Sweet Surprise From Audrey's Paradise - Audrey"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Excellent 2, RCAC, RCACIB"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Breed Judge: Mrs. Viva Maria Soleckyj-Szpunar (Poland)"
-   ],
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    {
-     "text": "View show on Facebook",
-     "href": "https://www.facebook.com/media/set/?set=a.10212284333316774&type=3"
-    }
-   ],
-   "center": true
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "International Dog Show of Medina de Pomar (Spain). 25.06.2017"
-   ],
-   "variant": "title"
-  },
-  {
-   "type": "p",
-   "parts": [
-    "SHIH TZU"
-   ],
-   "variant": "subtitle"
-  },
-  {
-   "type": "gallery",
-   "items": [
-    {
-     "type": "img",
-     "src": "/__l5e/assets-v1/ea7a3928-3584-4b8b-a4f9-96021c427b9b/show-2017-10212057472045384.jpg",
-     "uniform": true
+      "type": "p",
+      "parts": [
+        "BEST FEMALE, BOS · New SPAIN CHAMPION (U.A.)"
+      ],
+      "heading": false,
+      "center": true
     },
     {
-     "type": "img",
-     "src": "/__l5e/assets-v1/4faf1536-f7e8-4c52-9d95-0a2399e5d261/show-2017-10212069353222406.jpg",
-     "uniform": true
-    }
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Ch. Kaybaroshi Han&Har Moonlight Queen - Jolka"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Excellent 1, CAC, CACIB"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "BEST FEMALE, BOS · New SPAIN CHAMPION (U.A.)"
-   ],
-   "heading": false,
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Breed Judge: Mr. Marian Draganescu (Romania)"
-   ],
-   "center": true
-  },
-  {
-   "type": "p",
-   "parts": [
-    {
-     "text": "View show on Facebook",
-     "href": "https://www.facebook.com/media/set/?set=a.10212057468125286&type=3"
-    }
-   ],
-   "center": true
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "p",
-   "parts": [
-    " National Dog Show of Valladolid. 25.02.17"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    " SHIH TZU Jr.Ch. Big-Foot de Thalek Nothing Is Impossible: Exc. #1, CAC, Best Of Breed, BOB,"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    " Selected between 6 Best in Group"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    " NEW SPAIN CHAMPION 2017 (U.A.)"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Ch. Kaybaroshi Han&Har Moonlight Queen: Exc. #1, CAC, Best Female, BOS"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Judge on Breed & Group: Mrs. Barbara Müller (Switzerland)"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    " International Dog Show of Oporto-QC (Portugal). 15.01.17"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    " SHIH TZU Jr.Ch. Big-Foot de Thalek Nothing Is Impossible: Exc. #3 (Obligatory Point)"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Kaybaroshi Han&Har Moonlight Queen: Exc. #1, CAC-QC, CACIB, Best Female, BOS (Obligatory Point)"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "NEW IBERIAN CHAMPION 2017 (U.A.)"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Our New Surprise From Audreys Paradis: Exc. #1, CCJ-QC, Best Junior Female (Obligatory Point)"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Judge: Mr. David Allan (Spain)"
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "We make web pages",
-    {
-     "text": "BFDT@hotmail.com",
-     "href": "mailto:BFDT@hotmail.com"
+      "type": "p",
+      "parts": [
+        "Breed Judge: Mrs. Encarna Moreno (Spain)"
+      ],
+      "center": true
     },
-    "."
-   ]
-  },
-  {
-   "type": "p",
-   "parts": [
-    "Edit and update © Big-Foot de Thalek."
-   ]
-  }
- ],
- "lang": "en"
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "View show on Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10213032217773418&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "International Dog Show of León (Spain). 24.09.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/785b07f4-2c70-4926-b6d9-bf4e0567e1a5/show-2017-10212927561357073.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/f4b69c5f-cf3a-49b2-a050-a027b00da7c8/show-2017-10212928464419649.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/0093453b-8fdc-4760-8897-456b4afc41c8/show-2017-10212928559022014.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ch. Kaybaroshi Han&Har Moonlight Queen - Jolka"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excellent 1, CAC, CACIB"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BEST FEMALE, BOS · New INTERNATIONAL CHAMPION (U.A.)"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Breed Judge: Mr. Ulises Rodríguez (Spain)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "View show on Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10212927560237045&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "International Dog Show of Muskiz-Bilbao (Spain). 03.09.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/97c8e6d3-5702-4907-9d6f-b00fe5f52b46/show-2017-10212796449519359.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/73eef3ab-deb3-4a64-a325-72ac5e4769f0/show-2017-10212805337221546.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/e023221c-5acd-4a2c-95f4-84236d23a16d/show-2017-10212862280125083.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Our Sweet Surprise From Audrey's Paradise - Audrey"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excellent 1, CAC, RCACIB"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Breed Judge: Mrs. Joyce O'Connor (Ireland)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "View show on Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10212796449199351&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "National Dog Show of Muskiz-Bilbao (Spain). 02.09.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/0f356649-f118-4a43-bf45-7ea594aa6633/show-2017-10212789166257282.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/37288645-f1c2-4515-b1e7-fa0fcfee84de/show-2017-10212789228578840.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/32d0319a-d486-4272-be20-d722b852bcfa/show-2017-10212807201188144.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/527c51f6-ed19-4725-88c6-2d3af9e4a1a4/show-2017-10212861897395515.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Our Sweet Surprise From Audrey's Paradise - Audrey"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excellent 1, CAC"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BEST FEMALE, BOS"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Breed Judge: Mrs. Encarna Moreno (Spain)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "View show on Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10212789164497238&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "International Dog Show of Portugalete (Spain). 09.07.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/a07f6a99-7a01-484c-b2ec-88201346c27c/show-2017-10212284338916914.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/29a09430-40c9-4bed-8f31-abe4d7b818d1/show-2017-10212289796093340.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/fdcbb35c-25fe-4017-8330-cedee3711610/show-2017-10212296369737677.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Our Sweet Surprise From Audrey's Paradise - Audrey"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excellent 2, RCAC, RCACIB"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Breed Judge: Mrs. Viva Maria Soleckyj-Szpunar (Poland)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "View show on Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10212284333316774&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "International Dog Show of Medina de Pomar (Spain). 25.06.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/ea7a3928-3584-4b8b-a4f9-96021c427b9b/show-2017-10212057472045384.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/4faf1536-f7e8-4c52-9d95-0a2399e5d261/show-2017-10212069353222406.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/d7273dab-5298-481b-ab07-4f10b2eee79e/show-2017-10212144126691696.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ch. Kaybaroshi Han&Har Moonlight Queen - Jolka"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excellent 1, CAC, CACIB"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "BEST FEMALE, BOS · New SPAIN CHAMPION (U.A.)"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Breed Judge: Mr. Marian Draganescu (Romania)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "View show on Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10212057468125286&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "International Dog Show of Madrid - QC (Spain). 27.05.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/780da59b-0567-44fe-b431-f2358a65588b/show-2017-10211776060930282.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/18fff89f-a76b-4844-9f83-c4dc931df835/show-2017-10211776520781778.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/20a6db67-f8b2-472e-b59c-f7833c8c635d/show-2017-10211788291796046.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/5cd9d3f0-57aa-49b6-9ac6-d72709231a0b/show-2017-10211788344117354.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/2c8d69ee-f012-4fd6-9fd7-babfed88088f/show-2017-10211788369917999.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/8bec3a88-4180-4fca-b5a3-007d177ef1e5/show-2017-10211788403878848.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/f3d67049-5dce-4b02-b7d0-585ae24b65ea/show-2017-10211788445239882.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/61b64c6e-5151-447c-916a-e81540d69ca7/show-2017-10211788458200206.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Our New Surprise From Audreys Paradis - Audrey"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excellent 1, RCAC-QC, RCACIB"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Intermediate class"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Ch. Kaybaroshi Han&Har Moonlight Queen - Jolka"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excellent 2"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "First show in open class. One more CAC needed for the Spanish Champion title."
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Breed Judge: Mr. Martín Baskarán (Spain)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "View show on Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10211776058170213&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "International Dog Show of Pau (France). 16.04.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/661b24b5-7906-4afb-84e7-f2e9da207446/show-2017-10211395739142475.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/460334ab-615b-4a2a-be16-d1066cb9a212/show-2017-10211396471080773.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/cd2bba61-64db-46a3-beaf-274d1c681b40/show-2017-10211400217614434.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/204c5fc0-d584-44b7-a186-cf10e5a5e0e9/show-2017-10211402049220223.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/1c86bf25-81a2-4c39-8297-1efff7a2f3fb/show-2017-10211412082591051.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Jr.Ch., Ch. Big-Foot de Thalek Nothing Is Impossible - Texas"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excellent 2"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Champion class"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Our New Surprise From Audreys Paradis - Audrey"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excellent 1, RCACS, RCACIB"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "First show in intermediate class"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Breed Judge: Mrs. Marie-Christine Bodson (France)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "View show on Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10211395736542410&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "National Dog Show of Valladolid (Spain). 25.02.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/f101d3ed-a17a-40fb-a9f2-f14fbfcf788c/show-2017-10210897742692875.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/26f80326-4c06-4d99-9ca7-a84de9f3e796/show-2017-10210898194384167.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/bbc18bdf-7181-41aa-bf84-6b5b2f5bce04/show-2017-10210904841790348.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/9caa012f-1b09-43dd-b766-013c5ee91302/show-2017-10210904908832024.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/94ca3865-ffab-4c74-a23b-cdf4cf7a2892/show-2017-10210905135037679.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/3d3b1d07-9587-4c19-86c8-2f31cbd2fcd2/show-2017-10210905152958127.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/1839cb6c-84f5-43e0-9927-8019786d2e69/show-2017-10210908760008301.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/af7dc260-c3ac-451d-8316-84e0279529be/show-2017-10210908770448562.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/4cd48328-9cb0-4ff9-b1cb-063c81253713/show-2017-10210925155018166.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/bc1ca8fe-3d78-4511-9041-780787602088/show-2017-10210925160858312.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/f1c2c529-d9d6-41a3-9ac9-0361c52977cc/show-2017-10210929314602153.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Jr.Ch. Big-Foot de Thalek Nothing Is Impossible - Texas"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "CAC, Best Male, Best of Breed, BOB"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Selected among the top six in the group. NEW SPANISH CHAMPION (U.A.)"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Kaybaroshi Han&Har Moonlight Queen - Jolka"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "CAC, Best Female, BOS"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Breed and Group Judge: Mrs. Barbara Müller (Switzerland)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "View show on Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10210897460285815&type=3"
+        }
+      ],
+      "center": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "International Dog Show of Porto / do Norte - QC (Portugal). 15.01.2017"
+      ],
+      "variant": "title"
+    },
+    {
+      "type": "p",
+      "parts": [
+        "SHIH TZU"
+      ],
+      "variant": "subtitle"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/7f3cf4a9-7c78-4d14-993e-8f5bea4b4db7/show-2017-10210519221230075.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/d34cae5d-310a-41ad-9e49-087c46c09644/show-2017-10210519270631310.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/de7d4d36-cca4-446c-b936-f9e8976946ad/show-2017-10210519357473481.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/705224fa-470c-4fd1-a772-07cfdb89d73d/show-2017-10210519599519532.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/2acf2e56-0818-4864-a16b-db17f7755860/show-2017-10210519643760638.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/83f3a18b-872d-4df0-bd08-2caa16b5728b/show-2017-10210519654040895.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/c64290a4-d4bd-48dc-8b19-c0f92bcb3bdd/show-2017-10210519657880991.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/30aace64-68d8-4af9-8a5a-15f02dd921e2/show-2017-10210523687021717.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/afa6be61-2bc0-4b5d-9855-ded5308c4d78/show-2017-10210523778464003.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/99df3144-f275-43d0-b757-a6c19dd3fff5/show-2017-10210523936187946.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/c0842f29-755b-4505-ad0f-d8c556082e26/show-2017-10210523943508129.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/b20aff4f-52ff-485e-a629-a63a604aad8a/show-2017-10210524172633857.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/38f9dd53-7e71-4bb7-b7e0-8f81bdffd3ec/show-2017-10210524493081868.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/b6d71ecc-fb57-406b-ad26-e91b662dc9a7/show-2017-10210524501642082.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/b01994f7-15e2-420f-9749-3651393fe33f/show-2017-10210525531387825.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/cf581bae-7d3b-4ec8-84bf-008403b57006/show-2017-10210525562748609.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/6c8fb8a5-9f23-4bb3-a2cd-bec925dcaedb/show-2017-10210525732832861.jpg",
+          "uniform": true
+        },
+        {
+          "type": "img",
+          "src": "/__l5e/assets-v1/391eb13a-d6b1-4589-97fb-df048f37fc47/show-2017-10210525832235346.jpg",
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Jr.Ch. Big-Foot de Thalek Nothing Is Impossible - Texas"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excellent 3"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Open class"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Kaybaroshi Han&Har Moonlight Queen - Jolka"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excellent 1, CAC-QC, CACIB, Best Female, BOS"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "NEW IBERIAN CHAMPION (U.A.)"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Our New Surprise From Audreys Paradis - Audrey"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Excellent 1, CCJ-QC, Best Junior Female"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Show debut"
+      ],
+      "heading": false,
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        "Breed Judge: Mr. David Allan (Spain)"
+      ],
+      "center": true
+    },
+    {
+      "type": "p",
+      "parts": [
+        {
+          "text": "View show on Facebook",
+          "href": "https://www.facebook.com/media/set/?set=a.10210519220350053&type=3"
+        }
+      ],
+      "center": true
+    }
+  ],
+  "lang": "en"
 }

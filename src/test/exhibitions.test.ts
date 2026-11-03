@@ -1,8 +1,18 @@
 import {describe,it,expect} from 'vitest';
 import {exhibitionBlocks,type Exhibition} from '@/lib/exhibitions';
 import shows2025 from '@/content/exhibitions/2025.json';
+import shows2022 from '@/content/exhibitions/2022.json';
 const row:Exhibition={id:'00000000-0000-4000-8000-000000000001',event_date:'2026-09-13',event_es:'Muskiz',event_en:'Muskiz',dog_name:'Oreo',results_es:'CAC, CACIB, BOS',results_en:'CAC, CACIB, BOS',judge_es:'Istvan Orcik',judge_en:'Istvan Orcik',award_es:'',award_en:'',image_url:'', extra_images: [],source_url:'https://www.facebook.com/photo/?fbid=123',status:'draft',updated_at:'2026-11-02T16:00:00Z',breed:'Shih Tzu',notes_es:'',notes_en:''};
 describe('Public exhibition news',()=>{
+ it('keeps Owen at the 2022 World Show but removes the annexed general ring album',()=>{
+  const owen=shows2022.find(x=>x.id==='fc67a5dd-b748-5382-a03c-65bb3aedb09d');
+  expect(owen).toBeDefined();
+  if(!owen)return;
+  expect(owen.breed).toBe('Bobtail');
+  expect(owen.results_es).toBe('Excelente 1; CCJ-QC');
+  expect(owen.extra_images.map(x=>x.split('/').pop())).toEqual(['show-10225167933078716.jpg','show-10225168050561653.jpg','show-10225216460611874.jpg','show-10225235633171176.jpg']);
+  expect(owen.extra_images.some(x=>x.includes('show-10225256242046385'))).toBe(false);
+ });
  it('keeps the two Jerez November 2025 shows and their results separate',()=>{const national=shows2025.filter(x=>x.event_date==='2025-11-01'&&x.event_es.includes('Jerez'));const international=shows2025.filter(x=>x.event_date==='2025-11-02'&&x.event_es.includes('Jerez'));expect(national).toHaveLength(1);expect(national[0]).toMatchObject({dog_name:"Big-Foot de Thalek Don't Stop Believing - Cosmo",results_es:'Excelente 1, CAC',judge_es:'Mr. Geoff Corish (Reino Unido)',award_es:''});expect(international).toHaveLength(2);expect(international.map(x=>x.results_es)).toEqual(['Excelente 1, CAC-QC, RCACIB','Excelente 1, CAC-QC']);});
  it('preserves the actual breed of historical exhibition entries',()=>{const b=exhibitionBlocks([{...row,status:'approved',breed:'Bobtail',event_date:'2018-01-21'}],'es');expect(b.find(x=>x.type==='p'&&x.variant==='subtitle')).toEqual({type:'p',parts:['BOBTAIL'],variant:'subtitle'});});
  it('does not repeat a shared photo within one show',()=>{const b=exhibitionBlocks([{...row,status:'approved',image_url:'/same.jpg',extra_images:['/same.jpg']}],'es');expect(b.find(x=>x.type==='gallery')).toEqual({type:'gallery',items:[{type:'img',src:'/same.jpg',uniform:true}]});});

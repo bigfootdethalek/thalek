@@ -1,7 +1,9 @@
 # Roadmap
 
-- [ ] Recheck all 2017 Facebook albums and text reports; add missing verified shows and results in Spanish and English without duplicates
-- [ ] Replace old duplicate 2017 entries with verified Facebook reports while preserving any unique historical data
+- [x] Remove 59 general ring photos from the annexed 2022 World Dog Show Bobtail folder and their label in both languages; preserve all Bobtail results, Owen's Mundial results and personal photos; verified ES/EN
+- [x] Remove the 2017 family/puppy introductory panel; center the exhibitions heading and keep it in the first show's panel; verified ES/EN
+- [x] Recheck all accessible 2017 Facebook albums and text reports; both languages now show the ten verified shows and all 61 album photos; exhaustive private/hidden timeline remains unverified
+- [x] Replace four old 2017 reports with verified Facebook reports, correcting Madrid's date/result and adding Madrid/Pau to English; no duplicate shows
 - [ ] Add missing verified exhibition results for Lulú only from FlymetotheMoonCavaliers photos — public photo/profile/album captures checked; no captions identifying Lulú and her missing results available, direct report links or screenshots needed
 - [x] Complete the 2017 news archive with verified missing exhibitions from Big-Foot de Thalek Facebook albums — added Talavera, León, international and national Muskiz-Bilbao, Portugalete and Medina de Pomar with 13 photos, results and judges in both languages; verified all photos load
 
