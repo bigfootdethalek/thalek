@@ -35,3 +35,17 @@ export function getBobtails(sex: "male" | "female", status: "current" | "homage"
     .filter((dog) => dog.sex === sex && (status === "homage" ? Boolean(dog.homage) : !dog.homage))
     .sort((a, b) => sortKey(b).localeCompare(sortKey(a)));
 }
+
+const dogPageSlugs = new Set<string>();
+for (const d of dogs as Dog[]) {
+  if (d.page) dogPageSlugs.add(d.page);
+}
+for (const b of bobtails as Dog[]) {
+  if (b.page) dogPageSlugs.add(b.page);
+}
+
+export function isDogStoryPage(slug: string): boolean {
+  const base = slug.replace(/-en$/, "");
+  return dogPageSlugs.has(base) || base.endsWith("pe") || base.endsWith("ex");
+}
+

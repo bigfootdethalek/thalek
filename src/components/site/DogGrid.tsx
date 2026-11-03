@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 import { getDogs, getBobtails, type Dog } from "@/lib/dogs";
-import type { Lang } from "@/lib/content";
+import { inLang, type Lang } from "@/lib/content";
 
 /** Which legacy pages show the current dog cards, and for which sex. */
 export const dogPages: Record<string, "male" | "female"> = {
@@ -32,7 +32,15 @@ function DogCard({ dog, lang }: { dog: Dog; lang: Lang }) {
   return (
     <article id={`perro-${dog.id}`} className="overflow-hidden rounded-md border border-border bg-card shadow-soft scroll-mt-24">
       <div className="aspect-[4/5] bg-muted">
-        {dog.photos[i] && <img src={dog.photos[i]} alt={name} loading="lazy" className="h-full w-full object-cover" />}
+        {dog.photos[i] && (
+          dog.page ? (
+            <Link to="/$slug" params={{ slug: inLang(dog.page, lang) }} className="block h-full w-full">
+              <img src={dog.photos[i]} alt={name} loading="lazy" className="h-full w-full object-cover" />
+            </Link>
+          ) : (
+            <img src={dog.photos[i]} alt={name} loading="lazy" className="h-full w-full object-cover" />
+          )
+        )}
       </div>
       {dog.photos.length > 1 && (
         <div className="flex gap-1 p-2">
@@ -45,7 +53,15 @@ function DogCard({ dog, lang }: { dog: Dog; lang: Lang }) {
       )}
       <div className="p-5">
         {champion && <p className="eyebrow text-accent">{lang === "en" ? "Champion" : dog.sex === "female" ? "Campeona" : "Campeón"}</p>}
-        <h3 className="mt-1 font-display text-2xl font-semibold leading-tight text-primary">{name}</h3>
+        <h3 className="mt-1 font-display text-2xl font-semibold leading-tight text-primary">
+          {dog.page ? (
+            <Link to="/$slug" params={{ slug: inLang(dog.page, lang) }} className="hover:underline">
+              {name}
+            </Link>
+          ) : (
+            name
+          )}
+        </h3>
         {dog.born && (
           <p className="mt-1 text-sm text-muted-foreground">
             {lang === "en" ? "Born" : dog.sex === "female" ? "Nacida" : "Nacido"} {dog.born}
@@ -61,15 +77,18 @@ function DogCard({ dog, lang }: { dog: Dog; lang: Lang }) {
             )}
           </dl>
         )}
-        {dog.page ? (
-          <Link to="/$slug" params={{ slug: dog.page }} className="mt-4 inline-block text-sm font-semibold text-primary hover:underline">
-            {lang === "en" ? `${dog.sex === "female" ? "Her" : "His"} story →` : "Su historia →"}
-          </Link>
-        ) : dog.pedigree ? (
-          <a href={dog.pedigree} target="_blank" rel="noreferrer" className="mt-4 inline-block text-sm font-semibold text-primary hover:underline">
-            {lang === "en" ? "Full pedigree →" : "Pedigrí completo →"}
-          </a>
-        ) : null}
+        <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1">
+          {dog.page && (
+            <Link to="/$slug" params={{ slug: inLang(dog.page, lang) }} className="text-sm font-semibold text-primary hover:underline">
+              {lang === "en" ? `${dog.sex === "female" ? "Her" : "His"} story →` : "Su historia →"}
+            </Link>
+          )}
+          {dog.pedigree && (
+            <a href={dog.pedigree} target="_blank" rel="noreferrer" className="text-sm font-semibold text-primary hover:underline">
+              {lang === "en" ? "Full pedigree →" : "Pedigrí completo →"}
+            </a>
+          )}
+        </div>
       </div>
     </article>
   );
@@ -91,7 +110,7 @@ function DogsGrid({ dogs, lang }: { dogs: Dog[]; lang: Lang }) {
   );
 }
 
-export function DogGrid({ sex, lang }: { sex: "male" | "female"; lang: Lang }) {
+export function DogGrid({ sex, lang, hasArchive = true }: { sex: "male" | "female"; lang: Lang; hasArchive?: boolean }) {
   const list = getDogs(sex);
   const retired = sex === "female" ? getDogs("female", "retired") : [];
   const memorial = getDogs(sex, "memorial");
@@ -113,12 +132,14 @@ export function DogGrid({ sex, lang }: { sex: "male" | "female"; lang: Lang }) {
           <DogsGrid dogs={memorial} lang={lang} />
         </>
       )}
-      <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "From our archive" : "De nuestro archivo"}</h2>
+      {hasArchive && (
+        <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "From our archive" : "De nuestro archivo"}</h2>
+      )}
     </section>
   );
 }
 
-export function BobtailGrid({ sex, lang }: { sex: "male" | "female"; lang: Lang }) {
+export function BobtailGrid({ sex, lang, hasArchive = true }: { sex: "male" | "female"; lang: Lang; hasArchive?: boolean }) {
   const current = getBobtails(sex);
   const homage = getBobtails(sex, "homage");
   return (
@@ -133,7 +154,9 @@ export function BobtailGrid({ sex, lang }: { sex: "male" | "female"; lang: Lang 
           <DogsGrid dogs={homage} lang={lang} />
         </>
       )}
-      <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "From our archive" : "De nuestro archivo"}</h2>
+      {hasArchive && (
+        <h2 className="mt-16 font-display text-3xl font-semibold text-foreground">{lang === "en" ? "From our archive" : "De nuestro archivo"}</h2>
+      )}
     </section>
   );
 }
