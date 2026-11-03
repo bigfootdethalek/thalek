@@ -1,6 +1,6 @@
 # Roadmap
 
-- [ ] Remove Bobtail ring photos and text from 2022 news in both languages
+- [ ] Remove only general ring photos from the annexed 2022 World Dog Show Bobtail folder and their label in both languages; preserve Bobtail results and personal Owen photos
 - [ ] Remove the 2017 family/puppy introductory panel; center the exhibitions heading and keep it in the first show's panel
 - [ ] Recheck all 2017 Facebook albums and text reports; add missing verified shows and results in Spanish and English without duplicates
 - [ ] Replace old duplicate 2017 entries with verified Facebook reports while preserving any unique historical data
