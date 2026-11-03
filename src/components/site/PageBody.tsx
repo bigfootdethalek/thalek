@@ -160,7 +160,7 @@ function renderGroup(blocks: Block[], align: string) {
           );
         if (b.type === "p" && b.variant === "title")
           return (
-            <p key={i} className="text-center font-display text-2xl font-bold leading-snug text-primary sm:text-3xl">
+            <p key={i} className="text-center font-display text-2xl font-bold leading-snug text-turquoise sm:text-3xl">
               {b.parts.map((p, j) => <Inline key={j} part={p} />)}
             </p>
           );
@@ -177,26 +177,19 @@ function renderGroup(blocks: Block[], align: string) {
             </h2>
           );
         if (isHeading(text) && b.heading !== false) {
-          // Lines grouped with neighbouring all-caps lines (a poem) keep the
-          // original heading look instead of the large turquoise title style.
-          const prev = i > 0 ? blocks[i - 1] : undefined;
-          const next = i < blocks.length - 1 ? blocks[i + 1] : undefined;
-          const poemLine = (prev && isHeadingBlock(prev)) || (next && isHeadingBlock(next));
           const isParentLine = /^\s*[PM]:/.test(text);
           return (
             <h2
               key={i}
-              className={`pt-4 whitespace-pre-line font-display font-semibold ${b.center ? "text-center" : align} ${
+              className={`pt-4 whitespace-pre-line font-display font-semibold text-turquoise ${b.center ? "text-center" : align} ${
                 isParentLine
-                  ? "text-[clamp(1.05rem,2.1vw,1.35rem)] italic leading-snug text-turquoise"
-                  : poemLine
-                    ? "text-2xl text-primary"
-                    : "text-3xl italic text-turquoise"
+                  ? "text-[clamp(1.05rem,2.1vw,1.35rem)] italic leading-snug"
+                  : "text-2xl sm:text-3xl italic"
               }`}
             >
               {b.parts.map((p, j) =>
                 isParentLine && typeof p === "string" ? (
-                  <span key={j} className="font-medium text-primary underline decoration-accent underline-offset-4">{p}</span>
+                  <span key={j} className="font-medium underline decoration-accent underline-offset-4">{p}</span>
                 ) : (
                   <Inline key={j} part={p} />
                 )

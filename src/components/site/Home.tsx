@@ -92,7 +92,7 @@ export function Home({ lang }: { lang: Lang }) {
                 <img src={b.img.startsWith("fotos/") ? legacySrc(b.img) : b.img} alt={b.name} className="h-auto w-full" />
               )}
               <div className="p-6">
-                <h2 className="font-display text-3xl font-semibold text-primary">{b.name}</h2>
+                <h2 className="font-display text-3xl font-semibold text-turquoise">{b.name}</h2>
                 {b.text && <p className="mt-2 text-muted-foreground">{b.text}</p>}
                 {b.breed && (
                   <div className="mt-4 space-y-3 text-sm leading-relaxed text-muted-foreground">

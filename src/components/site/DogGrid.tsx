@@ -53,7 +53,7 @@ function DogCard({ dog, lang }: { dog: Dog; lang: Lang }) {
       )}
       <div className="p-5">
         {champion && <p className="eyebrow text-accent">{lang === "en" ? "Champion" : dog.sex === "female" ? "Campeona" : "Campeón"}</p>}
-        <h3 className="mt-1 font-display text-2xl font-semibold leading-tight text-primary">
+        <h3 className="mt-1 font-display text-2xl font-semibold leading-tight text-turquoise">
           {dog.page ? (
             <Link to="/$slug" params={{ slug: inLang(dog.page, lang) }} className="hover:underline">
               {name}
