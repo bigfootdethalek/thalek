@@ -1,5 +1,7 @@
 # Roadmap
 
+- [ ] Remove Bobtail ring photos and text from 2022 news in both languages
+- [ ] Remove the 2017 family/puppy introductory panel; center the exhibitions heading and keep it in the first show's panel
 - [ ] Recheck all 2017 Facebook albums and text reports; add missing verified shows and results in Spanish and English without duplicates
 - [ ] Replace old duplicate 2017 entries with verified Facebook reports while preserving any unique historical data
 - [ ] Add missing verified exhibition results for Lulú only from FlymetotheMoonCavaliers photos — public photo/profile/album captures checked; no captions identifying Lulú and her missing results available, direct report links or screenshots needed
