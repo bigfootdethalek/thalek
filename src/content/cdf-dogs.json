@@ -1,9 +1,94 @@
 [
   {
+    "id": "1430995",
+    "name": "Big-Foot de Thalek Just As You Like",
+    "sex": "male",
+    "born": "28/12/2024",
+    "photos": [
+      "/__l5e/assets-v1/77bf5ceb-a06c-46ac-9a64-7b20ad33fa00/just-as-you-like.jpg"
+    ],
+    "sire": "CH. Big-Foot de Thalek Give Me A Kiss",
+    "dam": "Big-Foot de Thalek Follow Your Dreams",
+    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1430995/pedigree?tag=cdf"
+  },
+  {
+    "id": "1390924",
+    "name": "Big-Foot de Thalek Heaven In The Night",
+    "sex": "male",
+    "born": "13/12/2023",
+    "photos": [
+      "/__l5e/assets-v1/0644d811-487b-4d9d-bce5-68d181ceb3f1/heaven-in-the-night.jpg"
+    ],
+    "sire": "Machu Palace Budhas Hapa",
+    "dam": "CH. Big-Foot de Thalek Want To Be Free",
+    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1390924/pedigree?tag=cdf"
+  },
+  {
+    "id": "1348462",
+    "name": "CH. Big-Foot de Thalek Give Me A Kiss",
+    "sex": "male",
+    "born": "25/09/2022",
+    "photos": [
+      "/__l5e/assets-v1/77a73ce7-119a-4dc6-bf56-0e256d90040d/shihtzu_1348462_1.jpg"
+    ],
+    "sire": "Lemuro Feel The Angel",
+    "dam": "CH. Big-Foot de Thalek Universal Secret",
+    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1348462/pedigree?tag=cdf"
+  },
+  {
+    "id": "1348455",
+    "name": "CH. Big-Foot de Thalek Don't Stop Believing",
+    "sex": "male",
+    "born": "12/08/2021",
+    "photos": [
+      "/__l5e/assets-v1/c0f8cc03-e02b-4215-af40-fcff04e50832/shihtzu_1348455_1.jpg"
+    ],
+    "sire": "Machu Palace Budhas Hapa",
+    "dam": "CH. Big-Foot de Thalek Universal Secret",
+    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1348455/pedigree?tag=cdf"
+  },
+  {
+    "id": "1348453",
+    "name": "CH. Big-Foot de Thalek Believe In Your Dreams",
+    "sex": "male",
+    "born": "01/07/2021",
+    "photos": [
+      "/__l5e/assets-v1/6041d1e7-eecb-464a-bd3f-a85fb7e4327d/shihtzu_1348453_1.jpg"
+    ],
+    "sire": "Machu Palace Budhas Hapa",
+    "dam": "Big-Foot de Thalek Vampy Girl",
+    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1348453/pedigree?tag=cdf"
+  },
+  {
+    "id": "1263183",
+    "name": "CH. Big-Foot de Thalek Zeus' Lightning",
+    "sex": "male",
+    "born": "27/07/2020",
+    "photos": [
+      "/__l5e/assets-v1/ecbdee65-70c1-41e5-af57-9454348bb2fe/shihtzu_1263183_1.jpg",
+      "/__l5e/assets-v1/9ff18574-8c14-4c5e-90ce-dd19bd64b7c2/shihtzu_1263183_2.jpg"
+    ],
+    "sire": "Machu Palace Budhas Hapa",
+    "dam": "CH. Big-Foot de Thalek Silver Wings",
+    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1263183/pedigree?tag=cdf"
+  },
+  {
+    "id": "1216267",
+    "name": "Machu Palace Budhas Hapa",
+    "sex": "male",
+    "born": "09/01/2019",
+    "photos": [
+      "/__l5e/assets-v1/aeb1eb1c-aa24-4ff0-8960-1771107bf578/shihtzu_1216267_1.jpg"
+    ],
+    "sire": "CH. Hin Chen's Asleik",
+    "dam": "CH. Valerie Dream Hae",
+    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1216267/pedigree?tag=cdf"
+  },
+  {
     "id": "1109820",
     "name": "CH. Big-Foot de Thalek Spirit Of Happiness",
     "sex": "male",
-    "born": "01/01/2018",
+    "born": "22/12/2016",
     "photos": [
       "/__l5e/assets-v1/8caa9c73-1123-4ca2-8a05-6ef895f887ed/shihtzu_1109820_1.jpg"
     ],
@@ -12,16 +97,19 @@
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1109820/pedigree?tag=cdf"
   },
   {
-    "id": "1216267",
-    "name": "Machu Palace Budhas Hapa",
+    "id": "993325",
+    "name": "CH. Big-Foot de Thalek Nothing Is Impossible",
     "sex": "male",
-    "born": "01/01/2020",
+    "born": "18/08/2014",
     "photos": [
-      "/__l5e/assets-v1/aeb1eb1c-aa24-4ff0-8960-1771107bf578/shihtzu_1216267_1.jpg"
+      "/__l5e/assets-v1/bba84d9e-076c-44ea-b503-1007c406fb65/shihtzu_993325_1.jpg",
+      "/__l5e/assets-v1/b54d12d4-7ec8-4aad-a8b7-a5e10f4f7b15/shihtzu_993325_2.jpg",
+      "/__l5e/assets-v1/a9cb1c21-5221-487c-b6a0-a8c11e7222c7/shihtzu_993325_3.jpg",
+      "/__l5e/assets-v1/807af20d-e540-4fa4-9ec4-a510701bb683/shihtzu_993325_4.jpg"
     ],
-    "sire": "CH. Hin Chen's Asleik",
-    "dam": "CH. Valerie Dream Hae",
-    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1216267/pedigree?tag=cdf"
+    "sire": "Lemuro Feel The Angel",
+    "dam": "Big-Foot de Thalek A Lovely Dream",
+    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/993325/pedigree?tag=cdf"
   },
   {
     "id": "1218033",
@@ -84,19 +172,6 @@
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1218056/pedigree?tag=cdf"
   },
   {
-    "id": "1263183",
-    "name": "CH. Big-Foot de Thalek Zeus' Lightning",
-    "sex": "male",
-    "born": "01/01/2021",
-    "photos": [
-      "/__l5e/assets-v1/ecbdee65-70c1-41e5-af57-9454348bb2fe/shihtzu_1263183_1.jpg",
-      "/__l5e/assets-v1/9ff18574-8c14-4c5e-90ce-dd19bd64b7c2/shihtzu_1263183_2.jpg"
-    ],
-    "sire": "Machu Palace Budhas Hapa",
-    "dam": "CH. Big-Foot de Thalek Silver Wings",
-    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1263183/pedigree?tag=cdf"
-  },
-  {
     "id": "1348451",
     "name": "Big-Foot de Thalek An Angel Came To Me",
     "sex": "female",
@@ -119,30 +194,6 @@
     "sire": "Machu Palace Budhas Hapa",
     "dam": "CH. Big-Foot de Thalek Knowing A Secret",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1348452/pedigree?tag=cdf"
-  },
-  {
-    "id": "1348453",
-    "name": "CH. Big-Foot de Thalek Believe In Your Dreams",
-    "sex": "male",
-    "born": "01/07/2021",
-    "photos": [
-      "/__l5e/assets-v1/6041d1e7-eecb-464a-bd3f-a85fb7e4327d/shihtzu_1348453_1.jpg"
-    ],
-    "sire": "Machu Palace Budhas Hapa",
-    "dam": "Big-Foot de Thalek Vampy Girl",
-    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1348453/pedigree?tag=cdf"
-  },
-  {
-    "id": "1348455",
-    "name": "CH. Big-Foot de Thalek Don't Stop Believing",
-    "sex": "male",
-    "born": "12/08/2021",
-    "photos": [
-      "/__l5e/assets-v1/c0f8cc03-e02b-4215-af40-fcff04e50832/shihtzu_1348455_1.jpg"
-    ],
-    "sire": "Machu Palace Budhas Hapa",
-    "dam": "CH. Big-Foot de Thalek Universal Secret",
-    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1348455/pedigree?tag=cdf"
   },
   {
     "id": "1348456",
@@ -169,18 +220,6 @@
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1348459/pedigree?tag=cdf"
   },
   {
-    "id": "1390924",
-    "name": "Big-Foot de Thalek Heaven In The Night",
-    "sex": "male",
-    "born": "30/11/2023",
-    "photos": [
-      "/__l5e/assets-v1/0644d811-487b-4d9d-bce5-68d181ceb3f1/heaven-in-the-night.jpg"
-    ],
-    "sire": "Machu Palace Budhas Hapa",
-    "dam": "CH. Big-Foot de Thalek Want To Be Free",
-    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1390924/pedigree?tag=cdf"
-  },
-  {
     "id": "1348460",
     "name": "CH. Big-Foot de Thalek Greatest Love Of All",
     "sex": "female",
@@ -194,45 +233,6 @@
     "sire": "Lemuro Feel The Angel",
     "dam": "CH. Big-Foot de Thalek Universal Secret",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1348460/pedigree?tag=cdf"
-  },
-  {
-    "id": "1348462",
-    "name": "CH. Big-Foot de Thalek Give Me A Kiss",
-    "sex": "male",
-    "born": "25/09/2022",
-    "photos": [
-      "/__l5e/assets-v1/77a73ce7-119a-4dc6-bf56-0e256d90040d/shihtzu_1348462_1.jpg"
-    ],
-    "sire": "Lemuro Feel The Angel",
-    "dam": "CH. Big-Foot de Thalek Universal Secret",
-    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1348462/pedigree?tag=cdf"
-  },
-  {
-    "id": "1430995",
-    "name": "Big-Foot de Thalek Just As You Like",
-    "sex": "male",
-    "born": "28/11/2024",
-    "photos": [
-      "/__l5e/assets-v1/77bf5ceb-a06c-46ac-9a64-7b20ad33fa00/just-as-you-like.jpg"
-    ],
-    "sire": "CH. Big-Foot de Thalek Give Me A Kiss",
-    "dam": "Big-Foot de Thalek Follow Your Dreams",
-    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1430995/pedigree?tag=cdf"
-  },
-  {
-    "id": "993325",
-    "name": "CH. Big-Foot de Thalek Nothing Is Impossible",
-    "sex": "male",
-    "born": null,
-    "photos": [
-      "/__l5e/assets-v1/bba84d9e-076c-44ea-b503-1007c406fb65/shihtzu_993325_1.jpg",
-      "/__l5e/assets-v1/b54d12d4-7ec8-4aad-a8b7-a5e10f4f7b15/shihtzu_993325_2.jpg",
-      "/__l5e/assets-v1/a9cb1c21-5221-487c-b6a0-a8c11e7222c7/shihtzu_993325_3.jpg",
-      "/__l5e/assets-v1/807af20d-e540-4fa4-9ec4-a510701bb683/shihtzu_993325_4.jpg"
-    ],
-    "sire": "Lemuro Feel The Angel",
-    "dam": "Big-Foot de Thalek A Lovely Dream",
-    "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/993325/pedigree?tag=cdf"
   },
   {
     "id": "1156009",

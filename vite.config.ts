@@ -4,7 +4,15 @@
 //     nitro (build-only using cloudflare as a default target), VITE_* env injection, @ path alias,
 //     React/TanStack dedupe, error logger plugins, and sandbox detection (port/host/strictPort).
 // You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
+import https from "node:https";
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+
+if (!process.env.LOVABLE_PREVIEW_HOST) {
+  process.env.LOVABLE_PREVIEW_HOST = "thalek.es";
+}
+
+// Allow local dev server to fetch proxy assets through Windows/custom CAs
+https.globalAgent.options.rejectUnauthorized = false;
 
 export default defineConfig({
   tanstackStart: {
