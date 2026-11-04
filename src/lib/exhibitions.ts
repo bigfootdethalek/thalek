@@ -6,14 +6,20 @@ export type Exhibition = Tables<'exhibitions'>;
 export function exhibitionBlocks(rows: Exhibition[], lang: Lang): Block[] {
   const blocks: Block[] = [];
   let lastShow = '';
+  let lastEvent = '';
   let pendingTail: Block[] = [];
-  for (const row of rows.filter(r => r.status === 'approved').sort((a,b) => b.event_date.localeCompare(a.event_date) || a.dog_name.localeCompare(b.dog_name))) {
+  for (const row of rows.filter(r => r.status === 'approved').sort((a,b) => b.event_date.localeCompare(a.event_date) || a.event_es.localeCompare(b.event_es) || a.breed.localeCompare(b.breed) || a.dog_name.localeCompare(b.dog_name))) {
     const show = `${row.event_date}|${row.event_es}|${row.breed}`;
     const date = row.event_date.split('-').reverse().join('.');
     if (show !== lastShow) {
       blocks.push(...pendingTail); pendingTail = [];
-      if (blocks.length) blocks.push({type:'divider'});
-      blocks.push({type:'p',parts:[`${lang === 'es' ? row.event_es : row.event_en}. ${date}`],variant:'title'}, {type:'p',parts:[row.breed.toUpperCase()],variant:'subtitle'});
+      const event = `${row.event_date}|${row.event_es}`;
+      if (event !== lastEvent) {
+        if (blocks.length) blocks.push({type:'divider'});
+        blocks.push({type:'p',parts:[`${lang === 'es' ? row.event_es : row.event_en}. ${date}`],variant:'title'});
+        lastEvent = event;
+      }
+      blocks.push({type:'p',parts:[row.breed.toUpperCase()],variant:'subtitle'});
       const showImgs = rows.filter(r => r.status === 'approved' && `${r.event_date}|${r.event_es}|${r.breed}` === show)
         .flatMap(r => [r.image_url, ...(r.extra_images ?? [])]).filter(Boolean);
       if (showImgs.length) blocks.push({type:'gallery',items:[...new Set(showImgs)].map(src => ({type:'img' as const,src,uniform:true}))});
