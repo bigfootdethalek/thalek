@@ -7,8 +7,8 @@
 import https from "node:https";
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
-if (!process.env.LOVABLE_PREVIEW_HOST) {
-  process.env.LOVABLE_PREVIEW_HOST = "thalek.es";
+if (!process.env['LOVABLE_PREVIEW_HOST']) {
+  process.env['LOVABLE_PREVIEW_HOST'] = "thalek.es";
 }
 
 // Allow local dev server to fetch proxy assets through Windows/custom CAs
