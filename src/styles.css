@@ -169,6 +169,12 @@
   h1, h2, h3, .font-display { font-family: var(--font-display); letter-spacing: -0.01em; }
 }
 
-@utility bg-hero { background-image: var(--gradient-hero); }
+@utility bg-hero {
+  /* Water-like velvet sheen over the cushion gradient */
+  background-image:
+    radial-gradient(90% 70% at 78% 12%, oklch(0.66 0.115 218 / 0.28) 0%, oklch(0.66 0.115 218 / 0) 60%),
+    radial-gradient(70% 60% at 12% 88%, oklch(0.55 0.1 222 / 0.22) 0%, oklch(0.55 0.1 222 / 0) 60%),
+    var(--gradient-hero);
+}
 @utility shadow-soft { box-shadow: var(--shadow-soft); }
 @utility eyebrow { font-family: var(--font-sans); text-transform: uppercase; letter-spacing: 0.22em; font-size: 0.72rem; font-weight: 600; }
