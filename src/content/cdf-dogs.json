@@ -246,7 +246,8 @@
     "sire": "Denis De Cabo De Gata",
     "dam": "Sincére Friendship De La Kassina",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1156009/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "a-lovely-dream"
   },
   {
     "id": "941206",
@@ -254,12 +255,14 @@
     "sex": "female",
     "born": "26/05/2000",
     "photos": [
-      "/__l5e/assets-v1/4491b6d1-e618-427b-9bd7-6723153c7342/shihtzu_memorial_941206_1.jpg"
+      "/__l5e/assets-v1/4491b6d1-e618-427b-9bd7-6723153c7342/shihtzu_memorial_941206_1.jpg",
+      "/legacy/fotos/Criadero/Miss/06MISSFRENTE.jpg"
     ],
     "sire": "Ice Cream Du Val Verdoyant",
     "dam": "Elisabeth-Taylor De La Kassina",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/941206/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "amistad-sincera"
   },
   {
     "id": "993233",
@@ -272,7 +275,8 @@
     "sire": "Denis De Cabo De Gata",
     "dam": "CH. Amistad Sincera De La Kassina",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/993233/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "clear-spring"
   },
   {
     "id": "890089",
@@ -294,12 +298,14 @@
     "sex": "female",
     "born": "30/08/2008",
     "photos": [
-      "/__l5e/assets-v1/205c5e7b-cc59-47a2-905d-7d4b4c396ca3/shihtzu_memorial_993245_1.jpg"
+      "/__l5e/assets-v1/205c5e7b-cc59-47a2-905d-7d4b4c396ca3/shihtzu_memorial_993245_1.jpg",
+      "/legacy/fotos/Criadero/Engye/DSC00740.JPG"
     ],
     "sire": "Orion De Aguila",
     "dam": "Li Thay (Sans Affixe)",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/993245/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "forget-me-nots"
   },
   {
     "id": "993311",
@@ -307,12 +313,14 @@
     "sex": "female",
     "born": "05/09/2009",
     "photos": [
-      "/__l5e/assets-v1/9c2f7834-ca69-44af-85f0-d0ac5011987d/shihtzu_memorial_993311_1.jpg"
+      "/__l5e/assets-v1/9c2f7834-ca69-44af-85f0-d0ac5011987d/shihtzu_memorial_993311_1.jpg",
+      "/legacy/fotos/Criadero/Chanel/DSC05080.JPG"
     ],
     "sire": "CH. Mekong Jiang Universal Beauty",
     "dam": "Big-Foot de Thalek A Lovely Dream",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/993311/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "ghost-in-love"
   },
   {
     "id": "993224",
@@ -382,12 +390,14 @@
     "sex": "female",
     "born": "23/05/2010",
     "photos": [
-      "/__l5e/assets-v1/9a05793e-692e-448f-8eb8-0c20f098995c/shihtzu_memorial_993315_1.jpg"
+      "/__l5e/assets-v1/9a05793e-692e-448f-8eb8-0c20f098995c/shihtzu_memorial_993315_1.jpg",
+      "/legacy/fotos/Criadero/Winnie/DSC01520.JPG"
     ],
     "sire": "CH. Mekong Jiang Universal Beauty",
     "dam": "Big-Foot de Thalek Clear Spring",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/993315/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "honey-bear"
   },
   {
     "id": "993323",
@@ -415,12 +425,14 @@
     "photos": [
       "/__l5e/assets-v1/ea189c19-ca1d-4065-83b8-8817caff3ae0/shihtzu_memorial_993319_1.jpg",
       "/__l5e/assets-v1/be047010-e6c1-47bf-94d6-7d3c587d6f5a/shihtzu_memorial_993319_2.jpg",
-      "/__l5e/assets-v1/da8e8e9e-2da1-439c-bed1-4d1564a5730f/shihtzu_memorial_993319_3.jpg"
+      "/__l5e/assets-v1/da8e8e9e-2da1-439c-bed1-4d1564a5730f/shihtzu_memorial_993319_3.jpg",
+      "/legacy/fotos/Criadero/Dakotha/DSC03284.JPG"
     ],
     "sire": "CH. Big-Foot de Thalek Happily Ever After",
     "dam": "CH. Forget Me Nots De P.",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/993319/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "knowing-a-secret"
   },
   {
     "id": "908058",
@@ -433,7 +445,8 @@
     "sire": "Blinky Ghost De La Kassina",
     "dam": "Candela La Brillante De La Kassina",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/908058/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "sincere-friendship"
   },
   {
     "id": "908052",
