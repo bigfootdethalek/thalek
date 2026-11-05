@@ -103,9 +103,19 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
-  --plum-deep: oklch(0.22 0.07 335);
-  --gradient-hero: linear-gradient(120deg, oklch(0.2 0.07 335) 0%, oklch(0.32 0.1 340) 60%, oklch(0.42 0.1 20) 100%);
-  --shadow-soft: 0 20px 50px -25px oklch(0.24 0.08 335 / 0.45);
+  /* Velvet tones taken from the home photo's Shih Tzu cushion:
+     deep navy velvet backdrop (0.23/244) mixed into vivid cushion
+     turquoise (0.63/218), with a soft water-like swell between them. */
+  --plum-deep: oklch(0.24 0.06 244);
+  --gradient-hero: linear-gradient(
+    118deg,
+    oklch(0.23 0.055 244) 0%,
+    oklch(0.32 0.08 232) 22%,
+    oklch(0.5 0.105 220) 48%,
+    oklch(0.36 0.09 224) 72%,
+    oklch(0.26 0.06 238) 100%
+  );
+  --shadow-soft: 0 20px 50px -25px oklch(0.22 0.06 240 / 0.4);
 }
 
 .dark {
