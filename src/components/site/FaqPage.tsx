@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { Minus, Plus, Phone, Mail, Globe } from "lucide-react";
-import p1 from "@/assets/faq/faq-1.jpg.asset.json";
 import p2 from "@/assets/faq/faq-2.jpg.asset.json";
 import p3 from "@/assets/faq/faq-3.jpg.asset.json";
 import p4 from "@/assets/faq/faq-4.jpg.asset.json";
 import p5 from "@/assets/faq/faq-5.jpg.asset.json";
+import negro from "@/assets/faq/shihtzu-negro-lazo.jpg.asset.json";
+import blanco from "@/assets/faq/shihtzu-blanco-narcisos.jpg.asset.json";
 
 type Lang = "es" | "en";
 
@@ -105,7 +106,8 @@ export function FaqPage({ lang }: { lang: Lang }) {
             <p className="mt-6 text-lg leading-relaxed text-foreground/85">{t.intro}</p>
           </div>
           <div className="relative">
-            <img src={p1.url} alt="Shih Tzu Big-Foot de Thalek" className="aspect-[4/5] w-full rounded-3xl object-cover shadow-soft" />
+            <img src={negro.url} alt="Shih Tzu negro con lazo turquesa" className="aspect-[4/5] w-full rounded-3xl object-cover shadow-soft" />
+            <img src={blanco.url} alt="Shih Tzu blanco entre narcisos" className="absolute -top-6 -right-4 hidden aspect-[4/3] w-44 rounded-2xl border-4 border-background object-cover shadow-soft md:block" />
             <img src={p2.url} alt="" className="absolute -bottom-6 -left-6 hidden aspect-square w-36 rounded-2xl border-4 border-background object-cover shadow-soft md:block" />
           </div>
         </div>
