@@ -6,6 +6,8 @@ import p2 from "@/assets/faq/faq-2.jpg.asset.json";
 import p3 from "@/assets/faq/faq-3.jpg.asset.json";
 import p4 from "@/assets/faq/faq-4.jpg.asset.json";
 import p5 from "@/assets/faq/faq-5.jpg.asset.json";
+import negro from "@/assets/faq/shihtzu-negro-lazo.jpg.asset.json";
+import blanco from "@/assets/faq/shihtzu-blanco-narcisos.jpg.asset.json";
 
 type Lang = "es" | "en";
 
