@@ -8,6 +8,7 @@ import { pageDescription, pageSearchLinks, PUBLIC_ORIGIN } from "@/lib/search-me
 import { NotFoundPage } from "@/components/site/NotFoundPage";
 import { publicExhibitions } from '@/lib/exhibitions.functions';
 import { exhibitionBlocks } from '@/lib/exhibitions';
+import { FaqPage } from "@/components/site/FaqPage";
 import { annualExhibitions } from '@/lib/annual-exhibitions';
 
 export const Route = createFileRoute("/$slug")({
@@ -68,6 +69,15 @@ function PageView() {
   const singlePanel = slug === "contacto" || slug === "contacto-en" || isDogStoryPage(slug);
   // Pages with tables (e.g. Campeones) get a wider main column so names fit on one row.
   const hasTable = page.blocks.some((b) => b.type === "table");
+  if (slug === "contacto" || slug === "contacto-en") {
+    return (
+      <div className="min-h-screen bg-background">
+        <SiteHeader lang={lang} twin={twinOf(slug)} />
+        <FaqPage lang={lang} />
+        <SiteFooter lang={lang} />
+      </div>
+    );
+  }
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader lang={lang} twin={twinOf(slug)} />
