@@ -116,7 +116,7 @@
     "id": "1218033",
     "name": "CH. Big-Foot de Thalek Universal Secret",
     "sex": "female",
-    "born": "01/01/2020",
+    "born": "30/08/2018",
     "photos": [
       "/__l5e/assets-v1/96e8c1ef-260e-4ff2-80d3-c7ffd2628215/shihtzu_1218033_1.jpg"
     ],
@@ -128,7 +128,7 @@
     "id": "1218035",
     "name": "CH. Big-Foot de Thalek Want To Be Free",
     "sex": "female",
-    "born": "01/01/2020",
+    "born": "22/12/2018",
     "photos": [
       "/__l5e/assets-v1/6379e09b-3df3-444c-b584-2b9de70bf276/shihtzu_1218035_1.jpg"
     ],
@@ -140,7 +140,7 @@
     "id": "1218053",
     "name": "Big-Foot de Thalek Vampy Girl",
     "sex": "female",
-    "born": "01/01/2020",
+    "born": "10/12/2018",
     "photos": [
       "/__l5e/assets-v1/c3b687fd-4a14-4eeb-928a-6149dd2e179d/shihtzu_1218053_1.jpg"
     ],
@@ -152,7 +152,7 @@
     "id": "1218055",
     "name": "Big-Foot de Thalek Truly Wonderful",
     "sex": "female",
-    "born": "01/01/2020",
+    "born": "08/05/2018",
     "photos": [
       "/__l5e/assets-v1/fadfeb72-a12c-4b1c-a04d-dde2b72b91f3/shihtzu_1218055_1.jpg"
     ],
@@ -164,7 +164,7 @@
     "id": "1218056",
     "name": "Big-Foot de Thalek Xtra Special Edition",
     "sex": "female",
-    "born": "01/01/2020",
+    "born": "27/07/2019",
     "photos": [
       "/__l5e/assets-v1/1a49fd1e-ddfc-4159-a525-723387004c76/shihtzu_1218056_1.jpg"
     ],
@@ -188,7 +188,7 @@
     "id": "1348452",
     "name": "CH. Big-Foot de Thalek You Are The Only One",
     "sex": "female",
-    "born": "14/03/2020",
+    "born": "14/04/2020",
     "photos": [
       "/__l5e/assets-v1/9420f488-03b0-4046-82f8-d7b3c758041e/shihtzu_1348452_1.jpg"
     ],
@@ -212,7 +212,7 @@
     "id": "1348459",
     "name": "Big-Foot de Thalek Follow Your Dreams",
     "sex": "female",
-    "born": "22/09/2022",
+    "born": "24/08/2022",
     "photos": [
       "/__l5e/assets-v1/1474cc69-d095-4eae-87ca-9541ce3a8176/shihtzu_1348459_1.jpg"
     ],
@@ -246,39 +246,43 @@
     "sire": "Denis De Cabo De Gata",
     "dam": "Sincére Friendship De La Kassina",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/1156009/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "a-lovely-dream"
   },
   {
     "id": "941206",
     "name": "CH. Amistad Sincera De La Kassina",
     "sex": "female",
-    "born": null,
+    "born": "26/05/2000",
     "photos": [
-      "/__l5e/assets-v1/4491b6d1-e618-427b-9bd7-6723153c7342/shihtzu_memorial_941206_1.jpg"
+      "/__l5e/assets-v1/4491b6d1-e618-427b-9bd7-6723153c7342/shihtzu_memorial_941206_1.jpg",
+      "/legacy/fotos/Criadero/Miss/06MISSFRENTE.jpg"
     ],
     "sire": "Ice Cream Du Val Verdoyant",
     "dam": "Elisabeth-Taylor De La Kassina",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/941206/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "amistad-sincera"
   },
   {
     "id": "993233",
     "name": "Big-Foot de Thalek Clear Spring",
     "sex": "female",
-    "born": null,
+    "born": "16/04/2007",
     "photos": [
       "/__l5e/assets-v1/9bb43aae-1f75-4e56-b08b-db9c84c39155/shihtzu_memorial_993233_1.jpg"
     ],
     "sire": "Denis De Cabo De Gata",
     "dam": "CH. Amistad Sincera De La Kassina",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/993233/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "clear-spring"
   },
   {
     "id": "890089",
     "name": "Lemuro Feel The Angel",
     "sex": "male",
-    "born": null,
+    "born": "01/01/2012",
     "photos": [
       "/__l5e/assets-v1/9ca7c9f8-7460-4bae-b1c4-b60a2fe31e1f/shihtzu_memorial_890089_1.jpg"
     ],
@@ -292,27 +296,31 @@
     "id": "993245",
     "name": "CH. Forget Me Nots De P.",
     "sex": "female",
-    "born": null,
+    "born": "30/08/2008",
     "photos": [
-      "/__l5e/assets-v1/205c5e7b-cc59-47a2-905d-7d4b4c396ca3/shihtzu_memorial_993245_1.jpg"
+      "/__l5e/assets-v1/205c5e7b-cc59-47a2-905d-7d4b4c396ca3/shihtzu_memorial_993245_1.jpg",
+      "/legacy/fotos/Criadero/Engye/DSC00740.JPG"
     ],
     "sire": "Orion De Aguila",
     "dam": "Li Thay (Sans Affixe)",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/993245/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "forget-me-nots"
   },
   {
     "id": "993311",
     "name": "CH. Big-Foot de Thalek Ghost In Love",
     "sex": "female",
-    "born": null,
+    "born": "05/09/2009",
     "photos": [
-      "/__l5e/assets-v1/9c2f7834-ca69-44af-85f0-d0ac5011987d/shihtzu_memorial_993311_1.jpg"
+      "/__l5e/assets-v1/9c2f7834-ca69-44af-85f0-d0ac5011987d/shihtzu_memorial_993311_1.jpg",
+      "/legacy/fotos/Criadero/Chanel/DSC05080.JPG"
     ],
     "sire": "CH. Mekong Jiang Universal Beauty",
     "dam": "Big-Foot de Thalek A Lovely Dream",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/993311/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "ghost-in-love"
   },
   {
     "id": "993224",
@@ -334,7 +342,7 @@
     "id": "1218036",
     "name": "CH. Kaybaroshi Han & Han Moonlight Queen",
     "sex": "female",
-    "born": null,
+    "born": "31/03/2015",
     "photos": [
       "/__l5e/assets-v1/6622872e-1d33-41c5-95e6-7f5f3e68da3f/shihtzu_memorial_1218036_1.jpg"
     ],
@@ -347,7 +355,7 @@
     "id": "993321",
     "name": "CH. Big-Foot de Thalek Happily Ever After",
     "sex": "male",
-    "born": null,
+    "born": "23/05/2010",
     "photos": [
       "/__l5e/assets-v1/97149b54-f60f-4357-9f22-20b4395ee1ec/shihtzu_memorial_993321_1.jpg",
       "/__l5e/assets-v1/d454d4fd-4432-414d-b1da-2d724ef98f1f/shihtzu_memorial_993321_2.jpg",
@@ -363,7 +371,7 @@
     "id": "993229",
     "name": "CH. Big-Foot de Thalek Happy Ilusion",
     "sex": "male",
-    "born": null,
+    "born": "23/05/2010",
     "photos": [
       "/__l5e/assets-v1/7904b809-7d10-4155-92aa-6abe0c9482ee/shihtzu_memorial_993229_1.jpg",
       "/__l5e/assets-v1/34cb6f7b-3eab-4b78-a7ee-2147cc2547a4/shihtzu_memorial_993229_2.jpg",
@@ -380,20 +388,22 @@
     "id": "993315",
     "name": "CH. Big-Foot de Thalek Honey Bear",
     "sex": "female",
-    "born": null,
+    "born": "23/05/2010",
     "photos": [
-      "/__l5e/assets-v1/9a05793e-692e-448f-8eb8-0c20f098995c/shihtzu_memorial_993315_1.jpg"
+      "/__l5e/assets-v1/9a05793e-692e-448f-8eb8-0c20f098995c/shihtzu_memorial_993315_1.jpg",
+      "/legacy/fotos/Criadero/Winnie/DSC01520.JPG"
     ],
     "sire": "CH. Mekong Jiang Universal Beauty",
     "dam": "Big-Foot de Thalek Clear Spring",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/993315/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "honey-bear"
   },
   {
     "id": "993323",
     "name": "CH. Big-Foot de Thalek Imperial Dragon",
     "sex": "male",
-    "born": null,
+    "born": "20/09/2011",
     "photos": [
       "/__l5e/assets-v1/4a2c75c8-8a3a-4a01-80f7-b547081d3d9d/shihtzu_memorial_993323_1.jpg",
       "/__l5e/assets-v1/e2ff227f-b060-4987-af62-a95734b82bd0/shihtzu_memorial_993323_2.jpg",
@@ -411,35 +421,38 @@
     "id": "993319",
     "name": "CH. Big-Foot de Thalek Knowing A Secret",
     "sex": "female",
-    "born": null,
+    "born": "15/11/2012",
     "photos": [
       "/__l5e/assets-v1/ea189c19-ca1d-4065-83b8-8817caff3ae0/shihtzu_memorial_993319_1.jpg",
       "/__l5e/assets-v1/be047010-e6c1-47bf-94d6-7d3c587d6f5a/shihtzu_memorial_993319_2.jpg",
-      "/__l5e/assets-v1/da8e8e9e-2da1-439c-bed1-4d1564a5730f/shihtzu_memorial_993319_3.jpg"
+      "/__l5e/assets-v1/da8e8e9e-2da1-439c-bed1-4d1564a5730f/shihtzu_memorial_993319_3.jpg",
+      "/legacy/fotos/Criadero/Dakotha/DSC03284.JPG"
     ],
     "sire": "CH. Big-Foot de Thalek Happily Ever After",
     "dam": "CH. Forget Me Nots De P.",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/993319/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "knowing-a-secret"
   },
   {
     "id": "908058",
     "name": "Sincére Friendship De La Kassina",
     "sex": "female",
-    "born": null,
+    "born": "24/04/2004",
     "photos": [
       "/__l5e/assets-v1/f5b19a57-5118-42b2-9c74-e4b0284b64a3/shihtzu_memorial_908058_1.jpg"
     ],
     "sire": "Blinky Ghost De La Kassina",
     "dam": "Candela La Brillante De La Kassina",
     "pedigree": "https://big-footdethalek.chiens-de-france.com/shih-tzu/chien/908058/pedigree?tag=cdf",
-    "memorial": true
+    "memorial": true,
+    "page": "sincere-friendship"
   },
   {
     "id": "908052",
     "name": "CH. Mekong Jiang Universal Beauty",
     "sex": "male",
-    "born": null,
+    "born": "02/05/2006",
     "photos": [
       "/__l5e/assets-v1/13373140-29d8-4c0d-9bbf-ad585e584bbf/shihtzu_memorial_908052_1.jpg",
       "/__l5e/assets-v1/7558d048-be76-4697-b70c-dc630745b79f/shihtzu_memorial_908052_2.jpg"
@@ -454,7 +467,7 @@
     "id": "1017897",
     "name": "Big-Foot de Thalek Our Sweet Surprise",
     "sex": "female",
-    "born": null,
+    "born": "11/03/2015",
     "photos": [
       "/__l5e/assets-v1/d300a768-5712-4114-91eb-8595dd8e327b/shihtzu_retired_1017897_1.jpg"
     ],
@@ -467,7 +480,7 @@
     "id": "1218031",
     "name": "CH. Big-Foot de Thalek Silver Wings",
     "sex": "female",
-    "born": "01/01/2020",
+    "born": "22/12/2016",
     "photos": [
       "/__l5e/assets-v1/f854dcfc-14bf-4cf1-8c2e-ec7b0730fbd4/shihtzu_retired_1218031_1.jpg"
     ],

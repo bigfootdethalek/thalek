@@ -51,7 +51,7 @@ export function SiteHeader({ lang, twin }: { lang: Lang; twin?: string | null })
             params={{ slug: inLang("contacto", lang) }}
             className="rounded px-3 py-2 text-sm font-medium hover:text-primary"
           >
-            {lang === "en" ? "Contact" : "Contacto"}
+            {lang === "en" ? "FAQ" : "Preguntas frecuentes"}
           </Link>
         </nav>
         <div className="flex items-center gap-2">
@@ -97,7 +97,7 @@ export function SiteHeader({ lang, twin }: { lang: Lang; twin?: string | null })
             )
           )}
           <Link to="/$slug" params={{ slug: inLang("contacto", lang) }} onClick={() => setOpen(false)} className="block py-1 text-sm font-semibold">
-            {lang === "en" ? "Contact" : "Contacto"}
+            {lang === "en" ? "FAQ" : "Preguntas frecuentes"}
           </Link>
         </div>
       )}
