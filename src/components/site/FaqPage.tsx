@@ -107,7 +107,6 @@ export function FaqPage({ lang }: { lang: Lang }) {
           </div>
           <div className="relative">
             <img src={negro.url} alt="Shih Tzu negro con lazo turquesa" className="aspect-[4/5] w-full rounded-3xl object-cover shadow-soft" />
-            <img src={blanco.url} alt="Shih Tzu blanco entre narcisos" className="absolute -top-6 -right-4 hidden aspect-[4/3] w-44 rounded-2xl border-4 border-background object-cover shadow-soft md:block" />
             <img src={p2.url} alt="" className="absolute -bottom-6 -left-6 hidden aspect-square w-36 rounded-2xl border-4 border-background object-cover shadow-soft md:block" />
           </div>
         </div>
@@ -120,8 +119,8 @@ export function FaqPage({ lang }: { lang: Lang }) {
           <div>{left.map(([q, a], i) => <Faq key={q} q={q} a={a} defaultOpen={i === 0} />)}</div>
           <div>{right.map(([q, a]) => <Faq key={q} q={q} a={a} />)}</div>
         </div>
-        <div className="mt-14 grid grid-cols-3 gap-4">
-          {[p3, p4, p5].map((p) => (
+        <div className="mt-14 grid grid-cols-2 gap-4 md:grid-cols-4">
+          {[blanco, p3, p4, p5].map((p) => (
             <img key={p.url} src={p.url} alt="Shih Tzu" className="aspect-[4/5] w-full rounded-2xl object-cover shadow-soft" />
           ))}
         </div>
