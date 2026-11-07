@@ -5,6 +5,7 @@ import { SiteFooter, SiteHeader } from "./SiteHeader";
 
 const copy = {
   es: {
+    greeting: "Hola",
     eyebrow: "Afijo R.S.C.E. 8.852 · Desde 1995",
     title: "Shih Tzu",
     sub: "Crianza selectiva y totalmente familiar.\nBienvenido al maravilloso mundo del Shih Tzu y el Bobtail.",
@@ -22,6 +23,7 @@ const copy = {
     ],
   },
   en: {
+    greeting: "Hello",
     eyebrow: "R.S.C.E. kennel 8.852 · Since 1995",
     title: "Shih Tzu",
     sub: "Selective, family-raised breeding in Spain. Welcome to the wonderful world of the Shih Tzu and the Bobtail.",
@@ -50,6 +52,7 @@ export function Home({ lang }: { lang: Lang }) {
       <section className="bg-hero text-primary-foreground">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-16 md:grid-cols-2 md:py-24">
           <div>
+            <p className="font-display text-2xl italic text-accent">{c.greeting}</p>
             <p className="eyebrow text-accent">{c.eyebrow}</p>
             <h1 className="mt-4 font-display text-6xl font-semibold leading-none md:text-7xl">
               Big-Foot <span className="italic">de Thalek</span>
