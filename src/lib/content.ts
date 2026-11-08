@@ -68,7 +68,6 @@ export const nav: NavGroup[] = [
     items: [
       { label: l("Machos", "Males"), slug: "shih-tzum" },
       { label: l("Hembras", "Females"), slug: "shih-tzuh" },
-      { label: l("En el mundo", "Around the world"), slug: "shih-tzuw" },
       { label: l("La Raza", "The Breed"), slug: "la-raza" },
     ],
   },
