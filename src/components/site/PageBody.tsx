@@ -245,8 +245,9 @@ function splitGroups(blocks: Block[]): Block[][] {
   return groups;
 }
 
-export function PageBody({ blocks, center = false, singlePanel = false }: { blocks: Block[]; center?: boolean; singlePanel?: boolean }) {
+export function PageBody({ blocks, center = false, singlePanel = false, unframed = false }: { blocks: Block[]; center?: boolean; singlePanel?: boolean; unframed?: boolean }) {
   const align = center ? "text-center" : "";
+  if (unframed) return <div className="space-y-5">{renderGroup(blocks, align)}</div>;
   const groups = singlePanel ? [blocks.filter((b) => b.type !== "divider")] : splitGroups(blocks);
   return (
     <div className="space-y-8">

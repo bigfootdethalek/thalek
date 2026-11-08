@@ -1,5 +1,7 @@
 # Roadmap
 
+- [x] Unite Care, Breed history, Standard, Movement and Symbolism in bilingual La Raza with one expanded section at a time; original pages preserved, content tests and ES/EN desktop/mobile checks passed.
+
 - [x] Remove 59 general ring photos from the annexed 2022 World Dog Show Bobtail folder and their label in both languages; preserve all Bobtail results, Owen's Mundial results and personal photos; verified ES/EN
 - [x] Remove the 2017 family/puppy introductory panel; center the exhibitions heading and keep it in the first show's panel; verified ES/EN
 - [x] Recheck all accessible 2017 Facebook albums and text reports; both languages now show the ten verified shows and all 61 album photos; exhaustive private/hidden timeline remains unverified
