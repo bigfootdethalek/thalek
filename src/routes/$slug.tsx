@@ -10,6 +10,8 @@ import { publicExhibitions } from '@/lib/exhibitions.functions';
 import { exhibitionBlocks } from '@/lib/exhibitions';
 import { FaqPage } from "@/components/site/FaqPage";
 import { annualExhibitions } from '@/lib/annual-exhibitions';
+import { loadBreedSections } from '@/lib/breed-page';
+import { BreedPage } from '@/components/site/BreedPage';
 
 export const Route = createFileRoute("/$slug")({
   staticData: { sitemap: true },
@@ -36,7 +38,9 @@ export const Route = createFileRoute("/$slug")({
         {type:'years',items},
       ];
     }
-    return { page, slug: params.slug };
+    const breedSections = params.slug === 'la-raza' || params.slug === 'la-raza-en'
+      ? await loadBreedSections(langOf(params.slug)) : null;
+    return { page, slug: params.slug, breedSections };
   },
   head: ({ loaderData }) => {
     const title = loaderData ? `${loaderData.page.title} — Big-Foot de Thalek` : "Big-Foot de Thalek";
@@ -61,8 +65,15 @@ export const Route = createFileRoute("/$slug")({
 });
 
 function PageView() {
-  const { page, slug } = Route.useLoaderData();
+  const { page, slug, breedSections } = Route.useLoaderData();
   const lang = langOf(slug);
+  if (breedSections) return (
+    <div className="min-h-screen bg-background">
+      <SiteHeader lang={lang} twin={twinOf(slug)} />
+      <BreedPage lang={lang} sections={breedSections} />
+      <SiteFooter lang={lang} />
+    </div>
+  );
   // Camadas Actuales is shown with centered text, both languages.
   const centered = slug === "cachorroshihtzuact" || slug === "cachorroshihtzuact-en";
   // Contact pages and individual dog profiles render all their info inside a single panel.

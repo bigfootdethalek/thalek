@@ -10,6 +10,7 @@
 <!-- LOVABLE:END -->
 
 ## Migrated legacy site
+- The bilingual La Raza page loads the five original breed JSON pages through a shared registry and a single-open accordion; keep source pages intact and render their blocks unframed inside the accordion to preserve content without nested panels.
 - Exhibition news is read-only public data: the Cloud `exhibitions` table is SELECT-only for anon/authenticated (approved rows only) and renders through `exhibitionBlocks` on the annual pages; the reviewer UI, auth routes and write paths were removed at the owner's request — do not reintroduce review/auth screens. Why: the owner asked to delete the review access and all related data.
 - Modern annual exhibition pages use the shared renderer with bilingual page registrations and archive links; imported historical years keep complete read-only row data in annual JSON catalogues, while 2026 reads approved Cloud rows. Why: archived Facebook findings stay reproducible in source files and all years inherit the same display options.
 - Historical exhibition rows retain the source breed and bilingual supplementary show notes in the shared catalogue. Why: Bobtail entries, group judges and Junior Handling results must not be mislabeled or lost during annual imports.
